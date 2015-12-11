@@ -1,4 +1,4 @@
-# Microsoft.Office.Client.Policy.dll v.16.1.3912.1204 API documentation
+# Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
 [mddox](https://github.com/loxsmoke/mddox) on 06/04/2023
@@ -7,16 +7,17 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |
-| [DlpAccessScope Enum](#dlpaccessscope-enum) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
-| [PolicyEvaluationInfo Class](#policyevaluationinfo-class) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [Case Class](#case-class) |
-| [PolicyEvaluationInfoEnums Enum](#policyevaluationinfoenums-enum) | [SPPolicyBinding Class](#sppolicybinding-class) | [Export Class](#export-class) |
-| [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [ExportPropertyNames Class](#exportpropertynames-class) |
-| [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyDefinition Class](#sppolicydefinition-class) | [ExportStatus Enum](#exportstatus-enum) |
-| [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyDefinitionPropertyNames Class](#sppolicydefinitionpropertynames-class) | [ProjectPolicy Class](#projectpolicy-class) |
-| [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyRule Class](#sppolicyrule-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
-| [SPContainerId Class](#spcontainerid-class) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) |   |
-| [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPPolicyStore Class](#sppolicystore-class) |   |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
+| [DlpAccessScope Enum](#dlpaccessscope-enum) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
+| [DlpClassificationResult Class](#dlpclassificationresult-class) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [SPSyncNotificationEndpointInfoPropertyNames Class](#spsyncnotificationendpointinfopropertynames-class) |
+| [PolicyEvaluationInfo Class](#policyevaluationinfo-class) | [SPPolicyBinding Class](#sppolicybinding-class) | [Case Class](#case-class) |
+| [PolicyEvaluationInfoEnums Enum](#policyevaluationinfoenums-enum) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [Export Class](#export-class) |
+| [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyDefinition Class](#sppolicydefinition-class) | [ExportPropertyNames Class](#exportpropertynames-class) |
+| [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyDefinitionPropertyNames Class](#sppolicydefinitionpropertynames-class) | [ExportStatus Enum](#exportstatus-enum) |
+| [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyRule Class](#sppolicyrule-class) | [ProjectPolicy Class](#projectpolicy-class) |
+| [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
+| [SPContainerId Class](#spcontainerid-class) | [SPPolicyStore Class](#sppolicystore-class) | [Records Class](#records-class) |
+| [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |   |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Office.Client.Policy
@@ -39,6 +40,26 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 | **None** |  |
 | **InternalUsersOnly** |  |
 | **IncludeExternalUsers** |  |
+# DlpClassificationResult Class
+
+Namespace: Microsoft.SharePoint.Client.CompliancePolicy
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **ClassificationId** | string |  |
+| **Confidence** | int |  |
+| **Count** | int |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # PolicyEvaluationInfo Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
@@ -107,6 +128,8 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 | **AuditSettings** |  |
 | **DeviceConditionalAccess** |  |
 | **DeviceTenantConditionalAccess** |  |
+| **AuditAlert** |  |
+| **CaseHold** |  |
 # PolicyTipOverrideResult Enum
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
@@ -507,7 +530,7 @@ Base class: ClientObject
 | **GetPolicyDefinition(Guid policyDefinitionId)** | [SPPolicyDefinition](#sppolicydefinition-class) |  |
 | **GetPolicyDefinitions(int scenario)** | ClientObjectList\<[SPPolicyDefinition](#sppolicydefinition-class)\> |  |
 | **GetPolicyRule(Guid policyRuleId, bool throwIfNull)** | [SPPolicyRule](#sppolicyrule-class) |  |
-| **NotifyUnifiedPolicySync(string notificationId, string syncSvcUrl, string[] changeInfos, bool syncNow, bool fullSyncForTenant)** | void |  |
+| **NotifyUnifiedPolicySyncForLogicalWorkload(string notificationId, string syncSvcUrl, string[] changeInfos, bool syncNow, bool fullSyncForTenant, int workload)** | [SPSyncNotificationEndpointInfo](#spsyncnotificationendpointinfo-class) |  |
 | **NotifyUnifiedPolicySyncForWorkload(string notificationId, string syncSvcUrl, string[] changeInfos, bool syncNow, bool fullSyncForTenant, int workload)** | void |  |
 | **UpdatePolicyAssociation(SPPolicyAssociation policyAssociation)** | void |  |
 | **UpdatePolicyBinding(SPPolicyBinding policyBinding)** | void |  |
@@ -545,7 +568,7 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **GetPolicyEvaluationInfo(ClientRuntimeContext context, string itemUrl, PolicyScenario policyScenario, PolicyEvaluationInfoEnums infos)** | [PolicyEvaluationInfo](#policyevaluationinfo-class) |  |
-| **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
+| **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
 # SPPolicyStoreProxyPropertyNames Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
@@ -556,6 +579,50 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 | Name | Type | Summary |
 |---|---|---|
 | **PolicyStoreUrl** | string |  |
+# SPSyncNotificationEndpointInfo Class
+
+Namespace: Microsoft.SharePoint.Client.CompliancePolicy
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **IsNotifySuccess** | bool |  |
+| **MasterCorrelationId** | string |  |
+| **ServerBuild** | string |  |
+| **ServerName** | string |  |
+| **WorkloadCorrelationId** | string |  |
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **SPSyncNotificationEndpointInfo(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# SPSyncNotificationEndpointInfoPropertyNames Class
+
+Namespace: Microsoft.SharePoint.Client.CompliancePolicy
+
+
+## Fields
+
+| Name | Type | Summary |
+|---|---|---|
+| **IsNotifySuccess** | string |  |
+| **MasterCorrelationId** | string |  |
+| **ServerBuild** | string |  |
+| **ServerName** | string |  |
+| **WorkloadCorrelationId** | string |  |
 # Case Class
 
 Namespace: Microsoft.SharePoint.Client.Discovery
@@ -702,3 +769,15 @@ Namespace: Microsoft.SharePoint.Client.InformationPolicy
 | **EmailBodyWithTeamMailbox** | string |  |
 | **EmailSubject** | string |  |
 | **Name** | string |  |
+# Records Class
+
+Namespace: Microsoft.SharePoint.Client.RecordsRepository
+
+
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **DeclareItemAsRecord(ClientRuntimeContext context, ListItem itemToDeclare)** | void |  |
+| **IsRecord(ClientRuntimeContext context, ListItem item)** | ClientResult\<bool\> |  |
+| **UndeclareItemAsRecord(ClientRuntimeContext context, ListItem item)** | void |  |

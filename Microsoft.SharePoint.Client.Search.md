@@ -1,4 +1,4 @@
-# Microsoft.SharePoint.Client.Search.dll v.16.1.3912.1204 API documentation
+# Microsoft.SharePoint.Client.Search.dll v.16.1.0.0 API documentation
 
 Created by 
 [mddox](https://github.com/loxsmoke/mddox) on 06/04/2023
@@ -7,54 +7,21 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [CertificateService Class](#certificateservice-class) | [KeywordQueryObjectPropertyNames Class](#keywordqueryobjectpropertynames-class) | [QuerySuggestionRange Class](#querysuggestionrange-class) |
-| [ControlMessage Class](#controlmessage-class) | [KeywordQueryProperties Class](#keywordqueryproperties-class) | [QuerySuggestionResults Class](#querysuggestionresults-class) |
-| [MessageLevel Enum](#messagelevel-enum) | [KeywordQueryPropertyNames Class](#keywordquerypropertynames-class) | [QueryUtility Class](#queryutility-class) |
-| [DocumentCrawlLog Class](#documentcrawllog-class) | [KnownTableTypes Class](#knowntabletypes-class) | [RankingLabeling Class](#rankinglabeling-class) |
-| [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [PersonalResultSuggestion Class](#personalresultsuggestion-class) | [ReorderingRule Class](#reorderingrule-class) |
-| [PushTenantServiceInfoPropertyNames Class](#pushtenantserviceinfopropertynames-class) | [PopularQuery Class](#popularquery-class) | [ReorderingRuleCollection Class](#reorderingrulecollection-class) |
-| [SearchObjectLevel Enum](#searchobjectlevel-enum) | [Query Class](#query-class) | [ReorderingRuleMatchType Enum](#reorderingrulematchtype-enum) |
-| [SearchObjectOwner Class](#searchobjectowner-class) | [QueryAutoCompletion Class](#queryautocompletion-class) | [ResultTable Class](#resulttable-class) |
-| [PushTenantManager Class](#pushtenantmanager-class) | [QueryAutoCompletionMatch Class](#queryautocompletionmatch-class) | [ResultTableCollection Class](#resulttablecollection-class) |
-| [CertificateService Class](#certificateservice-class) | [QueryAutoCompletionResults Class](#queryautocompletionresults-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
-| [PushTenantManager Class](#pushtenantmanager-class) | [QueryObjectPropertyNames Class](#queryobjectpropertynames-class) | [SearchExecutor Class](#searchexecutor-class) |
-| [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [QueryPersonalizationData Class](#querypersonalizationdata-class) | [Sort Class](#sort-class) |
-| [PushTenantServiceInfoPropertyNames Class](#pushtenantserviceinfopropertynames-class) | [QueryPropertyNames Class](#querypropertynames-class) | [SortCollection Class](#sortcollection-class) |
-| [SearchConfigurationPortability Class](#searchconfigurationportability-class) | [QueryPropertyValue Class](#querypropertyvalue-class) | [SortDirection Enum](#sortdirection-enum) |
-| [SearchConfigurationPortabilityPropertyNames Class](#searchconfigurationportabilitypropertynames-class) | [QueryPropertyValueType Enum](#querypropertyvaluetype-enum) | [StringCollection Class](#stringcollection-class) |
-| [KeywordQuery Class](#keywordquery-class) | [QuerySuggestionQuery Class](#querysuggestionquery-class) |   |
-# CertificateService Class
-
-Namespace: Microsoft.Office.Server.Search.Encryption
-
-Base class: ClientObject
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **Context** | ClientRuntimeContext |  |
-| **Tag** | Object |  |
-| **Path** | ObjectPath |  |
-| **ObjectVersion** | string |  |
-| **ObjectData** | ClientObjectData |  |
-| **Query** | ClientQueryInternal |  |
-| **ParentCollection** | ClientObjectCollection |  |
-| **ServerObjectIsNull** | bool? |  |
-| **TypedObject** | ClientObject |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **CertificateService(ClientRuntimeContext context)** |  |
-| **CertificateService(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **CertificateSettings()** | ClientResult\<IDictionary\<string, Object\>\> |  |
-| **ValidContentEncryptionCertificates()** | IEnumerable\<byte[]\> |  |
+| [ControlMessage Class](#controlmessage-class) | [KnownTableTypes Class](#knowntabletypes-class) | [QueryUtility Class](#queryutility-class) |
+| [MessageLevel Enum](#messagelevel-enum) | [PersonalResultSuggestion Class](#personalresultsuggestion-class) | [RankingLabeling Class](#rankinglabeling-class) |
+| [DocumentCrawlLog Class](#documentcrawllog-class) | [PopularQuery Class](#popularquery-class) | [ReorderingRule Class](#reorderingrule-class) |
+| [SearchObjectLevel Enum](#searchobjectlevel-enum) | [Query Class](#query-class) | [ReorderingRuleCollection Class](#reorderingrulecollection-class) |
+| [SearchObjectOwner Class](#searchobjectowner-class) | [QueryAutoCompletion Class](#queryautocompletion-class) | [ReorderingRuleMatchType Enum](#reorderingrulematchtype-enum) |
+| [CertificateService Class](#certificateservice-class) | [QueryAutoCompletionMatch Class](#queryautocompletionmatch-class) | [ResultTable Class](#resulttable-class) |
+| [PushTenantManager Class](#pushtenantmanager-class) | [QueryAutoCompletionResults Class](#queryautocompletionresults-class) | [ResultTableCollection Class](#resulttablecollection-class) |
+| [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [QueryObjectPropertyNames Class](#queryobjectpropertynames-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
+| [PushTenantServiceInfoPropertyNames Class](#pushtenantserviceinfopropertynames-class) | [QueryPersonalizationData Class](#querypersonalizationdata-class) | [SearchExecutor Class](#searchexecutor-class) |
+| [SearchConfigurationPortability Class](#searchconfigurationportability-class) | [QueryPropertyNames Class](#querypropertynames-class) | [Sort Class](#sort-class) |
+| [SearchConfigurationPortabilityPropertyNames Class](#searchconfigurationportabilitypropertynames-class) | [QueryPropertyValue Class](#querypropertyvalue-class) | [SortCollection Class](#sortcollection-class) |
+| [KeywordQuery Class](#keywordquery-class) | [QueryPropertyValueType Enum](#querypropertyvaluetype-enum) | [SortDirection Enum](#sortdirection-enum) |
+| [KeywordQueryObjectPropertyNames Class](#keywordqueryobjectpropertynames-class) | [QuerySuggestionQuery Class](#querysuggestionquery-class) | [StringCollection Class](#stringcollection-class) |
+| [KeywordQueryProperties Class](#keywordqueryproperties-class) | [QuerySuggestionRange Class](#querysuggestionrange-class) |   |
+| [KeywordQueryPropertyNames Class](#keywordquerypropertynames-class) | [QuerySuggestionResults Class](#querysuggestionresults-class) |   |
 # ControlMessage Class
 
 Namespace: Microsoft.Office.Server.Search.WebControls
@@ -127,48 +94,6 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **GetCrawledUrls(bool getCountOnly, long maxRows, string queryString, bool isLike, int contentSourceID, int errorLevel, int errorID, DateTime startDateTime, DateTime endDateTime)** | ClientResult\<SimpleDataTable\> |  |
-# PushTenantServiceInfo Class
-
-Namespace: Microsoft.SharePoint.Client.Search.Administration
-
-Base class: ClientObject
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **AuthenticationRealm** | string |  |
-| **EndpointAddress** | string |  |
-| **TenantId** | string |  |
-| **ValidContentEncryptionCertificates** | IEnumerable\<byte[]\> |  |
-| **Context** | ClientRuntimeContext |  |
-| **Tag** | Object |  |
-| **Path** | ObjectPath |  |
-| **ObjectVersion** | string |  |
-| **ObjectData** | ClientObjectData |  |
-| **Query** | ClientQueryInternal |  |
-| **ParentCollection** | ClientObjectCollection |  |
-| **ServerObjectIsNull** | bool? |  |
-| **TypedObject** | ClientObject |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **PushTenantServiceInfo(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-# PushTenantServiceInfoPropertyNames Class
-
-Namespace: Microsoft.SharePoint.Client.Search.Administration
-
-
-## Fields
-
-| Name | Type | Summary |
-|---|---|---|
-| **AuthenticationRealm** | string |  |
-| **EndpointAddress** | string |  |
-| **TenantId** | string |  |
-| **ValidContentEncryptionCertificates** | string |  |
 # SearchObjectLevel Enum
 
 Namespace: Microsoft.SharePoint.Client.Search.Administration
@@ -208,38 +133,6 @@ Base class: ClientObject
 |---|---|
 | **SearchObjectOwner(ClientRuntimeContext context, SearchObjectLevel lowestCurrentLevelToUse)** |  |
 | **SearchObjectOwner(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-# PushTenantManager Class
-
-Namespace: Microsoft.SharePoint.Client.Search.AzureBroker
-
-Base class: ClientObject
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **Context** | ClientRuntimeContext |  |
-| **Tag** | Object |  |
-| **Path** | ObjectPath |  |
-| **ObjectVersion** | string |  |
-| **ObjectData** | ClientObjectData |  |
-| **Query** | ClientQueryInternal |  |
-| **ParentCollection** | ClientObjectCollection |  |
-| **ServerObjectIsNull** | bool? |  |
-| **TypedObject** | ClientObject |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **PushTenantManager(ClientRuntimeContext context)** |  |
-| **PushTenantManager(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **GetPushServiceInfo()** | [PushTenantServiceInfo](#pushtenantserviceinfo-class) |  |
-| **PreparePushTenant()** | void |  |
 # CertificateService Class
 
 Namespace: Microsoft.SharePoint.Client.Search.ContentPush
@@ -302,6 +195,7 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **DeleteAllCloudHybridSearchContent()** | ClientResult\<long\> |  |
 | **GetPushServiceInfo()** | [PushTenantServiceInfo](#pushtenantserviceinfo-class) |  |
 | **PreparePushTenant()** | void |  |
 # PushTenantServiceInfo Class

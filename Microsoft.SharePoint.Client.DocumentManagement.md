@@ -1,4 +1,4 @@
-# Microsoft.SharePoint.Client.DocumentManagement.dll v.16.1.3912.1204 API documentation
+# Microsoft.SharePoint.Client.DocumentManagement.dll v.16.1.0.0 API documentation
 
 Created by 
 [mddox](https://github.com/loxsmoke/mddox) on 06/04/2023
@@ -166,6 +166,9 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **Create(ClientRuntimeContext context, Folder parentFolder, string name, ContentTypeId ctid)** | ClientResult\<string\> |  |
+| **ExportDocumentSet()** | ClientResult\<Stream\> |  |
+| **GetDocumentSet(ClientRuntimeContext context, Folder folder)** | [DocumentSet](#documentset-class) |  |
+| **ImportDocumentSet(ClientRuntimeContext context, Stream archiveStream, string archiveName, Folder parentFolder, ContentTypeId docsetContentTypeId)** | [DocumentSet](#documentset-class) |  |
 # DocumentSetTemplate Class
 
 Namespace: Microsoft.SharePoint.Client.DocumentSet

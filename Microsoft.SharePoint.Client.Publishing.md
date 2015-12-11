@@ -1,4 +1,4 @@
-# Microsoft.SharePoint.Client.Publishing.dll v.16.1.3912.1204 API documentation
+# Microsoft.SharePoint.Client.Publishing.dll v.16.1.0.0 API documentation
 
 Created by 
 [mddox](https://github.com/loxsmoke/mddox) on 06/04/2023
@@ -7,30 +7,32 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [AddinPlugin Class](#addinplugin-class) | [SiteServicesAddins Class](#siteservicesaddins-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |
-| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannel Class](#spotlightchannel-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
-| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
-| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [NavigationTerm Class](#navigationterm-class) |
-| [ChannelPermission Enum](#channelpermission-enum) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
-| [CustomizableString Class](#customizablestring-class) | [SpotlightVideo Class](#spotlightvideo-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
-| [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
-| [DesignPackage Class](#designpackage-class) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [NavigationTermProviderNameCollection Class](#navigationtermprovidernamecollection-class) |
-| [DesignPackageInfo Class](#designpackageinfo-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [NavigationTermSet Class](#navigationtermset-class) |
-| [EnumerateOnlyVideoCollection Class](#enumerateonlyvideocollection-class) | [VariationLabel Class](#variationlabel-class) | [NavigationTermSetItem Class](#navigationtermsetitem-class) |
-| [ImageRendition Class](#imagerendition-class) | [VariationLabelPropertyNames Class](#variationlabelpropertynames-class) | [NavigationTermSetItemObjectPropertyNames Class](#navigationtermsetitemobjectpropertynames-class) |
-| [PageLayoutCreationInformation Class](#pagelayoutcreationinformation-class) | [Variations Class](#variations-class) | [NavigationTermSetItemPropertyNames Class](#navigationtermsetitempropertynames-class) |
-| [PortalPermission Enum](#portalpermission-enum) | [VideoChannel Class](#videochannel-class) | [NavigationTermSetPropertyNames Class](#navigationtermsetpropertynames-class) |
-| [PublishingPage Class](#publishingpage-class) | [VideoChannelCollection Class](#videochannelcollection-class) | [NavigationTermSetView Class](#navigationtermsetview-class) |
-| [PublishingPageInformation Class](#publishingpageinformation-class) | [VideoChannelObjectPropertyNames Class](#videochannelobjectpropertynames-class) | [NavigationTermSetViewPropertyNames Class](#navigationtermsetviewpropertynames-class) |
-| [PublishingSite Class](#publishingsite-class) | [VideoChannelPropertyNames Class](#videochannelpropertynames-class) | [StandardNavigationSettings Class](#standardnavigationsettings-class) |
-| [PublishingWeb Class](#publishingweb-class) | [VideoCollection Class](#videocollection-class) | [StandardNavigationSettingsPropertyNames Class](#standardnavigationsettingspropertynames-class) |
-| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoItem Class](#videoitem-class) | [StandardNavigationSource Enum](#standardnavigationsource-enum) |
-| [ScheduledItem Class](#scheduleditem-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [TaxonomyNavigation Class](#taxonomynavigation-class) |
-| [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoItemPropertyNames Class](#videoitempropertynames-class) | [WebNavigationSettings Class](#webnavigationsettings-class) |
-| [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) | [WebNavigationSettingsObjectPropertyNames Class](#webnavigationsettingsobjectpropertynames-class) |
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) | [WebNavigationSettingsPropertyNames Class](#webnavigationsettingspropertynames-class) |
-| [Search Class](#search-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) |   |
-| [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) |   |
+| [AddinPlugin Class](#addinplugin-class) | [SpotlightChannel Class](#spotlightchannel-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |
+| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [VideoThumbnail Class](#videothumbnail-class) |
+| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
+| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
+| [ChannelPermission Enum](#channelpermission-enum) | [SpotlightVideo Class](#spotlightvideo-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
+| [CustomizableString Class](#customizablestring-class) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
+| [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
+| [DesignPackage Class](#designpackage-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [NavigationTerm Class](#navigationterm-class) |
+| [DesignPackageInfo Class](#designpackageinfo-class) | [SubtitleCollection Class](#subtitlecollection-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
+| [EnumerateOnlyVideoCollection Class](#enumerateonlyvideocollection-class) | [SubtitleFile Class](#subtitlefile-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
+| [ImageRendition Class](#imagerendition-class) | [SubtitleFilePropertyNames Class](#subtitlefilepropertynames-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
+| [PageLayoutCreationInformation Class](#pagelayoutcreationinformation-class) | [VariationLabel Class](#variationlabel-class) | [NavigationTermProviderNameCollection Class](#navigationtermprovidernamecollection-class) |
+| [PortalPermission Enum](#portalpermission-enum) | [VariationLabelPropertyNames Class](#variationlabelpropertynames-class) | [NavigationTermSet Class](#navigationtermset-class) |
+| [PublishingPage Class](#publishingpage-class) | [Variations Class](#variations-class) | [NavigationTermSetItem Class](#navigationtermsetitem-class) |
+| [PublishingPageInformation Class](#publishingpageinformation-class) | [VideoChannel Class](#videochannel-class) | [NavigationTermSetItemObjectPropertyNames Class](#navigationtermsetitemobjectpropertynames-class) |
+| [PublishingSite Class](#publishingsite-class) | [VideoChannelCollection Class](#videochannelcollection-class) | [NavigationTermSetItemPropertyNames Class](#navigationtermsetitempropertynames-class) |
+| [PublishingWeb Class](#publishingweb-class) | [VideoChannelObjectPropertyNames Class](#videochannelobjectpropertynames-class) | [NavigationTermSetPropertyNames Class](#navigationtermsetpropertynames-class) |
+| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoChannelPropertyNames Class](#videochannelpropertynames-class) | [NavigationTermSetView Class](#navigationtermsetview-class) |
+| [ScheduledItem Class](#scheduleditem-class) | [VideoCollection Class](#videocollection-class) | [NavigationTermSetViewPropertyNames Class](#navigationtermsetviewpropertynames-class) |
+| [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoItem Class](#videoitem-class) | [StandardNavigationSettings Class](#standardnavigationsettings-class) |
+| [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [StandardNavigationSettingsPropertyNames Class](#standardnavigationsettingspropertynames-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoItemPropertyNames Class](#videoitempropertynames-class) | [StandardNavigationSource Enum](#standardnavigationsource-enum) |
+| [Search Class](#search-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) | [TaxonomyNavigation Class](#taxonomynavigation-class) |
+| [SearchPropertyNames Class](#searchpropertynames-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) | [WebNavigationSettings Class](#webnavigationsettings-class) |
+| [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) | [WebNavigationSettingsObjectPropertyNames Class](#webnavigationsettingsobjectpropertynames-class) |
+| [SiteServicesAddins Class](#siteservicesaddins-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) | [WebNavigationSettingsPropertyNames Class](#webnavigationsettingspropertynames-class) |
 # AddinPlugin Class
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -503,6 +505,7 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **QueryLanguages** | int[] |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -517,6 +520,16 @@ Base class: ClientObject
 | Name | Summary |
 |---|---|
 | **Search(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# SearchPropertyNames Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+
+## Fields
+
+| Name | Type | Summary |
+|---|---|---|
+| **QueryLanguages** | string |  |
 # SiteImageRenditions Class
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -735,6 +748,83 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 | **Id** | string |  |
 | **ServerRelativeUrl** | string |  |
 | **Url** | string |  |
+# SubtitleCollection Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+Base class: ClientObjectCollection<[SubtitleFile](#subtitlefile-class)>
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Item** | [SubtitleFile](#subtitlefile-class) |  |
+| **ElementType** | Type |  |
+| **Expression** | Expression |  |
+| **Provider** | IQueryProvider |  |
+| **AreItemsAvailable** | bool |  |
+| **Count** | int |  |
+| **Data** | List\<Object\> |  |
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **SubtitleCollection(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **GetSubtitleFile(string name)** | ClientResult\<Stream\> |  |
+# SubtitleFile Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Language** | string |  |
+| **NativeLanguageName** | string |  |
+| **Url** | string |  |
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **SubtitleFile(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# SubtitleFilePropertyNames Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+
+## Fields
+
+| Name | Type | Summary |
+|---|---|---|
+| **Language** | string |  |
+| **NativeLanguageName** | string |  |
+| **Url** | string |  |
 # VariationLabel Class
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -824,14 +914,19 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **CanAdministrateByCurrent** | bool |  |
+| **CanEditByCurrent** | bool |  |
+| **CanViewByCurrent** | bool |  |
 | **ChannelPageUrl** | string |  |
 | **Description** | string |  |
 | **Id** | Guid |  |
 | **Search** | [Search](#search-class) |  |
+| **ServerRelativeUrl** | string |  |
 | **SpotlightVideos** | [SpotlightVideoCollection](#spotlightvideocollection-class) |  |
 | **TileHtmlColor** | string |  |
 | **Title** | string |  |
 | **Videos** | [VideoCollection](#videocollection-class) |  |
+| **YammerDefaultGroupId** | int |  |
 | **YammerEnabled** | bool |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
@@ -912,11 +1007,16 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 
 | Name | Type | Summary |
 |---|---|---|
+| **CanAdministrateByCurrent** | string |  |
+| **CanEditByCurrent** | string |  |
+| **CanViewByCurrent** | string |  |
 | **ChannelPageUrl** | string |  |
 | **Description** | string |  |
 | **Id** | string |  |
+| **ServerRelativeUrl** | string |  |
 | **TileHtmlColor** | string |  |
 | **Title** | string |  |
+| **YammerDefaultGroupId** | string |  |
 | **YammerEnabled** | string |  |
 # VideoCollection Class
 
@@ -969,6 +1069,7 @@ Base class: ClientObject
 | **Author** | User |  |
 | **ChannelID** | Guid |  |
 | **CreatedDate** | DateTime |  |
+| **DefaultEmbedCode** | string |  |
 | **Description** | string |  |
 | **DisplayFormUrl** | string |  |
 | **FileName** | string |  |
@@ -1030,6 +1131,7 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 |---|---|---|
 | **ChannelID** | string |  |
 | **CreatedDate** | string |  |
+| **DefaultEmbedCode** | string |  |
 | **Description** | string |  |
 | **DisplayFormUrl** | string |  |
 | **FileName** | string |  |
@@ -1107,6 +1209,7 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 | **ErrorOnProcessing** |  |
 | **Timeout** |  |
 | **UnsupportedFormat** |  |
+| **CorruptedFile** |  |
 # VideoStreamingFormat Enum
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -1118,6 +1221,98 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 |---|---|
 | **HLS** |  |
 | **Streaming** |  |
+# VideoThumbnail Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Choice** | [VideoThumbnailChoices](#videothumbnailchoices-enum) |  |
+| **IsSelected** | bool |  |
+| **Url** | string |  |
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **VideoThumbnail(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# VideoThumbnailChoices Enum
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **First** |  |
+| **Second** |  |
+| **Third** |  |
+| **Fourth** |  |
+| **Fifth** |  |
+| **Custom** |  |
+# VideoThumbnailCollection Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+Base class: ClientObjectCollection<[VideoThumbnail](#videothumbnail-class)>
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Item** | [VideoThumbnail](#videothumbnail-class) |  |
+| **ElementType** | Type |  |
+| **Expression** | Expression |  |
+| **Provider** | IQueryProvider |  |
+| **AreItemsAvailable** | bool |  |
+| **Count** | int |  |
+| **Data** | List\<Object\> |  |
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **VideoThumbnailCollection(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **GetByIndex(VideoThumbnailChoices choice)** | [VideoThumbnail](#videothumbnail-class) |  |
+# VideoThumbnailPropertyNames Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+
+## Fields
+
+| Name | Type | Summary |
+|---|---|---|
+| **Choice** | string |  |
+| **IsSelected** | string |  |
+| **Url** | string |  |
 # ViewControlState Enum
 
 Namespace: Microsoft.SharePoint.Client.Publishing

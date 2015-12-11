@@ -1,4 +1,4 @@
-# Microsoft.SharePoint.Client.Runtime.dll v.16.1.3912.1204 API documentation
+# Microsoft.SharePoint.Client.Runtime.dll v.16.1.0.0 API documentation
 
 Created by 
 [mddox](https://github.com/loxsmoke/mddox) on 06/04/2023
@@ -972,6 +972,7 @@ Namespace: Microsoft.SharePoint.Client
 | **Url** | string |  |
 | **ApplicationName** | string |  |
 | **ClientTag** | string |  |
+| **DisableReturnValueCache** | bool |  |
 | **ValidateOnClient** | bool |  |
 | **AuthenticationMode** | [ClientAuthenticationMode](#clientauthenticationmode-enum) |  |
 | **FormsAuthenticationLoginInfo** | [FormsAuthenticationLoginInfo](#formsauthenticationlogininfo-class) |  |
