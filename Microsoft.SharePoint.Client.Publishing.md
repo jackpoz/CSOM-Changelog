@@ -7,32 +7,33 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [AddinPlugin Class](#addinplugin-class) | [SpotlightChannel Class](#spotlightchannel-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |
-| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [VideoThumbnail Class](#videothumbnail-class) |
-| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
-| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
-| [ChannelPermission Enum](#channelpermission-enum) | [SpotlightVideo Class](#spotlightvideo-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
-| [CustomizableString Class](#customizablestring-class) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
-| [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
-| [DesignPackage Class](#designpackage-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [NavigationTerm Class](#navigationterm-class) |
-| [DesignPackageInfo Class](#designpackageinfo-class) | [SubtitleCollection Class](#subtitlecollection-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
-| [EnumerateOnlyVideoCollection Class](#enumerateonlyvideocollection-class) | [SubtitleFile Class](#subtitlefile-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
-| [ImageRendition Class](#imagerendition-class) | [SubtitleFilePropertyNames Class](#subtitlefilepropertynames-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
-| [PageLayoutCreationInformation Class](#pagelayoutcreationinformation-class) | [VariationLabel Class](#variationlabel-class) | [NavigationTermProviderNameCollection Class](#navigationtermprovidernamecollection-class) |
-| [PortalPermission Enum](#portalpermission-enum) | [VariationLabelPropertyNames Class](#variationlabelpropertynames-class) | [NavigationTermSet Class](#navigationtermset-class) |
-| [PublishingPage Class](#publishingpage-class) | [Variations Class](#variations-class) | [NavigationTermSetItem Class](#navigationtermsetitem-class) |
-| [PublishingPageInformation Class](#publishingpageinformation-class) | [VideoChannel Class](#videochannel-class) | [NavigationTermSetItemObjectPropertyNames Class](#navigationtermsetitemobjectpropertynames-class) |
-| [PublishingSite Class](#publishingsite-class) | [VideoChannelCollection Class](#videochannelcollection-class) | [NavigationTermSetItemPropertyNames Class](#navigationtermsetitempropertynames-class) |
-| [PublishingWeb Class](#publishingweb-class) | [VideoChannelObjectPropertyNames Class](#videochannelobjectpropertynames-class) | [NavigationTermSetPropertyNames Class](#navigationtermsetpropertynames-class) |
-| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoChannelPropertyNames Class](#videochannelpropertynames-class) | [NavigationTermSetView Class](#navigationtermsetview-class) |
-| [ScheduledItem Class](#scheduleditem-class) | [VideoCollection Class](#videocollection-class) | [NavigationTermSetViewPropertyNames Class](#navigationtermsetviewpropertynames-class) |
-| [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoItem Class](#videoitem-class) | [StandardNavigationSettings Class](#standardnavigationsettings-class) |
-| [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [StandardNavigationSettingsPropertyNames Class](#standardnavigationsettingspropertynames-class) |
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoItemPropertyNames Class](#videoitempropertynames-class) | [StandardNavigationSource Enum](#standardnavigationsource-enum) |
-| [Search Class](#search-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) | [TaxonomyNavigation Class](#taxonomynavigation-class) |
-| [SearchPropertyNames Class](#searchpropertynames-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) | [WebNavigationSettings Class](#webnavigationsettings-class) |
-| [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) | [WebNavigationSettingsObjectPropertyNames Class](#webnavigationsettingsobjectpropertynames-class) |
-| [SiteServicesAddins Class](#siteservicesaddins-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) | [WebNavigationSettingsPropertyNames Class](#webnavigationsettingspropertynames-class) |
+| [AddinPlugin Class](#addinplugin-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) |
+| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |
+| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [VideoThumbnail Class](#videothumbnail-class) |
+| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightVideo Class](#spotlightvideo-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
+| [ChannelPermission Enum](#channelpermission-enum) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
+| [CustomizableString Class](#customizablestring-class) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
+| [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
+| [DesignPackage Class](#designpackage-class) | [SubtitleCollection Class](#subtitlecollection-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
+| [DesignPackageInfo Class](#designpackageinfo-class) | [SubtitleFile Class](#subtitlefile-class) | [NavigationTerm Class](#navigationterm-class) |
+| [EnumerateOnlyVideoCollection Class](#enumerateonlyvideocollection-class) | [SubtitleFilePropertyNames Class](#subtitlefilepropertynames-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
+| [ImageRendition Class](#imagerendition-class) | [VariationLabel Class](#variationlabel-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
+| [PageLayoutCreationInformation Class](#pagelayoutcreationinformation-class) | [VariationLabelPropertyNames Class](#variationlabelpropertynames-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
+| [PortalPermission Enum](#portalpermission-enum) | [Variations Class](#variations-class) | [NavigationTermProviderNameCollection Class](#navigationtermprovidernamecollection-class) |
+| [PublishingPage Class](#publishingpage-class) | [VideoChannel Class](#videochannel-class) | [NavigationTermSet Class](#navigationtermset-class) |
+| [PublishingPageInformation Class](#publishingpageinformation-class) | [VideoChannelCollection Class](#videochannelcollection-class) | [NavigationTermSetItem Class](#navigationtermsetitem-class) |
+| [PublishingSite Class](#publishingsite-class) | [VideoChannelObjectPropertyNames Class](#videochannelobjectpropertynames-class) | [NavigationTermSetItemObjectPropertyNames Class](#navigationtermsetitemobjectpropertynames-class) |
+| [PublishingWeb Class](#publishingweb-class) | [VideoChannelPropertyNames Class](#videochannelpropertynames-class) | [NavigationTermSetItemPropertyNames Class](#navigationtermsetitempropertynames-class) |
+| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoCollection Class](#videocollection-class) | [NavigationTermSetPropertyNames Class](#navigationtermsetpropertynames-class) |
+| [ScheduledItem Class](#scheduleditem-class) | [VideoItem Class](#videoitem-class) | [NavigationTermSetView Class](#navigationtermsetview-class) |
+| [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [NavigationTermSetViewPropertyNames Class](#navigationtermsetviewpropertynames-class) |
+| [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoItemPropertyNames Class](#videoitempropertynames-class) | [StandardNavigationSettings Class](#standardnavigationsettings-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) | [StandardNavigationSettingsPropertyNames Class](#standardnavigationsettingspropertynames-class) |
+| [Search Class](#search-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) | [StandardNavigationSource Enum](#standardnavigationsource-enum) |
+| [SearchPropertyNames Class](#searchpropertynames-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) | [TaxonomyNavigation Class](#taxonomynavigation-class) |
+| [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoPlaybackMetadata Class](#videoplaybackmetadata-class) | [WebNavigationSettings Class](#webnavigationsettings-class) |
+| [SiteServicesAddins Class](#siteservicesaddins-class) | [VideoPlaybackMetadataPropertyNames Class](#videoplaybackmetadatapropertynames-class) | [WebNavigationSettingsObjectPropertyNames Class](#webnavigationsettingsobjectpropertynames-class) |
+| [SpotlightChannel Class](#spotlightchannel-class) | [VideoPlaybackOrigin Enum](#videoplaybackorigin-enum) | [WebNavigationSettingsPropertyNames Class](#webnavigationsettingspropertynames-class) |
 # AddinPlugin Class
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -919,6 +920,7 @@ Base class: ClientObject
 | **CanViewByCurrent** | bool |  |
 | **ChannelPageUrl** | string |  |
 | **Description** | string |  |
+| **DownloadUrlVisibleMinPermission** | [ChannelPermission](#channelpermission-enum) |  |
 | **Id** | Guid |  |
 | **Search** | [Search](#search-class) |  |
 | **ServerRelativeUrl** | string |  |
@@ -1012,6 +1014,7 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 | **CanViewByCurrent** | string |  |
 | **ChannelPageUrl** | string |  |
 | **Description** | string |  |
+| **DownloadUrlVisibleMinPermission** | string |  |
 | **Id** | string |  |
 | **ServerRelativeUrl** | string |  |
 | **TileHtmlColor** | string |  |
@@ -1078,10 +1081,12 @@ Base class: ClientObject
 | **PeopleInMedia** | UserCollection |  |
 | **PlayerPageUrl** | string |  |
 | **ServerRelativeUrl** | string |  |
+| **ThumbnailSelection** | [VideoThumbnailChoices](#videothumbnailchoices-enum) |  |
 | **ThumbnailUrl** | string |  |
 | **Title** | string |  |
 | **ID** | Guid |  |
 | **Url** | string |  |
+| **VideoDownloadUrl** | string |  |
 | **VideoDurationInSeconds** | int |  |
 | **VideoProcessingStatus** | [VideoProcessingStatus](#videoprocessingstatus-enum) |  |
 | **ViewCount** | int |  |
@@ -1105,6 +1110,7 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **DeleteObject()** | void |  |
+| **GetPlaybackMetadata()** | [VideoPlaybackMetadata](#videoplaybackmetadata-class) |  |
 | **GetPlaybackUrl(VideoStreamingFormat videoFormat)** | ClientResult\<string\> |  |
 | **GetStreamingKeyAccessToken()** | ClientResult\<string\> |  |
 | **Update()** | void |  |
@@ -1138,10 +1144,12 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 | **OwnerName** | string |  |
 | **PlayerPageUrl** | string |  |
 | **ServerRelativeUrl** | string |  |
+| **ThumbnailSelection** | string |  |
 | **ThumbnailUrl** | string |  |
 | **Title** | string |  |
 | **ID** | string |  |
 | **Url** | string |  |
+| **VideoDownloadUrl** | string |  |
 | **VideoDurationInSeconds** | string |  |
 | **VideoProcessingStatus** | string |  |
 | **ViewCount** | string |  |
@@ -1193,6 +1201,58 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 | Name | Type | Summary |
 |---|---|---|
 | **Id** | string |  |
+# VideoPlaybackMetadata Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **HLSUrl** | string |  |
+| **StreamingUrl** | string |  |
+| **Token** | string |  |
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **VideoPlaybackMetadata(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# VideoPlaybackMetadataPropertyNames Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+
+## Fields
+
+| Name | Type | Summary |
+|---|---|---|
+| **HLSUrl** | string |  |
+| **StreamingUrl** | string |  |
+| **Token** | string |  |
+# VideoPlaybackOrigin Enum
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Other** |  |
+| **VideoPortal** |  |
+| **EmbeddedPlayer** |  |
 # VideoProcessingStatus Enum
 
 Namespace: Microsoft.SharePoint.Client.Publishing
