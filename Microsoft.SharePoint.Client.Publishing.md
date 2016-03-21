@@ -1110,7 +1110,7 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **DeleteObject()** | void |  |
-| **GetPlaybackMetadata()** | [VideoPlaybackMetadata](#videoplaybackmetadata-class) |  |
+| **GetPlaybackMetadata(string sdnConfiguration)** | [VideoPlaybackMetadata](#videoplaybackmetadata-class) |  |
 | **GetPlaybackUrl(VideoStreamingFormat videoFormat)** | ClientResult\<string\> |  |
 | **GetStreamingKeyAccessToken()** | ClientResult\<string\> |  |
 | **Update()** | void |  |
@@ -1213,6 +1213,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **HLSUrl** | string |  |
+| **SdnPlaybackMetadata** | string |  |
 | **StreamingUrl** | string |  |
 | **Token** | string |  |
 | **Context** | ClientRuntimeContext |  |
@@ -1239,6 +1240,7 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 | Name | Type | Summary |
 |---|---|---|
 | **HLSUrl** | string |  |
+| **SdnPlaybackMetadata** | string |  |
 | **StreamingUrl** | string |  |
 | **Token** | string |  |
 # VideoPlaybackOrigin Enum

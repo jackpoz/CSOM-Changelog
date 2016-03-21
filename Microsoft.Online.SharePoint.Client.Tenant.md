@@ -409,6 +409,7 @@ Base class: ClientObject
 | **Lcid** | uint |  |
 | **LockIssue** | string |  |
 | **LockState** | string |  |
+| **NewUrl** | string |  |
 | **Owner** | string |  |
 | **PWAEnabled** | [PWAEnabledStatus](#pwaenabledstatus-enum) |  |
 | **SandboxedCodeActivationCapability** | [SandboxedCodeActivationCapabilities](#sandboxedcodeactivationcapabilities-enum) |  |
@@ -464,6 +465,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **Lcid** | string |  |
 | **LockIssue** | string |  |
 | **LockState** | string |  |
+| **NewUrl** | string |  |
 | **Owner** | string |  |
 | **PWAEnabled** | string |  |
 | **SandboxedCodeActivationCapability** | string |  |
@@ -492,6 +494,7 @@ Base class: ClientObjectCollection<[DeletedSiteProperties](#deletedsitepropertie
 | Name | Type | Summary |
 |---|---|---|
 | **NextStartIndex** | int |  |
+| **NextStartIndexFromSharePoint** | string |  |
 | **Item** | [DeletedSiteProperties](#deletedsiteproperties-class) |  |
 | **ElementType** | Type |  |
 | **Expression** | Expression |  |
@@ -523,6 +526,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | Name | Type | Summary |
 |---|---|---|
 | **NextStartIndex** | string |  |
+| **NextStartIndexFromSharePoint** | string |  |
 # SpoOperation Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -575,6 +579,7 @@ Base class: ClientObjectCollection<[SiteProperties](#siteproperties-class)>
 | Name | Type | Summary |
 |---|---|---|
 | **NextStartIndex** | int |  |
+| **NextStartIndexFromSharePoint** | string |  |
 | **Item** | [SiteProperties](#siteproperties-class) |  |
 | **ElementType** | Type |  |
 | **Expression** | Expression |  |
@@ -606,6 +611,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | Name | Type | Summary |
 |---|---|---|
 | **NextStartIndex** | string |  |
+| **NextStartIndexFromSharePoint** | string |  |
 # SPOTenantWebTemplate Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -738,10 +744,13 @@ Base class: ClientObject
 | **GetDeletedPersonalSitePropertiesAllVersions(string url)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
 | **GetDeletedSiteProperties(int startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
 | **GetDeletedSitePropertiesByUrl(string siteUrl)** | [DeletedSiteProperties](#deletedsiteproperties-class) |  |
+| **GetDeletedSitePropertiesFromSharePoint(string startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
 | **GetSiteByUrl(string url)** | Site |  |
 | **GetSiteProperties(int startIndex, bool includeDetail)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **GetSitePropertiesByFilter(string filter, int startIndex, bool includeDetail)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **GetSitePropertiesByUrl(string url, bool includeDetail)** | [SiteProperties](#siteproperties-class) |  |
+| **GetSitePropertiesFromSharePoint(string startIndex, bool includeDetail)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
+| **GetSitePropertiesFromSharePointByFilter(string filter, string startIndex, bool includeDetail)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **GetSPOTenantWebTemplates(uint localeId, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **RemoveDeletedSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveDeletedSitePreferId(string siteUrl, Guid siteId)** | [SpoOperation](#spooperation-class) |  |
