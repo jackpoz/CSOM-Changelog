@@ -968,6 +968,7 @@ Namespace: Microsoft.SharePoint.Client
 
 | Name | Type | Summary |
 |---|---|---|
+| **NextSequenceId** | long |  |
 | **ServiceRelativeUrl** | string |  |
 | **Url** | string |  |
 | **ApplicationName** | string |  |
@@ -1157,6 +1158,7 @@ Base class: [ExecutionScope](#executionscope-class)
 
 | Name | Type | Summary |
 |---|---|---|
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **ClientActionExecutionScopeStart** | [ClientActionExecutionScopeStart](#clientactionexecutionscopestart-class) |  |
 | **Id** | long |  |
 | **Name** | string |  |
@@ -1307,6 +1309,7 @@ Base class: [ExecutionScope](#executionscope-class)
 
 | Name | Type | Summary |
 |---|---|---|
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **ClientActionExecutionScopeStart** | [ClientActionExecutionScopeStart](#clientactionexecutionscopestart-class) |  |
 | **Id** | long |  |
 | **Name** | string |  |
@@ -1363,6 +1366,7 @@ Namespace: Microsoft.SharePoint.Client
 
 | Name | Type | Summary |
 |---|---|---|
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **ClientActionExecutionScopeStart** | [ClientActionExecutionScopeStart](#clientactionexecutionscopestart-class) |  |
 | **Id** | long |  |
 | **Name** | string |  |
@@ -1726,6 +1730,7 @@ Namespace: Microsoft.SharePoint.Client
 
 | Name | Type | Summary |
 |---|---|---|
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **Parent** | [ObjectPath](#objectpath-class) |  |
 | **Id** | long |  |
 | **ServerObjectIsNull** | bool? |  |
@@ -1748,6 +1753,7 @@ Base class: [ObjectPath](#objectpath-class)
 | Name | Type | Summary |
 |---|---|---|
 | **ObjectName** | string |  |
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **Parent** | [ObjectPath](#objectpath-class) |  |
 | **Id** | long |  |
 | **ServerObjectIsNull** | bool? |  |
@@ -1770,6 +1776,7 @@ Base class: [ObjectPath](#objectpath-class)
 |---|---|---|
 | **Identity** | string |  |
 | **ObjectName** | string |  |
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **Parent** | [ObjectPath](#objectpath-class) |  |
 | **Id** | long |  |
 | **ServerObjectIsNull** | bool? |  |
@@ -1791,6 +1798,7 @@ Base class: [ObjectPath](#objectpath-class)
 | Name | Type | Summary |
 |---|---|---|
 | **ObjectName** | string |  |
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **Parent** | [ObjectPath](#objectpath-class) |  |
 | **Id** | long |  |
 | **ServerObjectIsNull** | bool? |  |
@@ -1812,6 +1820,7 @@ Base class: [ObjectPath](#objectpath-class)
 | Name | Type | Summary |
 |---|---|---|
 | **ObjectName** | string |  |
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **Parent** | [ObjectPath](#objectpath-class) |  |
 | **Id** | long |  |
 | **ServerObjectIsNull** | bool? |  |
@@ -1833,6 +1842,7 @@ Base class: [ObjectPath](#objectpath-class)
 | Name | Type | Summary |
 |---|---|---|
 | **ObjectName** | string |  |
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **Parent** | [ObjectPath](#objectpath-class) |  |
 | **Id** | long |  |
 | **ServerObjectIsNull** | bool? |  |
@@ -1854,6 +1864,7 @@ Base class: [ObjectPath](#objectpath-class)
 | Name | Type | Summary |
 |---|---|---|
 | **ObjectName** | string |  |
+| **Context** | [ClientRuntimeContext](#clientruntimecontext-class) |  |
 | **Parent** | [ObjectPath](#objectpath-class) |  |
 | **Id** | long |  |
 | **ServerObjectIsNull** | bool? |  |

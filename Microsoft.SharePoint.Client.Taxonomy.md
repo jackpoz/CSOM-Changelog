@@ -1053,7 +1053,9 @@ Base class: [TaxonomyItem](#taxonomyitem-class)
 
 | Name | Type | Summary |
 |---|---|---|
+| **ContributorPrincipalNames** | IEnumerable\<string\> |  |
 | **Description** | string |  |
+| **GroupManagerPrincipalNames** | IEnumerable\<string\> |  |
 | **IsSiteCollectionGroup** | bool |  |
 | **IsSystemGroup** | bool |  |
 | **TermSets** | [TermSetCollection](#termsetcollection-class) |  |
@@ -1080,6 +1082,8 @@ Base class: [TaxonomyItem](#taxonomyitem-class)
 
 | Name | Returns | Summary |
 |---|---|---|
+| **AddContributor(string principalName)** | void |  |
+| **AddGroupManager(string principalName)** | void |  |
 | **CreateTermSet(string name, Guid newTermSetId, int lcid)** | [TermSet](#termset-class) |  |
 | **ExportObject()** | ClientResult\<string\> |  |
 | **GetChanges(ChangeInformation changeInformation)** | [ChangedItemCollection](#changeditemcollection-class) |  |
@@ -1141,7 +1145,9 @@ Namespace: Microsoft.SharePoint.Client.Taxonomy
 
 | Name | Type | Summary |
 |---|---|---|
+| **ContributorPrincipalNames** | string |  |
 | **Description** | string |  |
+| **GroupManagerPrincipalNames** | string |  |
 | **IsSiteCollectionGroup** | string |  |
 | **IsSystemGroup** | string |  |
 # TermObjectPropertyNames Class
@@ -1196,6 +1202,7 @@ Base class: [TermSetItem](#termsetitem-class)
 | **Description** | string |  |
 | **Group** | [TermGroup](#termgroup-class) |  |
 | **IsOpenForTermCreation** | bool |  |
+| **Names** | IDictionary\<string, string\> |  |
 | **Stakeholders** | IEnumerable\<string\> |  |
 | **CustomProperties** | IDictionary\<string, string\> |  |
 | **CustomSortOrder** | string |  |
@@ -1364,6 +1371,7 @@ Namespace: Microsoft.SharePoint.Client.Taxonomy
 | **Contact** | string |  |
 | **Description** | string |  |
 | **IsOpenForTermCreation** | string |  |
+| **Names** | string |  |
 | **Stakeholders** | string |  |
 # TermStore Class
 

@@ -3647,6 +3647,7 @@ Base class: ClientContext
 | **RequestResources** | RequestResources |  |
 | **FormDigestHandlingEnabled** | bool |  |
 | **ServerVersion** | Version |  |
+| **NextSequenceId** | long |  |
 | **ServiceRelativeUrl** | string |  |
 | **Url** | string |  |
 | **ApplicationName** | string |  |

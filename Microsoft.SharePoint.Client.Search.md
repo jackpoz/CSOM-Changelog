@@ -310,6 +310,7 @@ Base class: [Query](#query-class)
 | **SortList** | [SortCollection](#sortcollection-class) |  |
 | **TimeZoneId** | int |  |
 | **TrimDuplicatesIncludeId** | long |  |
+| **UseOLSQuery** | int |  |
 | **BlockDedupeMode** | int |  |
 | **BypassResultTypes** | bool |  |
 | **ClientType** | string |  |
@@ -423,6 +424,7 @@ Namespace: Microsoft.SharePoint.Client.Search.Query
 | **Refiners** | string |  |
 | **TimeZoneId** | string |  |
 | **TrimDuplicatesIncludeId** | string |  |
+| **UseOLSQuery** | string |  |
 # KnownTableTypes Class
 
 Namespace: Microsoft.SharePoint.Client.Search.Query

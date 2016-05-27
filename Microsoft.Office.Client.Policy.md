@@ -73,6 +73,7 @@ Base class: ClientObject
 |---|---|---|
 | **ApplicablePolicies** | string[] |  |
 | **DlpAccessScope** | [DlpAccessScope](#dlpaccessscope-enum) |  |
+| **MatchedRules** | string[] |  |
 | **OverriddenRules** | string[] |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
@@ -100,6 +101,7 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 | **DlpAccessScope** |  |
 | **ApplicablePolicies** |  |
 | **OverriddenRules** |  |
+| **MatchedRules** |  |
 # PolicyEvaluationInfoPropertyNames Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
@@ -111,6 +113,7 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 |---|---|---|
 | **ApplicablePolicies** | string |  |
 | **DlpAccessScope** | string |  |
+| **MatchedRules** | string |  |
 | **OverriddenRules** | string |  |
 # PolicyScenario Enum
 
@@ -531,7 +534,6 @@ Base class: ClientObject
 | **GetPolicyDefinitions(int scenario)** | ClientObjectList\<[SPPolicyDefinition](#sppolicydefinition-class)\> |  |
 | **GetPolicyRule(Guid policyRuleId, bool throwIfNull)** | [SPPolicyRule](#sppolicyrule-class) |  |
 | **NotifyUnifiedPolicySyncForLogicalWorkload(string notificationId, string syncSvcUrl, string[] changeInfos, bool syncNow, bool fullSyncForTenant, int workload)** | [SPSyncNotificationEndpointInfo](#spsyncnotificationendpointinfo-class) |  |
-| **NotifyUnifiedPolicySyncForWorkload(string notificationId, string syncSvcUrl, string[] changeInfos, bool syncNow, bool fullSyncForTenant, int workload)** | void |  |
 | **UpdatePolicyAssociation(SPPolicyAssociation policyAssociation)** | void |  |
 | **UpdatePolicyBinding(SPPolicyBinding policyBinding)** | void |  |
 | **UpdatePolicyDefinition(SPPolicyDefinition policyDefinition)** | void |  |

@@ -679,13 +679,18 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
+| **AllowExternalUsersToReshare** | bool |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockMacSync** | bool |  |
 | **CompatibilityRange** | string |  |
 | **DisplayStartASiteOption** | bool |  |
+| **EnableGuestSignInAcceleration** | bool |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
 | **ExternalServicesEnabled** | bool |  |
+| **IPAddressAllowList** | string |  |
+| **IPAddressEnforcement** | bool |  |
+| **IPAddressWACTokenLifetime** | int |  |
 | **IsUnmanagedSyncClientForTenantRestricted** | bool |  |
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | bool |  |
 | **LegacyAuthProtocolsEnabled** | bool |  |
@@ -693,6 +698,9 @@ Base class: ClientObject
 | **OfficeClientADALDisabled** | bool |  |
 | **OneDriveForGuestsEnabled** | bool |  |
 | **OneDriveStorageQuota** | long |  |
+| **OptOutOfGrooveBlock** | bool |  |
+| **OptOutOfGrooveSoftBlock** | bool |  |
+| **OrphanedPersonalSitesRetentionPeriod** | int |  |
 | **ProvisionSharedWithEveryoneFolder** | bool |  |
 | **RequireAcceptingAccountMatchInvitedAccount** | bool |  |
 | **RequireAnonymousLinksExpireInDays** | int |  |
@@ -711,6 +719,7 @@ Base class: ClientObject
 | **StartASiteFormUrl** | string |  |
 | **StorageQuota** | long |  |
 | **StorageQuotaAllocated** | long |  |
+| **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **UserVoiceForFeedbackEnabled** | bool |  |
 | **Context** | ClientRuntimeContext |  |
@@ -860,13 +869,18 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | Name | Type | Summary |
 |---|---|---|
 | **AllowedDomainListForSyncClient** | string |  |
+| **AllowExternalUsersToReshare** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockMacSync** | string |  |
 | **CompatibilityRange** | string |  |
 | **DisplayStartASiteOption** | string |  |
+| **EnableGuestSignInAcceleration** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
 | **ExternalServicesEnabled** | string |  |
+| **IPAddressAllowList** | string |  |
+| **IPAddressEnforcement** | string |  |
+| **IPAddressWACTokenLifetime** | string |  |
 | **IsUnmanagedSyncClientForTenantRestricted** | string |  |
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | string |  |
 | **LegacyAuthProtocolsEnabled** | string |  |
@@ -874,6 +888,9 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **OfficeClientADALDisabled** | string |  |
 | **OneDriveForGuestsEnabled** | string |  |
 | **OneDriveStorageQuota** | string |  |
+| **OptOutOfGrooveBlock** | string |  |
+| **OptOutOfGrooveSoftBlock** | string |  |
+| **OrphanedPersonalSitesRetentionPeriod** | string |  |
 | **ProvisionSharedWithEveryoneFolder** | string |  |
 | **RequireAcceptingAccountMatchInvitedAccount** | string |  |
 | **RequireAnonymousLinksExpireInDays** | string |  |
@@ -892,6 +909,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **StartASiteFormUrl** | string |  |
 | **StorageQuota** | string |  |
 | **StorageQuotaAllocated** | string |  |
+| **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **UserVoiceForFeedbackEnabled** | string |  |
 # ExternalUser Class
@@ -1161,12 +1179,17 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
+| **AllowExternalUsersToReshare** | bool |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockMacSync** | bool |  |
 | **DisplayStartASiteOption** | bool |  |
+| **EnableGuestSignInAcceleration** | bool |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
 | **ExternalServicesEnabled** | bool |  |
+| **IPAddressAllowList** | string |  |
+| **IPAddressEnforcement** | bool |  |
+| **IPAddressWACTokenLifetime** | int |  |
 | **IsUnmanagedSyncClientForTenantRestricted** | bool |  |
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | bool |  |
 | **LegacyAuthProtocolsEnabled** | bool |  |
@@ -1186,6 +1209,7 @@ Base class: ClientObject
 | **ShowEveryoneExceptExternalUsersClaim** | bool |  |
 | **SignInAccelerationDomain** | string |  |
 | **StartASiteFormUrl** | string |  |
+| **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **UserVoiceForFeedbackEnabled** | bool |  |
 | **Context** | ClientRuntimeContext |  |
@@ -1218,6 +1242,7 @@ Base class: ClientObject
 | **QueueImportProfileProperties(ImportProfilePropertiesUserIdType idType, string sourceDataIdProperty, IDictionary\<string, string\> propertyMap, string sourceUri)** | ClientResult\<Guid\> |  |
 | **RemoveExternalUsers(string[] uniqueIds)** | [RemoveExternalUsersResults](#removeexternalusersresults-class) |  |
 | **RevokeAllUserSessions(string userName)** | [SPOUserSessionRevocationResult](#spousersessionrevocationresult-class) |  |
+| **RevokeAllUserSessionsByPuid(IList\<string\> puidList)** | ClientObjectList\<[SPOUserSessionRevocationResult](#spousersessionrevocationresult-class)\> |  |
 # Office365TenantPropertyNames Class
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement
@@ -1228,12 +1253,17 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | Name | Type | Summary |
 |---|---|---|
 | **AllowedDomainListForSyncClient** | string |  |
+| **AllowExternalUsersToReshare** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockMacSync** | string |  |
 | **DisplayStartASiteOption** | string |  |
+| **EnableGuestSignInAcceleration** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
 | **ExternalServicesEnabled** | string |  |
+| **IPAddressAllowList** | string |  |
+| **IPAddressEnforcement** | string |  |
+| **IPAddressWACTokenLifetime** | string |  |
 | **IsUnmanagedSyncClientForTenantRestricted** | string |  |
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | string |  |
 | **LegacyAuthProtocolsEnabled** | string |  |
@@ -1253,6 +1283,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **ShowEveryoneExceptExternalUsersClaim** | string |  |
 | **SignInAccelerationDomain** | string |  |
 | **StartASiteFormUrl** | string |  |
+| **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **UserVoiceForFeedbackEnabled** | string |  |
 # RemoveExternalUsersResults Class
