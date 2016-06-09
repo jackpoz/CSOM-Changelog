@@ -1237,6 +1237,7 @@ Base class: [TermSetItem](#termsetitem-class)
 | **DeleteStakeholder(string stakeholderName)** | void |  |
 | **ExportObject()** | ClientResult\<string\> |  |
 | **GetAllTerms()** | [TermCollection](#termcollection-class) |  |
+| **GetAllTermsIncludeDeprecated()** | [TermCollection](#termcollection-class) |  |
 | **GetChanges(ChangeInformation changeInformation)** | [ChangedItemCollection](#changeditemcollection-class) |  |
 | **GetTerm(Guid termId)** | [Term](#term-class) |  |
 | **GetTerms(LabelMatchInformation labelMatchInformation)** | [TermCollection](#termcollection-class) |  |

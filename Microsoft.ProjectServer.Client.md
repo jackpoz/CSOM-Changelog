@@ -1567,6 +1567,7 @@ Base class: [Task](#task-class)
 | **RemainingDurationTimeSpan** | TimeSpan |  |
 | **Start** | DateTime |  |
 | **StartText** | string |  |
+| **StatusManager** | User |  |
 | **Successors** | [DraftTaskLinkCollection](#drafttasklinkcollection-class) |  |
 | **UsePercentPhysicalWorkComplete** | bool |  |
 | **Work** | string |  |
@@ -1830,6 +1831,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **Calendar** | string |  |
 | **Parent** | string |  |
 | **Predecessors** | string |  |
+| **StatusManager** | string |  |
 | **Successors** | string |  |
 # DraftTaskPropertyNames Class
 
@@ -4978,6 +4980,7 @@ Base class: [Task](#task-class)
 | **RemainingDurationTimeSpan** | TimeSpan |  |
 | **Start** | DateTime |  |
 | **StartText** | string |  |
+| **StatusManager** | User |  |
 | **Successors** | [PublishedTaskLinkCollection](#publishedtasklinkcollection-class) |  |
 | **UsePercentPhysicalWorkComplete** | bool |  |
 | **Work** | string |  |
@@ -5231,6 +5234,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **Calendar** | string |  |
 | **Parent** | string |  |
 | **Predecessors** | string |  |
+| **StatusManager** | string |  |
 | **Successors** | string |  |
 # PublishedTaskPropertyNames Class
 
@@ -6433,6 +6437,7 @@ Base class: ClientObject
 | **RemainingWorkTimeSpan** | TimeSpan |  |
 | **Resume** | DateTime |  |
 | **Start** | DateTime |  |
+| **StatusManager** | User |  |
 | **Work** | string |  |
 | **WorkTimeSpan** | TimeSpan |  |
 | **Context** | ClientRuntimeContext |  |
@@ -6487,6 +6492,7 @@ Namespace: Microsoft.ProjectServer.Client
 | Name | Type | Summary |
 |---|---|---|
 | **CustomFields** | string |  |
+| **StatusManager** | string |  |
 # StatusTaskPropertyNames Class
 
 Namespace: Microsoft.ProjectServer.Client
@@ -6688,6 +6694,7 @@ Base class: ClientValueObject
 | **Notes** | string |  |
 | **ParentId** | Guid |  |
 | **Start** | DateTime |  |
+| **StatusManager** | User |  |
 | **TypeId** | string |  |
 ## Methods
 
