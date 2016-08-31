@@ -7,10 +7,43 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [DefaultDocumentPropertyNames Class](#defaultdocumentpropertynames-class) | [SharedFieldCollection Class](#sharedfieldcollection-class) |
-| [AllowedContentTypeCollection Class](#allowedcontenttypecollection-class) | [DocumentSet Class](#documentset-class) | [WelcomePageFieldCollection Class](#welcomepagefieldcollection-class) |
-| [DefaultDocument Class](#defaultdocument-class) | [DocumentSetTemplate Class](#documentsettemplate-class) | [EmbedCodeConfiguration Class](#embedcodeconfiguration-class) |
-| [DefaultDocumentCollection Class](#defaultdocumentcollection-class) | [DocumentSetTemplateObjectPropertyNames Class](#documentsettemplateobjectpropertynames-class) | [VideoSet Class](#videoset-class) |
+| [MetadataDefaults Class](#metadatadefaults-class) | [DefaultDocumentPropertyNames Class](#defaultdocumentpropertynames-class) | [WelcomePageFieldCollection Class](#welcomepagefieldcollection-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [DocumentSet Class](#documentset-class) | [EmbedCodeConfiguration Class](#embedcodeconfiguration-class) |
+| [AllowedContentTypeCollection Class](#allowedcontenttypecollection-class) | [DocumentSetTemplate Class](#documentsettemplate-class) | [VideoSet Class](#videoset-class) |
+| [DefaultDocument Class](#defaultdocument-class) | [DocumentSetTemplateObjectPropertyNames Class](#documentsettemplateobjectpropertynames-class) |   |
+| [DefaultDocumentCollection Class](#defaultdocumentcollection-class) | [SharedFieldCollection Class](#sharedfieldcollection-class) |   |
+# MetadataDefaults Class
+
+Namespace: Microsoft.SharePoint.Client.DocumentManagement
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **MetadataDefaults(ClientRuntimeContext context, List list)** |  |
+| **MetadataDefaults(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **SetFieldDefault(Folder folder, string fieldName, string value)** | ClientResult\<bool\> |  |
+| **Update()** | void |  |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.SharePoint.Client.DocumentManagement

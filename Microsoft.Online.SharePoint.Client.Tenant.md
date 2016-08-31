@@ -7,25 +7,26 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [SitePropertiesPropertyNames Class](#sitepropertiespropertynames-class) | [GetExternalUsersResultsObjectPropertyNames Class](#getexternalusersresultsobjectpropertynames-class) |
-| [LogExport Class](#logexport-class) | [SPODeletedSitePropertiesEnumerable Class](#spodeletedsitepropertiesenumerable-class) | [GetExternalUsersResultsPropertyNames Class](#getexternalusersresultspropertynames-class) |
-| [LogFileInfo Class](#logfileinfo-class) | [SPODeletedSitePropertiesEnumerablePropertyNames Class](#spodeletedsitepropertiesenumerablepropertynames-class) | [ImportProfilePropertiesJobError Enum](#importprofilepropertiesjoberror-enum) |
-| [LogFileInfoPropertyNames Class](#logfileinfopropertynames-class) | [SpoOperation Class](#spooperation-class) | [ImportProfilePropertiesJobInfo Class](#importprofilepropertiesjobinfo-class) |
-| [DDIAdapter Class](#ddiadapter-class) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [ImportProfilePropertiesJobInfoPropertyNames Class](#importprofilepropertiesjobinfopropertynames-class) |
-| [AppErrorEntry Class](#apperrorentry-class) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [ImportProfilePropertiesJobState Enum](#importprofilepropertiesjobstate-enum) |
-| [AppErrorEntryPropertyNames Class](#apperrorentrypropertynames-class) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [ImportProfilePropertiesJobStatusCollection Class](#importprofilepropertiesjobstatuscollection-class) |
-| [AppErrorType Enum](#apperrortype-enum) | [SPOTenantWebTemplate Class](#spotenantwebtemplate-class) | [ImportProfilePropertiesUserIdType Enum](#importprofilepropertiesuseridtype-enum) |
-| [AppInfo Class](#appinfo-class) | [SPOTenantWebTemplateCollection Class](#spotenantwebtemplatecollection-class) | [Office365Tenant Class](#office365tenant-class) |
-| [AppInfoPropertyNames Class](#appinfopropertynames-class) | [Tenant Class](#tenant-class) | [Office365TenantPropertyNames Class](#office365tenantpropertynames-class) |
-| [AppSource Enum](#appsource-enum) | [TenantLog Class](#tenantlog-class) | [RemoveExternalUsersResults Class](#removeexternalusersresults-class) |
-| [CompanyWideSharingLinksPolicy Enum](#companywidesharinglinkspolicy-enum) | [TenantLogEntry Class](#tenantlogentry-class) | [RemoveExternalUsersResultsPropertyNames Class](#removeexternalusersresultspropertynames-class) |
-| [DeletedSiteProperties Class](#deletedsiteproperties-class) | [TenantLogEntryPropertyNames Class](#tenantlogentrypropertynames-class) | [SharingCapabilities Enum](#sharingcapabilities-enum) |
-| [DeletedSitePropertiesPropertyNames Class](#deletedsitepropertiespropertynames-class) | [TenantLogPropertyNames Class](#tenantlogpropertynames-class) | [SharingDomainRestrictionModes Enum](#sharingdomainrestrictionmodes-enum) |
-| [DenyAddAndCustomizePagesStatus Enum](#denyaddandcustomizepagesstatus-enum) | [TenantPropertyNames Class](#tenantpropertynames-class) | [SharingLinkType Enum](#sharinglinktype-enum) |
-| [PWAEnabledStatus Enum](#pwaenabledstatus-enum) | [ExternalUser Class](#externaluser-class) | [SortOrder Enum](#sortorder-enum) |
-| [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [ExternalUserCollection Class](#externalusercollection-class) | [SPOUserSessionRevocationResult Class](#spousersessionrevocationresult-class) |
-| [SiteCreationProperties Class](#sitecreationproperties-class) | [ExternalUserPropertyNames Class](#externaluserpropertynames-class) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
-| [SiteProperties Class](#siteproperties-class) | [GetExternalUsersResults Class](#getexternalusersresults-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [SiteProperties Class](#siteproperties-class) | [GetExternalUsersResultsObjectPropertyNames Class](#getexternalusersresultsobjectpropertynames-class) |
+| [LogExport Class](#logexport-class) | [SitePropertiesPropertyNames Class](#sitepropertiespropertynames-class) | [GetExternalUsersResultsPropertyNames Class](#getexternalusersresultspropertynames-class) |
+| [LogFileInfo Class](#logfileinfo-class) | [SPODeletedSitePropertiesEnumerable Class](#spodeletedsitepropertiesenumerable-class) | [ImportProfilePropertiesJobError Enum](#importprofilepropertiesjoberror-enum) |
+| [LogFileInfoPropertyNames Class](#logfileinfopropertynames-class) | [SPODeletedSitePropertiesEnumerablePropertyNames Class](#spodeletedsitepropertiesenumerablepropertynames-class) | [ImportProfilePropertiesJobInfo Class](#importprofilepropertiesjobinfo-class) |
+| [DDIAdapter Class](#ddiadapter-class) | [SpoOperation Class](#spooperation-class) | [ImportProfilePropertiesJobInfoPropertyNames Class](#importprofilepropertiesjobinfopropertynames-class) |
+| [AppErrorEntry Class](#apperrorentry-class) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [ImportProfilePropertiesJobState Enum](#importprofilepropertiesjobstate-enum) |
+| [AppErrorEntryPropertyNames Class](#apperrorentrypropertynames-class) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [ImportProfilePropertiesJobStatusCollection Class](#importprofilepropertiesjobstatuscollection-class) |
+| [AppErrorType Enum](#apperrortype-enum) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [ImportProfilePropertiesUserIdType Enum](#importprofilepropertiesuseridtype-enum) |
+| [AppInfo Class](#appinfo-class) | [SPOTenantWebTemplate Class](#spotenantwebtemplate-class) | [Office365Tenant Class](#office365tenant-class) |
+| [AppInfoPropertyNames Class](#appinfopropertynames-class) | [SPOTenantWebTemplateCollection Class](#spotenantwebtemplatecollection-class) | [Office365TenantPropertyNames Class](#office365tenantpropertynames-class) |
+| [AppSource Enum](#appsource-enum) | [Tenant Class](#tenant-class) | [RemoveExternalUsersResults Class](#removeexternalusersresults-class) |
+| [AppViewsPolicy Enum](#appviewspolicy-enum) | [TenantLog Class](#tenantlog-class) | [RemoveExternalUsersResultsPropertyNames Class](#removeexternalusersresultspropertynames-class) |
+| [CompanyWideSharingLinksPolicy Enum](#companywidesharinglinkspolicy-enum) | [TenantLogEntry Class](#tenantlogentry-class) | [SharingCapabilities Enum](#sharingcapabilities-enum) |
+| [DeletedSiteProperties Class](#deletedsiteproperties-class) | [TenantLogEntryPropertyNames Class](#tenantlogentrypropertynames-class) | [SharingDomainRestrictionModes Enum](#sharingdomainrestrictionmodes-enum) |
+| [DeletedSitePropertiesPropertyNames Class](#deletedsitepropertiespropertynames-class) | [TenantLogPropertyNames Class](#tenantlogpropertynames-class) | [SharingLinkType Enum](#sharinglinktype-enum) |
+| [DenyAddAndCustomizePagesStatus Enum](#denyaddandcustomizepagesstatus-enum) | [TenantPropertyNames Class](#tenantpropertynames-class) | [SortOrder Enum](#sortorder-enum) |
+| [FlowsPolicy Enum](#flowspolicy-enum) | [ExternalUser Class](#externaluser-class) | [SPOUserSessionRevocationResult Class](#spousersessionrevocationresult-class) |
+| [PWAEnabledStatus Enum](#pwaenabledstatus-enum) | [ExternalUserCollection Class](#externalusercollection-class) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
+| [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [ExternalUserPropertyNames Class](#externaluserpropertynames-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
+| [SiteCreationProperties Class](#sitecreationproperties-class) | [GetExternalUsersResults Class](#getexternalusersresults-class) |   |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Online.SharePoint.Client.TenantAdmin
@@ -262,6 +263,18 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 |---|---|
 | **CorporateGallery** |  |
 | **MarketPlace** |  |
+# AppViewsPolicy Enum
+
+Namespace: Microsoft.Online.SharePoint.TenantAdministration
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Unknown** |  |
+| **Disabled** |  |
+| **NotDisabled** |  |
 # CompanyWideSharingLinksPolicy Enum
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -335,6 +348,18 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **Unknown** |  |
 | **Disabled** |  |
 | **Enabled** |  |
+# FlowsPolicy Enum
+
+Namespace: Microsoft.Online.SharePoint.TenantAdministration
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Unknown** |  |
+| **Disabled** |  |
+| **NotDisabled** |  |
 # PWAEnabledStatus Enum
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -404,7 +429,9 @@ Base class: ClientObject
 | **CompatibilityLevel** | int |  |
 | **CurrentResourceUsage** | double |  |
 | **DenyAddAndCustomizePages** | [DenyAddAndCustomizePagesStatus](#denyaddandcustomizepagesstatus-enum) |  |
+| **DisableAppViews** | [AppViewsPolicy](#appviewspolicy-enum) |  |
 | **DisableCompanyWideSharingLinks** | [CompanyWideSharingLinksPolicy](#companywidesharinglinkspolicy-enum) |  |
+| **DisableFlows** | [FlowsPolicy](#flowspolicy-enum) |  |
 | **LastContentModifiedDate** | DateTime |  |
 | **Lcid** | uint |  |
 | **LockIssue** | string |  |
@@ -463,7 +490,9 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **CompatibilityLevel** | string |  |
 | **CurrentResourceUsage** | string |  |
 | **DenyAddAndCustomizePages** | string |  |
+| **DisableAppViews** | string |  |
 | **DisableCompanyWideSharingLinks** | string |  |
+| **DisableFlows** | string |  |
 | **LastContentModifiedDate** | string |  |
 | **Lcid** | string |  |
 | **LockIssue** | string |  |
@@ -688,6 +717,10 @@ Base class: ClientObject
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessForUnmanagedDevices** | bool |  |
+| **BlockDownloadOfAllFilesForGuests** | bool |  |
+| **BlockDownloadOfAllFilesOnUnmanagedDevices** | bool |  |
+| **BlockDownloadOfViewableFilesForGuests** | bool |  |
+| **BlockDownloadOfViewableFilesOnUnmanagedDevices** | bool |  |
 | **BlockMacSync** | bool |  |
 | **CompatibilityRange** | string |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
@@ -695,6 +728,9 @@ Base class: ClientObject
 | **EnableGuestSignInAcceleration** | bool |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
 | **ExternalServicesEnabled** | bool |  |
+| **FileAnonymousLinkType** | AnonymousLinkType |  |
+| **FolderAnonymousLinkType** | AnonymousLinkType |  |
+| **HideSyncButtonOnODB** | bool |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | bool |  |
 | **IPAddressWACTokenLifetime** | int |  |
@@ -702,6 +738,8 @@ Base class: ClientObject
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | bool |  |
 | **LegacyAuthProtocolsEnabled** | bool |  |
 | **NoAccessRedirectUrl** | string |  |
+| **NotifyOwnersWhenInvitationsAccepted** | bool |  |
+| **NotifyOwnersWhenItemsReshared** | bool |  |
 | **OfficeClientADALDisabled** | bool |  |
 | **OneDriveForGuestsEnabled** | bool |  |
 | **OneDriveStorageQuota** | long |  |
@@ -726,6 +764,7 @@ Base class: ClientObject
 | **ShowAllUsersClaim** | bool |  |
 | **ShowEveryoneClaim** | bool |  |
 | **ShowEveryoneExceptExternalUsersClaim** | bool |  |
+| **ShowNGSCDialogForSyncOnODB** | bool |  |
 | **SignInAccelerationDomain** | string |  |
 | **StartASiteFormUrl** | string |  |
 | **StorageQuota** | long |  |
@@ -733,8 +772,6 @@ Base class: ClientObject
 | **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **UserVoiceForFeedbackEnabled** | bool |  |
-| **ViewOnlyForGuests** | bool |  |
-| **ViewOnlyForUnmanagedDevices** | bool |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -887,6 +924,10 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessForUnmanagedDevices** | string |  |
+| **BlockDownloadOfAllFilesForGuests** | string |  |
+| **BlockDownloadOfAllFilesOnUnmanagedDevices** | string |  |
+| **BlockDownloadOfViewableFilesForGuests** | string |  |
+| **BlockDownloadOfViewableFilesOnUnmanagedDevices** | string |  |
 | **BlockMacSync** | string |  |
 | **CompatibilityRange** | string |  |
 | **DefaultSharingLinkType** | string |  |
@@ -894,6 +935,9 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **EnableGuestSignInAcceleration** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
 | **ExternalServicesEnabled** | string |  |
+| **FileAnonymousLinkType** | string |  |
+| **FolderAnonymousLinkType** | string |  |
+| **HideSyncButtonOnODB** | string |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | string |  |
 | **IPAddressWACTokenLifetime** | string |  |
@@ -901,6 +945,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | string |  |
 | **LegacyAuthProtocolsEnabled** | string |  |
 | **NoAccessRedirectUrl** | string |  |
+| **NotifyOwnersWhenInvitationsAccepted** | string |  |
+| **NotifyOwnersWhenItemsReshared** | string |  |
 | **OfficeClientADALDisabled** | string |  |
 | **OneDriveForGuestsEnabled** | string |  |
 | **OneDriveStorageQuota** | string |  |
@@ -925,6 +971,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ShowAllUsersClaim** | string |  |
 | **ShowEveryoneClaim** | string |  |
 | **ShowEveryoneExceptExternalUsersClaim** | string |  |
+| **ShowNGSCDialogForSyncOnODB** | string |  |
 | **SignInAccelerationDomain** | string |  |
 | **StartASiteFormUrl** | string |  |
 | **StorageQuota** | string |  |
@@ -932,8 +979,6 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **UserVoiceForFeedbackEnabled** | string |  |
-| **ViewOnlyForGuests** | string |  |
-| **ViewOnlyForUnmanagedDevices** | string |  |
 # ExternalUser Class
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement
@@ -1204,12 +1249,19 @@ Base class: ClientObject
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessForUnmanagedDevices** | bool |  |
+| **BlockDownloadOfAllFilesForGuests** | bool |  |
+| **BlockDownloadOfAllFilesOnUnmanagedDevices** | bool |  |
+| **BlockDownloadOfViewableFilesForGuests** | bool |  |
+| **BlockDownloadOfViewableFilesOnUnmanagedDevices** | bool |  |
 | **BlockMacSync** | bool |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DisplayStartASiteOption** | bool |  |
 | **EnableGuestSignInAcceleration** | bool |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
 | **ExternalServicesEnabled** | bool |  |
+| **FileAnonymousLinkType** | AnonymousLinkType |  |
+| **FolderAnonymousLinkType** | AnonymousLinkType |  |
+| **HideSyncButtonOnODB** | bool |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | bool |  |
 | **IPAddressWACTokenLifetime** | int |  |
@@ -1217,6 +1269,8 @@ Base class: ClientObject
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | bool |  |
 | **LegacyAuthProtocolsEnabled** | bool |  |
 | **MySitesPublicEnabled** | bool |  |
+| **NotifyOwnersWhenInvitationsAccepted** | bool |  |
+| **NotifyOwnersWhenItemsReshared** | bool |  |
 | **OfficeClientADALDisabled** | bool |  |
 | **OneDriveForGuestsEnabled** | bool |  |
 | **PreventExternalUsersFromResharing** | bool |  |
@@ -1234,13 +1288,12 @@ Base class: ClientObject
 | **ShowAllUsersClaim** | bool |  |
 | **ShowEveryoneClaim** | bool |  |
 | **ShowEveryoneExceptExternalUsersClaim** | bool |  |
+| **ShowNGSCDialogForSyncOnODB** | bool |  |
 | **SignInAccelerationDomain** | string |  |
 | **StartASiteFormUrl** | string |  |
 | **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **UserVoiceForFeedbackEnabled** | bool |  |
-| **ViewOnlyForGuests** | bool |  |
-| **ViewOnlyForUnmanagedDevices** | bool |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -1287,12 +1340,19 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessForUnmanagedDevices** | string |  |
+| **BlockDownloadOfAllFilesForGuests** | string |  |
+| **BlockDownloadOfAllFilesOnUnmanagedDevices** | string |  |
+| **BlockDownloadOfViewableFilesForGuests** | string |  |
+| **BlockDownloadOfViewableFilesOnUnmanagedDevices** | string |  |
 | **BlockMacSync** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DisplayStartASiteOption** | string |  |
 | **EnableGuestSignInAcceleration** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
 | **ExternalServicesEnabled** | string |  |
+| **FileAnonymousLinkType** | string |  |
+| **FolderAnonymousLinkType** | string |  |
+| **HideSyncButtonOnODB** | string |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | string |  |
 | **IPAddressWACTokenLifetime** | string |  |
@@ -1300,6 +1360,8 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | string |  |
 | **LegacyAuthProtocolsEnabled** | string |  |
 | **MySitesPublicEnabled** | string |  |
+| **NotifyOwnersWhenInvitationsAccepted** | string |  |
+| **NotifyOwnersWhenItemsReshared** | string |  |
 | **OfficeClientADALDisabled** | string |  |
 | **OneDriveForGuestsEnabled** | string |  |
 | **PreventExternalUsersFromResharing** | string |  |
@@ -1317,13 +1379,12 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **ShowAllUsersClaim** | string |  |
 | **ShowEveryoneClaim** | string |  |
 | **ShowEveryoneExceptExternalUsersClaim** | string |  |
+| **ShowNGSCDialogForSyncOnODB** | string |  |
 | **SignInAccelerationDomain** | string |  |
 | **StartASiteFormUrl** | string |  |
 | **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **UserVoiceForFeedbackEnabled** | string |  |
-| **ViewOnlyForGuests** | string |  |
-| **ViewOnlyForUnmanagedDevices** | string |  |
 # RemoveExternalUsersResults Class
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement

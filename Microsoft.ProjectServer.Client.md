@@ -4630,8 +4630,10 @@ Base class: ClientObject
 |---|---|---|
 | **Calendars** | [CalendarCollection](#calendarcollection-class) |  |
 | **CustomFields** | [CustomFieldCollection](#customfieldcollection-class) |  |
+| **EngagementsTimephasedPageSize** | int |  |
 | **EnterpriseProjectTypes** | [EnterpriseProjectTypeCollection](#enterpriseprojecttypecollection-class) |  |
 | **EnterpriseResources** | [EnterpriseResourceCollection](#enterpriseresourcecollection-class) |  |
+| **EnterpriseResourcesPageSize** | int |  |
 | **EntityTypes** | [EntityTypes](#entitytypes-class) |  |
 | **EventHandlers** | [EventHandlerCollection](#eventhandlercollection-class) |  |
 | **Events** | [EventCollection](#eventcollection-class) |  |
@@ -4641,6 +4643,7 @@ Base class: ClientObject
 | **Phases** | [PhaseCollection](#phasecollection-class) |  |
 | **ProjectDetailPages** | [ProjectDetailPageCollection](#projectdetailpagecollection-class) |  |
 | **Projects** | [ProjectCollection](#projectcollection-class) |  |
+| **ProjectsPageSize** | int |  |
 | **Stages** | [StageCollection](#stagecollection-class) |  |
 | **TimeSheetPeriods** | [TimeSheetPeriodCollection](#timesheetperiodcollection-class) |  |
 | **WorkflowActivities** | [WorkflowActivities](#workflowactivities-class) |  |
@@ -4725,8 +4728,11 @@ Namespace: Microsoft.ProjectServer.Client
 
 | Name | Type | Summary |
 |---|---|---|
+| **EngagementsTimephasedPageSize** | string |  |
+| **EnterpriseResourcesPageSize** | string |  |
 | **IsDelegate** | string |  |
 | **IsReadOnly** | string |  |
+| **ProjectsPageSize** | string |  |
 # ProjectSummaryTask Class
 
 Namespace: Microsoft.ProjectServer.Client
@@ -6073,6 +6079,9 @@ Namespace: Microsoft.ProjectServer.Client
 | **ActiveMonitorCheck** |  |
 | **ManagedModeTaskSynchronization** |  |
 | **ResourcePlanMigrate** |  |
+| **ReportingWSSIssueSync** |  |
+| **ReportingWSSRiskSync** |  |
+| **ReportingWSSDocSync** |  |
 # ReadyToLeaveProjectStageValue Enum
 
 Namespace: Microsoft.ProjectServer.Client
