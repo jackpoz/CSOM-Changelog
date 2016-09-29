@@ -557,6 +557,7 @@ Base class: ClientObject
 | **GetPolicyDefinitions(int scenario)** | ClientObjectList\<[SPPolicyDefinition](#sppolicydefinition-class)\> |  |
 | **GetPolicyRule(Guid policyRuleId, bool throwIfNull)** | [SPPolicyRule](#sppolicyrule-class) |  |
 | **GetSPScsTenantEndPointInfo(string eopCorrelationId)** | [SPScsTenantEndPointInfo](#spscstenantendpointinfo-class) |  |
+| **NotifyUnifiedFileSyncForSPTenant(int syncFileType, Guid notificationId)** | ClientResult\<bool\> |  |
 | **NotifyUnifiedPolicySyncForLogicalWorkload(string notificationId, string syncSvcUrl, string[] changeInfos, bool syncNow, bool fullSyncForTenant, int workload)** | [SPSyncNotificationEndpointInfo](#spsyncnotificationendpointinfo-class) |  |
 | **UpdatePolicyAssociation(SPPolicyAssociation policyAssociation)** | void |  |
 | **UpdatePolicyBinding(SPPolicyBinding policyBinding)** | void |  |

@@ -1205,6 +1205,7 @@ Namespace: Microsoft.SharePoint.Client.Social
 | **All** |  |
 | **ExcludeContentWithoutFeeds** |  |
 | **IncludeGroupsSites** |  |
+| **WithinLast24Hours** |  |
 # SocialAnnouncementManager Class
 
 Namespace: Microsoft.SharePoint.Client.Social
@@ -2180,6 +2181,7 @@ Namespace: Microsoft.SharePoint.Client.UserProfiles
 | **DefaultOptions** |  |
 | **All** |  |
 | **IncludeGroupsSites** |  |
+| **WithinLast24Hours** |  |
 # FollowedItem Class
 
 Namespace: Microsoft.SharePoint.Client.UserProfiles

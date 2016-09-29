@@ -435,6 +435,7 @@ Base class: [Query](#query-class)
 | **EnableSorting** | bool |  |
 | **HiddenConstraints** | string |  |
 | **Properties** | [KeywordQueryProperties](#keywordqueryproperties-class) |  |
+| **OLSQuerySession** | string |  |
 | **RefinementFilters** | [StringCollection](#stringcollection-class) |  |
 | **Refiners** | string |  |
 | **ReorderingRules** | [ReorderingRuleCollection](#reorderingrulecollection-class) |  |
@@ -553,6 +554,7 @@ Namespace: Microsoft.SharePoint.Client.Search.Query
 | **CollapseSpecification** | string |  |
 | **EnableSorting** | string |  |
 | **HiddenConstraints** | string |  |
+| **OLSQuerySession** | string |  |
 | **Refiners** | string |  |
 | **TimeZoneId** | string |  |
 | **TrimDuplicatesIncludeId** | string |  |

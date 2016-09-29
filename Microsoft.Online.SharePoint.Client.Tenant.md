@@ -14,18 +14,19 @@ Created by
 | [DDIAdapter Class](#ddiadapter-class) | [SpoOperation Class](#spooperation-class) | [ImportProfilePropertiesJobInfoPropertyNames Class](#importprofilepropertiesjobinfopropertynames-class) |
 | [AppErrorEntry Class](#apperrorentry-class) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [ImportProfilePropertiesJobState Enum](#importprofilepropertiesjobstate-enum) |
 | [AppErrorEntryPropertyNames Class](#apperrorentrypropertynames-class) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [ImportProfilePropertiesJobStatusCollection Class](#importprofilepropertiesjobstatuscollection-class) |
-| [AppErrorType Enum](#apperrortype-enum) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [ImportProfilePropertiesUserIdType Enum](#importprofilepropertiesuseridtype-enum) |
-| [AppInfo Class](#appinfo-class) | [SPOTenantWebTemplate Class](#spotenantwebtemplate-class) | [Office365Tenant Class](#office365tenant-class) |
-| [AppInfoPropertyNames Class](#appinfopropertynames-class) | [SPOTenantWebTemplateCollection Class](#spotenantwebtemplatecollection-class) | [Office365TenantPropertyNames Class](#office365tenantpropertynames-class) |
-| [AppSource Enum](#appsource-enum) | [Tenant Class](#tenant-class) | [RemoveExternalUsersResults Class](#removeexternalusersresults-class) |
-| [AppViewsPolicy Enum](#appviewspolicy-enum) | [TenantLog Class](#tenantlog-class) | [RemoveExternalUsersResultsPropertyNames Class](#removeexternalusersresultspropertynames-class) |
-| [CompanyWideSharingLinksPolicy Enum](#companywidesharinglinkspolicy-enum) | [TenantLogEntry Class](#tenantlogentry-class) | [SharingCapabilities Enum](#sharingcapabilities-enum) |
-| [DeletedSiteProperties Class](#deletedsiteproperties-class) | [TenantLogEntryPropertyNames Class](#tenantlogentrypropertynames-class) | [SharingDomainRestrictionModes Enum](#sharingdomainrestrictionmodes-enum) |
-| [DeletedSitePropertiesPropertyNames Class](#deletedsitepropertiespropertynames-class) | [TenantLogPropertyNames Class](#tenantlogpropertynames-class) | [SharingLinkType Enum](#sharinglinktype-enum) |
-| [DenyAddAndCustomizePagesStatus Enum](#denyaddandcustomizepagesstatus-enum) | [TenantPropertyNames Class](#tenantpropertynames-class) | [SortOrder Enum](#sortorder-enum) |
-| [FlowsPolicy Enum](#flowspolicy-enum) | [ExternalUser Class](#externaluser-class) | [SPOUserSessionRevocationResult Class](#spousersessionrevocationresult-class) |
-| [PWAEnabledStatus Enum](#pwaenabledstatus-enum) | [ExternalUserCollection Class](#externalusercollection-class) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
-| [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [ExternalUserPropertyNames Class](#externaluserpropertynames-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
+| [AppErrorType Enum](#apperrortype-enum) | [SPOSitePropertiesEnumerableFilter Class](#spositepropertiesenumerablefilter-class) | [ImportProfilePropertiesUserIdType Enum](#importprofilepropertiesuseridtype-enum) |
+| [AppInfo Class](#appinfo-class) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [Office365Tenant Class](#office365tenant-class) |
+| [AppInfoPropertyNames Class](#appinfopropertynames-class) | [SPOTenantWebTemplate Class](#spotenantwebtemplate-class) | [Office365TenantPropertyNames Class](#office365tenantpropertynames-class) |
+| [AppSource Enum](#appsource-enum) | [SPOTenantWebTemplateCollection Class](#spotenantwebtemplatecollection-class) | [RemoveExternalUsersResults Class](#removeexternalusersresults-class) |
+| [AppViewsPolicy Enum](#appviewspolicy-enum) | [Tenant Class](#tenant-class) | [RemoveExternalUsersResultsPropertyNames Class](#removeexternalusersresultspropertynames-class) |
+| [CompanyWideSharingLinksPolicy Enum](#companywidesharinglinkspolicy-enum) | [TenantLog Class](#tenantlog-class) | [SharingCapabilities Enum](#sharingcapabilities-enum) |
+| [DeletedSiteProperties Class](#deletedsiteproperties-class) | [TenantLogEntry Class](#tenantlogentry-class) | [SharingDomainRestrictionModes Enum](#sharingdomainrestrictionmodes-enum) |
+| [DeletedSitePropertiesPropertyNames Class](#deletedsitepropertiespropertynames-class) | [TenantLogEntryPropertyNames Class](#tenantlogentrypropertynames-class) | [SharingLinkType Enum](#sharinglinktype-enum) |
+| [DenyAddAndCustomizePagesStatus Enum](#denyaddandcustomizepagesstatus-enum) | [TenantLogPropertyNames Class](#tenantlogpropertynames-class) | [SortOrder Enum](#sortorder-enum) |
+| [FlowsPolicy Enum](#flowspolicy-enum) | [TenantPropertyNames Class](#tenantpropertynames-class) | [SPOUserSessionRevocationResult Class](#spousersessionrevocationresult-class) |
+| [PersonalSiteFilter Enum](#personalsitefilter-enum) | [ExternalUser Class](#externaluser-class) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
+| [PWAEnabledStatus Enum](#pwaenabledstatus-enum) | [ExternalUserCollection Class](#externalusercollection-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
+| [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [ExternalUserPropertyNames Class](#externaluserpropertynames-class) |   |
 | [SiteCreationProperties Class](#sitecreationproperties-class) | [GetExternalUsersResults Class](#getexternalusersresults-class) |   |
 # ScriptTypeFactory Class
 
@@ -360,6 +361,18 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **Unknown** |  |
 | **Disabled** |  |
 | **NotDisabled** |  |
+# PersonalSiteFilter Enum
+
+Namespace: Microsoft.Online.SharePoint.TenantAdministration
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **UseServerDefault** |  |
+| **Include** |  |
+| **Exclude** |  |
 # PWAEnabledStatus Enum
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -636,6 +649,28 @@ Base class: ClientObjectCollection<[SiteProperties](#siteproperties-class)>
 | Name | Summary |
 |---|---|
 | **SPOSitePropertiesEnumerable(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# SPOSitePropertiesEnumerableFilter Class
+
+Namespace: Microsoft.Online.SharePoint.TenantAdministration
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Filter** | string |  |
+| **IncludeDetail** | bool |  |
+| **IncludePersonalSite** | [PersonalSiteFilter](#personalsitefilter-enum) |  |
+| **StartIndex** | string |  |
+| **Template** | string |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # SPOSitePropertiesEnumerablePropertyNames Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -740,6 +775,7 @@ Base class: ClientObject
 | **NoAccessRedirectUrl** | string |  |
 | **NotifyOwnersWhenInvitationsAccepted** | bool |  |
 | **NotifyOwnersWhenItemsReshared** | bool |  |
+| **ODBMembersCanShare** | SharingState |  |
 | **OfficeClientADALDisabled** | bool |  |
 | **OneDriveForGuestsEnabled** | bool |  |
 | **OneDriveStorageQuota** | long |  |
@@ -811,6 +847,7 @@ Base class: ClientObject
 | **GetSitePropertiesByUrl(string url, bool includeDetail)** | [SiteProperties](#siteproperties-class) |  |
 | **GetSitePropertiesFromSharePoint(string startIndex, bool includeDetail)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **GetSitePropertiesFromSharePointByFilter(string filter, string startIndex, bool includeDetail)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
+| **GetSitePropertiesFromSharePointByFilters(SPOSitePropertiesEnumerableFilter speFilter)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **GetSPOTenantWebTemplates(uint localeId, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **RemoveDeletedSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveDeletedSitePreferId(string siteUrl, Guid siteId)** | [SpoOperation](#spooperation-class) |  |
@@ -947,6 +984,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **NoAccessRedirectUrl** | string |  |
 | **NotifyOwnersWhenInvitationsAccepted** | string |  |
 | **NotifyOwnersWhenItemsReshared** | string |  |
+| **ODBMembersCanShare** | string |  |
 | **OfficeClientADALDisabled** | string |  |
 | **OneDriveForGuestsEnabled** | string |  |
 | **OneDriveStorageQuota** | string |  |
@@ -1271,6 +1309,7 @@ Base class: ClientObject
 | **MySitesPublicEnabled** | bool |  |
 | **NotifyOwnersWhenInvitationsAccepted** | bool |  |
 | **NotifyOwnersWhenItemsReshared** | bool |  |
+| **ODBMembersCanShare** | SharingState |  |
 | **OfficeClientADALDisabled** | bool |  |
 | **OneDriveForGuestsEnabled** | bool |  |
 | **PreventExternalUsersFromResharing** | bool |  |
@@ -1362,6 +1401,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **MySitesPublicEnabled** | string |  |
 | **NotifyOwnersWhenInvitationsAccepted** | string |  |
 | **NotifyOwnersWhenItemsReshared** | string |  |
+| **ODBMembersCanShare** | string |  |
 | **OfficeClientADALDisabled** | string |  |
 | **OneDriveForGuestsEnabled** | string |  |
 | **PreventExternalUsersFromResharing** | string |  |

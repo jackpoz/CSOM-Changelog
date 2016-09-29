@@ -577,6 +577,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **BannerImageUrl** | string |  |
 | **CanvasContent1** | string |  |
+| **CanvasJson1** | string |  |
 | **Modified** | DateTime |  |
 | **Title** | string |  |
 | **TypeId** | string |  |
