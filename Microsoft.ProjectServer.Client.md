@@ -6082,6 +6082,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **ReportingWSSIssueSync** |  |
 | **ReportingWSSRiskSync** |  |
 | **ReportingWSSDocSync** |  |
+| **ReportingWSSDeliverableSync** |  |
 # ReadyToLeaveProjectStageValue Enum
 
 Namespace: Microsoft.ProjectServer.Client
