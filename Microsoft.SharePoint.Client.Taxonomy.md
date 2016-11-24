@@ -686,6 +686,7 @@ Base class: FieldLookup
 | **Indexed** | bool |  |
 | **InternalName** | string |  |
 | **JSLink** | string |  |
+| **NoCrawl** | bool |  |
 | **ReadOnlyField** | bool |  |
 | **Required** | bool |  |
 | **SchemaXml** | string |  |
