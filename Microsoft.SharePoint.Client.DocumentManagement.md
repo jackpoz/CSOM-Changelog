@@ -104,6 +104,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **ContentTypeId** | ContentTypeId |  |
+| **DocumentPath** | ResourcePath |  |
 | **Name** | string |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
@@ -168,6 +169,7 @@ Namespace: Microsoft.SharePoint.Client.DocumentSet
 | Name | Type | Summary |
 |---|---|---|
 | **ContentTypeId** | string |  |
+| **DocumentPath** | string |  |
 | **Name** | string |  |
 # DocumentSet Class
 

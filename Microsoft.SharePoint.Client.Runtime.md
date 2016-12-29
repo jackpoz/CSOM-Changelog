@@ -2976,6 +2976,7 @@ Namespace: Microsoft.SharePoint.Client.Idcrl
 | **REGKEY_MSOIdentityCRL** | string |  |
 | **REGVAL_ServiceEnvironment** | string |  |
 | **ENV_INT_MSO** | string |  |
+| **ENV_PPE_MSO** | string |  |
 | **ENV_PRODUCTION** | string |  |
 | **BPOSIDCRL_AUTHORIZATION_HEADER_PREFIX** | string |  |
 | **IDCRLTYPE_BPOSIDRL** | string |  |
@@ -2994,6 +2995,7 @@ Namespace: Microsoft.SharePoint.Client.Idcrl
 |---|---|
 | **Production** |  |
 | **Int** |  |
+| **Ppe** |  |
 # IdcrlErrorCodes Class
 
 Namespace: Microsoft.SharePoint.Client.Idcrl
@@ -3150,10 +3152,13 @@ Namespace: Microsoft.SharePoint.Client.Idcrl
 | **FPListFullUrlFormat** | string |  |
 | **UserRealmServiceUrl_Prod** | string |  |
 | **UserRealmServiceUrl_Int** | string |  |
+| **UserRealmServiceUrl_Ppe** | string |  |
 | **SecurityTokenServiceUrl_Prod** | string |  |
 | **SecurityTokenServiceUrl_Int** | string |  |
+| **SecurityTokenServiceUrl_Ppe** | string |  |
 | **FederationTokenIssuer_Prod** | string |  |
 | **FederationTokenIssuer_Int** | string |  |
+| **FederationTokenIssuer_Ppe** | string |  |
 | **FederationProvider** | string |  |
 | **FPDOMAINNAME** | string |  |
 | **FPList** | string |  |
