@@ -672,6 +672,7 @@ Base class: FieldLookup
 | **RelationshipDeleteBehavior** | RelationshipDeleteBehaviorType |  |
 | **AutoIndexed** | bool |  |
 | **CanBeDeleted** | bool |  |
+| **ClientSideComponentId** | Guid |  |
 | **DefaultValue** | string |  |
 | **Description** | string |  |
 | **DescriptionResource** | UserResource |  |
@@ -687,6 +688,7 @@ Base class: FieldLookup
 | **InternalName** | string |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
+| **PinnedToFiltersPane** | bool |  |
 | **ReadOnlyField** | bool |  |
 | **Required** | bool |  |
 | **SchemaXml** | string |  |
