@@ -798,6 +798,7 @@ Base class: ClientObject
 | **OptOutOfGrooveBlock** | bool |  |
 | **OptOutOfGrooveSoftBlock** | bool |  |
 | **OrphanedPersonalSitesRetentionPeriod** | int |  |
+| **OwnerAnonymousNotification** | bool |  |
 | **PermissiveBrowserFileHandlingOverride** | bool |  |
 | **PreventExternalUsersFromResharing** | bool |  |
 | **ProvisionSharedWithEveryoneFolder** | bool |  |
@@ -873,6 +874,7 @@ Base class: ClientObject
 | **GetTenantCdnAllowedFileTypes(SPOTenantCdnType cdnType)** | IList\<string\> |  |
 | **GetTenantCdnEnabled(SPOTenantCdnType cdnType)** | ClientResult\<bool\> |  |
 | **GetTenantCdnOrigins(SPOTenantCdnType cdnType)** | IList\<string\> |  |
+| **GetTenantCdnRestrictedSiteClassifications(SPOTenantCdnType cdnType)** | IList\<string\> |  |
 | **RemoveDeletedSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveDeletedSitePreferId(string siteUrl, Guid siteId)** | [SpoOperation](#spooperation-class) |  |
 | **RemovePublicCdnOrigin(string originId)** | void |  |
@@ -885,6 +887,7 @@ Base class: ClientObject
 | **SetSiteAdmin(string url, string loginName, bool isSiteAdmin)** | User |  |
 | **SetTenantCdnAllowedFileTypes(SPOTenantCdnType cdnType, IList\<string\> allowedFileTypes)** | void |  |
 | **SetTenantCdnEnabled(SPOTenantCdnType cdnType, bool isEnabled)** | void |  |
+| **SetTenantCdnRestrictedSiteClassifications(SPOTenantCdnType cdnType, IList\<string\> restrictedSiteClassifications)** | void |  |
 # TenantLog Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -1022,6 +1025,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **OptOutOfGrooveBlock** | string |  |
 | **OptOutOfGrooveSoftBlock** | string |  |
 | **OrphanedPersonalSitesRetentionPeriod** | string |  |
+| **OwnerAnonymousNotification** | string |  |
 | **PermissiveBrowserFileHandlingOverride** | string |  |
 | **PreventExternalUsersFromResharing** | string |  |
 | **ProvisionSharedWithEveryoneFolder** | string |  |
@@ -1347,6 +1351,7 @@ Base class: ClientObject
 | **ODBMembersCanShare** | SharingState |  |
 | **OfficeClientADALDisabled** | bool |  |
 | **OneDriveForGuestsEnabled** | bool |  |
+| **OwnerAnonymousNotification** | bool |  |
 | **PreventExternalUsersFromResharing** | bool |  |
 | **ProvisionSharedWithEveryoneFolder** | bool |  |
 | **PublicCdnAllowedFileTypes** | string |  |
@@ -1401,6 +1406,7 @@ Base class: ClientObject
 | **GetTenantCdnAllowedFileTypes(SPOTenantCdnType cdnType)** | IList\<string\> |  |
 | **GetTenantCdnEnabled(SPOTenantCdnType cdnType)** | ClientResult\<bool\> |  |
 | **GetTenantCdnOrigins(SPOTenantCdnType cdnType)** | IList\<string\> |  |
+| **GetTenantCdnRestrictedSiteClassifications(SPOTenantCdnType cdnType)** | IList\<string\> |  |
 | **IsSharingDisabledForNonOwnersOfSite(string siteUrl)** | ClientResult\<bool\> |  |
 | **QueueImportProfileProperties(ImportProfilePropertiesUserIdType idType, string sourceDataIdProperty, IDictionary\<string, string\> propertyMap, string sourceUri)** | ClientResult\<Guid\> |  |
 | **RemoveExternalUsers(string[] uniqueIds)** | [RemoveExternalUsersResults](#removeexternalusersresults-class) |  |
@@ -1411,6 +1417,7 @@ Base class: ClientObject
 | **RevokeAllUserSessionsByPuid(IList\<string\> puidList)** | ClientObjectList\<[SPOUserSessionRevocationResult](#spousersessionrevocationresult-class)\> |  |
 | **SetTenantCdnAllowedFileTypes(SPOTenantCdnType cdnType, IList\<string\> allowedFileTypes)** | void |  |
 | **SetTenantCdnEnabled(SPOTenantCdnType cdnType, bool isEnabled)** | void |  |
+| **SetTenantCdnRestrictedSiteClassifications(SPOTenantCdnType cdnType, IList\<string\> restrictedSiteClassifications)** | void |  |
 # Office365TenantPropertyNames Class
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement
@@ -1451,6 +1458,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **ODBMembersCanShare** | string |  |
 | **OfficeClientADALDisabled** | string |  |
 | **OneDriveForGuestsEnabled** | string |  |
+| **OwnerAnonymousNotification** | string |  |
 | **PreventExternalUsersFromResharing** | string |  |
 | **ProvisionSharedWithEveryoneFolder** | string |  |
 | **PublicCdnAllowedFileTypes** | string |  |

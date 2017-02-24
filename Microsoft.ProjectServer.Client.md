@@ -94,16 +94,16 @@ Created by
 | [EnterpriseResourceObjectPropertyNames Class](#enterpriseresourceobjectpropertynames-class) | [PublishedProjectPropertyNames Class](#publishedprojectpropertynames-class) | [TrackingMode Enum](#trackingmode-enum) |
 | [EnterpriseResourcePropertyNames Class](#enterpriseresourcepropertynames-class) | [PublishedProjectResource Class](#publishedprojectresource-class) | [UpdateProjectStageStatusFieldValue Enum](#updateprojectstagestatusfieldvalue-enum) |
 | [EnterpriseResourceType Enum](#enterpriseresourcetype-enum) | [PublishedProjectResourceCollection Class](#publishedprojectresourcecollection-class) | [UtilizationType Enum](#utilizationtype-enum) |
-| [EntityType Class](#entitytype-class) | [PublishedProjectResourceObjectPropertyNames Class](#publishedprojectresourceobjectpropertynames-class) | [WorkContourType Enum](#workcontourtype-enum) |
-| [EntityTypePropertyNames Class](#entitytypepropertynames-class) | [PublishedProjectResourcePropertyNames Class](#publishedprojectresourcepropertynames-class) | [WorkflowActivities Class](#workflowactivities-class) |
-| [EntityTypes Class](#entitytypes-class) | [PublishedTask Class](#publishedtask-class) | [WorkflowDesigner Class](#workflowdesigner-class) |
-| [EntityTypesObjectPropertyNames Class](#entitytypesobjectpropertynames-class) | [PublishedTaskCollection Class](#publishedtaskcollection-class) | [WorkflowDesignerField Class](#workflowdesignerfield-class) |
-| [Event Class](#event-class) | [PublishedTaskLink Class](#publishedtasklink-class) | [WorkflowDesignerFieldCollection Class](#workflowdesignerfieldcollection-class) |
-| [EventCollection Class](#eventcollection-class) | [PublishedTaskLinkCollection Class](#publishedtasklinkcollection-class) | [WorkflowDesignerFieldObjectPropertyNames Class](#workflowdesignerfieldobjectpropertynames-class) |
-| [EventHandler Class](#eventhandler-class) | [PublishedTaskLinkObjectPropertyNames Class](#publishedtasklinkobjectpropertynames-class) | [WorkflowDesignerFieldPropertyNames Class](#workflowdesignerfieldpropertynames-class) |
-| [EventHandlerCollection Class](#eventhandlercollection-class) | [PublishedTaskLinkPropertyNames Class](#publishedtasklinkpropertynames-class) | [WorkflowDesignerObjectPropertyNames Class](#workflowdesignerobjectpropertynames-class) |
-| [EventHandlerCreationInformation Class](#eventhandlercreationinformation-class) | [PublishedTaskObjectPropertyNames Class](#publishedtaskobjectpropertynames-class) | [WorkFormat Enum](#workformat-enum) |
-| [EventHandlerObjectPropertyNames Class](#eventhandlerobjectpropertynames-class) | [PublishedTaskPropertyNames Class](#publishedtaskpropertynames-class) |   |
+| [EntityType Class](#entitytype-class) | [PublishedProjectResourceObjectPropertyNames Class](#publishedprojectresourceobjectpropertynames-class) | [ViewType Enum](#viewtype-enum) |
+| [EntityTypePropertyNames Class](#entitytypepropertynames-class) | [PublishedProjectResourcePropertyNames Class](#publishedprojectresourcepropertynames-class) | [WorkContourType Enum](#workcontourtype-enum) |
+| [EntityTypes Class](#entitytypes-class) | [PublishedTask Class](#publishedtask-class) | [WorkflowActivities Class](#workflowactivities-class) |
+| [EntityTypesObjectPropertyNames Class](#entitytypesobjectpropertynames-class) | [PublishedTaskCollection Class](#publishedtaskcollection-class) | [WorkflowDesigner Class](#workflowdesigner-class) |
+| [Event Class](#event-class) | [PublishedTaskLink Class](#publishedtasklink-class) | [WorkflowDesignerField Class](#workflowdesignerfield-class) |
+| [EventCollection Class](#eventcollection-class) | [PublishedTaskLinkCollection Class](#publishedtasklinkcollection-class) | [WorkflowDesignerFieldCollection Class](#workflowdesignerfieldcollection-class) |
+| [EventHandler Class](#eventhandler-class) | [PublishedTaskLinkObjectPropertyNames Class](#publishedtasklinkobjectpropertynames-class) | [WorkflowDesignerFieldObjectPropertyNames Class](#workflowdesignerfieldobjectpropertynames-class) |
+| [EventHandlerCollection Class](#eventhandlercollection-class) | [PublishedTaskLinkPropertyNames Class](#publishedtasklinkpropertynames-class) | [WorkflowDesignerFieldPropertyNames Class](#workflowdesignerfieldpropertynames-class) |
+| [EventHandlerCreationInformation Class](#eventhandlercreationinformation-class) | [PublishedTaskObjectPropertyNames Class](#publishedtaskobjectpropertynames-class) | [WorkflowDesignerObjectPropertyNames Class](#workflowdesignerobjectpropertynames-class) |
+| [EventHandlerObjectPropertyNames Class](#eventhandlerobjectpropertynames-class) | [PublishedTaskPropertyNames Class](#publishedtaskpropertynames-class) | [WorkFormat Enum](#workformat-enum) |
 | [EventHandlerPropertyNames Class](#eventhandlerpropertynames-class) | [QueueJob Class](#queuejob-class) |   |
 # AccrueAt Enum
 
@@ -8535,6 +8535,24 @@ Namespace: Microsoft.ProjectServer.Client
 | **FromProjectPlan** |  |
 | **FromResourcePlan** |  |
 | **FromProjectPlanThenResourcePlan** |  |
+# ViewType Enum
+
+Namespace: Microsoft.ProjectServer.Client
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Project** |  |
+| **Task** |  |
+| **Assignment** |  |
+| **Resource** |  |
+| **Calendar** |  |
+| **StatusTask** |  |
+| **StatusAssignment** |  |
+| **Engagement** |  |
+| **None** |  |
 # WorkContourType Enum
 
 Namespace: Microsoft.ProjectServer.Client

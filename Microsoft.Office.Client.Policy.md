@@ -40,7 +40,10 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AutoDelete** | bool |  |
 | **BlockDelete** | bool |  |
+| **BlockEdit** | bool |  |
+| **HasRetentionAction** | bool |  |
 | **TagDuration** | int |  |
 | **TagId** | Guid |  |
 | **TagName** | string |  |
@@ -552,10 +555,13 @@ Base class: ClientObject
 | **DeletePolicyRule(Guid policyRuleId)** | void |  |
 | **GetPolicyAssociation(Guid policyAssociationId)** | [SPPolicyAssociation](#sppolicyassociation-class) |  |
 | **GetPolicyAssociationForContainer(string containerId)** | [SPPolicyAssociation](#sppolicyassociation-class) |  |
+| **GetPolicyAssociations(int scenario, int workload)** | ClientObjectList\<[SPPolicyAssociation](#sppolicyassociation-class)\> |  |
 | **GetPolicyBinding(Guid policyBindingId)** | [SPPolicyBinding](#sppolicybinding-class) |  |
+| **GetPolicyBindings(int workload)** | ClientObjectList\<[SPPolicyBinding](#sppolicybinding-class)\> |  |
 | **GetPolicyDefinition(Guid policyDefinitionId)** | [SPPolicyDefinition](#sppolicydefinition-class) |  |
 | **GetPolicyDefinitions(int scenario)** | ClientObjectList\<[SPPolicyDefinition](#sppolicydefinition-class)\> |  |
 | **GetPolicyRule(Guid policyRuleId, bool throwIfNull)** | [SPPolicyRule](#sppolicyrule-class) |  |
+| **GetPolicyRules(Guid policyDefinitionId)** | ClientObjectList\<[SPPolicyRule](#sppolicyrule-class)\> |  |
 | **GetSPScsTenantEndPointInfo(string eopCorrelationId)** | [SPScsTenantEndPointInfo](#spscstenantendpointinfo-class) |  |
 | **NotifyUnifiedFileSyncForSPTenant(int syncFileType, Guid notificationId)** | ClientResult\<bool\> |  |
 | **NotifyUnifiedPolicySyncForLogicalWorkload(string notificationId, string syncSvcUrl, string[] changeInfos, bool syncNow, bool fullSyncForTenant, int workload)** | [SPSyncNotificationEndpointInfo](#spsyncnotificationendpointinfo-class) |  |
