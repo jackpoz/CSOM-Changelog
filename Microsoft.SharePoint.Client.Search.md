@@ -329,6 +329,7 @@ Base class: ClientObject
 |---|---|---|
 | **DeleteAllCloudHybridSearchContent()** | ClientResult\<long\> |  |
 | **GetPushServiceInfo()** | [PushTenantServiceInfo](#pushtenantserviceinfo-class) |  |
+| **GetTenantInfo()** | [PushTenantServiceInfo](#pushtenantserviceinfo-class) |  |
 | **PreparePushTenant()** | void |  |
 # PushTenantServiceInfo Class
 
@@ -1150,7 +1151,7 @@ Base class: ClientObject
 | **ExecuteQueries(string[] queryIds, Query[] queries, bool handleExceptions)** | ClientResult\<IDictionary\<string, [ResultTableCollection](#resulttablecollection-class)\>\> |  |
 | **ExecuteQuery(Query query)** | ClientResult\<[ResultTableCollection](#resulttablecollection-class)\> |  |
 | **ExportPopularQueries(Web web, Guid sourceId)** | IList\<[PopularQuery](#popularquery-class)\> |  |
-| **GetPromotedResults(bool siteCollectionLevel)** | ClientResult\<[PromotedResultsOperationsResult](#promotedresultsoperationsresult-class)\> |  |
+| **GetPromotedResults(bool siteCollectionLevel, int offset, int numberOfRules)** | ClientResult\<[PromotedResultsOperationsResult](#promotedresultsoperationsresult-class)\> |  |
 | **RecordPageClick(string pageInfo, string clickType, int blockType, string clickedResultId, int subResultIndex, string immediacySourceId, string immediacyQueryString, string immediacyTitle, string immediacyUrl)** | void |  |
 # Sort Class
 

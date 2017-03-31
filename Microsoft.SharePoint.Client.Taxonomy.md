@@ -673,6 +673,7 @@ Base class: FieldLookup
 | **AutoIndexed** | bool |  |
 | **CanBeDeleted** | bool |  |
 | **ClientSideComponentId** | Guid |  |
+| **ClientSideComponentProperties** | string |  |
 | **DefaultValue** | string |  |
 | **Description** | string |  |
 | **DescriptionResource** | UserResource |  |

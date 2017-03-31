@@ -7,11 +7,12 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [MetadataDefaults Class](#metadatadefaults-class) | [DefaultDocumentPropertyNames Class](#defaultdocumentpropertynames-class) | [WelcomePageFieldCollection Class](#welcomepagefieldcollection-class) |
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [DocumentSet Class](#documentset-class) | [EmbedCodeConfiguration Class](#embedcodeconfiguration-class) |
-| [AllowedContentTypeCollection Class](#allowedcontenttypecollection-class) | [DocumentSetTemplate Class](#documentsettemplate-class) | [VideoSet Class](#videoset-class) |
-| [DefaultDocument Class](#defaultdocument-class) | [DocumentSetTemplateObjectPropertyNames Class](#documentsettemplateobjectpropertynames-class) |   |
-| [DefaultDocumentCollection Class](#defaultdocumentcollection-class) | [SharedFieldCollection Class](#sharedfieldcollection-class) |   |
+| [MetadataDefaults Class](#metadatadefaults-class) | [DocumentSet Class](#documentset-class) | [ConfiguredMetadataNavigationItemCollection Class](#configuredmetadatanavigationitemcollection-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [DocumentSetTemplate Class](#documentsettemplate-class) | [MetadataNavigationSettings Class](#metadatanavigationsettings-class) |
+| [AllowedContentTypeCollection Class](#allowedcontenttypecollection-class) | [DocumentSetTemplateObjectPropertyNames Class](#documentsettemplateobjectpropertynames-class) | [EmbedCodeConfiguration Class](#embedcodeconfiguration-class) |
+| [DefaultDocument Class](#defaultdocument-class) | [SharedFieldCollection Class](#sharedfieldcollection-class) | [VideoSet Class](#videoset-class) |
+| [DefaultDocumentCollection Class](#defaultdocumentcollection-class) | [WelcomePageFieldCollection Class](#welcomepagefieldcollection-class) |   |
+| [DefaultDocumentPropertyNames Class](#defaultdocumentpropertynames-class) | [ConfiguredMetadataNavigationItem Class](#configuredmetadatanavigationitem-class) |   |
 # MetadataDefaults Class
 
 Namespace: Microsoft.SharePoint.Client.DocumentManagement
@@ -330,6 +331,81 @@ Base class: ClientObjectCollection<Field>
 |---|---|---|
 | **Add(Field fld)** | void |  |
 | **Remove(Guid fieldId)** | void |  |
+# ConfiguredMetadataNavigationItem Class
+
+Namespace: Microsoft.SharePoint.Client.MetadataNavigation
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **FieldDisplayName** | string |  |
+| **FieldTitle** | string |  |
+| **FieldTypeAsString** | string |  |
+| **IsContentTypeField** | bool |  |
+| **IsFolderHierarchy** | bool |  |
+| **IsHierarchy** | bool |  |
+| **IsMultiValueLookup** | bool |  |
+| **IsTaxonomyField** | bool |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ConfiguredMetadataNavigationItemCollection Class
+
+Namespace: Microsoft.SharePoint.Client.MetadataNavigation
+
+Base class: ClientValueObjectCollection<[ConfiguredMetadataNavigationItem](#configuredmetadatanavigationitem-class)>
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **TypeId** | string |  |
+| **ChildItemsName** | string |  |
+| **Count** | int |  |
+| **Item** | [ConfiguredMetadataNavigationItem](#configuredmetadatanavigationitem-class) |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# MetadataNavigationSettings Class
+
+Namespace: Microsoft.SharePoint.Client.MetadataNavigation
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **MetadataNavigationSettings(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **GetConfiguredSettings(ClientRuntimeContext context, ResourcePath listPath)** | ClientResult\<[ConfiguredMetadataNavigationItemCollection](#configuredmetadatanavigationitemcollection-class)\> |  |
 # EmbedCodeConfiguration Class
 
 Namespace: Microsoft.SharePoint.Client.Video
