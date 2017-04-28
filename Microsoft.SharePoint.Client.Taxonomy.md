@@ -674,6 +674,7 @@ Base class: FieldLookup
 | **CanBeDeleted** | bool |  |
 | **ClientSideComponentId** | Guid |  |
 | **ClientSideComponentProperties** | string |  |
+| **CustomFormatter** | string |  |
 | **DefaultValue** | string |  |
 | **Description** | string |  |
 | **DescriptionResource** | UserResource |  |
@@ -696,6 +697,7 @@ Base class: FieldLookup
 | **SchemaXmlWithResourceTokens** | string |  |
 | **Scope** | string |  |
 | **Sealed** | bool |  |
+| **ShowInFiltersPane** | ShowInFiltersPaneStatus |  |
 | **Sortable** | bool |  |
 | **StaticName** | string |  |
 | **Title** | string |  |

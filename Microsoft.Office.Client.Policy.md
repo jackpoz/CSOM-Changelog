@@ -462,7 +462,7 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
-| **EventTag** | string |  |
+| **EventTags** | string[] |  |
 | **EventTime** | DateTime |  |
 | **HashId** | string |  |
 | **Id** | Guid |  |
@@ -494,7 +494,7 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 
 | Name | Type | Summary |
 |---|---|---|
-| **EventTag** | string |  |
+| **EventTags** | string |  |
 | **EventTime** | string |  |
 | **HashId** | string |  |
 | **Id** | string |  |
@@ -663,8 +663,10 @@ Base class: ClientObject
 | **GetAvailableTagsForSite(ClientRuntimeContext context, string siteUrl)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetPolicyEvaluationInfo(ClientRuntimeContext context, string itemUrl, PolicyScenario policyScenario, PolicyEvaluationInfoEnums infos)** | [PolicyEvaluationInfo](#policyevaluationinfo-class) |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
+| **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
 | **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
 | **RetagReviewItems(int[] itemIds, string newTag, bool newTagIsRecord, bool newTagBlockDelete, bool newTagIsEventBased)** | ClientArrayResult\<int\> |  |
+| **RetagReviewItemsWithMetas(int[] itemIds, string newTagName, string[] newTagMetas)** | ClientArrayResult\<int\> |  |
 # SPPolicyStoreProxyPropertyNames Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
@@ -915,5 +917,6 @@ Namespace: Microsoft.SharePoint.Client.RecordsRepository
 | Name | Returns | Summary |
 |---|---|---|
 | **DeclareItemAsRecord(ClientRuntimeContext context, ListItem itemToDeclare)** | void |  |
+| **DeclareItemAsRecordWithDeclarationDate(ClientRuntimeContext context, ListItem itemToDeclare, DateTime declarationDate)** | void |  |
 | **IsRecord(ClientRuntimeContext context, ListItem item)** | ClientResult\<bool\> |  |
 | **UndeclareItemAsRecord(ClientRuntimeContext context, ListItem item)** | void |  |
