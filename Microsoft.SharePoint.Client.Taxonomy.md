@@ -675,6 +675,7 @@ Base class: FieldLookup
 | **ClientSideComponentId** | Guid |  |
 | **ClientSideComponentProperties** | string |  |
 | **CustomFormatter** | string |  |
+| **DefaultFormula** | string |  |
 | **DefaultValue** | string |  |
 | **Description** | string |  |
 | **DescriptionResource** | UserResource |  |
@@ -1442,6 +1443,7 @@ Base class: ClientObject
 | **RollbackAll()** | void |  |
 | **UpdateCache()** | void |  |
 | **UpdateUsedTermsOnSite(Site site)** | void |  |
+| **UploadPackages(string packageId, Stream stream, string farmVersion, int siteCompatibilityLevel)** | void |  |
 # TermStoreCollection Class
 
 Namespace: Microsoft.SharePoint.Client.Taxonomy

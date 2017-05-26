@@ -462,9 +462,8 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **EventDateTime** | DateTime |  |
 | **EventTags** | string[] |  |
-| **EventTime** | DateTime |  |
-| **HashId** | string |  |
 | **Id** | Guid |  |
 | **Name** | string |  |
 | **StatusData** | string |  |
@@ -494,9 +493,8 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 
 | Name | Type | Summary |
 |---|---|---|
+| **EventDateTime** | string |  |
 | **EventTags** | string |  |
-| **EventTime** | string |  |
-| **HashId** | string |  |
 | **Id** | string |  |
 | **Name** | string |  |
 | **StatusData** | string |  |
