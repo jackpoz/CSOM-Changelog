@@ -2486,6 +2486,7 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **LoadUserProfile(string email)** | void |  |
 | **ReadCache(string folderPath)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
 | **ReadCacheOrCreate(ResourcePath folderPath, string[] requiredCacheKeys, bool createIfMissing)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
 | **WriteCache(PersonalCacheItem[] cacheItems)** | void |  |

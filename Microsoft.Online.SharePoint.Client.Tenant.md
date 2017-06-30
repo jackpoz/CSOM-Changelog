@@ -468,8 +468,11 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AllowLimitedAccess** | bool |  |
 | **AllowSelfServiceUpgrade** | bool |  |
 | **AverageResourceUsage** | double |  |
+| **BlockDownloadOfNonViewableFiles** | bool |  |
+| **CommentsOnSitePagesDisabled** | bool |  |
 | **CompatibilityLevel** | int |  |
 | **CurrentResourceUsage** | double |  |
 | **DenyAddAndCustomizePages** | [DenyAddAndCustomizePagesStatus](#denyaddandcustomizepagesstatus-enum) |  |
@@ -532,8 +535,11 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 
 | Name | Type | Summary |
 |---|---|---|
+| **AllowLimitedAccess** | string |  |
 | **AllowSelfServiceUpgrade** | string |  |
 | **AverageResourceUsage** | string |  |
+| **BlockDownloadOfNonViewableFiles** | string |  |
+| **CommentsOnSitePagesDisabled** | string |  |
 | **CompatibilityLevel** | string |  |
 | **CurrentResourceUsage** | string |  |
 | **DenyAddAndCustomizePages** | string |  |

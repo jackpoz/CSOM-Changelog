@@ -664,12 +664,15 @@ Base class: FieldLookup
 | **TextField** | Guid |  |
 | **UserCreated** | bool |  |
 | **AllowMultipleValues** | bool |  |
+| **DependentLookupInternalNames** | IList\<string\> |  |
+| **IsDependentLookup** | bool |  |
 | **IsRelationship** | bool |  |
 | **LookupField** | string |  |
 | **LookupList** | string |  |
 | **LookupWebId** | Guid |  |
 | **PrimaryFieldId** | string |  |
 | **RelationshipDeleteBehavior** | RelationshipDeleteBehaviorType |  |
+| **UnlimitedLengthInDocumentLibrary** | bool |  |
 | **AutoIndexed** | bool |  |
 | **CanBeDeleted** | bool |  |
 | **ClientSideComponentId** | Guid |  |

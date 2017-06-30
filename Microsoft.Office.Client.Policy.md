@@ -46,6 +46,7 @@ Base class: ClientValueObject
 | **BlockEdit** | bool |  |
 | **HasRetentionAction** | bool |  |
 | **IsEventTag** | bool |  |
+| **ReviewerEmail** | string |  |
 | **TagDuration** | int |  |
 | **TagId** | Guid |  |
 | **TagName** | string |  |
