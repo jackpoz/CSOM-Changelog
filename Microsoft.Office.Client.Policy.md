@@ -41,12 +41,18 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AcceptMessagesOnlyFromSendersOrMembers** | bool |  |
+| **AccessType** | string |  |
+| **AllowAccessFromUnmanagedDevice** | string |  |
 | **AutoDelete** | bool |  |
 | **BlockDelete** | bool |  |
 | **BlockEdit** | bool |  |
+| **ContainsSiteLabel** | bool |  |
 | **HasRetentionAction** | bool |  |
 | **IsEventTag** | bool |  |
+| **RequireSenderAuthenticationEnabled** | bool |  |
 | **ReviewerEmail** | string |  |
+| **SharingCapabilities** | string |  |
 | **TagDuration** | int |  |
 | **TagId** | Guid |  |
 | **TagName** | string |  |
@@ -607,6 +613,7 @@ Base class: ClientObject
 | **DeletePolicyBinding(Guid policyBindingId)** | void |  |
 | **DeletePolicyDefinition(Guid policyDefinitionId)** | void |  |
 | **DeletePolicyRule(Guid policyRuleId)** | void |  |
+| **GetComplianceTags()** | IEnumerable\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetPolicyAssociation(Guid policyAssociationId)** | [SPPolicyAssociation](#sppolicyassociation-class) |  |
 | **GetPolicyAssociationForContainer(string containerId)** | [SPPolicyAssociation](#sppolicyassociation-class) |  |
 | **GetPolicyAssociations(int scenario, int workload)** | ClientObjectList\<[SPPolicyAssociation](#sppolicyassociation-class)\> |  |
@@ -660,6 +667,7 @@ Base class: ClientObject
 |---|---|---|
 | **ExtendReviewItemsRetention(int[] itemIds, DateTime extensionDate)** | ClientArrayResult\<int\> |  |
 | **GetAvailableTagsForSite(ClientRuntimeContext context, string siteUrl)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
+| **GetAvailableTagsForSiteLabel(ClientRuntimeContext context)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetPolicyEvaluationInfo(ClientRuntimeContext context, string itemUrl, PolicyScenario policyScenario, PolicyEvaluationInfoEnums infos)** | [PolicyEvaluationInfo](#policyevaluationinfo-class) |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
 | **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
