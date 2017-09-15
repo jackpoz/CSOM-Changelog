@@ -7,32 +7,33 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [SiteCreationProperties Class](#sitecreationproperties-class) | [UserMigrationPropertiesPropertyNames Class](#usermigrationpropertiespropertynames-class) |
-| [LogExport Class](#logexport-class) | [SiteProperties Class](#siteproperties-class) | [ExternalUser Class](#externaluser-class) |
-| [LogFileInfo Class](#logfileinfo-class) | [SitePropertiesPropertyNames Class](#sitepropertiespropertynames-class) | [ExternalUserCollection Class](#externalusercollection-class) |
-| [LogFileInfoPropertyNames Class](#logfileinfopropertynames-class) | [SPODeletedSitePropertiesEnumerable Class](#spodeletedsitepropertiesenumerable-class) | [ExternalUserPropertyNames Class](#externaluserpropertynames-class) |
-| [DDIAdapter Class](#ddiadapter-class) | [SPODeletedSitePropertiesEnumerablePropertyNames Class](#spodeletedsitepropertiesenumerablepropertynames-class) | [GetExternalUsersResults Class](#getexternalusersresults-class) |
-| [AppErrorEntry Class](#apperrorentry-class) | [SpoOperation Class](#spooperation-class) | [GetExternalUsersResultsObjectPropertyNames Class](#getexternalusersresultsobjectpropertynames-class) |
-| [AppErrorEntryPropertyNames Class](#apperrorentrypropertynames-class) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [GetExternalUsersResultsPropertyNames Class](#getexternalusersresultspropertynames-class) |
-| [AppErrorType Enum](#apperrortype-enum) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [ImportProfilePropertiesJobError Enum](#importprofilepropertiesjoberror-enum) |
-| [AppInfo Class](#appinfo-class) | [SPOSitePropertiesEnumerableFilter Class](#spositepropertiesenumerablefilter-class) | [ImportProfilePropertiesJobInfo Class](#importprofilepropertiesjobinfo-class) |
-| [AppInfoPropertyNames Class](#appinfopropertynames-class) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [ImportProfilePropertiesJobInfoPropertyNames Class](#importprofilepropertiesjobinfopropertynames-class) |
-| [AppSource Enum](#appsource-enum) | [SPOTenantCdnPolicy Class](#spotenantcdnpolicy-class) | [ImportProfilePropertiesJobState Enum](#importprofilepropertiesjobstate-enum) |
-| [AppViewsPolicy Enum](#appviewspolicy-enum) | [SPOTenantCdnPolicyPropertyNames Class](#spotenantcdnpolicypropertynames-class) | [ImportProfilePropertiesJobStatusCollection Class](#importprofilepropertiesjobstatuscollection-class) |
-| [CompanyWideSharingLinksPolicy Enum](#companywidesharinglinkspolicy-enum) | [SPOTenantCdnPolicyType Enum](#spotenantcdnpolicytype-enum) | [ImportProfilePropertiesUserIdType Enum](#importprofilepropertiesuseridtype-enum) |
-| [ContactAdminsByEmailFieldsData Class](#contactadminsbyemailfieldsdata-class) | [SPOTenantCdnType Enum](#spotenantcdntype-enum) | [Office365Tenant Class](#office365tenant-class) |
-| [DeletedSiteProperties Class](#deletedsiteproperties-class) | [SPOTenantWebTemplate Class](#spotenantwebtemplate-class) | [Office365TenantPropertyNames Class](#office365tenantpropertynames-class) |
-| [DeletedSitePropertiesPropertyNames Class](#deletedsitepropertiespropertynames-class) | [SPOTenantWebTemplateCollection Class](#spotenantwebtemplatecollection-class) | [RemoveExternalUsersResults Class](#removeexternalusersresults-class) |
-| [DenyAddAndCustomizePagesStatus Enum](#denyaddandcustomizepagesstatus-enum) | [Tenant Class](#tenant-class) | [RemoveExternalUsersResultsPropertyNames Class](#removeexternalusersresultspropertynames-class) |
-| [FlowsPolicy Enum](#flowspolicy-enum) | [TenantLog Class](#tenantlog-class) | [SharingCapabilities Enum](#sharingcapabilities-enum) |
-| [MessagesFieldsData Class](#messagesfieldsdata-class) | [TenantLogEntry Class](#tenantlogentry-class) | [SharingDomainRestrictionModes Enum](#sharingdomainrestrictionmodes-enum) |
-| [OdbMigrationStatus Enum](#odbmigrationstatus-enum) | [TenantLogEntryPropertyNames Class](#tenantlogentrypropertynames-class) | [SharingLinkType Enum](#sharinglinktype-enum) |
-| [PersonalSiteFilter Enum](#personalsitefilter-enum) | [TenantLogPropertyNames Class](#tenantlogpropertynames-class) | [SortOrder Enum](#sortorder-enum) |
-| [PWAEnabledStatus Enum](#pwaenabledstatus-enum) | [TenantPropertyNames Class](#tenantpropertynames-class) | [SpecialCharactersState Enum](#specialcharactersstate-enum) |
-| [RestrictedToRegion Enum](#restrictedtoregion-enum) | [UserMigrationProperties Class](#usermigrationproperties-class) | [SPOUserSessionRevocationResult Class](#spousersessionrevocationresult-class) |
-| [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [UserMigrationPropertiesEnumerable Class](#usermigrationpropertiesenumerable-class) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
-| [SecondaryAdministratorsFieldsData Class](#secondaryadministratorsfieldsdata-class) | [UserMigrationPropertiesEnumerableFilter Class](#usermigrationpropertiesenumerablefilter-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
-| [SecondaryAdministratorsInfo Class](#secondaryadministratorsinfo-class) | [UserMigrationPropertiesEnumerablePropertyNames Class](#usermigrationpropertiesenumerablepropertynames-class) |   |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [SiteProperties Class](#siteproperties-class) | [ExternalUserCollection Class](#externalusercollection-class) |
+| [LogExport Class](#logexport-class) | [SitePropertiesPropertyNames Class](#sitepropertiespropertynames-class) | [ExternalUserPropertyNames Class](#externaluserpropertynames-class) |
+| [LogFileInfo Class](#logfileinfo-class) | [SPODeletedSitePropertiesEnumerable Class](#spodeletedsitepropertiesenumerable-class) | [GetExternalUsersResults Class](#getexternalusersresults-class) |
+| [LogFileInfoPropertyNames Class](#logfileinfopropertynames-class) | [SPODeletedSitePropertiesEnumerablePropertyNames Class](#spodeletedsitepropertiesenumerablepropertynames-class) | [GetExternalUsersResultsObjectPropertyNames Class](#getexternalusersresultsobjectpropertynames-class) |
+| [DDIAdapter Class](#ddiadapter-class) | [SpoOperation Class](#spooperation-class) | [GetExternalUsersResultsPropertyNames Class](#getexternalusersresultspropertynames-class) |
+| [AppErrorEntry Class](#apperrorentry-class) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [ImportProfilePropertiesJobError Enum](#importprofilepropertiesjoberror-enum) |
+| [AppErrorEntryPropertyNames Class](#apperrorentrypropertynames-class) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [ImportProfilePropertiesJobInfo Class](#importprofilepropertiesjobinfo-class) |
+| [AppErrorType Enum](#apperrortype-enum) | [SPOSitePropertiesEnumerableFilter Class](#spositepropertiesenumerablefilter-class) | [ImportProfilePropertiesJobInfoPropertyNames Class](#importprofilepropertiesjobinfopropertynames-class) |
+| [AppInfo Class](#appinfo-class) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [ImportProfilePropertiesJobState Enum](#importprofilepropertiesjobstate-enum) |
+| [AppInfoPropertyNames Class](#appinfopropertynames-class) | [SPOTenantCdnPolicy Class](#spotenantcdnpolicy-class) | [ImportProfilePropertiesJobStatusCollection Class](#importprofilepropertiesjobstatuscollection-class) |
+| [AppSource Enum](#appsource-enum) | [SPOTenantCdnPolicyPropertyNames Class](#spotenantcdnpolicypropertynames-class) | [ImportProfilePropertiesUserIdType Enum](#importprofilepropertiesuseridtype-enum) |
+| [AppViewsPolicy Enum](#appviewspolicy-enum) | [SPOTenantCdnPolicyType Enum](#spotenantcdnpolicytype-enum) | [Office365Tenant Class](#office365tenant-class) |
+| [CompanyWideSharingLinksPolicy Enum](#companywidesharinglinkspolicy-enum) | [SPOTenantCdnType Enum](#spotenantcdntype-enum) | [Office365TenantPropertyNames Class](#office365tenantpropertynames-class) |
+| [ContactAdminsByEmailFieldsData Class](#contactadminsbyemailfieldsdata-class) | [SPOTenantWebTemplate Class](#spotenantwebtemplate-class) | [RemoveExternalUsersResults Class](#removeexternalusersresults-class) |
+| [DeletedSiteProperties Class](#deletedsiteproperties-class) | [SPOTenantWebTemplateCollection Class](#spotenantwebtemplatecollection-class) | [RemoveExternalUsersResultsPropertyNames Class](#removeexternalusersresultspropertynames-class) |
+| [DeletedSitePropertiesPropertyNames Class](#deletedsitepropertiespropertynames-class) | [Tenant Class](#tenant-class) | [SharingCapabilities Enum](#sharingcapabilities-enum) |
+| [DenyAddAndCustomizePagesStatus Enum](#denyaddandcustomizepagesstatus-enum) | [TenantLog Class](#tenantlog-class) | [SharingDomainRestrictionModes Enum](#sharingdomainrestrictionmodes-enum) |
+| [FlowsPolicy Enum](#flowspolicy-enum) | [TenantLogEntry Class](#tenantlogentry-class) | [SharingLinkType Enum](#sharinglinktype-enum) |
+| [MessagesFieldsData Class](#messagesfieldsdata-class) | [TenantLogEntryPropertyNames Class](#tenantlogentrypropertynames-class) | [SharingPermissionType Enum](#sharingpermissiontype-enum) |
+| [OdbMigrationStatus Enum](#odbmigrationstatus-enum) | [TenantLogPropertyNames Class](#tenantlogpropertynames-class) | [SortOrder Enum](#sortorder-enum) |
+| [PersonalSiteFilter Enum](#personalsitefilter-enum) | [TenantPropertyNames Class](#tenantpropertynames-class) | [SpecialCharactersState Enum](#specialcharactersstate-enum) |
+| [PWAEnabledStatus Enum](#pwaenabledstatus-enum) | [UserMigrationProperties Class](#usermigrationproperties-class) | [SPOConditionalAccessPolicyType Enum](#spoconditionalaccesspolicytype-enum) |
+| [RestrictedToRegion Enum](#restrictedtoregion-enum) | [UserMigrationPropertiesEnumerable Class](#usermigrationpropertiesenumerable-class) | [SPOUserSessionRevocationResult Class](#spousersessionrevocationresult-class) |
+| [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [UserMigrationPropertiesEnumerableFilter Class](#usermigrationpropertiesenumerablefilter-class) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
+| [SecondaryAdministratorsFieldsData Class](#secondaryadministratorsfieldsdata-class) | [UserMigrationPropertiesEnumerablePropertyNames Class](#usermigrationpropertiesenumerablepropertynames-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
+| [SecondaryAdministratorsInfo Class](#secondaryadministratorsinfo-class) | [UserMigrationPropertiesPropertyNames Class](#usermigrationpropertiespropertynames-class) | [ThemeProperties Class](#themeproperties-class) |
+| [SiteCreationProperties Class](#sitecreationproperties-class) | [ExternalUser Class](#externaluser-class) | [ThemePropertiesPropertyNames Class](#themepropertiespropertynames-class) |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Online.SharePoint.Client.TenantAdmin
@@ -546,12 +547,12 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
-| **AllowLimitedAccess** | bool |  |
+| **AllowDownloadingNonWebViewableFiles** | bool |  |
 | **AllowSelfServiceUpgrade** | bool |  |
 | **AverageResourceUsage** | double |  |
-| **BlockDownloadOfNonViewableFiles** | bool |  |
 | **CommentsOnSitePagesDisabled** | bool |  |
 | **CompatibilityLevel** | int |  |
+| **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
 | **CurrentResourceUsage** | double |  |
 | **DenyAddAndCustomizePages** | [DenyAddAndCustomizePagesStatus](#denyaddandcustomizepagesstatus-enum) |  |
 | **DisableAppViews** | [AppViewsPolicy](#appviewspolicy-enum) |  |
@@ -613,12 +614,12 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 
 | Name | Type | Summary |
 |---|---|---|
-| **AllowLimitedAccess** | string |  |
+| **AllowDownloadingNonWebViewableFiles** | string |  |
 | **AllowSelfServiceUpgrade** | string |  |
 | **AverageResourceUsage** | string |  |
-| **BlockDownloadOfNonViewableFiles** | string |  |
 | **CommentsOnSitePagesDisabled** | string |  |
 | **CompatibilityLevel** | string |  |
+| **ConditionalAccessPolicy** | string |  |
 | **CurrentResourceUsage** | string |  |
 | **DenyAddAndCustomizePages** | string |  |
 | **DisableAppViews** | string |  |
@@ -931,9 +932,12 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AllowDownloadingNonWebViewableFiles** | bool |  |
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
+| **AllowLimitedAccessOnUnmanagedDevices** | bool |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
+| **BlockAccessOnUnmanagedDevices** | bool |  |
 | **BlockDownloadOfAllFilesForGuests** | bool |  |
 | **BlockDownloadOfAllFilesOnUnmanagedDevices** | bool |  |
 | **BlockDownloadOfViewableFilesForGuests** | bool |  |
@@ -941,6 +945,8 @@ Base class: ClientObject
 | **BlockMacSync** | bool |  |
 | **CommentsOnSitePagesDisabled** | bool |  |
 | **CompatibilityRange** | string |  |
+| **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
+| **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DisableReportProblemDialog** | bool |  |
 | **DisallowInfectedFileDownload** | bool |  |
@@ -950,7 +956,9 @@ Base class: ClientObject
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
 | **ExternalServicesEnabled** | bool |  |
 | **FileAnonymousLinkType** | AnonymousLinkType |  |
+| **FilePickerExternalImageSearchEnabled** | bool |  |
 | **FolderAnonymousLinkType** | AnonymousLinkType |  |
+| **HideDefaultThemes** | bool |  |
 | **HideSyncButtonOnODB** | bool |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | bool |  |
@@ -1023,13 +1031,16 @@ Base class: ClientObject
 | **AddPublicCdnOrigin(string origin)** | void |  |
 | **AddSdnProvider(string identifier, string license)** | void |  |
 | **AddTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
+| **AddTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
 | **CreateSite(SiteCreationProperties siteCreationProperties)** | [SpoOperation](#spooperation-class) |  |
 | **CreateTenantCdnDefaultOrigins(SPOTenantCdnType cdnType)** | void |  |
 | **DecodeClaim(string identifier)** | ClientResult\<string\> |  |
 | **DecodeClaims(IList\<string\> claims)** | IList\<string\> |  |
+| **DeleteTenantTheme(string name)** | void |  |
 | **EncodeClaim(string identifier)** | ClientResult\<string\> |  |
 | **EncodeClaims(IList\<string\> identifiers)** | IList\<string\> |  |
 | **GetAllDeletedPersonalSitesPropertiesAllVersions(int startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
+| **GetAllTenantThemes()** | ClientObjectList\<[ThemeProperties](#themeproperties-class)\> |  |
 | **GetAppErrors(Guid productId, DateTime timeStart, DateTime timeEnd)** | ClientObjectList\<[AppErrorEntry](#apperrorentry-class)\> |  |
 | **GetAppInfoByName(string name)** | ClientObjectList\<[AppInfo](#appinfo-class)\> |  |
 | **GetAppInfoByProductId(Guid productId)** | ClientObjectList\<[AppInfo](#appinfo-class)\> |  |
@@ -1051,6 +1062,7 @@ Base class: ClientObject
 | **GetTenantCdnEnabled(SPOTenantCdnType cdnType)** | ClientResult\<bool\> |  |
 | **GetTenantCdnOrigins(SPOTenantCdnType cdnType)** | IList\<string\> |  |
 | **GetTenantCdnPolicies(SPOTenantCdnType cdnType)** | IList\<string\> |  |
+| **GetTenantTheme(string name)** | [ThemeProperties](#themeproperties-class) |  |
 | **GetUserMigrationProperties(string userPrincipalName)** | [UserMigrationProperties](#usermigrationproperties-class) |  |
 | **GetUserMigrationPropertiesByFilter(UserMigrationPropertiesEnumerableFilter userMigrationPropertiesEnumerableFilter)** | [UserMigrationPropertiesEnumerable](#usermigrationpropertiesenumerable-class) |  |
 | **RemoveDeletedSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
@@ -1066,6 +1078,7 @@ Base class: ClientObject
 | **SetSiteAdmin(string url, string loginName, bool isSiteAdmin)** | User |  |
 | **SetTenantCdnEnabled(SPOTenantCdnType cdnType, bool isEnabled)** | void |  |
 | **SetTenantCdnPolicy(SPOTenantCdnType cdnType, SPOTenantCdnPolicyType policyType, string policyValue)** | void |  |
+| **UpdateTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
 # TenantLog Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -1166,9 +1179,12 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 
 | Name | Type | Summary |
 |---|---|---|
+| **AllowDownloadingNonWebViewableFiles** | string |  |
 | **AllowedDomainListForSyncClient** | string |  |
+| **AllowLimitedAccessOnUnmanagedDevices** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
+| **BlockAccessOnUnmanagedDevices** | string |  |
 | **BlockDownloadOfAllFilesForGuests** | string |  |
 | **BlockDownloadOfAllFilesOnUnmanagedDevices** | string |  |
 | **BlockDownloadOfViewableFilesForGuests** | string |  |
@@ -1176,6 +1192,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **BlockMacSync** | string |  |
 | **CommentsOnSitePagesDisabled** | string |  |
 | **CompatibilityRange** | string |  |
+| **ConditionalAccessPolicy** | string |  |
+| **DefaultLinkPermission** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DisableReportProblemDialog** | string |  |
 | **DisallowInfectedFileDownload** | string |  |
@@ -1185,7 +1203,9 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ExcludedFileExtensionsForSyncClient** | string |  |
 | **ExternalServicesEnabled** | string |  |
 | **FileAnonymousLinkType** | string |  |
+| **FilePickerExternalImageSearchEnabled** | string |  |
 | **FolderAnonymousLinkType** | string |  |
+| **HideDefaultThemes** | string |  |
 | **HideSyncButtonOnODB** | string |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | string |  |
@@ -1607,21 +1627,27 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AllowDownloadingNonWebViewableFiles** | bool |  |
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
+| **AllowLimitedAccessOnUnmanagedDevices** | bool |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
+| **BlockAccessOnUnmanagedDevices** | bool |  |
 | **BlockDownloadOfAllFilesForGuests** | bool |  |
 | **BlockDownloadOfAllFilesOnUnmanagedDevices** | bool |  |
 | **BlockDownloadOfViewableFilesForGuests** | bool |  |
 | **BlockDownloadOfViewableFilesOnUnmanagedDevices** | bool |  |
 | **BlockMacSync** | bool |  |
 | **CommentsOnSitePagesDisabled** | bool |  |
+| **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
+| **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DisplayStartASiteOption** | bool |  |
 | **EnableGuestSignInAcceleration** | bool |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
 | **ExternalServicesEnabled** | bool |  |
 | **FileAnonymousLinkType** | AnonymousLinkType |  |
+| **FilePickerExternalImageSearchEnabled** | bool |  |
 | **FolderAnonymousLinkType** | AnonymousLinkType |  |
 | **HideSyncButtonOnODB** | bool |  |
 | **IPAddressAllowList** | string |  |
@@ -1684,18 +1710,23 @@ Base class: ClientObject
 | **AddPublicCdnOrigin(string origin)** | void |  |
 | **AddSdnProvider(string identifier, string license)** | void |  |
 | **AddTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
+| **AddTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
 | **CreateTenantCdnDefaultOrigins(SPOTenantCdnType cdnType)** | void |  |
 | **DeleteImportProfilePropertiesJob(Guid jobId)** | ClientResult\<bool\> |  |
+| **DeleteTenantTheme(string name)** | void |  |
 | **DisableSharingForNonOwnersOfSite(string siteUrl)** | void |  |
+| **GetAllTenantThemes()** | ClientObjectList\<[ThemeProperties](#themeproperties-class)\> |  |
 | **GetExternalUsers(int position, int pageSize, string filter, SortOrder sortOrder)** | [GetExternalUsersResults](#getexternalusersresults-class) |  |
 | **GetExternalUsersForSite(string siteUrl, int position, int pageSize, string filter, SortOrder sortOrder)** | [GetExternalUsersResults](#getexternalusersresults-class) |  |
 | **GetExternalUsersWithSortBy(int position, int pageSize, string filter, string sortPropertyName, SortOrder sortOrder)** | [GetExternalUsersResults](#getexternalusersresults-class) |  |
+| **GetHideDefaultThemes()** | ClientResult\<bool\> |  |
 | **GetIdleSessionSignOutForUnmanagedDevices()** | ClientResult\<string\> |  |
 | **GetImportProfilePropertyJob(Guid jobId)** | [ImportProfilePropertiesJobInfo](#importprofilepropertiesjobinfo-class) |  |
 | **GetImportProfilePropertyJobs()** | [ImportProfilePropertiesJobStatusCollection](#importprofilepropertiesjobstatuscollection-class) |  |
 | **GetTenantCdnEnabled(SPOTenantCdnType cdnType)** | ClientResult\<bool\> |  |
 | **GetTenantCdnOrigins(SPOTenantCdnType cdnType)** | IList\<string\> |  |
 | **GetTenantCdnPolicies(SPOTenantCdnType cdnType)** | IList\<string\> |  |
+| **GetTenantTheme(string name)** | [ThemeProperties](#themeproperties-class) |  |
 | **IsSharingDisabledForNonOwnersOfSite(string siteUrl)** | ClientResult\<bool\> |  |
 | **QueueImportProfileProperties(ImportProfilePropertiesUserIdType idType, string sourceDataIdProperty, IDictionary\<string, string\> propertyMap, string sourceUri)** | ClientResult\<Guid\> |  |
 | **RemoveExternalUsers(string[] uniqueIds)** | [RemoveExternalUsersResults](#removeexternalusersresults-class) |  |
@@ -1704,9 +1735,11 @@ Base class: ClientObject
 | **RemoveTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
 | **RevokeAllUserSessions(string userName)** | [SPOUserSessionRevocationResult](#spousersessionrevocationresult-class) |  |
 | **RevokeAllUserSessionsByPuid(IList\<string\> puidList)** | ClientObjectList\<[SPOUserSessionRevocationResult](#spousersessionrevocationresult-class)\> |  |
+| **SetHideDefaultThemes(bool hideDefaultThemes)** | ClientResult\<bool\> |  |
 | **SetIdleSessionSignOutForUnmanagedDevices(bool enabled, TimeSpan warnAfter, TimeSpan signOutAfter)** | ClientResult\<bool\> |  |
 | **SetTenantCdnEnabled(SPOTenantCdnType cdnType, bool isEnabled)** | void |  |
 | **SetTenantCdnPolicy(SPOTenantCdnType cdnType, SPOTenantCdnPolicyType policy, string policyValue)** | void |  |
+| **UpdateTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
 # Office365TenantPropertyNames Class
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement
@@ -1716,21 +1749,27 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 
 | Name | Type | Summary |
 |---|---|---|
+| **AllowDownloadingNonWebViewableFiles** | string |  |
 | **AllowedDomainListForSyncClient** | string |  |
+| **AllowLimitedAccessOnUnmanagedDevices** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
+| **BlockAccessOnUnmanagedDevices** | string |  |
 | **BlockDownloadOfAllFilesForGuests** | string |  |
 | **BlockDownloadOfAllFilesOnUnmanagedDevices** | string |  |
 | **BlockDownloadOfViewableFilesForGuests** | string |  |
 | **BlockDownloadOfViewableFilesOnUnmanagedDevices** | string |  |
 | **BlockMacSync** | string |  |
 | **CommentsOnSitePagesDisabled** | string |  |
+| **ConditionalAccessPolicy** | string |  |
+| **DefaultLinkPermission** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DisplayStartASiteOption** | string |  |
 | **EnableGuestSignInAcceleration** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
 | **ExternalServicesEnabled** | string |  |
 | **FileAnonymousLinkType** | string |  |
+| **FilePickerExternalImageSearchEnabled** | string |  |
 | **FolderAnonymousLinkType** | string |  |
 | **HideSyncButtonOnODB** | string |  |
 | **IPAddressAllowList** | string |  |
@@ -1847,6 +1886,18 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **Direct** |  |
 | **Internal** |  |
 | **AnonymousAccess** |  |
+# SharingPermissionType Enum
+
+Namespace: Microsoft.Online.SharePoint.TenantManagement
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **None** |  |
+| **View** |  |
+| **Edit** |  |
 # SortOrder Enum
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement
@@ -1870,6 +1921,18 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **NoPreference** |  |
 | **Allowed** |  |
 | **Disallowed** |  |
+# SPOConditionalAccessPolicyType Enum
+
+Namespace: Microsoft.Online.SharePoint.TenantManagement
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **AllowFullAccess** |  |
+| **AllowLimitedAccess** |  |
+| **BlockAccess** |  |
 # SPOUserSessionRevocationResult Class
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement
@@ -1920,3 +1983,43 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **Failure** |  |
 | **NonInstantaneousSuccess** |  |
 | **InstantaneousSuccess** |  |
+# ThemeProperties Class
+
+Namespace: Microsoft.Online.SharePoint.TenantManagement
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **IsInverted** | bool |  |
+| **Name** | string |  |
+| **Palette** | IDictionary\<string, string\> |  |
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **ThemeProperties(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# ThemePropertiesPropertyNames Class
+
+Namespace: Microsoft.Online.SharePoint.TenantManagement
+
+
+## Fields
+
+| Name | Type | Summary |
+|---|---|---|
+| **IsInverted** | string |  |
+| **Name** | string |  |
+| **Palette** | string |  |

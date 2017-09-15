@@ -646,6 +646,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **PolicyStoreUrl** | string |  |
+| **ReviewCenterUrl** | string |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -684,6 +685,7 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 | Name | Type | Summary |
 |---|---|---|
 | **PolicyStoreUrl** | string |  |
+| **ReviewCenterUrl** | string |  |
 # SPScsTenantEndPointInfo Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
