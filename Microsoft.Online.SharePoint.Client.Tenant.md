@@ -548,6 +548,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **AllowDownloadingNonWebViewableFiles** | bool |  |
+| **AllowEditing** | bool |  |
 | **AllowSelfServiceUpgrade** | bool |  |
 | **AverageResourceUsage** | double |  |
 | **CommentsOnSitePagesDisabled** | bool |  |
@@ -615,6 +616,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | Name | Type | Summary |
 |---|---|---|
 | **AllowDownloadingNonWebViewableFiles** | string |  |
+| **AllowEditing** | string |  |
 | **AllowSelfServiceUpgrade** | string |  |
 | **AverageResourceUsage** | string |  |
 | **CommentsOnSitePagesDisabled** | string |  |
@@ -934,6 +936,7 @@ Base class: ClientObject
 |---|---|---|
 | **AllowDownloadingNonWebViewableFiles** | bool |  |
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
+| **AllowEditing** | bool |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | bool |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -952,6 +955,8 @@ Base class: ClientObject
 | **DisallowInfectedFileDownload** | bool |  |
 | **DisplayNamesOfFileViewers** | bool |  |
 | **DisplayStartASiteOption** | bool |  |
+| **EmailAttestationReAuthDays** | int |  |
+| **EmailAttestationRequired** | bool |  |
 | **EnableGuestSignInAcceleration** | bool |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
 | **ExternalServicesEnabled** | bool |  |
@@ -1181,6 +1186,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 |---|---|---|
 | **AllowDownloadingNonWebViewableFiles** | string |  |
 | **AllowedDomainListForSyncClient** | string |  |
+| **AllowEditing** | string |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -1199,6 +1205,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DisallowInfectedFileDownload** | string |  |
 | **DisplayNamesOfFileViewers** | string |  |
 | **DisplayStartASiteOption** | string |  |
+| **EmailAttestationReAuthDays** | string |  |
+| **EmailAttestationRequired** | string |  |
 | **EnableGuestSignInAcceleration** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
 | **ExternalServicesEnabled** | string |  |
@@ -1629,6 +1637,7 @@ Base class: ClientObject
 |---|---|---|
 | **AllowDownloadingNonWebViewableFiles** | bool |  |
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
+| **AllowEditing** | bool |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | bool |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -1643,6 +1652,8 @@ Base class: ClientObject
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DisplayStartASiteOption** | bool |  |
+| **EmailAttestationReAuthDays** | int |  |
+| **EmailAttestationRequired** | bool |  |
 | **EnableGuestSignInAcceleration** | bool |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
 | **ExternalServicesEnabled** | bool |  |
@@ -1751,6 +1762,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 |---|---|---|
 | **AllowDownloadingNonWebViewableFiles** | string |  |
 | **AllowedDomainListForSyncClient** | string |  |
+| **AllowEditing** | string |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -1765,6 +1777,8 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **DefaultLinkPermission** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DisplayStartASiteOption** | string |  |
+| **EmailAttestationReAuthDays** | string |  |
+| **EmailAttestationRequired** | string |  |
 | **EnableGuestSignInAcceleration** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
 | **ExternalServicesEnabled** | string |  |

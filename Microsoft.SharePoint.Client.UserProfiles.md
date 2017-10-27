@@ -7,47 +7,48 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [Reputation Class](#reputation-class) | [SocialActor Class](#socialactor-class) | [SocialRestPostCreationData Class](#socialrestpostcreationdata-class) |
-| [IdentifierEncoding Enum](#identifierencoding-enum) | [SocialActorInfo Class](#socialactorinfo-class) | [SocialRestThread Class](#socialrestthread-class) |
-| [MicroBlogEntity Class](#microblogentity-class) | [SocialActorType Enum](#socialactortype-enum) | [SocialRestThreadPropertyNames Class](#socialrestthreadpropertynames-class) |
-| [MicroBlogEntityCollection Class](#microblogentitycollection-class) | [SocialActorTypes Enum](#socialactortypes-enum) | [SocialStatusCode Enum](#socialstatuscode-enum) |
-| [MicroBlogEntityType Enum](#microblogentitytype-enum) | [SocialAnnouncementManager Class](#socialannouncementmanager-class) | [SocialThread Class](#socialthread-class) |
-| [MicroBlogType Enum](#microblogtype-enum) | [SocialAttachment Class](#socialattachment-class) | [SocialThreadAttributes Enum](#socialthreadattributes-enum) |
-| [MicrofeedAttachmentStore Class](#microfeedattachmentstore-class) | [SocialAttachmentAction Class](#socialattachmentaction-class) | [SocialThreadType Enum](#socialthreadtype-enum) |
-| [MicrofeedContentFormattingOptions Enum](#microfeedcontentformattingoptions-enum) | [SocialAttachmentActionKind Enum](#socialattachmentactionkind-enum) | [ChangeTypes Enum](#changetypes-enum) |
-| [MicrofeedData Class](#microfeeddata-class) | [SocialAttachmentKind Enum](#socialattachmentkind-enum) | [FollowedContent Class](#followedcontent-class) |
-| [MicrofeedDataCollection Class](#microfeeddatacollection-class) | [SocialDataItem Class](#socialdataitem-class) | [FollowedContentExceptionCode Enum](#followedcontentexceptioncode-enum) |
-| [MicrofeedDataCollectionPropertyNames Class](#microfeeddatacollectionpropertynames-class) | [SocialDataItemType Enum](#socialdataitemtype-enum) | [FollowedContentPropertyNames Class](#followedcontentpropertynames-class) |
-| [MicrofeedDataLink Class](#microfeeddatalink-class) | [SocialDataOverlay Class](#socialdataoverlay-class) | [FollowedContentQueryOptions Enum](#followedcontentqueryoptions-enum) |
-| [MicrofeedDataLinkCollection Class](#microfeeddatalinkcollection-class) | [SocialDataOverlayType Enum](#socialdataoverlaytype-enum) | [FollowedItem Class](#followeditem-class) |
-| [MicrofeedDataLinkType Enum](#microfeeddatalinktype-enum) | [SocialExceptionDetails Class](#socialexceptiondetails-class) | [FollowedItemData Class](#followeditemdata-class) |
-| [MicrofeedDataPropertyNames Class](#microfeeddatapropertynames-class) | [SocialFeed Class](#socialfeed-class) | [FollowedItemDataPropertyNames Class](#followeditemdatapropertynames-class) |
-| [MicrofeedDataQuery Class](#microfeeddataquery-class) | [SocialFeedAttributes Enum](#socialfeedattributes-enum) | [FollowedItemType Enum](#followeditemtype-enum) |
-| [MicrofeedLink Class](#microfeedlink-class) | [SocialFeedManager Class](#socialfeedmanager-class) | [FollowedStatus Enum](#followedstatus-enum) |
-| [MicrofeedLinkAction Class](#microfeedlinkaction-class) | [SocialFeedManagerPropertyNames Class](#socialfeedmanagerpropertynames-class) | [FollowResult Class](#followresult-class) |
-| [MicrofeedLinkActionKind Enum](#microfeedlinkactionkind-enum) | [SocialFeedOptions Class](#socialfeedoptions-class) | [FollowResultType Enum](#followresulttype-enum) |
-| [MicrofeedLinkType Enum](#microfeedlinktype-enum) | [SocialFeedSortOrder Enum](#socialfeedsortorder-enum) | [HashTag Class](#hashtag-class) |
-| [MicrofeedManager Class](#microfeedmanager-class) | [SocialFeedType Enum](#socialfeedtype-enum) | [HashTagCollection Class](#hashtagcollection-class) |
-| [MicrofeedManagerPropertyNames Class](#microfeedmanagerpropertynames-class) | [SocialFollowingManager Class](#socialfollowingmanager-class) | [ObjectTypes Enum](#objecttypes-enum) |
-| [MicrofeedPost Class](#microfeedpost-class) | [SocialFollowingManagerPropertyNames Class](#socialfollowingmanagerpropertynames-class) | [PeopleManager Class](#peoplemanager-class) |
-| [MicrofeedPostAttributes Enum](#microfeedpostattributes-enum) | [SocialFollowResult Enum](#socialfollowresult-enum) | [PeopleManagerPropertyNames Class](#peoplemanagerpropertynames-class) |
-| [MicrofeedPostCollection Class](#microfeedpostcollection-class) | [SocialLink Class](#sociallink-class) | [PersonalCache Class](#personalcache-class) |
-| [MicrofeedPostDefinition Class](#microfeedpostdefinition-class) | [SocialPost Class](#socialpost-class) | [PersonalCacheExceptionCode Enum](#personalcacheexceptioncode-enum) |
-| [MicrofeedPostDefinitionManager Class](#microfeedpostdefinitionmanager-class) | [SocialPostActorInfo Class](#socialpostactorinfo-class) | [PersonalCacheItem Class](#personalcacheitem-class) |
-| [MicrofeedPostDefinitionNameCollection Class](#microfeedpostdefinitionnamecollection-class) | [SocialPostAttributes Enum](#socialpostattributes-enum) | [PersonalSiteCapabilities Enum](#personalsitecapabilities-enum) |
-| [MicrofeedPostDefinitionNames Class](#microfeedpostdefinitionnames-class) | [SocialPostCreationData Class](#socialpostcreationdata-class) | [PersonalSiteCreationPriority Enum](#personalsitecreationpriority-enum) |
-| [MicrofeedPostOptionCollection Class](#microfeedpostoptioncollection-class) | [SocialPostDefinitionData Class](#socialpostdefinitiondata-class) | [PersonalSiteInstantiationState Enum](#personalsiteinstantiationstate-enum) |
-| [MicrofeedPostOptions Class](#microfeedpostoptions-class) | [SocialPostDefinitionDataItem Class](#socialpostdefinitiondataitem-class) | [PersonProperties Class](#personproperties-class) |
-| [MicrofeedPostSecurityAttributes Enum](#microfeedpostsecurityattributes-enum) | [SocialPostDefinitionDataItemType Enum](#socialpostdefinitiondataitemtype-enum) | [PersonPropertiesPropertyNames Class](#personpropertiespropertynames-class) |
-| [MicrofeedPublishedFeedType Enum](#microfeedpublishedfeedtype-enum) | [SocialPostReference Class](#socialpostreference-class) | [ProfileImageStore Class](#profileimagestore-class) |
-| [MicrofeedRetrievalOptions Class](#microfeedretrievaloptions-class) | [SocialPostType Enum](#socialposttype-enum) | [ProfileLoader Class](#profileloader-class) |
-| [MicrofeedSortOrder Enum](#microfeedsortorder-enum) | [SocialRestActor Class](#socialrestactor-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
-| [MicrofeedStatusCode Enum](#microfeedstatuscode-enum) | [SocialRestActorPropertyNames Class](#socialrestactorpropertynames-class) | [SocialDataStoreExceptionCode Enum](#socialdatastoreexceptioncode-enum) |
-| [MicrofeedStore Class](#microfeedstore-class) | [SocialRestFeed Class](#socialrestfeed-class) | [UserProfile Class](#userprofile-class) |
-| [MicrofeedThread Class](#microfeedthread-class) | [SocialRestFeedManager Class](#socialrestfeedmanager-class) | [UserProfileObjectPropertyNames Class](#userprofileobjectpropertynames-class) |
-| [MicrofeedThreadCollection Class](#microfeedthreadcollection-class) | [SocialRestFeedPropertyNames Class](#socialrestfeedpropertynames-class) | [UserProfilePropertiesForUser Class](#userprofilepropertiesforuser-class) |
-| [MicrofeedUserPostCollection Class](#microfeeduserpostcollection-class) | [SocialRestFollowingManager Class](#socialrestfollowingmanager-class) | [UserProfilePropertiesForUserPropertyNames Class](#userprofilepropertiesforuserpropertynames-class) |
-| [MicrofeedUserPosts Class](#microfeeduserposts-class) | [SocialRestFollowingManagerPropertyNames Class](#socialrestfollowingmanagerpropertynames-class) | [UserProfilePropertyNames Class](#userprofilepropertynames-class) |
+| [Reputation Class](#reputation-class) | [SocialActorInfo Class](#socialactorinfo-class) | [SocialRestThreadPropertyNames Class](#socialrestthreadpropertynames-class) |
+| [IdentifierEncoding Enum](#identifierencoding-enum) | [SocialActorType Enum](#socialactortype-enum) | [SocialStatusCode Enum](#socialstatuscode-enum) |
+| [MicroBlogEntity Class](#microblogentity-class) | [SocialActorTypes Enum](#socialactortypes-enum) | [SocialThread Class](#socialthread-class) |
+| [MicroBlogEntityCollection Class](#microblogentitycollection-class) | [SocialAnnouncementManager Class](#socialannouncementmanager-class) | [SocialThreadAttributes Enum](#socialthreadattributes-enum) |
+| [MicroBlogEntityType Enum](#microblogentitytype-enum) | [SocialAttachment Class](#socialattachment-class) | [SocialThreadType Enum](#socialthreadtype-enum) |
+| [MicroBlogType Enum](#microblogtype-enum) | [SocialAttachmentAction Class](#socialattachmentaction-class) | [ChangeTypes Enum](#changetypes-enum) |
+| [MicrofeedAttachmentStore Class](#microfeedattachmentstore-class) | [SocialAttachmentActionKind Enum](#socialattachmentactionkind-enum) | [CrossGeoSync Class](#crossgeosync-class) |
+| [MicrofeedContentFormattingOptions Enum](#microfeedcontentformattingoptions-enum) | [SocialAttachmentKind Enum](#socialattachmentkind-enum) | [CrossGeoSyncUserDataBatch Class](#crossgeosyncuserdatabatch-class) |
+| [MicrofeedData Class](#microfeeddata-class) | [SocialDataItem Class](#socialdataitem-class) | [CrossGeoSyncUserProperty Class](#crossgeosyncuserproperty-class) |
+| [MicrofeedDataCollection Class](#microfeeddatacollection-class) | [SocialDataItemType Enum](#socialdataitemtype-enum) | [FollowedContent Class](#followedcontent-class) |
+| [MicrofeedDataCollectionPropertyNames Class](#microfeeddatacollectionpropertynames-class) | [SocialDataOverlay Class](#socialdataoverlay-class) | [FollowedContentExceptionCode Enum](#followedcontentexceptioncode-enum) |
+| [MicrofeedDataLink Class](#microfeeddatalink-class) | [SocialDataOverlayType Enum](#socialdataoverlaytype-enum) | [FollowedContentPropertyNames Class](#followedcontentpropertynames-class) |
+| [MicrofeedDataLinkCollection Class](#microfeeddatalinkcollection-class) | [SocialExceptionDetails Class](#socialexceptiondetails-class) | [FollowedContentQueryOptions Enum](#followedcontentqueryoptions-enum) |
+| [MicrofeedDataLinkType Enum](#microfeeddatalinktype-enum) | [SocialFeed Class](#socialfeed-class) | [FollowedItem Class](#followeditem-class) |
+| [MicrofeedDataPropertyNames Class](#microfeeddatapropertynames-class) | [SocialFeedAttributes Enum](#socialfeedattributes-enum) | [FollowedItemData Class](#followeditemdata-class) |
+| [MicrofeedDataQuery Class](#microfeeddataquery-class) | [SocialFeedManager Class](#socialfeedmanager-class) | [FollowedItemDataPropertyNames Class](#followeditemdatapropertynames-class) |
+| [MicrofeedLink Class](#microfeedlink-class) | [SocialFeedManagerPropertyNames Class](#socialfeedmanagerpropertynames-class) | [FollowedItemType Enum](#followeditemtype-enum) |
+| [MicrofeedLinkAction Class](#microfeedlinkaction-class) | [SocialFeedOptions Class](#socialfeedoptions-class) | [FollowedStatus Enum](#followedstatus-enum) |
+| [MicrofeedLinkActionKind Enum](#microfeedlinkactionkind-enum) | [SocialFeedSortOrder Enum](#socialfeedsortorder-enum) | [FollowResult Class](#followresult-class) |
+| [MicrofeedLinkType Enum](#microfeedlinktype-enum) | [SocialFeedType Enum](#socialfeedtype-enum) | [FollowResultType Enum](#followresulttype-enum) |
+| [MicrofeedManager Class](#microfeedmanager-class) | [SocialFollowingManager Class](#socialfollowingmanager-class) | [HashTag Class](#hashtag-class) |
+| [MicrofeedManagerPropertyNames Class](#microfeedmanagerpropertynames-class) | [SocialFollowingManagerPropertyNames Class](#socialfollowingmanagerpropertynames-class) | [HashTagCollection Class](#hashtagcollection-class) |
+| [MicrofeedPost Class](#microfeedpost-class) | [SocialFollowResult Enum](#socialfollowresult-enum) | [ObjectTypes Enum](#objecttypes-enum) |
+| [MicrofeedPostAttributes Enum](#microfeedpostattributes-enum) | [SocialLink Class](#sociallink-class) | [PeopleManager Class](#peoplemanager-class) |
+| [MicrofeedPostCollection Class](#microfeedpostcollection-class) | [SocialPost Class](#socialpost-class) | [PeopleManagerPropertyNames Class](#peoplemanagerpropertynames-class) |
+| [MicrofeedPostDefinition Class](#microfeedpostdefinition-class) | [SocialPostActorInfo Class](#socialpostactorinfo-class) | [PersonalCache Class](#personalcache-class) |
+| [MicrofeedPostDefinitionManager Class](#microfeedpostdefinitionmanager-class) | [SocialPostAttributes Enum](#socialpostattributes-enum) | [PersonalCacheExceptionCode Enum](#personalcacheexceptioncode-enum) |
+| [MicrofeedPostDefinitionNameCollection Class](#microfeedpostdefinitionnamecollection-class) | [SocialPostCreationData Class](#socialpostcreationdata-class) | [PersonalCacheItem Class](#personalcacheitem-class) |
+| [MicrofeedPostDefinitionNames Class](#microfeedpostdefinitionnames-class) | [SocialPostDefinitionData Class](#socialpostdefinitiondata-class) | [PersonalSiteCapabilities Enum](#personalsitecapabilities-enum) |
+| [MicrofeedPostOptionCollection Class](#microfeedpostoptioncollection-class) | [SocialPostDefinitionDataItem Class](#socialpostdefinitiondataitem-class) | [PersonalSiteCreationPriority Enum](#personalsitecreationpriority-enum) |
+| [MicrofeedPostOptions Class](#microfeedpostoptions-class) | [SocialPostDefinitionDataItemType Enum](#socialpostdefinitiondataitemtype-enum) | [PersonalSiteInstantiationState Enum](#personalsiteinstantiationstate-enum) |
+| [MicrofeedPostSecurityAttributes Enum](#microfeedpostsecurityattributes-enum) | [SocialPostReference Class](#socialpostreference-class) | [PersonProperties Class](#personproperties-class) |
+| [MicrofeedPublishedFeedType Enum](#microfeedpublishedfeedtype-enum) | [SocialPostType Enum](#socialposttype-enum) | [PersonPropertiesPropertyNames Class](#personpropertiespropertynames-class) |
+| [MicrofeedRetrievalOptions Class](#microfeedretrievaloptions-class) | [SocialRestActor Class](#socialrestactor-class) | [ProfileImageStore Class](#profileimagestore-class) |
+| [MicrofeedSortOrder Enum](#microfeedsortorder-enum) | [SocialRestActorPropertyNames Class](#socialrestactorpropertynames-class) | [ProfileLoader Class](#profileloader-class) |
+| [MicrofeedStatusCode Enum](#microfeedstatuscode-enum) | [SocialRestFeed Class](#socialrestfeed-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
+| [MicrofeedStore Class](#microfeedstore-class) | [SocialRestFeedManager Class](#socialrestfeedmanager-class) | [SocialDataStoreExceptionCode Enum](#socialdatastoreexceptioncode-enum) |
+| [MicrofeedThread Class](#microfeedthread-class) | [SocialRestFeedPropertyNames Class](#socialrestfeedpropertynames-class) | [UserProfile Class](#userprofile-class) |
+| [MicrofeedThreadCollection Class](#microfeedthreadcollection-class) | [SocialRestFollowingManager Class](#socialrestfollowingmanager-class) | [UserProfileObjectPropertyNames Class](#userprofileobjectpropertynames-class) |
+| [MicrofeedUserPostCollection Class](#microfeeduserpostcollection-class) | [SocialRestFollowingManagerPropertyNames Class](#socialrestfollowingmanagerpropertynames-class) | [UserProfilePropertiesForUser Class](#userprofilepropertiesforuser-class) |
+| [MicrofeedUserPosts Class](#microfeeduserposts-class) | [SocialRestPostCreationData Class](#socialrestpostcreationdata-class) | [UserProfilePropertiesForUserPropertyNames Class](#userprofilepropertiesforuserpropertynames-class) |
+| [SocialActor Class](#socialactor-class) | [SocialRestThread Class](#socialrestthread-class) | [UserProfilePropertyNames Class](#userprofilepropertynames-class) |
 # Reputation Class
 
 Namespace: Microsoft.Office.Server.ReputationModel
@@ -2088,6 +2089,75 @@ Namespace: Microsoft.SharePoint.Client.UserProfiles
 | **Remove** |  |
 | **Metadata** |  |
 | **All** |  |
+# CrossGeoSync Class
+
+Namespace: Microsoft.SharePoint.Client.UserProfiles
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **CrossGeoSync(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# CrossGeoSyncUserDataBatch Class
+
+Namespace: Microsoft.SharePoint.Client.UserProfiles
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **LastEventId** | long |  |
+| **LastRecordId** | long |  |
+| **MaxEventId** | long |  |
+| **Properties** | IList\<[CrossGeoSyncUserProperty](#crossgeosyncuserproperty-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# CrossGeoSyncUserProperty Class
+
+Namespace: Microsoft.SharePoint.Client.UserProfiles
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **DsGuid** | Guid |  |
+| **IsMultivalue** | bool |  |
+| **Privacy** | int |  |
+| **PropertyId** | long |  |
+| **PropertyVal** | string |  |
+| **SecondaryVal** | string |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # FollowedContent Class
 
 Namespace: Microsoft.SharePoint.Client.UserProfiles
@@ -2606,6 +2676,7 @@ Base class: ClientObject
 | **IsFollowed** | bool |  |
 | **LatestPost** | string |  |
 | **Peers** | IEnumerable\<string\> |  |
+| **PersonalSiteHostUrl** | string |  |
 | **PersonalUrl** | string |  |
 | **PictureUrl** | string |  |
 | **Title** | string |  |
@@ -2643,6 +2714,7 @@ Namespace: Microsoft.SharePoint.Client.UserProfiles
 | **IsFollowed** | string |  |
 | **LatestPost** | string |  |
 | **Peers** | string |  |
+| **PersonalSiteHostUrl** | string |  |
 | **PersonalUrl** | string |  |
 | **PictureUrl** | string |  |
 | **Title** | string |  |

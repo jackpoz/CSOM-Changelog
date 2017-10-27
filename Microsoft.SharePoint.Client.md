@@ -1654,6 +1654,7 @@ Base class: ClientObject
 | **GetTableMetadata(ClientRuntimeContext context, string listName)** | [ConnectorResult](#connectorresult-class) |  |
 | **GetTables(ClientRuntimeContext context)** | [ConnectorResult](#connectorresult-class) |  |
 | **GetUpdatedListItems(ClientRuntimeContext context, string listName, string referrer, string callback)** | [ConnectorResult](#connectorresult-class) |  |
+| **SetApprovalStatus(ClientRuntimeContext context, string listName, string itemId, string approvalStatus, string comments)** | [ConnectorResult](#connectorresult-class) |  |
 | **UpdateListItem(ClientRuntimeContext context, string listName, string itemId, string itemData)** | [ConnectorResult](#connectorresult-class) |  |
 # App Class
 
@@ -3011,6 +3012,7 @@ Base class: [Change](#change-class)
 | **SharedByUser** | [SharedWithUser](#sharedwithuser-class) |  |
 | **SharedWithUsers** | [SharedWithUserCollection](#sharedwithusercollection-class) |  |
 | **Title** | string |  |
+| **UniqueId** | Guid |  |
 | **WebId** | Guid |  |
 | **ChangeToken** | [ChangeToken](#changetoken-class) |  |
 | **ChangeType** | [ChangeType](#changetype-enum) |  |
@@ -3057,6 +3059,7 @@ Namespace: Microsoft.SharePoint.Client
 | **SharedByUser** | string |  |
 | **SharedWithUsers** | string |  |
 | **Title** | string |  |
+| **UniqueId** | string |  |
 | **WebId** | string |  |
 # ChangeList Class
 
@@ -3815,6 +3818,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **IgnoreVersionHistory** | bool |  |
+| **IsMoveMode** | bool |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -4053,6 +4057,7 @@ Namespace: Microsoft.SharePoint.Client
 | **Registering** |  |
 | **Registered** |  |
 | **Rolling** |  |
+| **Recovering** |  |
 # CustomerKeyStatusInfo Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -7770,8 +7775,9 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **BloomFilterSize** | int |  |
-| **CheckpointMap** | bool[] |  |
 | **FalsePositiveRate** | double |  |
+| **HashedValueSet** | IList\<string\> |  |
+| **IndexMap** | IList\<int\> |  |
 | **ItemProcessedCount** | int |  |
 | **K** | int |  |
 | **LastListItemIdProcessed** | int |  |
@@ -7800,8 +7806,9 @@ Namespace: Microsoft.SharePoint.Client
 | Name | Type | Summary |
 |---|---|---|
 | **BloomFilterSize** | string |  |
-| **CheckpointMap** | string |  |
 | **FalsePositiveRate** | string |  |
+| **HashedValueSet** | string |  |
+| **IndexMap** | string |  |
 | **ItemProcessedCount** | string |  |
 | **K** | string |  |
 | **LastListItemIdProcessed** | string |  |
@@ -8224,6 +8231,7 @@ Base class: ClientValueObject
 | **FieldName** | string |  |
 | **FieldValue** | string |  |
 | **HasException** | bool |  |
+| **ItemId** | int |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -10563,6 +10571,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AddRequiredFields** | bool |  |
 | **AllowMultipleValueFilterForTaxonomyFields** | bool |  |
 | **DatesInUtc** | bool |  |
 | **ExpandGroups** | bool |  |
@@ -11339,8 +11348,10 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **Expiration** | string |  |
+| **HasExternalGuestInvitees** | bool |  |
 | **IsAnonymous** | bool |  |
 | **IsFormsLink** | bool |  |
+| **IsOriginatedFromSharingFlow** | bool |  |
 | **IsSharingLink** | bool |  |
 | **IsWritable** | bool |  |
 | **LinkKind** | [SharingLinkKind](#sharinglinkkind-enum) |  |
@@ -11369,6 +11380,7 @@ Base class: ClientValueObject
 | **AllowsAnonymousAccess** | bool |  |
 | **Created** | string |  |
 | **Expiration** | string |  |
+| **HasExternalGuestInvitees** | bool |  |
 | **IsActive** | bool |  |
 | **IsEditLink** | bool |  |
 | **IsFormsLink** | bool |  |
@@ -11412,6 +11424,7 @@ Namespace: Microsoft.SharePoint.Client
 |---|---|
 | **CompletedSuccessfully** |  |
 | **AccessRequestsQueued** |  |
+| **UserDoesNotExist** |  |
 | **InvalidValue** |  |
 | **QuotaExceeded** |  |
 | **NestedGroupsNotSupported** |  |
@@ -11748,6 +11761,7 @@ Base class: ClientObject
 | **OpenWebUsingPath(ResourcePath path)** | [Web](#web-class) |  |
 | **ProvisionMigrationContainers()** | ClientResult\<[ProvisionedMigrationContainersInfo](#provisionedmigrationcontainersinfo-class)\> |  |
 | **ProvisionMigrationQueue()** | ClientResult\<[ProvisionedMigrationQueueInfo](#provisionedmigrationqueueinfo-class)\> |  |
+| **RecoverTenantForBringYourOwnKey(CustomerKeyInfo keyInfo)** | ClientResult\<[CustomerKeyStatusInfo](#customerkeystatusinfo-class)\> |  |
 | **RollTenantBringYourOwnKey(CustomerKeyVaultKeyType keyType, CustomerKeyVaultInfo keyVaultInfo)** | ClientResult\<[CustomerKeyStatusInfo](#customerkeystatusinfo-class)\> |  |
 | **RunHealthCheck(Guid ruleId, bool bRepair, bool bRunAlways)** | [SiteHealthSummary](#sitehealthsummary-class) |  |
 | **RunUpgradeSiteSession(bool versionUpgrade, bool queueOnly, bool sendEmail)** | void |  |
@@ -12509,6 +12523,7 @@ Base class: [Principal](#principal-class)
 
 | Name | Type | Summary |
 |---|---|---|
+| **AadObjectId** | [UserIdInfo](#useridinfo-class) |  |
 | **Alerts** | [AlertCollection](#alertcollection-class) |  |
 | **Email** | string |  |
 | **Groups** | [GroupCollection](#groupcollection-class) |  |
@@ -12800,6 +12815,7 @@ Namespace: Microsoft.SharePoint.Client
 
 | Name | Type | Summary |
 |---|---|---|
+| **AadObjectId** | string |  |
 | **Email** | string |  |
 | **IsEmailAuthenticationGuestUser** | string |  |
 | **IsShareByEmailGuestUser** | string |  |
@@ -12878,6 +12894,10 @@ Namespace: Microsoft.SharePoint.Client
 | **CanManageOrganizationReadonlyLink** |  |
 | **CanUseOrganizationReadWriteLink** |  |
 | **CanManageOrganizationReadWriteLink** |  |
+| **CanUsePeopleSharingReadonlyLink** |  |
+| **CanManagePeopleSharingReadonlyLink** |  |
+| **CanUsePeopleSharingReadWriteLink** |  |
+| **CanManagePeopleSharingReadWriteLink** |  |
 # View Class
 
 Namespace: Microsoft.SharePoint.Client
