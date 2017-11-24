@@ -50,6 +50,7 @@ Base class: ClientValueObject
 | **ContainsSiteLabel** | bool |  |
 | **HasRetentionAction** | bool |  |
 | **IsEventTag** | bool |  |
+| **Notes** | string |  |
 | **RequireSenderAuthenticationEnabled** | bool |  |
 | **ReviewerEmail** | string |  |
 | **SharingCapabilities** | string |  |

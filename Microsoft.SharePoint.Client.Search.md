@@ -7,6 +7,7 @@ Created by
 
 |   |   |   |
 |---|---|---|
+| [SearchTenantSettings Class](#searchtenantsettings-class) | [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [QueryPropertyValue Class](#querypropertyvalue-class) |
 | [ContextCondition Class](#contextcondition-class) | [PushTenantServiceInfoPropertyNames Class](#pushtenantserviceinfopropertynames-class) | [QueryPropertyValueType Enum](#querypropertyvaluetype-enum) |
 | [ExpandedQueryParameters Class](#expandedqueryparameters-class) | [SearchConfigurationPortability Class](#searchconfigurationportability-class) | [QuerySuggestionQuery Class](#querysuggestionquery-class) |
 | [PromotedResultQueryRule Class](#promotedresultqueryrule-class) | [SearchConfigurationPortabilityPropertyNames Class](#searchconfigurationportabilitypropertynames-class) | [QuerySuggestionRange Class](#querysuggestionrange-class) |
@@ -24,7 +25,32 @@ Created by
 | [SearchObjectOwner Class](#searchobjectowner-class) | [QueryObjectPropertyNames Class](#queryobjectpropertynames-class) | [SortCollection Class](#sortcollection-class) |
 | [CertificateService Class](#certificateservice-class) | [QueryPersonalizationData Class](#querypersonalizationdata-class) | [SortDirection Enum](#sortdirection-enum) |
 | [PushTenantManager Class](#pushtenantmanager-class) | [QueryPropertyNames Class](#querypropertynames-class) | [StringCollection Class](#stringcollection-class) |
-| [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [QueryPropertyValue Class](#querypropertyvalue-class) |   |
+# SearchTenantSettings Class
+
+Namespace: Microsoft.Office.Server.Search.lib.OM.SearchSubscriptionSettings
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **SearchTenantSettings(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+| **SearchTenantSettings(ClientRuntimeContext context, Guid tenantId, Guid realmId, bool isActive, bool isReadonly, long settingsVersion, DateTime lastUpdateTimeUtc, IDictionary\<string, Object\> settings)** |  |
 # ContextCondition Class
 
 Namespace: Microsoft.Office.Server.Search.REST
@@ -204,6 +230,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **AdminEndpoint** | string |  |
+| **AfdEndpoint** | string |  |
 | **QueryEndpoint** | string |  |
 | **TypeId** | string |  |
 ## Methods

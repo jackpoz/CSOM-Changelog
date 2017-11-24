@@ -2127,7 +2127,6 @@ Base class: ClientValueObject
 |---|---|---|
 | **LastEventId** | long |  |
 | **LastRecordId** | long |  |
-| **MaxEventId** | long |  |
 | **Properties** | IList\<[CrossGeoSyncUserProperty](#crossgeosyncuserproperty-class)\> |  |
 | **TypeId** | string |  |
 ## Methods
