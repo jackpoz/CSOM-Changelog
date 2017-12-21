@@ -1363,6 +1363,7 @@ Base class: ClientObject
 | **AlertTemplateName** | string |  |
 | **AlertTime** | DateTime |  |
 | **AlertType** | [AlertType](#alerttype-enum) |  |
+| **AllProperties** | [PropertyValues](#propertyvalues-class) |  |
 | **AlwaysNotify** | bool |  |
 | **DeliveryChannels** | [AlertDeliveryChannel](#alertdeliverychannel-enum) |  |
 | **EventType** | [AlertEventType](#alerteventtype-enum) |  |
@@ -1460,6 +1461,7 @@ Base class: ClientValueObject
 | **Filter** | string |  |
 | **Item** | [ListItem](#listitem-class) |  |
 | **List** | [List](#list-class) |  |
+| **Properties** | IDictionary\<string, string\> |  |
 | **Status** | [AlertStatus](#alertstatus-enum) |  |
 | **Title** | string |  |
 | **User** | [User](#user-class) |  |
@@ -1515,6 +1517,7 @@ Namespace: Microsoft.SharePoint.Client
 
 | Name | Type | Summary |
 |---|---|---|
+| **AllProperties** | string |  |
 | **Item** | string |  |
 | **List** | string |  |
 | **User** | string |  |
@@ -2613,6 +2616,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AllowIncrementalResults** | bool |  |
 | **DatesInUtc** | bool |  |
 | **FolderServerRelativePath** | [ResourcePath](#resourcepath-class) |  |
 | **FolderServerRelativeUrl** | string |  |
@@ -7592,6 +7596,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **IrmReject** | bool |  |
 | **IsApplicationList** | bool |  |
 | **IsCatalog** | bool |  |
+| **IsEnterpriseGalleryLibrary** | bool |  |
 | **IsPrivate** | bool |  |
 | **IsSiteAssetsLibrary** | bool |  |
 | **IsSystemList** | bool |  |
@@ -7777,6 +7782,7 @@ Base class: ClientObjectCollection<[List](#list-class)>
 | Name | Returns | Summary |
 |---|---|---|
 | **Add(ListCreationInformation parameters)** | [List](#list-class) |  |
+| **EnsureClientRenderedSitePagesLibrary()** | [List](#list-class) |  |
 | **EnsureSiteAssetsLibrary()** | [List](#list-class) |  |
 | **EnsureSitePagesLibrary()** | [List](#list-class) |  |
 | **GetById(Guid id)** | [List](#list-class) |  |
@@ -8422,6 +8428,7 @@ Namespace: Microsoft.SharePoint.Client
 | **IrmReject** | string |  |
 | **IsApplicationList** | string |  |
 | **IsCatalog** | string |  |
+| **IsEnterpriseGalleryLibrary** | string |  |
 | **IsPrivate** | string |  |
 | **IsSiteAssetsLibrary** | string |  |
 | **IsSystemList** | string |  |
@@ -11355,6 +11362,7 @@ Namespace: Microsoft.SharePoint.Client
 |---|---|
 | **CompletedSuccessfully** |  |
 | **AccessRequestsQueued** |  |
+| **TooManyChildItemsWithUniqueScopes** |  |
 | **UserDoesNotExist** |  |
 | **InvalidValue** |  |
 | **QuotaExceeded** |  |
@@ -11614,7 +11622,9 @@ Base class: ClientObject
 | **Features** | [FeatureCollection](#featurecollection-class) |  |
 | **GeoLocation** | string |  |
 | **GroupId** | Guid |  |
+| **HubSiteId** | Guid |  |
 | **Id** | Guid |  |
+| **IsHubSite** | bool |  |
 | **LockIssue** | string |  |
 | **MaxItemsPerThrottledOperation** | uint |  |
 | **NeedsB2BUpgrade** | bool |  |
@@ -11745,7 +11755,9 @@ Namespace: Microsoft.SharePoint.Client
 | **ExternalSharingTipsEnabled** | string |  |
 | **GeoLocation** | string |  |
 | **GroupId** | string |  |
+| **HubSiteId** | string |  |
 | **Id** | string |  |
+| **IsHubSite** | string |  |
 | **LockIssue** | string |  |
 | **MaxItemsPerThrottledOperation** | string |  |
 | **NeedsB2BUpgrade** | string |  |
@@ -12955,6 +12967,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **baseViewId** | int |  |
 | **Paged** | bool |  |
 | **PersonalView** | bool |  |
 | **Query** | string |  |
@@ -13447,7 +13460,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **CreateDefaultAssociatedGroups(string userLogin, string userLogin2, string groupNameSeed)** | void |  |
 | **CreateOrganizationSharingLink(ClientRuntimeContext context, string url, bool isEditLink)** | ClientResult\<string\> |  |
 | **DefaultDocumentLibrary()** | [List](#list-class) |  |
-| **DefaultDocumentLibraryUrl()** | ClientResult\<[ResourcePath](#resourcepath-class)\> |  |
+| **DefaultDocumentLibraryUrl(ClientRuntimeContext context, string webUrl)** | ClientResult\<[DocumentLibraryInformation](#documentlibraryinformation-class)\> |  |
 | **DeleteAllAnonymousLinksForObject(ClientRuntimeContext context, string url)** | void |  |
 | **DeleteAnonymousLinkForObject(ClientRuntimeContext context, string url, bool isEditLink, bool removeAssociatedSharingLinkGroup)** | void |  |
 | **DeleteObject()** | void |  |
