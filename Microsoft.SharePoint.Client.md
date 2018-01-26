@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 06/04/2023
+[mddox](https://github.com/loxsmoke/mddox) on 07/04/2023
 
 # All types
 
@@ -201,17 +201,17 @@ Created by
 | [FieldCalculatedPropertyNames Class](#fieldcalculatedpropertynames-class) | [RequestVariable Class](#requestvariable-class) | [SiteCollectionAppCatalogAllowedCollection Class](#sitecollectionappcatalogallowedcollection-class) |
 | [FieldChoice Class](#fieldchoice-class) | [RequestVariablePropertyNames Class](#requestvariablepropertynames-class) | [SiteCollectionAppCatalogAllowedItem Class](#sitecollectionappcatalogalloweditem-class) |
 | [FieldChoicePropertyNames Class](#fieldchoicepropertynames-class) | [ResourcePath Class](#resourcepath-class) | [SiteCollectionAppCatalogAllowedItemPropertyNames Class](#sitecollectionappcatalogalloweditempropertynames-class) |
-| [FieldCollection Class](#fieldcollection-class) | [RoleAssignment Class](#roleassignment-class) | [TenantCorporateCatalogAccessor Class](#tenantcorporatecatalogaccessor-class) |
-| [FieldCollectionPropertyNames Class](#fieldcollectionpropertynames-class) | [RoleAssignmentCollection Class](#roleassignmentcollection-class) | [TenantCorporateCatalogAccessorObjectPropertyNames Class](#tenantcorporatecatalogaccessorobjectpropertynames-class) |
-| [FieldComputed Class](#fieldcomputed-class) | [RoleAssignmentCollectionObjectPropertyNames Class](#roleassignmentcollectionobjectpropertynames-class) | [AppDetails Class](#appdetails-class) |
-| [FieldComputedPropertyNames Class](#fieldcomputedpropertynames-class) | [RoleAssignmentObjectPropertyNames Class](#roleassignmentobjectpropertynames-class) | [AppDetailsPropertyNames Class](#appdetailspropertynames-class) |
-| [FieldCurrency Class](#fieldcurrency-class) | [RoleAssignmentPropertyNames Class](#roleassignmentpropertynames-class) | [AppIconInfo Class](#appiconinfo-class) |
-| [FieldCurrencyPropertyNames Class](#fieldcurrencypropertynames-class) | [RoleDefinition Class](#roledefinition-class) | [AppIconInfoPropertyNames Class](#appiconinfopropertynames-class) |
-| [FieldDateTime Class](#fielddatetime-class) | [RoleDefinitionBindingCollection Class](#roledefinitionbindingcollection-class) | [TenantCdnUrl Class](#tenantcdnurl-class) |
-| [FieldDateTimePropertyNames Class](#fielddatetimepropertynames-class) | [RoleDefinitionCollection Class](#roledefinitioncollection-class) | [ModuleLink Class](#modulelink-class) |
-| [FieldGeolocation Class](#fieldgeolocation-class) | [RoleDefinitionCreationInformation Class](#roledefinitioncreationinformation-class) | [ResourceManifestInformation Class](#resourcemanifestinformation-class) |
-| [FieldGeolocationValue Class](#fieldgeolocationvalue-class) | [RoleDefinitionPropertyNames Class](#roledefinitionpropertynames-class) | [ResourceManifestInformationPropertyNames Class](#resourcemanifestinformationpropertynames-class) |
-| [FieldGuid Class](#fieldguid-class) | [RoleType Enum](#roletype-enum) |   |
+| [FieldCollection Class](#fieldcollection-class) | [RoleAssignment Class](#roleassignment-class) | [SiteCollectionCorporateCatalogAccessor Class](#sitecollectioncorporatecatalogaccessor-class) |
+| [FieldCollectionPropertyNames Class](#fieldcollectionpropertynames-class) | [RoleAssignmentCollection Class](#roleassignmentcollection-class) | [TenantCorporateCatalogAccessor Class](#tenantcorporatecatalogaccessor-class) |
+| [FieldComputed Class](#fieldcomputed-class) | [RoleAssignmentCollectionObjectPropertyNames Class](#roleassignmentcollectionobjectpropertynames-class) | [TenantCorporateCatalogAccessorObjectPropertyNames Class](#tenantcorporatecatalogaccessorobjectpropertynames-class) |
+| [FieldComputedPropertyNames Class](#fieldcomputedpropertynames-class) | [RoleAssignmentObjectPropertyNames Class](#roleassignmentobjectpropertynames-class) | [AppDetails Class](#appdetails-class) |
+| [FieldCurrency Class](#fieldcurrency-class) | [RoleAssignmentPropertyNames Class](#roleassignmentpropertynames-class) | [AppDetailsPropertyNames Class](#appdetailspropertynames-class) |
+| [FieldCurrencyPropertyNames Class](#fieldcurrencypropertynames-class) | [RoleDefinition Class](#roledefinition-class) | [AppIconInfo Class](#appiconinfo-class) |
+| [FieldDateTime Class](#fielddatetime-class) | [RoleDefinitionBindingCollection Class](#roledefinitionbindingcollection-class) | [AppIconInfoPropertyNames Class](#appiconinfopropertynames-class) |
+| [FieldDateTimePropertyNames Class](#fielddatetimepropertynames-class) | [RoleDefinitionCollection Class](#roledefinitioncollection-class) | [TenantCdnUrl Class](#tenantcdnurl-class) |
+| [FieldGeolocation Class](#fieldgeolocation-class) | [RoleDefinitionCreationInformation Class](#roledefinitioncreationinformation-class) | [ModuleLink Class](#modulelink-class) |
+| [FieldGeolocationValue Class](#fieldgeolocationvalue-class) | [RoleDefinitionPropertyNames Class](#roledefinitionpropertynames-class) | [ResourceManifestInformation Class](#resourcemanifestinformation-class) |
+| [FieldGuid Class](#fieldguid-class) | [RoleType Enum](#roletype-enum) | [ResourceManifestInformationPropertyNames Class](#resourcemanifestinformationpropertynames-class) |
 # __StaticArrayInitTypeSize=128 Struct
 
 Namespace: 
@@ -3481,6 +3481,7 @@ Base class: ClientRuntimeContext
 | Name | Returns | Summary |
 |---|---|---|
 | **ExecuteQuery()** | void |  |
+| **ExecuteQueryAsync()** | Task |  |
 | **GetFormDigestDirect()** | [FormDigestInfo](#formdigestinfo-class) |  |
 # CompatibilityRange Class
 
@@ -4133,6 +4134,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **AbsoluteUrl** | string |  |
+| **FromCrossFarm** | bool |  |
 | **Modified** | DateTime |  |
 | **ModifiedFriendlyDisplay** | string |  |
 | **ServerRelativeUrl** | string |  |
@@ -6395,6 +6397,7 @@ Base class: ClientObject
 | **OpenBinaryStream()** | ClientResult\<Stream\> |  |
 | **Publish(string comment)** | void |  |
 | **Recycle()** | ClientResult\<Guid\> |  |
+| **RecycleWithETag(string etagMatch)** | ClientResult\<Guid\> |  |
 | **SaveBinary(FileSaveBinaryInformation parameters)** | void |  |
 | **SaveBinaryDirect(ClientContext context, string serverRelativeUrl, Stream stream, bool overwriteIfExists)** | void |  |
 | **SaveBinaryDirect(ClientContext context, string serverRelativeUrl, Stream stream, string etag)** | void |  |
@@ -6852,6 +6855,7 @@ Namespace: Microsoft.SharePoint.Client
 | **Forbidden** |  |
 | **TimeOut** |  |
 | **UnexpectedError** |  |
+| **BadRequest** |  |
 # Folder Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -7691,7 +7695,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **SyncFlowCallbackUrl(string flowId)** | [FlowSynchronizationResult](#flowsynchronizationresult-class) |  |
 | **SyncFlowInstance(Guid flowID)** | [FlowSynchronizationResult](#flowsynchronizationresult-class) |  |
 | **SyncFlowInstances()** | [FlowSynchronizationResult](#flowsynchronizationresult-class) |  |
-| **SyncFlowTemplates()** | [FlowSynchronizationResult](#flowsynchronizationresult-class) |  |
+| **SyncFlowTemplates(string category)** | [FlowSynchronizationResult](#flowsynchronizationresult-class) |  |
 | **UnpublishMappedView(Guid appId, VisualizationAppTarget visualizationTarget)** | [View](#view-class) |  |
 | **Update()** | void |  |
 | **ValidateAppName(string appDisplayName)** | [VisualizationAppSynchronizationResult](#visualizationappsynchronizationresult-class) |  |
@@ -11645,6 +11649,7 @@ Base class: ClientObject
 | **ShowUrlStructure** | bool |  |
 | **StatusBarLink** | string |  |
 | **StatusBarText** | string |  |
+| **ThicketSupportDisabled** | bool |  |
 | **TrimAuditLog** | bool |  |
 | **UIVersionConfigurationEnabled** | bool |  |
 | **UpgradeInfo** | [UpgradeInfo](#upgradeinfo-class) |  |
@@ -11774,6 +11779,7 @@ Namespace: Microsoft.SharePoint.Client
 | **ShowUrlStructure** | string |  |
 | **StatusBarLink** | string |  |
 | **StatusBarText** | string |  |
+| **ThicketSupportDisabled** | string |  |
 | **TrimAuditLog** | string |  |
 | **UIVersionConfigurationEnabled** | string |  |
 | **UpgradeInfo** | string |  |
@@ -13408,6 +13414,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **ServerRelativePath** | [ResourcePath](#resourcepath-class) |  |
 | **ServerRelativeUrl** | string |  |
 | **ShowUrlStructureForCurrentUser** | bool |  |
+| **SiteCollectionAppCatalog** | [SiteCollectionCorporateCatalogAccessor](#sitecollectioncorporatecatalogaccessor-class) |  |
 | **SiteGroups** | [GroupCollection](#groupcollection-class) |  |
 | **SiteLogoDescription** | string |  |
 | **SiteLogoUrl** | string |  |
@@ -13677,6 +13684,7 @@ Namespace: Microsoft.SharePoint.Client
 | **RegionalSettings** | string |  |
 | **RoleDefinitions** | string |  |
 | **RootFolder** | string |  |
+| **SiteCollectionAppCatalog** | string |  |
 | **SiteGroups** | string |  |
 | **SiteUserInfoList** | string |  |
 | **SiteUsers** | string |  |
@@ -15606,6 +15614,31 @@ Namespace: Microsoft.SharePoint.Marketplace.CorporateCuratedGallery
 |---|---|---|
 | **AbsoluteUrl** | string |  |
 | **SiteID** | string |  |
+# SiteCollectionCorporateCatalogAccessor Class
+
+Namespace: Microsoft.SharePoint.Marketplace.CorporateCuratedGallery
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **SiteCollectionCorporateCatalogAccessor(ClientRuntimeContext context, ObjectPath objectPath)** |  |
 # TenantCorporateCatalogAccessor Class
 
 Namespace: Microsoft.SharePoint.Marketplace.CorporateCuratedGallery

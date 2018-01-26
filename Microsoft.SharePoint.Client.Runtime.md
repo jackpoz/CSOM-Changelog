@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Runtime.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 06/04/2023
+[mddox](https://github.com/loxsmoke/mddox) on 07/04/2023
 
 # All types
 
@@ -1001,6 +1001,7 @@ Namespace: Microsoft.SharePoint.Client
 | **CastTo(ClientObject obj)** | T |  |
 | **Dispose()** | void |  |
 | **ExecuteQuery()** | void |  |
+| **ExecuteQueryAsync()** | Task |  |
 | **Load(T clientObject, Expression\<Func\<T, Object\>\>[] retrievals)** | void |  |
 | **LoadQuery(ClientObjectCollection\<T\> clientObjects)** | IEnumerable\<T\> |  |
 | **LoadQuery(IQueryable\<T\> clientObjects)** | IEnumerable\<T\> |  |
@@ -2531,6 +2532,7 @@ Base class: [WebRequestExecutor](#webrequestexecutor-class)
 |---|---|---|
 | **Dispose()** | void |  |
 | **Execute()** | void |  |
+| **ExecuteAsync()** | Task |  |
 | **GetRequestStream()** | Stream |  |
 | **GetResponseStream()** | Stream |  |
 # StreamInfo Class
@@ -2693,6 +2695,7 @@ Namespace: Microsoft.SharePoint.Client
 |---|---|---|
 | **Dispose()** | void |  |
 | **Execute()** | void |  |
+| **ExecuteAsync()** | Task |  |
 | **GetRequestStream()** | Stream |  |
 | **GetResponseStream()** | Stream |  |
 # WebRequestExecutorFactory Class

@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.UserProfiles.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 06/04/2023
+[mddox](https://github.com/loxsmoke/mddox) on 07/04/2023
 
 # All types
 
@@ -2821,6 +2821,7 @@ Base class: ClientObject
 | **DisplayName** | string |  |
 | **FollowedContent** | [FollowedContent](#followedcontent-class) |  |
 | **FollowPersonalSiteUrl** | string |  |
+| **IsDefaultDocumentLibraryBlocked** | bool |  |
 | **IsPeopleListPublic** | bool |  |
 | **IsPrivacySettingOn** | bool |  |
 | **IsSelf** | bool |  |
@@ -2931,6 +2932,7 @@ Namespace: Microsoft.SharePoint.Client.UserProfiles
 | **AccountName** | string |  |
 | **DisplayName** | string |  |
 | **FollowPersonalSiteUrl** | string |  |
+| **IsDefaultDocumentLibraryBlocked** | string |  |
 | **IsPeopleListPublic** | string |  |
 | **IsPrivacySettingOn** | string |  |
 | **IsSelf** | string |  |
