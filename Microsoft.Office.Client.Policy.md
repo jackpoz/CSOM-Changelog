@@ -48,6 +48,7 @@ Base class: ClientValueObject
 | **BlockDelete** | bool |  |
 | **BlockEdit** | bool |  |
 | **ContainsSiteLabel** | bool |  |
+| **DisplayName** | string |  |
 | **HasRetentionAction** | bool |  |
 | **IsEventTag** | bool |  |
 | **Notes** | string |  |

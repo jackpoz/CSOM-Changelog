@@ -212,6 +212,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **PortalUrl** | string |  |
 | **SpSiteId** | Guid |  |
 | **SpWebId** | Guid |  |
 | **TypeId** | string |  |

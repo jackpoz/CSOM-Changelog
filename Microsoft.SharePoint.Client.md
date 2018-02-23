@@ -11647,6 +11647,7 @@ Base class: ClientObject
 | **ShareByLinkEnabled** | bool |  |
 | **ShowPeoplePickerSuggestionsForGuestUsers** | bool |  |
 | **ShowUrlStructure** | bool |  |
+| **SocialBarOnSitePagesDisabled** | bool |  |
 | **StatusBarLink** | string |  |
 | **StatusBarText** | string |  |
 | **ThicketSupportDisabled** | bool |  |
@@ -11777,6 +11778,7 @@ Namespace: Microsoft.SharePoint.Client
 | **ShareByLinkEnabled** | string |  |
 | **ShowPeoplePickerSuggestionsForGuestUsers** | string |  |
 | **ShowUrlStructure** | string |  |
+| **SocialBarOnSitePagesDisabled** | string |  |
 | **StatusBarLink** | string |  |
 | **StatusBarText** | string |  |
 | **ThicketSupportDisabled** | string |  |
