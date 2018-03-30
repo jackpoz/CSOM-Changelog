@@ -7,25 +7,26 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [SearchTenantSettings Class](#searchtenantsettings-class) | [PushTenantManager Class](#pushtenantmanager-class) | [QueryPropertyValue Class](#querypropertyvalue-class) |
-| [ContextCondition Class](#contextcondition-class) | [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [QueryPropertyValueType Enum](#querypropertyvaluetype-enum) |
-| [ExpandedQueryParameters Class](#expandedqueryparameters-class) | [PushTenantServiceInfoPropertyNames Class](#pushtenantserviceinfopropertynames-class) | [QuerySuggestionQuery Class](#querysuggestionquery-class) |
-| [PromotedResultQueryRule Class](#promotedresultqueryrule-class) | [SearchConfigurationPortability Class](#searchconfigurationportability-class) | [QuerySuggestionRange Class](#querysuggestionrange-class) |
-| [PromotedResults Class](#promotedresults-class) | [SearchConfigurationPortabilityPropertyNames Class](#searchconfigurationportabilitypropertynames-class) | [QuerySuggestionResults Class](#querysuggestionresults-class) |
-| [PromotedResultsOperationsResult Class](#promotedresultsoperationsresult-class) | [KeywordQuery Class](#keywordquery-class) | [QueryUtility Class](#queryutility-class) |
-| [QueryCondition Class](#querycondition-class) | [KeywordQueryObjectPropertyNames Class](#keywordqueryobjectpropertynames-class) | [RankingLabeling Class](#rankinglabeling-class) |
-| [QueryConfiguration Class](#queryconfiguration-class) | [KeywordQueryProperties Class](#keywordqueryproperties-class) | [ReorderingRule Class](#reorderingrule-class) |
-| [QueryContext Class](#querycontext-class) | [KeywordQueryPropertyNames Class](#keywordquerypropertynames-class) | [ReorderingRuleCollection Class](#reorderingrulecollection-class) |
-| [QueryRoutingInfo Class](#queryroutinginfo-class) | [KnownTableTypes Class](#knowntabletypes-class) | [ReorderingRuleMatchType Enum](#reorderingrulematchtype-enum) |
-| [QueryState Enum](#querystate-enum) | [PersonalResultSuggestion Class](#personalresultsuggestion-class) | [ResultTable Class](#resulttable-class) |
-| [SearchEndpoints Class](#searchendpoints-class) | [PopularQuery Class](#popularquery-class) | [ResultTableCollection Class](#resulttablecollection-class) |
-| [SearchObjectOwnerResult Class](#searchobjectownerresult-class) | [Query Class](#query-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
-| [ControlMessage Class](#controlmessage-class) | [QueryAutoCompletion Class](#queryautocompletion-class) | [SearchExecutor Class](#searchexecutor-class) |
-| [MessageLevel Enum](#messagelevel-enum) | [QueryAutoCompletionMatch Class](#queryautocompletionmatch-class) | [Sort Class](#sort-class) |
-| [DocumentCrawlLog Class](#documentcrawllog-class) | [QueryAutoCompletionResults Class](#queryautocompletionresults-class) | [SortCollection Class](#sortcollection-class) |
-| [SearchObjectLevel Enum](#searchobjectlevel-enum) | [QueryObjectPropertyNames Class](#queryobjectpropertynames-class) | [SortDirection Enum](#sortdirection-enum) |
-| [SearchObjectOwner Class](#searchobjectowner-class) | [QueryPersonalizationData Class](#querypersonalizationdata-class) | [StringCollection Class](#stringcollection-class) |
-| [CertificateService Class](#certificateservice-class) | [QueryPropertyNames Class](#querypropertynames-class) |   |
+| [SearchTenantSettings Class](#searchtenantsettings-class) | [SearchObjectOwner Class](#searchobjectowner-class) | [QueryPropertyNames Class](#querypropertynames-class) |
+| [TenantClassification Class](#tenantclassification-class) | [CertificateService Class](#certificateservice-class) | [QueryPropertyValue Class](#querypropertyvalue-class) |
+| [TenantRoutingSettings Class](#tenantroutingsettings-class) | [PushTenantManager Class](#pushtenantmanager-class) | [QueryPropertyValueType Enum](#querypropertyvaluetype-enum) |
+| [ContextCondition Class](#contextcondition-class) | [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [QuerySuggestionQuery Class](#querysuggestionquery-class) |
+| [DrainingState Enum](#drainingstate-enum) | [PushTenantServiceInfoPropertyNames Class](#pushtenantserviceinfopropertynames-class) | [QuerySuggestionRange Class](#querysuggestionrange-class) |
+| [ExpandedQueryParameters Class](#expandedqueryparameters-class) | [SearchConfigurationPortability Class](#searchconfigurationportability-class) | [QuerySuggestionResults Class](#querysuggestionresults-class) |
+| [PromotedResultQueryRule Class](#promotedresultqueryrule-class) | [SearchConfigurationPortabilityPropertyNames Class](#searchconfigurationportabilitypropertynames-class) | [QueryUtility Class](#queryutility-class) |
+| [PromotedResults Class](#promotedresults-class) | [KeywordQuery Class](#keywordquery-class) | [RankingLabeling Class](#rankinglabeling-class) |
+| [PromotedResultsOperationsResult Class](#promotedresultsoperationsresult-class) | [KeywordQueryObjectPropertyNames Class](#keywordqueryobjectpropertynames-class) | [ReorderingRule Class](#reorderingrule-class) |
+| [QueryCondition Class](#querycondition-class) | [KeywordQueryProperties Class](#keywordqueryproperties-class) | [ReorderingRuleCollection Class](#reorderingrulecollection-class) |
+| [QueryConfiguration Class](#queryconfiguration-class) | [KeywordQueryPropertyNames Class](#keywordquerypropertynames-class) | [ReorderingRuleMatchType Enum](#reorderingrulematchtype-enum) |
+| [QueryContext Class](#querycontext-class) | [KnownTableTypes Class](#knowntabletypes-class) | [ResultTable Class](#resulttable-class) |
+| [QueryRoutingInfo Class](#queryroutinginfo-class) | [PersonalResultSuggestion Class](#personalresultsuggestion-class) | [ResultTableCollection Class](#resulttablecollection-class) |
+| [QueryState Enum](#querystate-enum) | [PopularQuery Class](#popularquery-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
+| [SearchEndpoints Class](#searchendpoints-class) | [Query Class](#query-class) | [SearchExecutor Class](#searchexecutor-class) |
+| [SearchObjectOwnerResult Class](#searchobjectownerresult-class) | [QueryAutoCompletion Class](#queryautocompletion-class) | [Sort Class](#sort-class) |
+| [ControlMessage Class](#controlmessage-class) | [QueryAutoCompletionMatch Class](#queryautocompletionmatch-class) | [SortCollection Class](#sortcollection-class) |
+| [MessageLevel Enum](#messagelevel-enum) | [QueryAutoCompletionResults Class](#queryautocompletionresults-class) | [SortDirection Enum](#sortdirection-enum) |
+| [DocumentCrawlLog Class](#documentcrawllog-class) | [QueryObjectPropertyNames Class](#queryobjectpropertynames-class) | [StringCollection Class](#stringcollection-class) |
+| [SearchObjectLevel Enum](#searchobjectlevel-enum) | [QueryPersonalizationData Class](#querypersonalizationdata-class) |   |
 # SearchTenantSettings Class
 
 Namespace: Microsoft.Office.Server.Search.lib.OM.SearchSubscriptionSettings
@@ -51,7 +52,56 @@ Base class: ClientObject
 | Name | Summary |
 |---|---|
 | **SearchTenantSettings(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-| **SearchTenantSettings(ClientRuntimeContext context, Guid tenantId, Guid realmId, bool isActive, bool isReadonly, long settingsVersion, DateTime lastUpdateTimeUtc, IDictionary\<string, Object\> settings)** |  |
+# TenantClassification Class
+
+Namespace: Microsoft.Office.Server.Search.lib.OM.SearchSubscriptionSettings
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **TenantClassification(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# TenantRoutingSettings Class
+
+Namespace: Microsoft.Office.Server.Search.lib.OM.SearchSubscriptionSettings
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **TenantRoutingSettings(ClientRuntimeContext context, ObjectPath objectPath)** |  |
 # ContextCondition Class
 
 Namespace: Microsoft.Office.Server.Search.REST
@@ -71,6 +121,18 @@ Base class: ClientValueObject
 | Name | Returns | Summary |
 |---|---|---|
 | **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# DrainingState Enum
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **None** |  |
+| **PrivateOneDrive** |  |
+| **PublicOneDrive** |  |
 # ExpandedQueryParameters Class
 
 Namespace: Microsoft.Office.Server.Search.REST
