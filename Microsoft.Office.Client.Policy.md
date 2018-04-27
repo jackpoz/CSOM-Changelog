@@ -49,6 +49,7 @@ Base class: ClientValueObject
 | **BlockEdit** | bool |  |
 | **ContainsSiteLabel** | bool |  |
 | **DisplayName** | string |  |
+| **EncryptionRMSTemplateId** | string |  |
 | **HasRetentionAction** | bool |  |
 | **IsEventTag** | bool |  |
 | **Notes** | string |  |

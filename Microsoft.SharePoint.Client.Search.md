@@ -889,8 +889,10 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **ExportQueryLogs(string userName, DateTime startTime)** | ClientResult\<string\> |  |
 | **GetQueryCompletions(int numberOfCompletions, string selectedSources, int cursorPosition)** | ClientResult\<[QueryAutoCompletionResults](#queryautocompletionresults-class)\> |  |
 | **GetQuerySuggestionsWithResults(int iNumberOfQuerySuggestions, int iNumberOfResultSuggestions, bool fPreQuerySuggestions, bool fHitHighlighting, bool fCapitalizeFirstLetters, bool fPrefixMatchAllTerms)** | ClientResult\<[QuerySuggestionResults](#querysuggestionresults-class)\> |  |
+| **GetZeroTermsQuerySuggestionsWithResults(int iNumberOfQuerySuggestions, int iNumberOfResultSuggestions, bool fCapitalizeFirstLetters)** | ClientResult\<[QuerySuggestionResults](#querysuggestionresults-class)\> |  |
 # QueryAutoCompletion Class
 
 Namespace: Microsoft.SharePoint.Client.Search.Query

@@ -2504,11 +2504,15 @@ Base class: ClientObject
 | **GetPeopleFollowedBy(string accountName)** | ClientObjectList\<[PersonProperties](#personproperties-class)\> |  |
 | **GetPeopleFollowedByMe()** | ClientObjectList\<[PersonProperties](#personproperties-class)\> |  |
 | **GetPropertiesFor(string accountName)** | [PersonProperties](#personproperties-class) |  |
+| **GetSPUserInformation(string accountName, Guid siteId)** | ClientResult\<IDictionary\<string, string\>\> |  |
 | **GetTrendingTags(ClientRuntimeContext context)** | [HashTagCollection](#hashtagcollection-class) |  |
+| **GetUserProfileProperties(string accountName)** | ClientResult\<IDictionary\<string, string\>\> |  |
 | **GetUserProfilePropertiesFor(UserProfilePropertiesForUser propertiesForUser)** | IEnumerable\<string\> |  |
 | **GetUserProfilePropertyFor(string accountName, string propertyName)** | ClientResult\<string\> |  |
+| **HardDeleteUserProfile(string accountName, Guid userId)** | ClientResult\<bool\> |  |
 | **HideSuggestion(string accountName)** | void |  |
 | **IsFollowing(ClientRuntimeContext context, string possibleFollowerAccountName, string possibleFolloweeAccountName)** | ClientResult\<bool\> |  |
+| **RemoveSPUserInformation(string accountName, Guid siteId, string redactName)** | ClientResult\<IDictionary\<string, string\>\> |  |
 | **SetMultiValuedProfileProperty(string accountName, string propertyName, IList\<string\> propertyValues)** | void |  |
 | **SetMyProfilePicture(Stream picture)** | void |  |
 | **SetSingleValueProfileProperty(string accountName, string propertyName, string propertyValue)** | void |  |
@@ -2555,9 +2559,11 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **DeleteCacheItemsAsync(PersonalCacheItem[] cacheItems)** | void |  |
 | **LoadUserProfile(string email)** | void |  |
 | **ReadCache(string folderPath)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
 | **ReadCacheOrCreate(ResourcePath folderPath, string[] requiredCacheKeys, bool createIfMissing)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
+| **ReadCacheOrCreateOrderById(ResourcePath folderPath, string[] requiredCacheKeys, bool createIfMissing)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
 | **WriteCache(PersonalCacheItem[] cacheItems)** | void |  |
 # PersonalCacheExceptionCode Enum
 
