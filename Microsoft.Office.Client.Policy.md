@@ -417,6 +417,7 @@ Base class: ClientObject
 | **LastModifiedBy** | string |  |
 | **Mode** | int |  |
 | **Name** | string |  |
+| **PolicyBlob** | string |  |
 | **Priority** | int |  |
 | **Scenario** | int |  |
 | **Source** | int |  |
@@ -455,6 +456,7 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 | **LastModifiedBy** | string |  |
 | **Mode** | string |  |
 | **Name** | string |  |
+| **PolicyBlob** | string |  |
 | **Priority** | string |  |
 | **Scenario** | string |  |
 | **Source** | string |  |
@@ -650,6 +652,7 @@ Base class: ClientObject
 |---|---|---|
 | **PolicyStoreUrl** | string |  |
 | **ReviewCenterUrl** | string |  |
+| **SupportContentTypeRetention** | bool |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -693,6 +696,7 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 |---|---|---|
 | **PolicyStoreUrl** | string |  |
 | **ReviewCenterUrl** | string |  |
+| **SupportContentTypeRetention** | string |  |
 # SPScsTenantEndPointInfo Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy

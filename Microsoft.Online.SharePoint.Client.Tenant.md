@@ -453,6 +453,7 @@ Base class: ClientObject
 | **ID** | Guid |  |
 | **LogoUrl** | string |  |
 | **Permissions** | IList\<[HubSitePermission](#hubsitepermission-class)\> |  |
+| **SiteDesignId** | Guid |  |
 | **SiteId** | Guid |  |
 | **SiteUrl** | string |  |
 | **Title** | string |  |
@@ -488,6 +489,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ID** | string |  |
 | **LogoUrl** | string |  |
 | **Permissions** | string |  |
+| **SiteDesignId** | string |  |
 | **SiteId** | string |  |
 | **SiteUrl** | string |  |
 | **Title** | string |  |
@@ -920,6 +922,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **Filter** | string |  |
+| **GroupIdDefined** | int |  |
 | **IncludeDetail** | bool |  |
 | **IncludePersonalSite** | [PersonalSiteFilter](#personalsitefilter-enum) |  |
 | **StartIndex** | string |  |
@@ -1197,6 +1200,7 @@ Base class: ClientObject
 | **StartASiteFormUrl** | string |  |
 | **StorageQuota** | long |  |
 | **StorageQuotaAllocated** | long |  |
+| **SyncPrivacyProfileProperties** | bool |  |
 | **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **UserVoiceForFeedbackEnabled** | bool |  |
@@ -1296,6 +1300,7 @@ Base class: ClientObject
 | **SetTenantCdnPolicy(SPOTenantCdnType cdnType, SPOTenantCdnPolicyType policyType, string policyValue)** | void |  |
 | **SetWebTheme(string themeName, string webUrl)** | ClientResult\<string\> |  |
 | **UnregisterHubSite(string siteUrl)** | void |  |
+| **UnregisterHubSiteById(Guid hubSiteId)** | void |  |
 | **Update()** | void |  |
 | **UpdateSiteDesign(TenantSiteDesign updateInfo)** | [TenantSiteDesign](#tenantsitedesign-class) |  |
 | **UpdateSiteScript(TenantSiteScript updateInfo)** | [TenantSiteScript](#tenantsitescript-class) |  |
@@ -1485,6 +1490,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **StartASiteFormUrl** | string |  |
 | **StorageQuota** | string |  |
 | **StorageQuotaAllocated** | string |  |
+| **SyncPrivacyProfileProperties** | string |  |
 | **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **UserVoiceForFeedbackEnabled** | string |  |
@@ -2452,6 +2458,7 @@ Base class: ClientObject
 | **SignInAccelerationDomain** | string |  |
 | **SocialBarOnSitePagesDisabled** | bool |  |
 | **StartASiteFormUrl** | string |  |
+| **SyncPrivacyProfileProperties** | bool |  |
 | **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **UserVoiceForFeedbackEnabled** | bool |  |
@@ -2581,6 +2588,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **SignInAccelerationDomain** | string |  |
 | **SocialBarOnSitePagesDisabled** | string |  |
 | **StartASiteFormUrl** | string |  |
+| **SyncPrivacyProfileProperties** | string |  |
 | **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **UserVoiceForFeedbackEnabled** | string |  |

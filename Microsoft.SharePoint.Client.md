@@ -7,215 +7,215 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [__StaticArrayInitTypeSize=128 Struct](#staticarrayinittypesize128-struct) | [FieldLink Class](#fieldlink-class) | [ScriptSafeDomainEntityData Class](#scriptsafedomainentitydata-class) |
-| [__StaticArrayInitTypeSize=192 Struct](#staticarrayinittypesize192-struct) | [FieldLinkCollection Class](#fieldlinkcollection-class) | [ScriptSafeExternalEmbedding Enum](#scriptsafeexternalembedding-enum) |
-| [EntityInstanceIdEncoder Class](#entityinstanceidencoder-class) | [FieldLinkCreationInformation Class](#fieldlinkcreationinformation-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
-| [ExternalSubscriptionStore Class](#externalsubscriptionstore-class) | [FieldLinkPropertyNames Class](#fieldlinkpropertynames-class) | [SecurableObject Class](#securableobject-class) |
-| [AppBdcCatalog Class](#appbdccatalog-class) | [FieldLookup Class](#fieldlookup-class) | [SecurableObjectObjectPropertyNames Class](#securableobjectobjectpropertynames-class) |
-| [Entity Class](#entity-class) | [FieldLookupPropertyNames Class](#fieldlookuppropertynames-class) | [SecurableObjectPropertyNames Class](#securableobjectpropertynames-class) |
-| [EntityField Class](#entityfield-class) | [FieldLookupValue Class](#fieldlookupvalue-class) | [ServerSettings Class](#serversettings-class) |
-| [EntityFieldPropertyNames Class](#entityfieldpropertynames-class) | [FieldMultiChoice Class](#fieldmultichoice-class) | [SharedWithUser Class](#sharedwithuser-class) |
-| [EntityIdentifier Class](#entityidentifier-class) | [FieldMultiChoicePropertyNames Class](#fieldmultichoicepropertynames-class) | [SharedWithUserCollection Class](#sharedwithusercollection-class) |
-| [EntityIdentifierPropertyNames Class](#entityidentifierpropertynames-class) | [FieldMultiLineText Class](#fieldmultilinetext-class) | [SharePointSharingSettings Class](#sharepointsharingsettings-class) |
-| [EntityPropertyNames Class](#entitypropertynames-class) | [FieldMultiLineTextPropertyNames Class](#fieldmultilinetextpropertynames-class) | [SharePointSharingSettingsObjectPropertyNames Class](#sharepointsharingsettingsobjectpropertynames-class) |
-| [EntityView Class](#entityview-class) | [FieldNumber Class](#fieldnumber-class) | [SharePointSharingSettingsPropertyNames Class](#sharepointsharingsettingspropertynames-class) |
-| [EntityViewObjectPropertyNames Class](#entityviewobjectpropertynames-class) | [FieldNumberPropertyNames Class](#fieldnumberpropertynames-class) | [SharingLinkData Class](#sharinglinkdata-class) |
-| [EntityViewPropertyNames Class](#entityviewpropertynames-class) | [FieldObjectPropertyNames Class](#fieldobjectpropertynames-class) | [SharingLinkInfo Class](#sharinglinkinfo-class) |
-| [Filter Class](#filter-class) | [FieldPropertyNames Class](#fieldpropertynames-class) | [SharingLinkKind Enum](#sharinglinkkind-enum) |
-| [FilterPropertyNames Class](#filterpropertynames-class) | [FieldRatingScale Class](#fieldratingscale-class) | [SharingOperationStatusCode Enum](#sharingoperationstatuscode-enum) |
-| [LobSystem Class](#lobsystem-class) | [FieldRatingScalePropertyNames Class](#fieldratingscalepropertynames-class) | [SharingPermissionInformation Class](#sharingpermissioninformation-class) |
-| [LobSystemInstance Class](#lobsysteminstance-class) | [FieldRatingScaleQuestionAnswer Class](#fieldratingscalequestionanswer-class) | [SharingPermissionInformationCollection Class](#sharingpermissioninformationcollection-class) |
-| [LobSystemInstancePropertyNames Class](#lobsysteminstancepropertynames-class) | [FieldStringValues Class](#fieldstringvalues-class) | [SharingPermissionInformationPropertyNames Class](#sharingpermissioninformationpropertynames-class) |
-| [LobSystemPropertyNames Class](#lobsystempropertynames-class) | [FieldText Class](#fieldtext-class) | [SharingPermissionKind Enum](#sharingpermissionkind-enum) |
-| [MethodExecutionResult Class](#methodexecutionresult-class) | [FieldTextPropertyNames Class](#fieldtextpropertynames-class) | [SharingResult Class](#sharingresult-class) |
-| [MethodExecutionResultObjectPropertyNames Class](#methodexecutionresultobjectpropertynames-class) | [FieldType Enum](#fieldtype-enum) | [SharingResultObjectPropertyNames Class](#sharingresultobjectpropertynames-class) |
-| [ReturnParameterCollection Class](#returnparametercollection-class) | [FieldUrl Class](#fieldurl-class) | [SharingResultPropertyNames Class](#sharingresultpropertynames-class) |
-| [TypeDescriptor Class](#typedescriptor-class) | [FieldUrlPropertyNames Class](#fieldurlpropertynames-class) | [SharingState Enum](#sharingstate-enum) |
-| [TypeDescriptorPropertyNames Class](#typedescriptorpropertynames-class) | [FieldUrlValue Class](#fieldurlvalue-class) | [SharingUserCollection Class](#sharingusercollection-class) |
-| [EntityFieldCollection Class](#entityfieldcollection-class) | [FieldUser Class](#fielduser-class) | [ShowInFiltersPaneStatus Enum](#showinfilterspanestatus-enum) |
-| [EntityIdentifierCollection Class](#entityidentifiercollection-class) | [FieldUserPropertyNames Class](#fielduserpropertynames-class) | [Site Class](#site-class) |
-| [EntityInstanceCollection Class](#entityinstancecollection-class) | [FieldUserSelectionMode Enum](#fielduserselectionmode-enum) | [SiteObjectPropertyNames Class](#siteobjectpropertynames-class) |
-| [FilterCollection Class](#filtercollection-class) | [FieldUserValue Class](#fielduservalue-class) | [SitePropertyNames Class](#sitepropertynames-class) |
-| [LobSystemInstanceCollection Class](#lobsysteminstancecollection-class) | [File Class](#file-class) | [SiteUrl Class](#siteurl-class) |
-| [TypeDescriptorCollection Class](#typedescriptorcollection-class) | [FileCollection Class](#filecollection-class) | [SPChangeActivityType Enum](#spchangeactivitytype-enum) |
-| [EntityEventType Enum](#entityeventtype-enum) | [FileCollectionAddParameters Class](#filecollectionaddparameters-class) | [SPClientUtility Class](#spclientutility-class) |
-| [EntityFieldValueDictionary Class](#entityfieldvaluedictionary-class) | [FileCreationInformation Class](#filecreationinformation-class) | [SPDataLeakagePreventionStatusInfo Class](#spdataleakagepreventionstatusinfo-class) |
-| [EntityIdentity Class](#entityidentity-class) | [FileInformation Class](#fileinformation-class) | [SPDataLeakagePreventionStatusInfoPropertyNames Class](#spdataleakagepreventionstatusinfopropertynames-class) |
-| [EntityIdentityPropertyNames Class](#entityidentitypropertynames-class) | [FileLevel Enum](#filelevel-enum) | [SpecialFolderType Enum](#specialfoldertype-enum) |
-| [EntityInstance Class](#entityinstance-class) | [FileObjectPropertyNames Class](#fileobjectpropertynames-class) | [SPEffectiveInformationRightsManagementSettingsSource Enum](#speffectiveinformationrightsmanagementsettingssource-enum) |
-| [NotificationCallback Class](#notificationcallback-class) | [FilePropertyNames Class](#filepropertynames-class) | [SPInvitationCreationResult Class](#spinvitationcreationresult-class) |
-| [NotificationCallbackPropertyNames Class](#notificationcallbackpropertynames-class) | [FileSaveBinaryInformation Class](#filesavebinaryinformation-class) | [SPMigrationJobStatus Class](#spmigrationjobstatus-class) |
-| [Subscription Class](#subscription-class) | [FileSystemObjectType Enum](#filesystemobjecttype-enum) | [SPMigrationJobStatusCollection Class](#spmigrationjobstatuscollection-class) |
-| [SubscriptionPropertyNames Class](#subscriptionpropertynames-class) | [FileVersion Class](#fileversion-class) | [SPMigrationJobStatusPropertyNames Class](#spmigrationjobstatuspropertynames-class) |
-| [SPActivityResponseStatus Enum](#spactivityresponsestatus-enum) | [FileVersionCollection Class](#fileversioncollection-class) | [SPScriptSafeDomainsCollection Class](#spscriptsafedomainscollection-class) |
-| [AppSource Enum](#appsource-enum) | [FileVersionEvent Class](#fileversionevent-class) | [SPVariantThemeType Enum](#spvariantthemetype-enum) |
-| [ClientPeoplePickerQueryParameters Class](#clientpeoplepickerqueryparameters-class) | [FileVersionEventCollection Class](#fileversioneventcollection-class) | [SPVirusCheckStatus Enum](#spviruscheckstatus-enum) |
-| [ClientPeoplePickerWebServiceInterface Class](#clientpeoplepickerwebserviceinterface-class) | [FileVersionEventPropertyNames Class](#fileversioneventpropertynames-class) | [StorageMetrics Class](#storagemetrics-class) |
-| [PeoplePickerQuerySettings Class](#peoplepickerquerysettings-class) | [FileVersionEventType Enum](#fileversioneventtype-enum) | [StorageMetricsPropertyNames Class](#storagemetricspropertynames-class) |
-| [PickerEntityInformation Class](#pickerentityinformation-class) | [FileVersionObjectPropertyNames Class](#fileversionobjectpropertynames-class) | [SubwebQuery Class](#subwebquery-class) |
-| [PickerEntityInformationPropertyNames Class](#pickerentityinformationpropertynames-class) | [FileVersionPropertyNames Class](#fileversionpropertynames-class) | [TeamChannelManager Class](#teamchannelmanager-class) |
-| [PickerEntityInformationRequest Class](#pickerentityinformationrequest-class) | [FlowSynchronizationResult Class](#flowsynchronizationresult-class) | [TemplateFileType Enum](#templatefiletype-enum) |
-| [AccessRequests Class](#accessrequests-class) | [FlowSynchronizationResultPropertyNames Class](#flowsynchronizationresultpropertynames-class) | [TenantAppInformation Class](#tenantappinformation-class) |
-| [AddFieldOptions Enum](#addfieldoptions-enum) | [FlowSynchronizationStatus Enum](#flowsynchronizationstatus-enum) | [TenantAppInstance Class](#tenantappinstance-class) |
-| [Alert Class](#alert-class) | [Folder Class](#folder-class) | [TenantAppInstancePropertyNames Class](#tenantappinstancepropertynames-class) |
-| [AlertCollection Class](#alertcollection-class) | [FolderCollection Class](#foldercollection-class) | [TenantAppUtility Class](#tenantapputility-class) |
-| [AlertCreationInformation Class](#alertcreationinformation-class) | [FolderCollectionAddParameters Class](#foldercollectionaddparameters-class) | [TenantSettings Class](#tenantsettings-class) |
-| [AlertDeliveryChannel Enum](#alertdeliverychannel-enum) | [FolderObjectPropertyNames Class](#folderobjectpropertynames-class) | [TenantSettingsPropertyNames Class](#tenantsettingspropertynames-class) |
-| [AlertEventType Enum](#alerteventtype-enum) | [FolderPropertyNames Class](#folderpropertynames-class) | [ThemeInfo Class](#themeinfo-class) |
-| [AlertFrequency Enum](#alertfrequency-enum) | [Form Class](#form-class) | [ThemeInfoPropertyNames Class](#themeinfopropertynames-class) |
-| [AlertObjectPropertyNames Class](#alertobjectpropertynames-class) | [FormCollection Class](#formcollection-class) | [TimeZone Class](#timezone-class) |
-| [AlertPropertyNames Class](#alertpropertynames-class) | [FormDigestInfo Class](#formdigestinfo-class) | [TimeZoneCollection Class](#timezonecollection-class) |
-| [AlertStatus Enum](#alertstatus-enum) | [FormPropertyNames Class](#formpropertynames-class) | [TimeZoneInformation Class](#timezoneinformation-class) |
-| [AlertType Enum](#alerttype-enum) | [Group Class](#group-class) | [TimeZonePropertyNames Class](#timezonepropertynames-class) |
-| [AlternateUrl Class](#alternateurl-class) | [GroupCollection Class](#groupcollection-class) | [UpgradeInfo Class](#upgradeinfo-class) |
-| [AlternateUrlPropertyNames Class](#alternateurlpropertynames-class) | [GroupCreationInformation Class](#groupcreationinformation-class) | [UpgradeStatus Enum](#upgradestatus-enum) |
-| [AnonymousLinkType Enum](#anonymouslinktype-enum) | [GroupObjectPropertyNames Class](#groupobjectpropertynames-class) | [UpgradeType Enum](#upgradetype-enum) |
-| [App Class](#app-class) | [GroupPropertyNames Class](#grouppropertynames-class) | [UrlFieldFormatType Enum](#urlfieldformattype-enum) |
-| [AppCatalog Class](#appcatalog-class) | [Hashtag Class](#hashtag-class) | [UrlZone Enum](#urlzone-enum) |
-| [AppInstance Class](#appinstance-class) | [HashtagStoreManager Class](#hashtagstoremanager-class) | [UsageInfo Class](#usageinfo-class) |
-| [AppInstanceErrorDetails Class](#appinstanceerrordetails-class) | [HubSiteCreationInformation Class](#hubsitecreationinformation-class) | [User Class](#user-class) |
-| [AppInstanceErrorDetailsPropertyNames Class](#appinstanceerrordetailspropertynames-class) | [InformationRightsManagementFileSettings Class](#informationrightsmanagementfilesettings-class) | [UserCollection Class](#usercollection-class) |
-| [AppInstanceErrorSource Enum](#appinstanceerrorsource-enum) | [InformationRightsManagementFileSettingsPropertyNames Class](#informationrightsmanagementfilesettingspropertynames-class) | [UserCreationInformation Class](#usercreationinformation-class) |
-| [AppInstanceErrorType Enum](#appinstanceerrortype-enum) | [InformationRightsManagementSettings Class](#informationrightsmanagementsettings-class) | [UserCustomAction Class](#usercustomaction-class) |
-| [AppInstancePropertyNames Class](#appinstancepropertynames-class) | [InformationRightsManagementSettingsPropertyNames Class](#informationrightsmanagementsettingspropertynames-class) | [UserCustomActionCollection Class](#usercustomactioncollection-class) |
-| [AppInstanceStatus Enum](#appinstancestatus-enum) | [IngestionTaskKey Class](#ingestiontaskkey-class) | [UserCustomActionObjectPropertyNames Class](#usercustomactionobjectpropertynames-class) |
-| [AppLicense Class](#applicense-class) | [Language Class](#language-class) | [UserCustomActionPropertyNames Class](#usercustomactionpropertynames-class) |
-| [AppLicenseCollection Class](#applicensecollection-class) | [LanguageCollection Class](#languagecollection-class) | [UserCustomActionRegistrationType Enum](#usercustomactionregistrationtype-enum) |
-| [AppLicenseType Enum](#applicensetype-enum) | [List Class](#list-class) | [UserCustomActionScope Enum](#usercustomactionscope-enum) |
-| [AppPrincipal Class](#appprincipal-class) | [ListBloomFilter Class](#listbloomfilter-class) | [UserIdInfo Class](#useridinfo-class) |
-| [AppPrincipalConfiguration Class](#appprincipalconfiguration-class) | [ListBloomFilterPropertyNames Class](#listbloomfilterpropertynames-class) | [UserObjectPropertyNames Class](#userobjectpropertynames-class) |
-| [AppPrincipalCredential Class](#appprincipalcredential-class) | [ListCollection Class](#listcollection-class) | [UserPropertyNames Class](#userpropertynames-class) |
-| [AppPrincipalCredentialReference Class](#appprincipalcredentialreference-class) | [ListCreationInformation Class](#listcreationinformation-class) | [UserResource Class](#userresource-class) |
-| [AppPrincipalIdentityProvider Class](#appprincipalidentityprovider-class) | [ListDataSource Class](#listdatasource-class) | [UserResourceScope Enum](#userresourcescope-enum) |
-| [AppPrincipalManager Class](#appprincipalmanager-class) | [ListDataValidationExceptionValue Class](#listdatavalidationexceptionvalue-class) | [UserResourceType Enum](#userresourcetype-enum) |
-| [AppPrincipalName Class](#appprincipalname-class) | [ListDataValidationFailure Class](#listdatavalidationfailure-class) | [UserSharingCapabilities Enum](#usersharingcapabilities-enum) |
-| [AppPrincipalPropertyNames Class](#appprincipalpropertynames-class) | [ListDataValidationFailureReason Enum](#listdatavalidationfailurereason-enum) | [View Class](#view-class) |
-| [AppProperties Class](#appproperties-class) | [ListDataValidationType Enum](#listdatavalidationtype-enum) | [ViewCollection Class](#viewcollection-class) |
-| [AppPropertyNames Class](#apppropertynames-class) | [ListExperience Enum](#listexperience-enum) | [ViewCreationInformation Class](#viewcreationinformation-class) |
-| [AppSiteContext Class](#appsitecontext-class) | [ListItem Class](#listitem-class) | [ViewFieldCollection Class](#viewfieldcollection-class) |
-| [AppSiteContextUtility Class](#appsitecontextutility-class) | [ListItemCollection Class](#listitemcollection-class) | [ViewFieldCollectionPropertyNames Class](#viewfieldcollectionpropertynames-class) |
-| [AppStatus Enum](#appstatus-enum) | [ListItemCollectionPosition Class](#listitemcollectionposition-class) | [ViewObjectPropertyNames Class](#viewobjectpropertynames-class) |
-| [AppTile Class](#apptile-class) | [ListItemCollectionPropertyNames Class](#listitemcollectionpropertynames-class) | [ViewPropertyNames Class](#viewpropertynames-class) |
-| [AppTileCollection Class](#apptilecollection-class) | [ListItemComplianceInfo Class](#listitemcomplianceinfo-class) | [ViewScope Enum](#viewscope-enum) |
-| [AppTileProperties Class](#apptileproperties-class) | [ListItemCreationInformation Class](#listitemcreationinformation-class) | [ViewType Enum](#viewtype-enum) |
-| [AppTilePropertyNames Class](#apptilepropertynames-class) | [ListItemCreationInformationUsingPath Class](#listitemcreationinformationusingpath-class) | [Visualization Class](#visualization-class) |
-| [AppType Enum](#apptype-enum) | [ListItemEntityCollection Class](#listitementitycollection-class) | [VisualizationAppInfo Class](#visualizationappinfo-class) |
-| [AppViewCreationInfo Class](#appviewcreationinfo-class) | [ListItemFormUpdateValue Class](#listitemformupdatevalue-class) | [VisualizationAppMappedViewCollection Class](#visualizationappmappedviewcollection-class) |
-| [Attachment Class](#attachment-class) | [ListItemObjectPropertyNames Class](#listitemobjectpropertynames-class) | [VisualizationAppSynchronizationResult Class](#visualizationappsynchronizationresult-class) |
-| [AttachmentCollection Class](#attachmentcollection-class) | [ListItemPropertyNames Class](#listitempropertynames-class) | [VisualizationAppSynchronizationResultObjectPropertyNames Class](#visualizationappsynchronizationresultobjectpropertynames-class) |
-| [AttachmentCreationInformation Class](#attachmentcreationinformation-class) | [ListItemVersion Class](#listitemversion-class) | [VisualizationAppSynchronizationResultPropertyNames Class](#visualizationappsynchronizationresultpropertynames-class) |
-| [AttachmentPropertyNames Class](#attachmentpropertynames-class) | [ListItemVersionCollection Class](#listitemversioncollection-class) | [VisualizationAppSynchronizationStatus Enum](#visualizationappsynchronizationstatus-enum) |
-| [Audit Class](#audit-class) | [ListItemVersionObjectPropertyNames Class](#listitemversionobjectpropertynames-class) | [VisualizationAppTarget Enum](#visualizationapptarget-enum) |
-| [AuditMaskType Enum](#auditmasktype-enum) | [ListItemVersionPropertyNames Class](#listitemversionpropertynames-class) | [VisualizationField Class](#visualizationfield-class) |
-| [AuditPropertyNames Class](#auditpropertynames-class) | [ListObjectPropertyNames Class](#listobjectpropertynames-class) | [VisualizationStyleSet Class](#visualizationstyleset-class) |
-| [BasePermissions Class](#basepermissions-class) | [ListPageRenderType Enum](#listpagerendertype-enum) | [VisualizationType Enum](#visualizationtype-enum) |
-| [BaseType Enum](#basetype-enum) | [ListPropertyNames Class](#listpropertynames-class) | [Web Class](#web-class) |
-| [BrowserFileHandling Enum](#browserfilehandling-enum) | [ListTemplate Class](#listtemplate-class) | [WebCollection Class](#webcollection-class) |
-| [CalendarType Enum](#calendartype-enum) | [ListTemplateCollection Class](#listtemplatecollection-class) | [WebCreationInformation Class](#webcreationinformation-class) |
-| [CamlQuery Class](#camlquery-class) | [ListTemplatePropertyNames Class](#listtemplatepropertynames-class) | [WebInformation Class](#webinformation-class) |
-| [Change Class](#change-class) | [ListTemplateType Enum](#listtemplatetype-enum) | [WebInformationPropertyNames Class](#webinformationpropertynames-class) |
-| [ChangeAlert Class](#changealert-class) | [MediaServiceUpdateParameters Class](#mediaserviceupdateparameters-class) | [WebObjectPropertyNames Class](#webobjectpropertynames-class) |
-| [ChangeAlertPropertyNames Class](#changealertpropertynames-class) | [MicroServiceManager Class](#microservicemanager-class) | [WebPropertyNames Class](#webpropertynames-class) |
-| [ChangeCollection Class](#changecollection-class) | [MicroServiceUtilities Class](#microserviceutilities-class) | [WebProxy Class](#webproxy-class) |
-| [ChangeContentType Class](#changecontenttype-class) | [MicroServiceWorkItemProperties Class](#microserviceworkitemproperties-class) | [WebRequestInfo Class](#webrequestinfo-class) |
-| [ChangeContentTypePropertyNames Class](#changecontenttypepropertynames-class) | [MigrationJobState Enum](#migrationjobstate-enum) | [WebResponseInfo Class](#webresponseinfo-class) |
-| [ChangeField Class](#changefield-class) | [MountedFolderInfo Class](#mountedfolderinfo-class) | [WebTemplate Class](#webtemplate-class) |
-| [ChangeFieldPropertyNames Class](#changefieldpropertynames-class) | [MountedFolderInfoPropertyNames Class](#mountedfolderinfopropertynames-class) | [WebTemplateCollection Class](#webtemplatecollection-class) |
-| [ChangeFile Class](#changefile-class) | [MountPoint Class](#mountpoint-class) | [WebTemplatePropertyNames Class](#webtemplatepropertynames-class) |
-| [ChangeFilePropertyNames Class](#changefilepropertynames-class) | [MountPointInfo Class](#mountpointinfo-class) | [AnalyticsUsageEntry Class](#analyticsusageentry-class) |
-| [ChangeFolder Class](#changefolder-class) | [MountPointInfoPropertyNames Class](#mountpointinfopropertynames-class) | [EventTypeId Enum](#eventtypeid-enum) |
-| [ChangeFolderPropertyNames Class](#changefolderpropertynames-class) | [MoveCopyOptions Class](#movecopyoptions-class) | [IRemoteEventService Class](#iremoteeventservice-class) |
-| [ChangeGroup Class](#changegroup-class) | [MoveCopyUtil Class](#movecopyutil-class) | [SPRemoteAppEventProperties Class](#spremoteappeventproperties-class) |
-| [ChangeGroupPropertyNames Class](#changegrouppropertynames-class) | [MoveOperations Enum](#moveoperations-enum) | [SPRemoteEntityInstanceEventProperties Class](#spremoteentityinstanceeventproperties-class) |
-| [ChangeItem Class](#changeitem-class) | [MultiGeoCopyParameters Class](#multigeocopyparameters-class) | [SPRemoteEventProperties Class](#spremoteeventproperties-class) |
-| [ChangeItemPropertyNames Class](#changeitempropertynames-class) | [Navigation Class](#navigation-class) | [SPRemoteEventResult Class](#spremoteeventresult-class) |
-| [ChangeList Class](#changelist-class) | [NavigationNode Class](#navigationnode-class) | [SPRemoteEventServiceStatus Enum](#spremoteeventservicestatus-enum) |
-| [ChangeListObjectPropertyNames Class](#changelistobjectpropertynames-class) | [NavigationNodeCollection Class](#navigationnodecollection-class) | [SPRemoteEventType Enum](#spremoteeventtype-enum) |
-| [ChangeListPropertyNames Class](#changelistpropertynames-class) | [NavigationNodeCreationInformation Class](#navigationnodecreationinformation-class) | [SPRemoteItemEventProperties Class](#spremoteitemeventproperties-class) |
-| [ChangeLogItemQuery Class](#changelogitemquery-class) | [NavigationNodeObjectPropertyNames Class](#navigationnodeobjectpropertynames-class) | [SPRemoteListEventProperties Class](#spremotelisteventproperties-class) |
-| [ChangePropertyNames Class](#changepropertynames-class) | [NavigationNodePropertyNames Class](#navigationnodepropertynames-class) | [SPRemoteSecurityEventProperties Class](#spremotesecurityeventproperties-class) |
-| [ChangeQuery Class](#changequery-class) | [NavigationObjectPropertyNames Class](#navigationobjectpropertynames-class) | [SPRemoteWebEventProperties Class](#spremotewebeventproperties-class) |
-| [ChangeSite Class](#changesite-class) | [NavigationPropertyNames Class](#navigationpropertynames-class) | [NativeClient Class](#nativeclient-class) |
-| [ChangeToken Class](#changetoken-class) | [ObjectSharingInformation Class](#objectsharinginformation-class) | [ClickManager Class](#clickmanager-class) |
-| [ChangeType Enum](#changetype-enum) | [ObjectSharingInformationObjectPropertyNames Class](#objectsharinginformationobjectpropertynames-class) | [PageImpressionClient Class](#pageimpressionclient-class) |
-| [ChangeUser Class](#changeuser-class) | [ObjectSharingInformationPropertyNames Class](#objectsharinginformationpropertynames-class) | [DocumentSharingManager Class](#documentsharingmanager-class) |
-| [ChangeUserPropertyNames Class](#changeuserpropertynames-class) | [ObjectSharingInformationUser Class](#objectsharinginformationuser-class) | [RemoveItemsFromSharedWithMeViewErrorCode Enum](#removeitemsfromsharedwithmeviewerrorcode-enum) |
-| [ChangeView Class](#changeview-class) | [ObjectSharingInformationUserCollection Class](#objectsharinginformationusercollection-class) | [Role Enum](#role-enum) |
-| [ChangeViewPropertyNames Class](#changeviewpropertynames-class) | [ObjectSharingInformationUserObjectPropertyNames Class](#objectsharinginformationuserobjectpropertynames-class) | [SharedObjectType Enum](#sharedobjecttype-enum) |
-| [ChangeWeb Class](#changeweb-class) | [ObjectSharingInformationUserPropertyNames Class](#objectsharinginformationuserpropertynames-class) | [SharedWithMeViewItemRemovalResult Class](#sharedwithmeviewitemremovalresult-class) |
-| [ChangeWebPropertyNames Class](#changewebpropertynames-class) | [ObjectSharingSettings Class](#objectsharingsettings-class) | [SharingDomainRestrictionMode Enum](#sharingdomainrestrictionmode-enum) |
-| [CheckedOutFile Class](#checkedoutfile-class) | [ObjectSharingSettingsObjectPropertyNames Class](#objectsharingsettingsobjectpropertynames-class) | [UserRoleAssignment Class](#userroleassignment-class) |
-| [CheckedOutFileCollection Class](#checkedoutfilecollection-class) | [ObjectSharingSettingsPropertyNames Class](#objectsharingsettingspropertynames-class) | [UserSharingResult Class](#usersharingresult-class) |
-| [CheckedOutFileObjectPropertyNames Class](#checkedoutfileobjectpropertynames-class) | [OpenWebOptions Enum](#openweboptions-enum) | [WebSharingManager Class](#websharingmanager-class) |
-| [CheckedOutFilePropertyNames Class](#checkedoutfilepropertynames-class) | [PageType Enum](#pagetype-enum) | [SiteHealthResult Class](#sitehealthresult-class) |
-| [CheckinType Enum](#checkintype-enum) | [PermissionKind Enum](#permissionkind-enum) | [SiteHealthStatusType Enum](#sitehealthstatustype-enum) |
-| [CheckOutType Enum](#checkouttype-enum) | [PickerSettings Class](#pickersettings-class) | [SiteHealthSummary Class](#sitehealthsummary-class) |
-| [ChoiceFormatType Enum](#choiceformattype-enum) | [PickerSettingsPropertyNames Class](#pickersettingspropertynames-class) | [SiteHealthSummaryPropertyNames Class](#sitehealthsummarypropertynames-class) |
-| [ClientContext Class](#clientcontext-class) | [PolicyTipUserAction Enum](#policytipuseraction-enum) | [DateTimeFormat Enum](#datetimeformat-enum) |
-| [CompatibilityRange Class](#compatibilityrange-class) | [PolicyTipUserActionResult Enum](#policytipuseractionresult-enum) | [EmailProperties Class](#emailproperties-class) |
-| [ContentType Class](#contenttype-class) | [Principal Class](#principal-class) | [FileHandlerWopiProperties Class](#filehandlerwopiproperties-class) |
-| [ContentTypeCollection Class](#contenttypecollection-class) | [PrincipalPropertyNames Class](#principalpropertynames-class) | [FileHandlerWopiPropertiesPropertyNames Class](#filehandlerwopipropertiespropertynames-class) |
-| [ContentTypeCreationInformation Class](#contenttypecreationinformation-class) | [PropertyValues Class](#propertyvalues-class) | [HtmlStrings Class](#htmlstrings-class) |
-| [ContentTypeId Class](#contenttypeid-class) | [ProvisionedMigrationContainersInfo Class](#provisionedmigrationcontainersinfo-class) | [HttpUtility Class](#httputility-class) |
-| [ContentTypeObjectPropertyNames Class](#contenttypeobjectpropertynames-class) | [ProvisionedMigrationQueueInfo Class](#provisionedmigrationqueueinfo-class) | [IconSize Enum](#iconsize-enum) |
-| [ContentTypePropertyNames Class](#contenttypepropertynames-class) | [PushNotificationSubscriber Class](#pushnotificationsubscriber-class) | [JsonTheme Class](#jsontheme-class) |
-| [CopyJobProgress Class](#copyjobprogress-class) | [PushNotificationSubscriberCollection Class](#pushnotificationsubscribercollection-class) | [LogAppErrorResult Enum](#logapperrorresult-enum) |
-| [CopyMigrationInfo Class](#copymigrationinfo-class) | [PushNotificationSubscriberObjectPropertyNames Class](#pushnotificationsubscriberobjectpropertynames-class) | [PrincipalInfo Class](#principalinfo-class) |
-| [CopyMigrationOptions Class](#copymigrationoptions-class) | [PushNotificationSubscriberPropertyNames Class](#pushnotificationsubscriberpropertynames-class) | [PrincipalSource Enum](#principalsource-enum) |
-| [CreatableItemInfo Class](#creatableiteminfo-class) | [QuickLaunchOptions Enum](#quicklaunchoptions-enum) | [PrincipalType Enum](#principaltype-enum) |
-| [CreatableItemInfoCollection Class](#creatableiteminfocollection-class) | [RecycleBinItem Class](#recyclebinitem-class) | [SPSocialSwitch Class](#spsocialswitch-class) |
-| [CreatablesInfo Class](#creatablesinfo-class) | [RecycleBinItemCollection Class](#recyclebinitemcollection-class) | [SPWOPIFrameAction Enum](#spwopiframeaction-enum) |
-| [CreatablesInfoPropertyNames Class](#creatablesinfopropertynames-class) | [RecycleBinItemObjectPropertyNames Class](#recyclebinitemobjectpropertynames-class) | [ThemingOptions Class](#themingoptions-class) |
-| [CurrencyInformation Class](#currencyinformation-class) | [RecycleBinItemPropertyNames Class](#recyclebinitempropertynames-class) | [UploadStatus Class](#uploadstatus-class) |
-| [CurrencyInformationCollection Class](#currencyinformationcollection-class) | [RecycleBinItemState Enum](#recyclebinitemstate-enum) | [UploadStatusPropertyNames Class](#uploadstatuspropertynames-class) |
-| [CurrencyList Class](#currencylist-class) | [RecycleBinItemType Enum](#recyclebinitemtype-enum) | [UrlUtility Class](#urlutility-class) |
-| [CustomActionElement Class](#customactionelement-class) | [RecycleBinOrderBy Enum](#recyclebinorderby-enum) | [Utility Class](#utility-class) |
-| [CustomActionElementCollection Class](#customactionelementcollection-class) | [RecycleBinQueryInformation Class](#recyclebinqueryinformation-class) | [WebAppExtUrlPair Class](#webappexturlpair-class) |
-| [CustomerKeyInfo Class](#customerkeyinfo-class) | [RegionalSettings Class](#regionalsettings-class) | [WebAppUrlsByAction Class](#webappurlsbyaction-class) |
-| [CustomerKeyStatus Enum](#customerkeystatus-enum) | [RegionalSettingsObjectPropertyNames Class](#regionalsettingsobjectpropertynames-class) | [WikiPageCreationInformation Class](#wikipagecreationinformation-class) |
-| [CustomerKeyStatusInfo Class](#customerkeystatusinfo-class) | [RegionalSettingsPropertyNames Class](#regionalsettingspropertynames-class) | [WopiHostUtility Class](#wopihostutility-class) |
-| [CustomerKeyVaultInfo Class](#customerkeyvaultinfo-class) | [RelatedField Class](#relatedfield-class) | [WopiProperties Class](#wopiproperties-class) |
-| [CustomerKeyVaultKeyType Enum](#customerkeyvaultkeytype-enum) | [RelatedFieldCollection Class](#relatedfieldcollection-class) | [WopiPropertiesPropertyNames Class](#wopipropertiespropertynames-class) |
-| [CustomizedPageStatus Enum](#customizedpagestatus-enum) | [RelatedFieldObjectPropertyNames Class](#relatedfieldobjectpropertynames-class) | [WopiWebAppProperties Class](#wopiwebappproperties-class) |
-| [DateTimeFieldFormatType Enum](#datetimefieldformattype-enum) | [RelatedFieldPropertyNames Class](#relatedfieldpropertynames-class) | [LimitedWebPartManager Class](#limitedwebpartmanager-class) |
-| [DateTimeFieldFriendlyFormatType Enum](#datetimefieldfriendlyformattype-enum) | [RelatedItem Class](#relateditem-class) | [LimitedWebPartManagerObjectPropertyNames Class](#limitedwebpartmanagerobjectpropertynames-class) |
-| [DlpPolicyTip Class](#dlppolicytip-class) | [RelatedItemManager Class](#relateditemmanager-class) | [LimitedWebPartManagerPropertyNames Class](#limitedwebpartmanagerpropertynames-class) |
-| [DlpPolicyTipPropertyNames Class](#dlppolicytippropertynames-class) | [RelationshipDeleteBehaviorType Enum](#relationshipdeletebehaviortype-enum) | [PersonalizationScope Enum](#personalizationscope-enum) |
-| [DocumentLibraryInformation Class](#documentlibraryinformation-class) | [RemoteWeb Class](#remoteweb-class) | [TileData Class](#tiledata-class) |
-| [DocumentTemplateType Enum](#documenttemplatetype-enum) | [RemoteWebObjectPropertyNames Class](#remotewebobjectpropertynames-class) | [WebPart Class](#webpart-class) |
-| [DraftVisibilityType Enum](#draftvisibilitytype-enum) | [RemoteWebPropertyNames Class](#remotewebpropertynames-class) | [WebPartDefinition Class](#webpartdefinition-class) |
-| [EffectiveInformationRightsManagementSettings Class](#effectiveinformationrightsmanagementsettings-class) | [RenderListContextMenuDataParameters Class](#renderlistcontextmenudataparameters-class) | [WebPartDefinitionCollection Class](#webpartdefinitioncollection-class) |
-| [EffectiveInformationRightsManagementSettingsPropertyNames Class](#effectiveinformationrightsmanagementsettingspropertynames-class) | [RenderListDataOptions Enum](#renderlistdataoptions-enum) | [WebPartDefinitionObjectPropertyNames Class](#webpartdefinitionobjectpropertynames-class) |
-| [EncryptionOption Class](#encryptionoption-class) | [RenderListDataOverrideParameters Class](#renderlistdataoverrideparameters-class) | [WebPartDefinitionPropertyNames Class](#webpartdefinitionpropertynames-class) |
-| [EventReceiverDefinition Class](#eventreceiverdefinition-class) | [RenderListDataParameters Class](#renderlistdataparameters-class) | [WebPartExportMode Enum](#webpartexportmode-enum) |
-| [EventReceiverDefinitionCollection Class](#eventreceiverdefinitioncollection-class) | [RenderListFilterDataParameters Class](#renderlistfilterdataparameters-class) | [WebPartObjectPropertyNames Class](#webpartobjectpropertynames-class) |
-| [EventReceiverDefinitionCreationInformation Class](#eventreceiverdefinitioncreationinformation-class) | [RenderListFormDataOptions Enum](#renderlistformdataoptions-enum) | [WebPartPropertyNames Class](#webpartpropertynames-class) |
-| [EventReceiverDefinitionPropertyNames Class](#eventreceiverdefinitionpropertynames-class) | [RequestContext Class](#requestcontext-class) | [WorkflowAssociation Class](#workflowassociation-class) |
-| [EventReceiverSynchronization Enum](#eventreceiversynchronization-enum) | [RequestContextObjectPropertyNames Class](#requestcontextobjectpropertynames-class) | [WorkflowAssociationCollection Class](#workflowassociationcollection-class) |
-| [EventReceiverType Enum](#eventreceivertype-enum) | [RequestForwarder Class](#requestforwarder-class) | [WorkflowAssociationCreationInformation Class](#workflowassociationcreationinformation-class) |
-| [ExternalApplicationRequestToken Class](#externalapplicationrequesttoken-class) | [RequestResourceConstants Class](#requestresourceconstants-class) | [WorkflowAssociationPropertyNames Class](#workflowassociationpropertynames-class) |
-| [ExternalAppPrincipalCreationParameters Class](#externalappprincipalcreationparameters-class) | [RequestResources Class](#requestresources-class) | [WorkflowTemplate Class](#workflowtemplate-class) |
-| [Feature Class](#feature-class) | [RequestType Enum](#requesttype-enum) | [WorkflowTemplateCollection Class](#workflowtemplatecollection-class) |
-| [FeatureCollection Class](#featurecollection-class) | [RequestUserContext Class](#requestusercontext-class) | [WorkflowTemplatePropertyNames Class](#workflowtemplatepropertynames-class) |
-| [FeatureDefinitionScope Enum](#featuredefinitionscope-enum) | [RequestUserContextObjectPropertyNames Class](#requestusercontextobjectpropertynames-class) | [StorageEntity Class](#storageentity-class) |
-| [FeaturePropertyNames Class](#featurepropertynames-class) | [RequestVariable Class](#requestvariable-class) | [StorageEntityPropertyNames Class](#storageentitypropertynames-class) |
-| [Field Class](#field-class) | [RequestVariablePropertyNames Class](#requestvariablepropertynames-class) | [CommentsDisabledScope Enum](#commentsdisabledscope-enum) |
-| [FieldCalculated Class](#fieldcalculated-class) | [ResourcePath Class](#resourcepath-class) | [SiteCollectionAppCatalogAllowedCollection Class](#sitecollectionappcatalogallowedcollection-class) |
-| [FieldCalculatedErrorValue Class](#fieldcalculatederrorvalue-class) | [RoleAssignment Class](#roleassignment-class) | [SiteCollectionAppCatalogAllowedItem Class](#sitecollectionappcatalogalloweditem-class) |
-| [FieldCalculatedPropertyNames Class](#fieldcalculatedpropertynames-class) | [RoleAssignmentCollection Class](#roleassignmentcollection-class) | [SiteCollectionAppCatalogAllowedItemPropertyNames Class](#sitecollectionappcatalogalloweditempropertynames-class) |
-| [FieldChoice Class](#fieldchoice-class) | [RoleAssignmentCollectionObjectPropertyNames Class](#roleassignmentcollectionobjectpropertynames-class) | [SiteCollectionCorporateCatalogAccessor Class](#sitecollectioncorporatecatalogaccessor-class) |
-| [FieldChoicePropertyNames Class](#fieldchoicepropertynames-class) | [RoleAssignmentObjectPropertyNames Class](#roleassignmentobjectpropertynames-class) | [TenantCorporateCatalogAccessor Class](#tenantcorporatecatalogaccessor-class) |
-| [FieldCollection Class](#fieldcollection-class) | [RoleAssignmentPropertyNames Class](#roleassignmentpropertynames-class) | [TenantCorporateCatalogAccessorObjectPropertyNames Class](#tenantcorporatecatalogaccessorobjectpropertynames-class) |
-| [FieldCollectionPropertyNames Class](#fieldcollectionpropertynames-class) | [RoleDefinition Class](#roledefinition-class) | [AppDetails Class](#appdetails-class) |
-| [FieldComputed Class](#fieldcomputed-class) | [RoleDefinitionBindingCollection Class](#roledefinitionbindingcollection-class) | [AppDetailsPropertyNames Class](#appdetailspropertynames-class) |
-| [FieldComputedPropertyNames Class](#fieldcomputedpropertynames-class) | [RoleDefinitionCollection Class](#roledefinitioncollection-class) | [AppIconInfo Class](#appiconinfo-class) |
-| [FieldCurrency Class](#fieldcurrency-class) | [RoleDefinitionCreationInformation Class](#roledefinitioncreationinformation-class) | [AppIconInfoPropertyNames Class](#appiconinfopropertynames-class) |
-| [FieldCurrencyPropertyNames Class](#fieldcurrencypropertynames-class) | [RoleDefinitionPropertyNames Class](#roledefinitionpropertynames-class) | [TenantCdnUrl Class](#tenantcdnurl-class) |
-| [FieldDateTime Class](#fielddatetime-class) | [RoleType Enum](#roletype-enum) | [ModuleLink Class](#modulelink-class) |
-| [FieldDateTimePropertyNames Class](#fielddatetimepropertynames-class) | [RuleOverrideOptions Enum](#ruleoverrideoptions-enum) | [ResourceManifestInformation Class](#resourcemanifestinformation-class) |
-| [FieldGeolocation Class](#fieldgeolocation-class) | [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [ResourceManifestInformationPropertyNames Class](#resourcemanifestinformationpropertynames-class) |
-| [FieldGeolocationValue Class](#fieldgeolocationvalue-class) | [SaveBinaryCheckMode Enum](#savebinarycheckmode-enum) |   |
-| [FieldGuid Class](#fieldguid-class) | [ScriptSafeDomain Class](#scriptsafedomain-class) |   |
+| [__StaticArrayInitTypeSize=128 Struct](#staticarrayinittypesize128-struct) | [FieldLink Class](#fieldlink-class) | [ScriptSafeDomain Class](#scriptsafedomain-class) |
+| [__StaticArrayInitTypeSize=192 Struct](#staticarrayinittypesize192-struct) | [FieldLinkCollection Class](#fieldlinkcollection-class) | [ScriptSafeDomainEntityData Class](#scriptsafedomainentitydata-class) |
+| [EntityInstanceIdEncoder Class](#entityinstanceidencoder-class) | [FieldLinkCreationInformation Class](#fieldlinkcreationinformation-class) | [ScriptSafeExternalEmbedding Enum](#scriptsafeexternalembedding-enum) |
+| [ExternalSubscriptionStore Class](#externalsubscriptionstore-class) | [FieldLinkPropertyNames Class](#fieldlinkpropertynames-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
+| [AppBdcCatalog Class](#appbdccatalog-class) | [FieldLookup Class](#fieldlookup-class) | [SecurableObject Class](#securableobject-class) |
+| [Entity Class](#entity-class) | [FieldLookupPropertyNames Class](#fieldlookuppropertynames-class) | [SecurableObjectObjectPropertyNames Class](#securableobjectobjectpropertynames-class) |
+| [EntityField Class](#entityfield-class) | [FieldLookupValue Class](#fieldlookupvalue-class) | [SecurableObjectPropertyNames Class](#securableobjectpropertynames-class) |
+| [EntityFieldPropertyNames Class](#entityfieldpropertynames-class) | [FieldMultiChoice Class](#fieldmultichoice-class) | [ServerSettings Class](#serversettings-class) |
+| [EntityIdentifier Class](#entityidentifier-class) | [FieldMultiChoicePropertyNames Class](#fieldmultichoicepropertynames-class) | [SharedWithUser Class](#sharedwithuser-class) |
+| [EntityIdentifierPropertyNames Class](#entityidentifierpropertynames-class) | [FieldMultiLineText Class](#fieldmultilinetext-class) | [SharedWithUserCollection Class](#sharedwithusercollection-class) |
+| [EntityPropertyNames Class](#entitypropertynames-class) | [FieldMultiLineTextPropertyNames Class](#fieldmultilinetextpropertynames-class) | [SharePointSharingSettings Class](#sharepointsharingsettings-class) |
+| [EntityView Class](#entityview-class) | [FieldNumber Class](#fieldnumber-class) | [SharePointSharingSettingsObjectPropertyNames Class](#sharepointsharingsettingsobjectpropertynames-class) |
+| [EntityViewObjectPropertyNames Class](#entityviewobjectpropertynames-class) | [FieldNumberPropertyNames Class](#fieldnumberpropertynames-class) | [SharePointSharingSettingsPropertyNames Class](#sharepointsharingsettingspropertynames-class) |
+| [EntityViewPropertyNames Class](#entityviewpropertynames-class) | [FieldObjectPropertyNames Class](#fieldobjectpropertynames-class) | [SharingLinkData Class](#sharinglinkdata-class) |
+| [Filter Class](#filter-class) | [FieldPropertyNames Class](#fieldpropertynames-class) | [SharingLinkInfo Class](#sharinglinkinfo-class) |
+| [FilterPropertyNames Class](#filterpropertynames-class) | [FieldRatingScale Class](#fieldratingscale-class) | [SharingLinkKind Enum](#sharinglinkkind-enum) |
+| [LobSystem Class](#lobsystem-class) | [FieldRatingScalePropertyNames Class](#fieldratingscalepropertynames-class) | [SharingOperationStatusCode Enum](#sharingoperationstatuscode-enum) |
+| [LobSystemInstance Class](#lobsysteminstance-class) | [FieldRatingScaleQuestionAnswer Class](#fieldratingscalequestionanswer-class) | [SharingPermissionInformation Class](#sharingpermissioninformation-class) |
+| [LobSystemInstancePropertyNames Class](#lobsysteminstancepropertynames-class) | [FieldStringValues Class](#fieldstringvalues-class) | [SharingPermissionInformationCollection Class](#sharingpermissioninformationcollection-class) |
+| [LobSystemPropertyNames Class](#lobsystempropertynames-class) | [FieldText Class](#fieldtext-class) | [SharingPermissionInformationPropertyNames Class](#sharingpermissioninformationpropertynames-class) |
+| [MethodExecutionResult Class](#methodexecutionresult-class) | [FieldTextPropertyNames Class](#fieldtextpropertynames-class) | [SharingPermissionKind Enum](#sharingpermissionkind-enum) |
+| [MethodExecutionResultObjectPropertyNames Class](#methodexecutionresultobjectpropertynames-class) | [FieldType Enum](#fieldtype-enum) | [SharingResult Class](#sharingresult-class) |
+| [ReturnParameterCollection Class](#returnparametercollection-class) | [FieldUrl Class](#fieldurl-class) | [SharingResultObjectPropertyNames Class](#sharingresultobjectpropertynames-class) |
+| [TypeDescriptor Class](#typedescriptor-class) | [FieldUrlPropertyNames Class](#fieldurlpropertynames-class) | [SharingResultPropertyNames Class](#sharingresultpropertynames-class) |
+| [TypeDescriptorPropertyNames Class](#typedescriptorpropertynames-class) | [FieldUrlValue Class](#fieldurlvalue-class) | [SharingState Enum](#sharingstate-enum) |
+| [EntityFieldCollection Class](#entityfieldcollection-class) | [FieldUser Class](#fielduser-class) | [SharingUserCollection Class](#sharingusercollection-class) |
+| [EntityIdentifierCollection Class](#entityidentifiercollection-class) | [FieldUserPropertyNames Class](#fielduserpropertynames-class) | [ShowInFiltersPaneStatus Enum](#showinfilterspanestatus-enum) |
+| [EntityInstanceCollection Class](#entityinstancecollection-class) | [FieldUserSelectionMode Enum](#fielduserselectionmode-enum) | [Site Class](#site-class) |
+| [FilterCollection Class](#filtercollection-class) | [FieldUserValue Class](#fielduservalue-class) | [SiteObjectPropertyNames Class](#siteobjectpropertynames-class) |
+| [LobSystemInstanceCollection Class](#lobsysteminstancecollection-class) | [File Class](#file-class) | [SitePropertyNames Class](#sitepropertynames-class) |
+| [TypeDescriptorCollection Class](#typedescriptorcollection-class) | [FileCollection Class](#filecollection-class) | [SiteUrl Class](#siteurl-class) |
+| [EntityEventType Enum](#entityeventtype-enum) | [FileCollectionAddParameters Class](#filecollectionaddparameters-class) | [SPChangeActivityType Enum](#spchangeactivitytype-enum) |
+| [EntityFieldValueDictionary Class](#entityfieldvaluedictionary-class) | [FileCreationInformation Class](#filecreationinformation-class) | [SPClientUtility Class](#spclientutility-class) |
+| [EntityIdentity Class](#entityidentity-class) | [FileInformation Class](#fileinformation-class) | [SPDataLeakagePreventionStatusInfo Class](#spdataleakagepreventionstatusinfo-class) |
+| [EntityIdentityPropertyNames Class](#entityidentitypropertynames-class) | [FileLevel Enum](#filelevel-enum) | [SPDataLeakagePreventionStatusInfoPropertyNames Class](#spdataleakagepreventionstatusinfopropertynames-class) |
+| [EntityInstance Class](#entityinstance-class) | [FileObjectPropertyNames Class](#fileobjectpropertynames-class) | [SpecialFolderType Enum](#specialfoldertype-enum) |
+| [NotificationCallback Class](#notificationcallback-class) | [FilePropertyNames Class](#filepropertynames-class) | [SPEffectiveInformationRightsManagementSettingsSource Enum](#speffectiveinformationrightsmanagementsettingssource-enum) |
+| [NotificationCallbackPropertyNames Class](#notificationcallbackpropertynames-class) | [FileSaveBinaryInformation Class](#filesavebinaryinformation-class) | [SPInvitationCreationResult Class](#spinvitationcreationresult-class) |
+| [Subscription Class](#subscription-class) | [FileSystemObjectType Enum](#filesystemobjecttype-enum) | [SPMigrationJobStatus Class](#spmigrationjobstatus-class) |
+| [SubscriptionPropertyNames Class](#subscriptionpropertynames-class) | [FileVersion Class](#fileversion-class) | [SPMigrationJobStatusCollection Class](#spmigrationjobstatuscollection-class) |
+| [SPActivityResponseStatus Enum](#spactivityresponsestatus-enum) | [FileVersionCollection Class](#fileversioncollection-class) | [SPMigrationJobStatusPropertyNames Class](#spmigrationjobstatuspropertynames-class) |
+| [AppSource Enum](#appsource-enum) | [FileVersionEvent Class](#fileversionevent-class) | [SPScriptSafeDomainsCollection Class](#spscriptsafedomainscollection-class) |
+| [ClientPeoplePickerQueryParameters Class](#clientpeoplepickerqueryparameters-class) | [FileVersionEventCollection Class](#fileversioneventcollection-class) | [SPVariantThemeType Enum](#spvariantthemetype-enum) |
+| [ClientPeoplePickerWebServiceInterface Class](#clientpeoplepickerwebserviceinterface-class) | [FileVersionEventPropertyNames Class](#fileversioneventpropertynames-class) | [SPVirusCheckStatus Enum](#spviruscheckstatus-enum) |
+| [PeoplePickerQuerySettings Class](#peoplepickerquerysettings-class) | [FileVersionEventType Enum](#fileversioneventtype-enum) | [StorageMetrics Class](#storagemetrics-class) |
+| [PickerEntityInformation Class](#pickerentityinformation-class) | [FileVersionObjectPropertyNames Class](#fileversionobjectpropertynames-class) | [StorageMetricsPropertyNames Class](#storagemetricspropertynames-class) |
+| [PickerEntityInformationPropertyNames Class](#pickerentityinformationpropertynames-class) | [FileVersionPropertyNames Class](#fileversionpropertynames-class) | [SubwebQuery Class](#subwebquery-class) |
+| [PickerEntityInformationRequest Class](#pickerentityinformationrequest-class) | [FlowSynchronizationResult Class](#flowsynchronizationresult-class) | [TeamChannelManager Class](#teamchannelmanager-class) |
+| [AccessRequests Class](#accessrequests-class) | [FlowSynchronizationResultPropertyNames Class](#flowsynchronizationresultpropertynames-class) | [TemplateFileType Enum](#templatefiletype-enum) |
+| [AddFieldOptions Enum](#addfieldoptions-enum) | [FlowSynchronizationStatus Enum](#flowsynchronizationstatus-enum) | [TenantAppInformation Class](#tenantappinformation-class) |
+| [Alert Class](#alert-class) | [Folder Class](#folder-class) | [TenantAppInstance Class](#tenantappinstance-class) |
+| [AlertCollection Class](#alertcollection-class) | [FolderCollection Class](#foldercollection-class) | [TenantAppInstancePropertyNames Class](#tenantappinstancepropertynames-class) |
+| [AlertCreationInformation Class](#alertcreationinformation-class) | [FolderCollectionAddParameters Class](#foldercollectionaddparameters-class) | [TenantAppUtility Class](#tenantapputility-class) |
+| [AlertDeliveryChannel Enum](#alertdeliverychannel-enum) | [FolderObjectPropertyNames Class](#folderobjectpropertynames-class) | [TenantSettings Class](#tenantsettings-class) |
+| [AlertEventType Enum](#alerteventtype-enum) | [FolderPropertyNames Class](#folderpropertynames-class) | [TenantSettingsPropertyNames Class](#tenantsettingspropertynames-class) |
+| [AlertFrequency Enum](#alertfrequency-enum) | [Form Class](#form-class) | [ThemeInfo Class](#themeinfo-class) |
+| [AlertObjectPropertyNames Class](#alertobjectpropertynames-class) | [FormCollection Class](#formcollection-class) | [ThemeInfoPropertyNames Class](#themeinfopropertynames-class) |
+| [AlertPropertyNames Class](#alertpropertynames-class) | [FormDigestInfo Class](#formdigestinfo-class) | [TimeZone Class](#timezone-class) |
+| [AlertStatus Enum](#alertstatus-enum) | [FormPropertyNames Class](#formpropertynames-class) | [TimeZoneCollection Class](#timezonecollection-class) |
+| [AlertType Enum](#alerttype-enum) | [Group Class](#group-class) | [TimeZoneInformation Class](#timezoneinformation-class) |
+| [AlternateUrl Class](#alternateurl-class) | [GroupCollection Class](#groupcollection-class) | [TimeZonePropertyNames Class](#timezonepropertynames-class) |
+| [AlternateUrlPropertyNames Class](#alternateurlpropertynames-class) | [GroupCreationInformation Class](#groupcreationinformation-class) | [UpgradeInfo Class](#upgradeinfo-class) |
+| [AnonymousLinkType Enum](#anonymouslinktype-enum) | [GroupObjectPropertyNames Class](#groupobjectpropertynames-class) | [UpgradeStatus Enum](#upgradestatus-enum) |
+| [App Class](#app-class) | [GroupPropertyNames Class](#grouppropertynames-class) | [UpgradeType Enum](#upgradetype-enum) |
+| [AppCatalog Class](#appcatalog-class) | [Hashtag Class](#hashtag-class) | [UrlFieldFormatType Enum](#urlfieldformattype-enum) |
+| [AppInstance Class](#appinstance-class) | [HashtagStoreManager Class](#hashtagstoremanager-class) | [UrlZone Enum](#urlzone-enum) |
+| [AppInstanceErrorDetails Class](#appinstanceerrordetails-class) | [HubSiteCreationInformation Class](#hubsitecreationinformation-class) | [UsageInfo Class](#usageinfo-class) |
+| [AppInstanceErrorDetailsPropertyNames Class](#appinstanceerrordetailspropertynames-class) | [InformationRightsManagementFileSettings Class](#informationrightsmanagementfilesettings-class) | [User Class](#user-class) |
+| [AppInstanceErrorSource Enum](#appinstanceerrorsource-enum) | [InformationRightsManagementFileSettingsPropertyNames Class](#informationrightsmanagementfilesettingspropertynames-class) | [UserCollection Class](#usercollection-class) |
+| [AppInstanceErrorType Enum](#appinstanceerrortype-enum) | [InformationRightsManagementSettings Class](#informationrightsmanagementsettings-class) | [UserCreationInformation Class](#usercreationinformation-class) |
+| [AppInstancePropertyNames Class](#appinstancepropertynames-class) | [InformationRightsManagementSettingsPropertyNames Class](#informationrightsmanagementsettingspropertynames-class) | [UserCustomAction Class](#usercustomaction-class) |
+| [AppInstanceStatus Enum](#appinstancestatus-enum) | [IngestionTaskKey Class](#ingestiontaskkey-class) | [UserCustomActionCollection Class](#usercustomactioncollection-class) |
+| [AppLicense Class](#applicense-class) | [Language Class](#language-class) | [UserCustomActionObjectPropertyNames Class](#usercustomactionobjectpropertynames-class) |
+| [AppLicenseCollection Class](#applicensecollection-class) | [LanguageCollection Class](#languagecollection-class) | [UserCustomActionPropertyNames Class](#usercustomactionpropertynames-class) |
+| [AppLicenseType Enum](#applicensetype-enum) | [List Class](#list-class) | [UserCustomActionRegistrationType Enum](#usercustomactionregistrationtype-enum) |
+| [AppPrincipal Class](#appprincipal-class) | [ListBloomFilter Class](#listbloomfilter-class) | [UserCustomActionScope Enum](#usercustomactionscope-enum) |
+| [AppPrincipalConfiguration Class](#appprincipalconfiguration-class) | [ListBloomFilterPropertyNames Class](#listbloomfilterpropertynames-class) | [UserIdInfo Class](#useridinfo-class) |
+| [AppPrincipalCredential Class](#appprincipalcredential-class) | [ListCollection Class](#listcollection-class) | [UserObjectPropertyNames Class](#userobjectpropertynames-class) |
+| [AppPrincipalCredentialReference Class](#appprincipalcredentialreference-class) | [ListCreationInformation Class](#listcreationinformation-class) | [UserPropertyNames Class](#userpropertynames-class) |
+| [AppPrincipalIdentityProvider Class](#appprincipalidentityprovider-class) | [ListDataSource Class](#listdatasource-class) | [UserResource Class](#userresource-class) |
+| [AppPrincipalManager Class](#appprincipalmanager-class) | [ListDataValidationExceptionValue Class](#listdatavalidationexceptionvalue-class) | [UserResourceScope Enum](#userresourcescope-enum) |
+| [AppPrincipalName Class](#appprincipalname-class) | [ListDataValidationFailure Class](#listdatavalidationfailure-class) | [UserResourceType Enum](#userresourcetype-enum) |
+| [AppPrincipalPropertyNames Class](#appprincipalpropertynames-class) | [ListDataValidationFailureReason Enum](#listdatavalidationfailurereason-enum) | [UserSharingCapabilities Enum](#usersharingcapabilities-enum) |
+| [AppProperties Class](#appproperties-class) | [ListDataValidationType Enum](#listdatavalidationtype-enum) | [View Class](#view-class) |
+| [AppPropertyNames Class](#apppropertynames-class) | [ListExperience Enum](#listexperience-enum) | [ViewCollection Class](#viewcollection-class) |
+| [AppSiteContext Class](#appsitecontext-class) | [ListItem Class](#listitem-class) | [ViewCreationInformation Class](#viewcreationinformation-class) |
+| [AppSiteContextUtility Class](#appsitecontextutility-class) | [ListItemCollection Class](#listitemcollection-class) | [ViewFieldCollection Class](#viewfieldcollection-class) |
+| [AppStatus Enum](#appstatus-enum) | [ListItemCollectionPosition Class](#listitemcollectionposition-class) | [ViewFieldCollectionPropertyNames Class](#viewfieldcollectionpropertynames-class) |
+| [AppTile Class](#apptile-class) | [ListItemCollectionPropertyNames Class](#listitemcollectionpropertynames-class) | [ViewObjectPropertyNames Class](#viewobjectpropertynames-class) |
+| [AppTileCollection Class](#apptilecollection-class) | [ListItemComplianceInfo Class](#listitemcomplianceinfo-class) | [ViewPropertyNames Class](#viewpropertynames-class) |
+| [AppTileProperties Class](#apptileproperties-class) | [ListItemCreationInformation Class](#listitemcreationinformation-class) | [ViewScope Enum](#viewscope-enum) |
+| [AppTilePropertyNames Class](#apptilepropertynames-class) | [ListItemCreationInformationUsingPath Class](#listitemcreationinformationusingpath-class) | [ViewType Enum](#viewtype-enum) |
+| [AppType Enum](#apptype-enum) | [ListItemEntityCollection Class](#listitementitycollection-class) | [Visualization Class](#visualization-class) |
+| [AppViewCreationInfo Class](#appviewcreationinfo-class) | [ListItemFormUpdateValue Class](#listitemformupdatevalue-class) | [VisualizationAppInfo Class](#visualizationappinfo-class) |
+| [Attachment Class](#attachment-class) | [ListItemObjectPropertyNames Class](#listitemobjectpropertynames-class) | [VisualizationAppMappedViewCollection Class](#visualizationappmappedviewcollection-class) |
+| [AttachmentCollection Class](#attachmentcollection-class) | [ListItemPropertyNames Class](#listitempropertynames-class) | [VisualizationAppSynchronizationResult Class](#visualizationappsynchronizationresult-class) |
+| [AttachmentCreationInformation Class](#attachmentcreationinformation-class) | [ListItemVersion Class](#listitemversion-class) | [VisualizationAppSynchronizationResultObjectPropertyNames Class](#visualizationappsynchronizationresultobjectpropertynames-class) |
+| [AttachmentPropertyNames Class](#attachmentpropertynames-class) | [ListItemVersionCollection Class](#listitemversioncollection-class) | [VisualizationAppSynchronizationResultPropertyNames Class](#visualizationappsynchronizationresultpropertynames-class) |
+| [Audit Class](#audit-class) | [ListItemVersionObjectPropertyNames Class](#listitemversionobjectpropertynames-class) | [VisualizationAppSynchronizationStatus Enum](#visualizationappsynchronizationstatus-enum) |
+| [AuditMaskType Enum](#auditmasktype-enum) | [ListItemVersionPropertyNames Class](#listitemversionpropertynames-class) | [VisualizationAppTarget Enum](#visualizationapptarget-enum) |
+| [AuditPropertyNames Class](#auditpropertynames-class) | [ListObjectPropertyNames Class](#listobjectpropertynames-class) | [VisualizationField Class](#visualizationfield-class) |
+| [BasePermissions Class](#basepermissions-class) | [ListPageRenderType Enum](#listpagerendertype-enum) | [VisualizationStyleSet Class](#visualizationstyleset-class) |
+| [BaseType Enum](#basetype-enum) | [ListPropertyNames Class](#listpropertynames-class) | [VisualizationType Enum](#visualizationtype-enum) |
+| [BrowserFileHandling Enum](#browserfilehandling-enum) | [ListTemplate Class](#listtemplate-class) | [Web Class](#web-class) |
+| [CalendarType Enum](#calendartype-enum) | [ListTemplateCollection Class](#listtemplatecollection-class) | [WebCollection Class](#webcollection-class) |
+| [CamlQuery Class](#camlquery-class) | [ListTemplatePropertyNames Class](#listtemplatepropertynames-class) | [WebCreationInformation Class](#webcreationinformation-class) |
+| [Change Class](#change-class) | [ListTemplateType Enum](#listtemplatetype-enum) | [WebInformation Class](#webinformation-class) |
+| [ChangeAlert Class](#changealert-class) | [MediaServiceUpdateParameters Class](#mediaserviceupdateparameters-class) | [WebInformationPropertyNames Class](#webinformationpropertynames-class) |
+| [ChangeAlertPropertyNames Class](#changealertpropertynames-class) | [MicroServiceManager Class](#microservicemanager-class) | [WebObjectPropertyNames Class](#webobjectpropertynames-class) |
+| [ChangeCollection Class](#changecollection-class) | [MicroServiceUtilities Class](#microserviceutilities-class) | [WebPropertyNames Class](#webpropertynames-class) |
+| [ChangeContentType Class](#changecontenttype-class) | [MicroServiceWorkItemProperties Class](#microserviceworkitemproperties-class) | [WebProxy Class](#webproxy-class) |
+| [ChangeContentTypePropertyNames Class](#changecontenttypepropertynames-class) | [MigrationJobState Enum](#migrationjobstate-enum) | [WebRequestInfo Class](#webrequestinfo-class) |
+| [ChangeField Class](#changefield-class) | [MigrationNameConflictBehavior Enum](#migrationnameconflictbehavior-enum) | [WebResponseInfo Class](#webresponseinfo-class) |
+| [ChangeFieldPropertyNames Class](#changefieldpropertynames-class) | [MountedFolderInfo Class](#mountedfolderinfo-class) | [WebTemplate Class](#webtemplate-class) |
+| [ChangeFile Class](#changefile-class) | [MountedFolderInfoPropertyNames Class](#mountedfolderinfopropertynames-class) | [WebTemplateCollection Class](#webtemplatecollection-class) |
+| [ChangeFilePropertyNames Class](#changefilepropertynames-class) | [MountPoint Class](#mountpoint-class) | [WebTemplatePropertyNames Class](#webtemplatepropertynames-class) |
+| [ChangeFolder Class](#changefolder-class) | [MountPointInfo Class](#mountpointinfo-class) | [AnalyticsUsageEntry Class](#analyticsusageentry-class) |
+| [ChangeFolderPropertyNames Class](#changefolderpropertynames-class) | [MountPointInfoPropertyNames Class](#mountpointinfopropertynames-class) | [EventTypeId Enum](#eventtypeid-enum) |
+| [ChangeGroup Class](#changegroup-class) | [MoveCopyOptions Class](#movecopyoptions-class) | [IRemoteEventService Class](#iremoteeventservice-class) |
+| [ChangeGroupPropertyNames Class](#changegrouppropertynames-class) | [MoveCopyUtil Class](#movecopyutil-class) | [SPRemoteAppEventProperties Class](#spremoteappeventproperties-class) |
+| [ChangeItem Class](#changeitem-class) | [MoveOperations Enum](#moveoperations-enum) | [SPRemoteEntityInstanceEventProperties Class](#spremoteentityinstanceeventproperties-class) |
+| [ChangeItemPropertyNames Class](#changeitempropertynames-class) | [MultiGeoCopyParameters Class](#multigeocopyparameters-class) | [SPRemoteEventProperties Class](#spremoteeventproperties-class) |
+| [ChangeList Class](#changelist-class) | [Navigation Class](#navigation-class) | [SPRemoteEventResult Class](#spremoteeventresult-class) |
+| [ChangeListObjectPropertyNames Class](#changelistobjectpropertynames-class) | [NavigationNode Class](#navigationnode-class) | [SPRemoteEventServiceStatus Enum](#spremoteeventservicestatus-enum) |
+| [ChangeListPropertyNames Class](#changelistpropertynames-class) | [NavigationNodeCollection Class](#navigationnodecollection-class) | [SPRemoteEventType Enum](#spremoteeventtype-enum) |
+| [ChangeLogItemQuery Class](#changelogitemquery-class) | [NavigationNodeCreationInformation Class](#navigationnodecreationinformation-class) | [SPRemoteItemEventProperties Class](#spremoteitemeventproperties-class) |
+| [ChangePropertyNames Class](#changepropertynames-class) | [NavigationNodeObjectPropertyNames Class](#navigationnodeobjectpropertynames-class) | [SPRemoteListEventProperties Class](#spremotelisteventproperties-class) |
+| [ChangeQuery Class](#changequery-class) | [NavigationNodePropertyNames Class](#navigationnodepropertynames-class) | [SPRemoteSecurityEventProperties Class](#spremotesecurityeventproperties-class) |
+| [ChangeSite Class](#changesite-class) | [NavigationObjectPropertyNames Class](#navigationobjectpropertynames-class) | [SPRemoteWebEventProperties Class](#spremotewebeventproperties-class) |
+| [ChangeToken Class](#changetoken-class) | [NavigationPropertyNames Class](#navigationpropertynames-class) | [NativeClient Class](#nativeclient-class) |
+| [ChangeType Enum](#changetype-enum) | [ObjectSharingInformation Class](#objectsharinginformation-class) | [ClickManager Class](#clickmanager-class) |
+| [ChangeUser Class](#changeuser-class) | [ObjectSharingInformationObjectPropertyNames Class](#objectsharinginformationobjectpropertynames-class) | [PageImpressionClient Class](#pageimpressionclient-class) |
+| [ChangeUserPropertyNames Class](#changeuserpropertynames-class) | [ObjectSharingInformationPropertyNames Class](#objectsharinginformationpropertynames-class) | [DocumentSharingManager Class](#documentsharingmanager-class) |
+| [ChangeView Class](#changeview-class) | [ObjectSharingInformationUser Class](#objectsharinginformationuser-class) | [RemoveItemsFromSharedWithMeViewErrorCode Enum](#removeitemsfromsharedwithmeviewerrorcode-enum) |
+| [ChangeViewPropertyNames Class](#changeviewpropertynames-class) | [ObjectSharingInformationUserCollection Class](#objectsharinginformationusercollection-class) | [Role Enum](#role-enum) |
+| [ChangeWeb Class](#changeweb-class) | [ObjectSharingInformationUserObjectPropertyNames Class](#objectsharinginformationuserobjectpropertynames-class) | [SharedObjectType Enum](#sharedobjecttype-enum) |
+| [ChangeWebPropertyNames Class](#changewebpropertynames-class) | [ObjectSharingInformationUserPropertyNames Class](#objectsharinginformationuserpropertynames-class) | [SharedWithMeViewItemRemovalResult Class](#sharedwithmeviewitemremovalresult-class) |
+| [CheckedOutFile Class](#checkedoutfile-class) | [ObjectSharingSettings Class](#objectsharingsettings-class) | [SharingDomainRestrictionMode Enum](#sharingdomainrestrictionmode-enum) |
+| [CheckedOutFileCollection Class](#checkedoutfilecollection-class) | [ObjectSharingSettingsObjectPropertyNames Class](#objectsharingsettingsobjectpropertynames-class) | [UserRoleAssignment Class](#userroleassignment-class) |
+| [CheckedOutFileObjectPropertyNames Class](#checkedoutfileobjectpropertynames-class) | [ObjectSharingSettingsPropertyNames Class](#objectsharingsettingspropertynames-class) | [UserSharingResult Class](#usersharingresult-class) |
+| [CheckedOutFilePropertyNames Class](#checkedoutfilepropertynames-class) | [OpenWebOptions Enum](#openweboptions-enum) | [WebSharingManager Class](#websharingmanager-class) |
+| [CheckinType Enum](#checkintype-enum) | [PageType Enum](#pagetype-enum) | [SiteHealthResult Class](#sitehealthresult-class) |
+| [CheckOutType Enum](#checkouttype-enum) | [PermissionKind Enum](#permissionkind-enum) | [SiteHealthStatusType Enum](#sitehealthstatustype-enum) |
+| [ChoiceFormatType Enum](#choiceformattype-enum) | [PickerSettings Class](#pickersettings-class) | [SiteHealthSummary Class](#sitehealthsummary-class) |
+| [ClientContext Class](#clientcontext-class) | [PickerSettingsPropertyNames Class](#pickersettingspropertynames-class) | [SiteHealthSummaryPropertyNames Class](#sitehealthsummarypropertynames-class) |
+| [CompatibilityRange Class](#compatibilityrange-class) | [PolicyTipUserAction Enum](#policytipuseraction-enum) | [DateTimeFormat Enum](#datetimeformat-enum) |
+| [ContentType Class](#contenttype-class) | [PolicyTipUserActionResult Enum](#policytipuseractionresult-enum) | [EmailProperties Class](#emailproperties-class) |
+| [ContentTypeCollection Class](#contenttypecollection-class) | [Principal Class](#principal-class) | [FileHandlerWopiProperties Class](#filehandlerwopiproperties-class) |
+| [ContentTypeCreationInformation Class](#contenttypecreationinformation-class) | [PrincipalPropertyNames Class](#principalpropertynames-class) | [FileHandlerWopiPropertiesPropertyNames Class](#filehandlerwopipropertiespropertynames-class) |
+| [ContentTypeId Class](#contenttypeid-class) | [PropertyValues Class](#propertyvalues-class) | [HtmlStrings Class](#htmlstrings-class) |
+| [ContentTypeObjectPropertyNames Class](#contenttypeobjectpropertynames-class) | [ProvisionedMigrationContainersInfo Class](#provisionedmigrationcontainersinfo-class) | [HttpUtility Class](#httputility-class) |
+| [ContentTypePropertyNames Class](#contenttypepropertynames-class) | [ProvisionedMigrationQueueInfo Class](#provisionedmigrationqueueinfo-class) | [IconSize Enum](#iconsize-enum) |
+| [CopyJobProgress Class](#copyjobprogress-class) | [PushNotificationSubscriber Class](#pushnotificationsubscriber-class) | [JsonTheme Class](#jsontheme-class) |
+| [CopyMigrationInfo Class](#copymigrationinfo-class) | [PushNotificationSubscriberCollection Class](#pushnotificationsubscribercollection-class) | [LogAppErrorResult Enum](#logapperrorresult-enum) |
+| [CopyMigrationOptions Class](#copymigrationoptions-class) | [PushNotificationSubscriberObjectPropertyNames Class](#pushnotificationsubscriberobjectpropertynames-class) | [PrincipalInfo Class](#principalinfo-class) |
+| [CreatableItemInfo Class](#creatableiteminfo-class) | [PushNotificationSubscriberPropertyNames Class](#pushnotificationsubscriberpropertynames-class) | [PrincipalSource Enum](#principalsource-enum) |
+| [CreatableItemInfoCollection Class](#creatableiteminfocollection-class) | [QuickLaunchOptions Enum](#quicklaunchoptions-enum) | [PrincipalType Enum](#principaltype-enum) |
+| [CreatablesInfo Class](#creatablesinfo-class) | [RecycleBinItem Class](#recyclebinitem-class) | [SPSocialSwitch Class](#spsocialswitch-class) |
+| [CreatablesInfoPropertyNames Class](#creatablesinfopropertynames-class) | [RecycleBinItemCollection Class](#recyclebinitemcollection-class) | [SPWOPIFrameAction Enum](#spwopiframeaction-enum) |
+| [CurrencyInformation Class](#currencyinformation-class) | [RecycleBinItemObjectPropertyNames Class](#recyclebinitemobjectpropertynames-class) | [ThemingOptions Class](#themingoptions-class) |
+| [CurrencyInformationCollection Class](#currencyinformationcollection-class) | [RecycleBinItemPropertyNames Class](#recyclebinitempropertynames-class) | [UploadStatus Class](#uploadstatus-class) |
+| [CurrencyList Class](#currencylist-class) | [RecycleBinItemState Enum](#recyclebinitemstate-enum) | [UploadStatusPropertyNames Class](#uploadstatuspropertynames-class) |
+| [CustomActionElement Class](#customactionelement-class) | [RecycleBinItemType Enum](#recyclebinitemtype-enum) | [UrlUtility Class](#urlutility-class) |
+| [CustomActionElementCollection Class](#customactionelementcollection-class) | [RecycleBinOrderBy Enum](#recyclebinorderby-enum) | [Utility Class](#utility-class) |
+| [CustomerKeyInfo Class](#customerkeyinfo-class) | [RecycleBinQueryInformation Class](#recyclebinqueryinformation-class) | [WebAppExtUrlPair Class](#webappexturlpair-class) |
+| [CustomerKeyStatus Enum](#customerkeystatus-enum) | [RegionalSettings Class](#regionalsettings-class) | [WebAppUrlsByAction Class](#webappurlsbyaction-class) |
+| [CustomerKeyStatusInfo Class](#customerkeystatusinfo-class) | [RegionalSettingsObjectPropertyNames Class](#regionalsettingsobjectpropertynames-class) | [WikiPageCreationInformation Class](#wikipagecreationinformation-class) |
+| [CustomerKeyVaultInfo Class](#customerkeyvaultinfo-class) | [RegionalSettingsPropertyNames Class](#regionalsettingspropertynames-class) | [WopiHostUtility Class](#wopihostutility-class) |
+| [CustomerKeyVaultKeyType Enum](#customerkeyvaultkeytype-enum) | [RelatedField Class](#relatedfield-class) | [WopiProperties Class](#wopiproperties-class) |
+| [CustomizedPageStatus Enum](#customizedpagestatus-enum) | [RelatedFieldCollection Class](#relatedfieldcollection-class) | [WopiPropertiesPropertyNames Class](#wopipropertiespropertynames-class) |
+| [DateTimeFieldFormatType Enum](#datetimefieldformattype-enum) | [RelatedFieldObjectPropertyNames Class](#relatedfieldobjectpropertynames-class) | [WopiWebAppProperties Class](#wopiwebappproperties-class) |
+| [DateTimeFieldFriendlyFormatType Enum](#datetimefieldfriendlyformattype-enum) | [RelatedFieldPropertyNames Class](#relatedfieldpropertynames-class) | [LimitedWebPartManager Class](#limitedwebpartmanager-class) |
+| [DlpPolicyTip Class](#dlppolicytip-class) | [RelatedItem Class](#relateditem-class) | [LimitedWebPartManagerObjectPropertyNames Class](#limitedwebpartmanagerobjectpropertynames-class) |
+| [DlpPolicyTipPropertyNames Class](#dlppolicytippropertynames-class) | [RelatedItemManager Class](#relateditemmanager-class) | [LimitedWebPartManagerPropertyNames Class](#limitedwebpartmanagerpropertynames-class) |
+| [DocumentLibraryInformation Class](#documentlibraryinformation-class) | [RelationshipDeleteBehaviorType Enum](#relationshipdeletebehaviortype-enum) | [PersonalizationScope Enum](#personalizationscope-enum) |
+| [DocumentTemplateType Enum](#documenttemplatetype-enum) | [RemoteWeb Class](#remoteweb-class) | [TileData Class](#tiledata-class) |
+| [DraftVisibilityType Enum](#draftvisibilitytype-enum) | [RemoteWebObjectPropertyNames Class](#remotewebobjectpropertynames-class) | [WebPart Class](#webpart-class) |
+| [EffectiveInformationRightsManagementSettings Class](#effectiveinformationrightsmanagementsettings-class) | [RemoteWebPropertyNames Class](#remotewebpropertynames-class) | [WebPartDefinition Class](#webpartdefinition-class) |
+| [EffectiveInformationRightsManagementSettingsPropertyNames Class](#effectiveinformationrightsmanagementsettingspropertynames-class) | [RenderListContextMenuDataParameters Class](#renderlistcontextmenudataparameters-class) | [WebPartDefinitionCollection Class](#webpartdefinitioncollection-class) |
+| [EncryptionOption Class](#encryptionoption-class) | [RenderListDataOptions Enum](#renderlistdataoptions-enum) | [WebPartDefinitionObjectPropertyNames Class](#webpartdefinitionobjectpropertynames-class) |
+| [EventReceiverDefinition Class](#eventreceiverdefinition-class) | [RenderListDataOverrideParameters Class](#renderlistdataoverrideparameters-class) | [WebPartDefinitionPropertyNames Class](#webpartdefinitionpropertynames-class) |
+| [EventReceiverDefinitionCollection Class](#eventreceiverdefinitioncollection-class) | [RenderListDataParameters Class](#renderlistdataparameters-class) | [WebPartExportMode Enum](#webpartexportmode-enum) |
+| [EventReceiverDefinitionCreationInformation Class](#eventreceiverdefinitioncreationinformation-class) | [RenderListFilterDataParameters Class](#renderlistfilterdataparameters-class) | [WebPartObjectPropertyNames Class](#webpartobjectpropertynames-class) |
+| [EventReceiverDefinitionPropertyNames Class](#eventreceiverdefinitionpropertynames-class) | [RenderListFormDataOptions Enum](#renderlistformdataoptions-enum) | [WebPartPropertyNames Class](#webpartpropertynames-class) |
+| [EventReceiverSynchronization Enum](#eventreceiversynchronization-enum) | [RequestContext Class](#requestcontext-class) | [WorkflowAssociation Class](#workflowassociation-class) |
+| [EventReceiverType Enum](#eventreceivertype-enum) | [RequestContextObjectPropertyNames Class](#requestcontextobjectpropertynames-class) | [WorkflowAssociationCollection Class](#workflowassociationcollection-class) |
+| [ExternalApplicationRequestToken Class](#externalapplicationrequesttoken-class) | [RequestForwarder Class](#requestforwarder-class) | [WorkflowAssociationCreationInformation Class](#workflowassociationcreationinformation-class) |
+| [ExternalAppPrincipalCreationParameters Class](#externalappprincipalcreationparameters-class) | [RequestResourceConstants Class](#requestresourceconstants-class) | [WorkflowAssociationPropertyNames Class](#workflowassociationpropertynames-class) |
+| [Feature Class](#feature-class) | [RequestResources Class](#requestresources-class) | [WorkflowTemplate Class](#workflowtemplate-class) |
+| [FeatureCollection Class](#featurecollection-class) | [RequestType Enum](#requesttype-enum) | [WorkflowTemplateCollection Class](#workflowtemplatecollection-class) |
+| [FeatureDefinitionScope Enum](#featuredefinitionscope-enum) | [RequestUserContext Class](#requestusercontext-class) | [WorkflowTemplatePropertyNames Class](#workflowtemplatepropertynames-class) |
+| [FeaturePropertyNames Class](#featurepropertynames-class) | [RequestUserContextObjectPropertyNames Class](#requestusercontextobjectpropertynames-class) | [StorageEntity Class](#storageentity-class) |
+| [Field Class](#field-class) | [RequestVariable Class](#requestvariable-class) | [StorageEntityPropertyNames Class](#storageentitypropertynames-class) |
+| [FieldCalculated Class](#fieldcalculated-class) | [RequestVariablePropertyNames Class](#requestvariablepropertynames-class) | [CommentsDisabledScope Enum](#commentsdisabledscope-enum) |
+| [FieldCalculatedErrorValue Class](#fieldcalculatederrorvalue-class) | [ResourcePath Class](#resourcepath-class) | [SiteCollectionAppCatalogAllowedCollection Class](#sitecollectionappcatalogallowedcollection-class) |
+| [FieldCalculatedPropertyNames Class](#fieldcalculatedpropertynames-class) | [RoleAssignment Class](#roleassignment-class) | [SiteCollectionAppCatalogAllowedItem Class](#sitecollectionappcatalogalloweditem-class) |
+| [FieldChoice Class](#fieldchoice-class) | [RoleAssignmentCollection Class](#roleassignmentcollection-class) | [SiteCollectionAppCatalogAllowedItemPropertyNames Class](#sitecollectionappcatalogalloweditempropertynames-class) |
+| [FieldChoicePropertyNames Class](#fieldchoicepropertynames-class) | [RoleAssignmentCollectionObjectPropertyNames Class](#roleassignmentcollectionobjectpropertynames-class) | [SiteCollectionCorporateCatalogAccessor Class](#sitecollectioncorporatecatalogaccessor-class) |
+| [FieldCollection Class](#fieldcollection-class) | [RoleAssignmentObjectPropertyNames Class](#roleassignmentobjectpropertynames-class) | [TenantCorporateCatalogAccessor Class](#tenantcorporatecatalogaccessor-class) |
+| [FieldCollectionPropertyNames Class](#fieldcollectionpropertynames-class) | [RoleAssignmentPropertyNames Class](#roleassignmentpropertynames-class) | [TenantCorporateCatalogAccessorObjectPropertyNames Class](#tenantcorporatecatalogaccessorobjectpropertynames-class) |
+| [FieldComputed Class](#fieldcomputed-class) | [RoleDefinition Class](#roledefinition-class) | [AppDetails Class](#appdetails-class) |
+| [FieldComputedPropertyNames Class](#fieldcomputedpropertynames-class) | [RoleDefinitionBindingCollection Class](#roledefinitionbindingcollection-class) | [AppDetailsPropertyNames Class](#appdetailspropertynames-class) |
+| [FieldCurrency Class](#fieldcurrency-class) | [RoleDefinitionCollection Class](#roledefinitioncollection-class) | [AppIconInfo Class](#appiconinfo-class) |
+| [FieldCurrencyPropertyNames Class](#fieldcurrencypropertynames-class) | [RoleDefinitionCreationInformation Class](#roledefinitioncreationinformation-class) | [AppIconInfoPropertyNames Class](#appiconinfopropertynames-class) |
+| [FieldDateTime Class](#fielddatetime-class) | [RoleDefinitionPropertyNames Class](#roledefinitionpropertynames-class) | [TenantCdnUrl Class](#tenantcdnurl-class) |
+| [FieldDateTimePropertyNames Class](#fielddatetimepropertynames-class) | [RoleType Enum](#roletype-enum) | [ModuleLink Class](#modulelink-class) |
+| [FieldGeolocation Class](#fieldgeolocation-class) | [RuleOverrideOptions Enum](#ruleoverrideoptions-enum) | [ResourceManifestInformation Class](#resourcemanifestinformation-class) |
+| [FieldGeolocationValue Class](#fieldgeolocationvalue-class) | [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [ResourceManifestInformationPropertyNames Class](#resourcemanifestinformationpropertynames-class) |
+| [FieldGuid Class](#fieldguid-class) | [SaveBinaryCheckMode Enum](#savebinarycheckmode-enum) |   |
 # __StaticArrayInitTypeSize=128 Struct
 
 Namespace: 
@@ -3845,6 +3845,7 @@ Base class: ClientValueObject
 | **AllowSmallerVersionLimitOnDestination** | bool |  |
 | **IgnoreVersionHistory** | bool |  |
 | **IsMoveMode** | bool |  |
+| **NameConflictBehavior** | [MigrationNameConflictBehavior](#migrationnameconflictbehavior-enum) |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -7403,6 +7404,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **Description** | string |  |
 | **LogoUrl** | string |  |
+| **SiteDesignId** | Guid |  |
 | **SiteId** | Guid |  |
 | **SiteUrl** | string |  |
 | **Targets** | string |  |
@@ -7780,7 +7782,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **GetWebDavUrl(string sourceUrl)** | ClientResult\<string\> |  |
 | **PublishMappedView(Guid appId, VisualizationAppTarget visualizationTarget)** | [View](#view-class) |  |
 | **Recycle()** | ClientResult\<Guid\> |  |
-| **RenderExtendedListFormData(int itemId, string formId, int mode, RenderListFormDataOptions options)** | ClientResult\<string\> |  |
+| **RenderExtendedListFormData(int itemId, string formId, int mode, RenderListFormDataOptions options, int cutoffVersion)** | ClientResult\<string\> |  |
 | **RenderListContextMenuData(RenderListContextMenuDataParameters parameters)** | ClientResult\<Stream\> |  |
 | **RenderListData(string viewXml)** | ClientResult\<string\> |  |
 | **RenderListDataAsStream(RenderListDataParameters parameters, RenderListDataOverrideParameters overrideParameters)** | ClientResult\<Stream\> |  |
@@ -8836,6 +8838,18 @@ Namespace: Microsoft.SharePoint.Client
 | **None** |  |
 | **Queued** |  |
 | **Processing** |  |
+# MigrationNameConflictBehavior Enum
+
+Namespace: Microsoft.SharePoint.Client
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Fail** |  |
+| **Replace** |  |
+| **Rename** |  |
 # MountedFolderInfo Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -11482,10 +11496,12 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **AllowsAnonymousAccess** | bool |  |
+| **BlocksDownload** | bool |  |
 | **Created** | string |  |
 | **Expiration** | string |  |
 | **HasExternalGuestInvitees** | bool |  |
 | **IsActive** | bool |  |
+| **IsDefault** | bool |  |
 | **IsEditLink** | bool |  |
 | **IsFormsLink** | bool |  |
 | **IsReviewLink** | bool |  |
@@ -12306,8 +12322,10 @@ Namespace: Microsoft.SharePoint.Client
 | Name | Returns | Summary |
 |---|---|---|
 | **AddTeamChannel(ClientRuntimeContext context, ResourcePath parentFolderPath, ResourcePath newFolderPath, string teamChannelUrl)** | [Folder](#folder-class) |  |
-| **DemoteTeamChannel(ClientRuntimeContext context, ResourcePath folderPath)** | ClientResult\<bool\> |  |
-| **PromoteToTeamChannel(ClientRuntimeContext context, ResourcePath folderPath, string teamChannelUrl, string channelName)** | ClientResult\<bool\> |  |
+| **DemoteTeamChannelById(ClientRuntimeContext context, Guid folderId)** | ClientResult\<bool\> |  |
+| **DemoteTeamChannelByPath(ClientRuntimeContext context, ResourcePath folderPath)** | ClientResult\<bool\> |  |
+| **PromoteToTeamChannelById(ClientRuntimeContext context, Guid folderId, string teamChannelUrl, string channelName)** | ClientResult\<bool\> |  |
+| **PromoteToTeamChannelByPath(ClientRuntimeContext context, ResourcePath folderPath, string teamChannelUrl, string channelName)** | ClientResult\<bool\> |  |
 # TemplateFileType Enum
 
 Namespace: Microsoft.SharePoint.Client
@@ -13616,6 +13634,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **Features** | [FeatureCollection](#featurecollection-class) |  |
 | **Fields** | [FieldCollection](#fieldcollection-class) |  |
 | **Folders** | [FolderCollection](#foldercollection-class) |  |
+| **FooterEnabled** | bool |  |
 | **HeaderEmphasis** | [SPVariantThemeType](#spvariantthemetype-enum) |  |
 | **HorizontalQuickLaunch** | bool |  |
 | **Id** | Guid |  |
@@ -13963,6 +13982,7 @@ Namespace: Microsoft.SharePoint.Client
 | **EffectiveBasePermissions** | string |  |
 | **EnableMinimalDownload** | string |  |
 | **ExcludeFromOfflineClient** | string |  |
+| **FooterEnabled** | string |  |
 | **HeaderEmphasis** | string |  |
 | **HorizontalQuickLaunch** | string |  |
 | **Id** | string |  |
@@ -14538,6 +14558,7 @@ Namespace: Microsoft.SharePoint.Client.Sharing
 | **LimitedEdit** |  |
 | **Review** |  |
 | **RestrictedView** |  |
+| **Submit** |  |
 # SharedObjectType Enum
 
 Namespace: Microsoft.SharePoint.Client.Sharing
