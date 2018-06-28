@@ -595,6 +595,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AuthorByline** | string[] |  |
 | **BannerImageUrl** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |

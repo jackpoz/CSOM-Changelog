@@ -56,6 +56,7 @@ Base class: ClientValueObject
 | **RequireSenderAuthenticationEnabled** | bool |  |
 | **ReviewerEmail** | string |  |
 | **SharingCapabilities** | string |  |
+| **SuperLock** | bool |  |
 | **TagDuration** | int |  |
 | **TagId** | Guid |  |
 | **TagName** | string |  |
@@ -672,10 +673,13 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **AddDynamicScopeBinding(string identity, string siteId)** | void |  |
 | **ApplyDlpActions(ClientRuntimeContext context, string itemUrl, string actionsPayload)** | void |  |
+| **DeleteDynamicScopeBinding(string identity, string siteId)** | void |  |
 | **ExtendReviewItemsRetention(int[] itemIds, DateTime extensionDate)** | ClientArrayResult\<int\> |  |
 | **GetAvailableTagsForSite(ClientRuntimeContext context, string siteUrl)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetAvailableTagsForSiteLabel(ClientRuntimeContext context)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
+| **GetDynamicScopeBindingBySiteId(string siteId)** | IList\<string\> |  |
 | **GetListComplianceTag(ClientRuntimeContext context, string listUrl)** | ClientResult\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetPolicyEvaluationInfo(ClientRuntimeContext context, string itemUrl, PolicyScenario policyScenario, PolicyEvaluationInfoEnums infos)** | [PolicyEvaluationInfo](#policyevaluationinfo-class) |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
