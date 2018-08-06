@@ -748,6 +748,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **AppAlternateId** | Guid |  |
+| **DepartmentId** | Guid |  |
 | **Description** | string |  |
 | **EntityType** | [EntityType](#entitytype-class) |  |
 | **FieldType** | [CustomFieldType](#customfieldtype-enum) |  |
@@ -878,6 +879,7 @@ Namespace: Microsoft.ProjectServer.Client
 | Name | Type | Summary |
 |---|---|---|
 | **AppAlternateId** | string |  |
+| **DepartmentId** | string |  |
 | **Description** | string |  |
 | **FieldType** | string |  |
 | **Formula** | string |  |
@@ -1599,6 +1601,7 @@ Base class: [Task](#task-class)
 | **FinishText** | string |  |
 | **FixedCost** | double |  |
 | **IsActive** | bool |  |
+| **IsEffortDriven** | bool |  |
 | **IsLockedByManager** | bool |  |
 | **IsManual** | bool |  |
 | **IsMarked** | bool |  |
@@ -1661,7 +1664,6 @@ Base class: [Task](#task-class)
 | **Id** | Guid |  |
 | **IgnoreResourceCalendar** | bool |  |
 | **IsCritical** | bool |  |
-| **IsEffortDriven** | bool |  |
 | **IsExternalTask** | bool |  |
 | **IsOverAllocated** | bool |  |
 | **IsRecurring** | bool |  |
@@ -1909,6 +1911,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **FinishText** | string |  |
 | **FixedCost** | string |  |
 | **IsActive** | string |  |
+| **IsEffortDriven** | string |  |
 | **IsLockedByManager** | string |  |
 | **IsManual** | string |  |
 | **IsMarked** | string |  |
@@ -2433,6 +2436,7 @@ Base class: ClientObject
 | **Phonetics** | string |  |
 | **RequiresEngagements** | bool |  |
 | **ResourceCalendarExceptions** | [CalendarExceptionCollection](#calendarexceptioncollection-class) |  |
+| **ResourceIdentifier** | int |  |
 | **ResourceType** | [EnterpriseResourceType](#enterpriseresourcetype-enum) |  |
 | **TerminationDate** | DateTime |  |
 | **TimesheetManager** | User |  |
@@ -2744,6 +2748,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **Name** | string |  |
 | **Phonetics** | string |  |
 | **RequiresEngagements** | string |  |
+| **ResourceIdentifier** | string |  |
 | **ResourceType** | string |  |
 | **TerminationDate** | string |  |
 # EnterpriseResourceType Enum
@@ -5085,7 +5090,6 @@ Base class: [Task](#task-class)
 | **Id** | Guid |  |
 | **IgnoreResourceCalendar** | bool |  |
 | **IsCritical** | bool |  |
-| **IsEffortDriven** | bool |  |
 | **IsExternalTask** | bool |  |
 | **IsOverAllocated** | bool |  |
 | **IsRecurring** | bool |  |
@@ -5805,6 +5809,7 @@ Base class: [Task](#task-class)
 | **FinishText** | string |  |
 | **FixedCost** | double |  |
 | **IsActive** | bool |  |
+| **IsEffortDriven** | bool |  |
 | **IsLockedByManager** | bool |  |
 | **IsManual** | bool |  |
 | **IsMarked** | bool |  |
@@ -5867,7 +5872,6 @@ Base class: [Task](#task-class)
 | **Id** | Guid |  |
 | **IgnoreResourceCalendar** | bool |  |
 | **IsCritical** | bool |  |
-| **IsEffortDriven** | bool |  |
 | **IsExternalTask** | bool |  |
 | **IsOverAllocated** | bool |  |
 | **IsRecurring** | bool |  |
@@ -6105,6 +6109,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **FinishText** | string |  |
 | **FixedCost** | string |  |
 | **IsActive** | string |  |
+| **IsEffortDriven** | string |  |
 | **IsLockedByManager** | string |  |
 | **IsManual** | string |  |
 | **IsMarked** | string |  |
@@ -7665,7 +7670,6 @@ Base class: ClientObject
 | **Id** | Guid |  |
 | **IgnoreResourceCalendar** | bool |  |
 | **IsCritical** | bool |  |
-| **IsEffortDriven** | bool |  |
 | **IsExternalTask** | bool |  |
 | **IsOverAllocated** | bool |  |
 | **IsRecurring** | bool |  |
@@ -7872,7 +7876,6 @@ Namespace: Microsoft.ProjectServer.Client
 | **Id** | string |  |
 | **IgnoreResourceCalendar** | string |  |
 | **IsCritical** | string |  |
-| **IsEffortDriven** | string |  |
 | **IsExternalTask** | string |  |
 | **IsOverAllocated** | string |  |
 | **IsRecurring** | string |  |
