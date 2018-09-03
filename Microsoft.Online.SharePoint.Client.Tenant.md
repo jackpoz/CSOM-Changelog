@@ -592,6 +592,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **secondaryAdministratorEmails** | string[] |  |
+| **secondaryAdministratorLoginNames** | string[] |  |
 | **siteId** | Guid |  |
 | **TypeId** | string |  |
 ## Methods
@@ -611,6 +612,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **email** | string |  |
+| **loginName** | string |  |
 | **name** | string |  |
 | **userPrincipalName** | string |  |
 | **TypeId** | string |  |
@@ -687,6 +689,7 @@ Base class: ClientObject
 | **PWAEnabled** | [PWAEnabledStatus](#pwaenabledstatus-enum) |  |
 | **RestrictedToRegion** | [RestrictedToRegion](#restrictedtoregion-enum) |  |
 | **SandboxedCodeActivationCapability** | [SandboxedCodeActivationCapabilities](#sandboxedcodeactivationcapabilities-enum) |  |
+| **SensitivityLabel** | Guid |  |
 | **SetOwnerWithoutUpdatingSecondaryAdmin** | bool |  |
 | **SharingAllowedDomainList** | string |  |
 | **SharingBlockedDomainList** | string |  |
@@ -765,6 +768,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **PWAEnabled** | string |  |
 | **RestrictedToRegion** | string |  |
 | **SandboxedCodeActivationCapability** | string |  |
+| **SensitivityLabel** | string |  |
 | **SetOwnerWithoutUpdatingSecondaryAdmin** | string |  |
 | **SharingAllowedDomainList** | string |  |
 | **SharingBlockedDomainList** | string |  |
@@ -1141,6 +1145,7 @@ Base class: ClientObject
 | **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
+| **DisabledWebPartIds** | Guid[] |  |
 | **DisableReportProblemDialog** | bool |  |
 | **DisallowInfectedFileDownload** | bool |  |
 | **DisplayNamesOfFileViewers** | bool |  |
@@ -1154,7 +1159,6 @@ Base class: ClientObject
 | **FileAnonymousLinkType** | AnonymousLinkType |  |
 | **FilePickerExternalImageSearchEnabled** | bool |  |
 | **FolderAnonymousLinkType** | AnonymousLinkType |  |
-| **HiddenWebPartIds** | Guid[] |  |
 | **HideDefaultThemes** | bool |  |
 | **HideSyncButtonOnODB** | bool |  |
 | **IPAddressAllowList** | string |  |
@@ -1178,6 +1182,7 @@ Base class: ClientObject
 | **OneDriveStorageQuota** | long |  |
 | **OptOutOfGrooveBlock** | bool |  |
 | **OptOutOfGrooveSoftBlock** | bool |  |
+| **OrgNewsSiteUrl** | string |  |
 | **OrphanedPersonalSitesRetentionPeriod** | int |  |
 | **OwnerAnonymousNotification** | bool |  |
 | **PermissiveBrowserFileHandlingOverride** | bool |  |
@@ -1235,6 +1240,7 @@ Base class: ClientObject
 | **AddSiteDesignTask(ClientRuntimeContext context, string webUrl, Guid siteDesignId)** | [TenantSiteDesignTask](#tenantsitedesigntask-class) |  |
 | **AddTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
 | **AddTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
+| **AddToCarLibAndCdn(SPOTenantCdnType cdnType, string libUrl, string displayName, string thumbnailUrl)** | void |  |
 | **ApplySiteDesign(string webUrl, Guid siteDesignId)** | ClientObjectList\<[TenantSiteScriptActionResult](#tenantsitescriptactionresult-class)\> |  |
 | **ConnectSiteToHubSite(string siteUrl, string hubSiteUrl)** | void |  |
 | **ConnectSiteToHubSiteById(string siteUrl, Guid hubSiteId)** | void |  |
@@ -1256,6 +1262,7 @@ Base class: ClientObject
 | **GetAppErrors(Guid productId, DateTime timeStart, DateTime timeEnd)** | ClientObjectList\<[AppErrorEntry](#apperrorentry-class)\> |  |
 | **GetAppInfoByName(string name)** | ClientObjectList\<[AppInfo](#appinfo-class)\> |  |
 | **GetAppInfoByProductId(Guid productId)** | ClientObjectList\<[AppInfo](#appinfo-class)\> |  |
+| **GetCentralAssetRepo()** | ClientResult\<CentralAssetRepository\> |  |
 | **GetDeletedPersonalSitePropertiesAllVersions(string url)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
 | **GetDeletedSiteProperties(int startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
 | **GetDeletedSitePropertiesByUrl(string siteUrl)** | [DeletedSiteProperties](#deletedsiteproperties-class) |  |
@@ -1280,6 +1287,7 @@ Base class: ClientObject
 | **GetSitePropertiesFromSharePointByFilter(string filter, string startIndex, bool includeDetail)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **GetSitePropertiesFromSharePointByFilters(SPOSitePropertiesEnumerableFilter speFilter)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **GetSiteScript(ClientRuntimeContext context, Guid id)** | [TenantSiteScript](#tenantsitescript-class) |  |
+| **GetSiteScriptFromList(ClientRuntimeContext context, string listUrl)** | ClientResult\<string\> |  |
 | **GetSiteScripts()** | ClientObjectList\<[TenantSiteScript](#tenantsitescript-class)\> |  |
 | **GetSPOTenantAllWebTemplates()** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetSPOTenantWebTemplates(uint localeId, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
@@ -1294,8 +1302,10 @@ Base class: ClientObject
 | **GrantHubSiteRightsById(Guid hubSiteId, string[] principals, SPOHubSiteUserRights grantedRights)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **GrantSiteDesignRights(Guid id, string[] principalNames, TenantSiteDesignPrincipalRights grantedRights)** | void |  |
 | **RegisterHubSite(string siteUrl)** | [HubSiteProperties](#hubsiteproperties-class) |  |
+| **RegisterHubSiteWithCreationInformation(string siteUrl, HubSiteCreationInformation creationInformation)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **RemoveDeletedSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveDeletedSitePreferId(string siteUrl, Guid siteId)** | [SpoOperation](#spooperation-class) |  |
+| **RemoveFromCarAndCdn(bool remove, SPOTenantCdnType cdnType, string libUrl)** | void |  |
 | **RemovePublicCdnOrigin(string originId)** | void |  |
 | **RemoveSdnProvider()** | void |  |
 | **RemoveSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
@@ -1439,6 +1449,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ConditionalAccessPolicy** | string |  |
 | **DefaultLinkPermission** | string |  |
 | **DefaultSharingLinkType** | string |  |
+| **DisabledWebPartIds** | string |  |
 | **DisableReportProblemDialog** | string |  |
 | **DisallowInfectedFileDownload** | string |  |
 | **DisplayNamesOfFileViewers** | string |  |
@@ -1452,7 +1463,6 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **FileAnonymousLinkType** | string |  |
 | **FilePickerExternalImageSearchEnabled** | string |  |
 | **FolderAnonymousLinkType** | string |  |
-| **HiddenWebPartIds** | string |  |
 | **HideDefaultThemes** | string |  |
 | **HideSyncButtonOnODB** | string |  |
 | **IPAddressAllowList** | string |  |
@@ -1476,6 +1486,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **OneDriveStorageQuota** | string |  |
 | **OptOutOfGrooveBlock** | string |  |
 | **OptOutOfGrooveSoftBlock** | string |  |
+| **OrgNewsSiteUrl** | string |  |
 | **OrphanedPersonalSitesRetentionPeriod** | string |  |
 | **OwnerAnonymousNotification** | string |  |
 | **PermissiveBrowserFileHandlingOverride** | string |  |
@@ -2212,6 +2223,7 @@ Base class: ClientObjectCollection<[SPOWebAppServicePrincipalPermissionRequest](
 
 | Name | Returns | Summary |
 |---|---|---|
+| **Approve(string resource, string scope)** | [SPOWebAppServicePrincipalPermissionGrant](#spowebappserviceprincipalpermissiongrant-class) |  |
 | **GetById(Guid id)** | [SPOWebAppServicePrincipalPermissionRequest](#spowebappserviceprincipalpermissionrequest-class) |  |
 # SPOWebAppServicePrincipalPermissionRequestPropertyNames Class
 
@@ -2577,6 +2589,7 @@ Base class: ClientObject
 | **FileAnonymousLinkType** | AnonymousLinkType |  |
 | **FilePickerExternalImageSearchEnabled** | bool |  |
 | **FolderAnonymousLinkType** | AnonymousLinkType |  |
+| **GetCentralAssetRepo** | CentralAssetRepository |  |
 | **HideSyncButtonOnODB** | bool |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | bool |  |
@@ -2642,6 +2655,7 @@ Base class: ClientObject
 | **AddSdnProvider(string identifier, string license)** | void |  |
 | **AddTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
 | **AddTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
+| **AddToCarLibAndCdn(SPOTenantCdnType cdnType, ResourcePath libUrl, string displayName, ResourcePath thumbnailUrl)** | void |  |
 | **CreateGroupForSite(string siteUrl, string displayName, string alias, bool isPublic, GroupCreationParams optionalParams)** | void |  |
 | **CreateTenantCdnDefaultOrigins(SPOTenantCdnType cdnType)** | void |  |
 | **DeleteImportProfilePropertiesJob(Guid jobId)** | ClientResult\<bool\> |  |
@@ -2662,6 +2676,7 @@ Base class: ClientObject
 | **IsSharingDisabledForNonOwnersOfSite(string siteUrl)** | ClientResult\<bool\> |  |
 | **QueueImportProfileProperties(ImportProfilePropertiesUserIdType idType, string sourceDataIdProperty, IDictionary\<string, string\> propertyMap, string sourceUri)** | ClientResult\<Guid\> |  |
 | **RemoveExternalUsers(string[] uniqueIds)** | [RemoveExternalUsersResults](#removeexternalusersresults-class) |  |
+| **RemoveFromCarAndCdn(bool remove, SPOTenantCdnType cdnType, ResourcePath libUrl)** | void |  |
 | **RemovePublicCdnOrigin(string originId)** | void |  |
 | **RemoveSdnProvider()** | void |  |
 | **RemoveTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
@@ -2707,6 +2722,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **FileAnonymousLinkType** | string |  |
 | **FilePickerExternalImageSearchEnabled** | string |  |
 | **FolderAnonymousLinkType** | string |  |
+| **GetCentralAssetRepo** | string |  |
 | **HideSyncButtonOnODB** | string |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | string |  |

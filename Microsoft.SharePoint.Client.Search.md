@@ -311,7 +311,9 @@ Namespace: Microsoft.Office.Server.Search.REST
 
 | Name | Summary |
 |---|---|
+| **None** |  |
 | **SharePointOnly** |  |
+| **SharePointSharedOnly** |  |
 | **OneDriveWeb** |  |
 # SearchEndpoints Class
 
@@ -891,7 +893,9 @@ Base class: ClientObject
 |---|---|---|
 | **ExportQueryLogs(string userName, DateTime startTime)** | ClientResult\<string\> |  |
 | **GetQueryCompletions(int numberOfCompletions, string selectedSources, int cursorPosition)** | ClientResult\<[QueryAutoCompletionResults](#queryautocompletionresults-class)\> |  |
+| **GetQuerySuggestionsWithPopularResults(int iNumberOfQuerySuggestions, int iNumberOfResultSuggestions, int iNumberOfPopularResultSuggestions, bool fPreQuerySuggestions, bool fHitHighlighting, bool fCapitalizeFirstLetters, bool fPrefixMatchAllTerms)** | ClientResult\<[QuerySuggestionResults](#querysuggestionresults-class)\> |  |
 | **GetQuerySuggestionsWithResults(int iNumberOfQuerySuggestions, int iNumberOfResultSuggestions, bool fPreQuerySuggestions, bool fHitHighlighting, bool fCapitalizeFirstLetters, bool fPrefixMatchAllTerms)** | ClientResult\<[QuerySuggestionResults](#querysuggestionresults-class)\> |  |
+| **GetZeroTermsQuerySuggestionsWithPopularResults(int iNumberOfQuerySuggestions, int iNumberOfResultSuggestions, int iNumberOfPopularResultSuggestions, bool fCapitalizeFirstLetters)** | ClientResult\<[QuerySuggestionResults](#querysuggestionresults-class)\> |  |
 | **GetZeroTermsQuerySuggestionsWithResults(int iNumberOfQuerySuggestions, int iNumberOfResultSuggestions, bool fCapitalizeFirstLetters)** | ClientResult\<[QuerySuggestionResults](#querysuggestionresults-class)\> |  |
 # QueryAutoCompletion Class
 
@@ -1128,6 +1132,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **PeopleNames** | string[] |  |
 | **PersonalResults** | [PersonalResultSuggestion](#personalresultsuggestion-class)[] |  |
+| **PopularResults** | [PersonalResultSuggestion](#personalresultsuggestion-class)[] |  |
 | **Queries** | [QuerySuggestionQuery](#querysuggestionquery-class)[] |  |
 | **TypeId** | string |  |
 ## Methods

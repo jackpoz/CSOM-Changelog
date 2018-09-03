@@ -3449,7 +3449,9 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **AddMask(LookupMask mask)** | void |  |
 | **DeleteObject()** | void |  |
+| **UpdateMask(LookupMask mask, int level)** | void |  |
 # LookupTableCollection Class
 
 Namespace: Microsoft.ProjectServer.Client
@@ -6375,6 +6377,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **ReportingWSSRiskSync** |  |
 | **ReportingWSSDocSync** |  |
 | **ReportingWSSDeliverableSync** |  |
+| **UpdateSRA** |  |
 # ReadyToLeaveProjectStageValue Enum
 
 Namespace: Microsoft.ProjectServer.Client
