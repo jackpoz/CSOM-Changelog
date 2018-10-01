@@ -756,6 +756,7 @@ Base class: ClientObject
 | **Id** | Guid |  |
 | **InternalName** | string |  |
 | **IsEditableInVisibility** | bool |  |
+| **IsLeafOnly** | bool |  |
 | **IsMultilineText** | bool |  |
 | **IsRequired** | bool |  |
 | **IsWorkflowControlled** | bool |  |
@@ -766,6 +767,7 @@ Base class: ClientObject
 | **Name** | string |  |
 | **RollsDownToAssignments** | bool |  |
 | **RollupType** | [CustomFieldRollupType](#customfieldrolluptype-enum) |  |
+| **UseFieldForMatching** | bool |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -844,6 +846,7 @@ Base class: ClientValueObject
 | **Formula** | string |  |
 | **Id** | Guid |  |
 | **IsEditableInVisibility** | bool |  |
+| **IsLeafOnly** | bool |  |
 | **IsMultilineText** | bool |  |
 | **IsRequired** | bool |  |
 | **IsWorkflowControlled** | bool |  |
@@ -851,6 +854,7 @@ Base class: ClientValueObject
 | **LookupDefaultValue** | Guid |  |
 | **LookupTable** | [LookupTable](#lookuptable-class) |  |
 | **Name** | string |  |
+| **UseFieldForMatching** | bool |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -886,6 +890,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **Id** | string |  |
 | **InternalName** | string |  |
 | **IsEditableInVisibility** | string |  |
+| **IsLeafOnly** | string |  |
 | **IsMultilineText** | string |  |
 | **IsRequired** | string |  |
 | **IsWorkflowControlled** | string |  |
@@ -894,6 +899,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **Name** | string |  |
 | **RollsDownToAssignments** | string |  |
 | **RollupType** | string |  |
+| **UseFieldForMatching** | string |  |
 # CustomFieldRollupType Enum
 
 Namespace: Microsoft.ProjectServer.Client
@@ -2423,6 +2429,8 @@ Base class: ClientObject
 | **ExternalId** | string |  |
 | **Group** | string |  |
 | **HireDate** | DateTime |  |
+| **HyperlinkName** | string |  |
+| **HyperlinkUrl** | string |  |
 | **Id** | Guid |  |
 | **Initials** | string |  |
 | **IsActive** | bool |  |
@@ -2687,6 +2695,8 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **HyperlinkName** | string |  |
+| **HyperlinkUrl** | string |  |
 | **Id** | Guid |  |
 | **IsBudget** | bool |  |
 | **IsGeneric** | bool |  |
@@ -2736,6 +2746,8 @@ Namespace: Microsoft.ProjectServer.Client
 | **ExternalId** | string |  |
 | **Group** | string |  |
 | **HireDate** | string |  |
+| **HyperlinkName** | string |  |
+| **HyperlinkUrl** | string |  |
 | **Id** | string |  |
 | **Initials** | string |  |
 | **IsActive** | string |  |

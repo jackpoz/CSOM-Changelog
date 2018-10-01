@@ -1131,6 +1131,7 @@ Base class: ClientObject
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
 | **AllowEditing** | bool |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | bool |  |
+| **AllowSelectSGsInODBListInTenant** | string |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | bool |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -1150,6 +1151,7 @@ Base class: ClientObject
 | **DisallowInfectedFileDownload** | bool |  |
 | **DisplayNamesOfFileViewers** | bool |  |
 | **DisplayStartASiteOption** | bool |  |
+| **EmailAttestationEnabled** | bool |  |
 | **EmailAttestationReAuthDays** | int |  |
 | **EmailAttestationRequired** | bool |  |
 | **EnableGuestSignInAcceleration** | bool |  |
@@ -1159,6 +1161,7 @@ Base class: ClientObject
 | **FileAnonymousLinkType** | AnonymousLinkType |  |
 | **FilePickerExternalImageSearchEnabled** | bool |  |
 | **FolderAnonymousLinkType** | AnonymousLinkType |  |
+| **GuestSharingGroupAllowListInTenant** | string |  |
 | **HideDefaultThemes** | bool |  |
 | **HideSyncButtonOnODB** | bool |  |
 | **IPAddressAllowList** | string |  |
@@ -1170,6 +1173,7 @@ Base class: ClientObject
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | bool |  |
 | **LegacyAuthProtocolsEnabled** | bool |  |
 | **LimitedAccessFileType** | [SPOLimitedAccessFileType](#spolimitedaccessfiletype-enum) |  |
+| **MobileFriendlyUrlEnabledInTenant** | bool |  |
 | **NoAccessRedirectUrl** | string |  |
 | **NotificationsInOneDriveForBusinessEnabled** | bool |  |
 | **NotificationsInSharePointEnabled** | bool |  |
@@ -1216,6 +1220,7 @@ Base class: ClientObject
 | **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **UserVoiceForFeedbackEnabled** | bool |  |
+| **WhoCanShareAllowListInTenant** | string |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -1435,6 +1440,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **AllowedDomainListForSyncClient** | string |  |
 | **AllowEditing** | string |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | string |  |
+| **AllowSelectSGsInODBListInTenant** | string |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -1454,6 +1460,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DisallowInfectedFileDownload** | string |  |
 | **DisplayNamesOfFileViewers** | string |  |
 | **DisplayStartASiteOption** | string |  |
+| **EmailAttestationEnabled** | string |  |
 | **EmailAttestationReAuthDays** | string |  |
 | **EmailAttestationRequired** | string |  |
 | **EnableGuestSignInAcceleration** | string |  |
@@ -1463,6 +1470,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **FileAnonymousLinkType** | string |  |
 | **FilePickerExternalImageSearchEnabled** | string |  |
 | **FolderAnonymousLinkType** | string |  |
+| **GuestSharingGroupAllowListInTenant** | string |  |
 | **HideDefaultThemes** | string |  |
 | **HideSyncButtonOnODB** | string |  |
 | **IPAddressAllowList** | string |  |
@@ -1474,6 +1482,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | string |  |
 | **LegacyAuthProtocolsEnabled** | string |  |
 | **LimitedAccessFileType** | string |  |
+| **MobileFriendlyUrlEnabledInTenant** | string |  |
 | **NoAccessRedirectUrl** | string |  |
 | **NotificationsInOneDriveForBusinessEnabled** | string |  |
 | **NotificationsInSharePointEnabled** | string |  |
@@ -1520,6 +1529,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **UserVoiceForFeedbackEnabled** | string |  |
+| **WhoCanShareAllowListInTenant** | string |  |
 # TenantSiteDesign Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -2567,6 +2577,7 @@ Base class: ClientObject
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
 | **AllowEditing** | bool |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | bool |  |
+| **AllowSelectSGsInODBList** | string |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | bool |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -2581,6 +2592,7 @@ Base class: ClientObject
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DisplayStartASiteOption** | bool |  |
+| **EmailAttestationEnabled** | bool |  |
 | **EmailAttestationReAuthDays** | int |  |
 | **EmailAttestationRequired** | bool |  |
 | **EnableGuestSignInAcceleration** | bool |  |
@@ -2590,6 +2602,7 @@ Base class: ClientObject
 | **FilePickerExternalImageSearchEnabled** | bool |  |
 | **FolderAnonymousLinkType** | AnonymousLinkType |  |
 | **GetCentralAssetRepo** | CentralAssetRepository |  |
+| **GuestSharingGroupAllowList** | string |  |
 | **HideSyncButtonOnODB** | bool |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | bool |  |
@@ -2598,6 +2611,7 @@ Base class: ClientObject
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | bool |  |
 | **LegacyAuthProtocolsEnabled** | bool |  |
 | **LimitedAccessFileType** | [SPOLimitedAccessFileType](#spolimitedaccessfiletype-enum) |  |
+| **MobileFriendlyUrlEnabled** | bool |  |
 | **MySitesPublicEnabled** | bool |  |
 | **NotificationsInOneDriveForBusinessEnabled** | bool |  |
 | **NotificationsInSharePointEnabled** | bool |  |
@@ -2632,6 +2646,7 @@ Base class: ClientObject
 | **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **UserVoiceForFeedbackEnabled** | bool |  |
+| **WhoCanShareAllowList** | string |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -2700,6 +2715,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **AllowedDomainListForSyncClient** | string |  |
 | **AllowEditing** | string |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | string |  |
+| **AllowSelectSGsInODBList** | string |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -2714,6 +2730,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **DefaultLinkPermission** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DisplayStartASiteOption** | string |  |
+| **EmailAttestationEnabled** | string |  |
 | **EmailAttestationReAuthDays** | string |  |
 | **EmailAttestationRequired** | string |  |
 | **EnableGuestSignInAcceleration** | string |  |
@@ -2723,6 +2740,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **FilePickerExternalImageSearchEnabled** | string |  |
 | **FolderAnonymousLinkType** | string |  |
 | **GetCentralAssetRepo** | string |  |
+| **GuestSharingGroupAllowList** | string |  |
 | **HideSyncButtonOnODB** | string |  |
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | string |  |
@@ -2731,6 +2749,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | string |  |
 | **LegacyAuthProtocolsEnabled** | string |  |
 | **LimitedAccessFileType** | string |  |
+| **MobileFriendlyUrlEnabled** | string |  |
 | **MySitesPublicEnabled** | string |  |
 | **NotificationsInOneDriveForBusinessEnabled** | string |  |
 | **NotificationsInSharePointEnabled** | string |  |
@@ -2765,6 +2784,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **UserVoiceForFeedbackEnabled** | string |  |
+| **WhoCanShareAllowList** | string |  |
 # RemoveExternalUsersResults Class
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement

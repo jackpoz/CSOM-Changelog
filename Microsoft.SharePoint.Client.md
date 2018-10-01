@@ -10842,6 +10842,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **AddRequiredFields** | bool |  |
 | **AllowMultipleValueFilterForTaxonomyFields** | bool |  |
+| **AudienceTarget** | bool |  |
 | **DatesInUtc** | bool |  |
 | **ExpandGroups** | bool |  |
 | **FirstGroupOnly** | bool |  |

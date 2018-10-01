@@ -668,6 +668,7 @@ Base class: [Query](#query-class)
 | **PersonalizationData** | [QueryPersonalizationData](#querypersonalizationdata-class) |  |
 | **ProcessBestBets** | bool |  |
 | **ProcessPersonalFavorites** | bool |  |
+| **PropertiesToGenerateAcronyms** | [StringCollection](#stringcollection-class) |  |
 | **QueryTag** | string |  |
 | **QueryTemplate** | string |  |
 | **QueryTemplateParameters** | IDictionary\<string, bool\> |  |
@@ -856,6 +857,7 @@ Base class: ClientObject
 | **PersonalizationData** | [QueryPersonalizationData](#querypersonalizationdata-class) |  |
 | **ProcessBestBets** | bool |  |
 | **ProcessPersonalFavorites** | bool |  |
+| **PropertiesToGenerateAcronyms** | [StringCollection](#stringcollection-class) |  |
 | **QueryTag** | string |  |
 | **QueryTemplate** | string |  |
 | **QueryTemplateParameters** | IDictionary\<string, bool\> |  |
@@ -974,6 +976,7 @@ Namespace: Microsoft.SharePoint.Client.Search.Query
 |---|---|---|
 | **HitHighlightedProperties** | string |  |
 | **PersonalizationData** | string |  |
+| **PropertiesToGenerateAcronyms** | string |  |
 # QueryPersonalizationData Class
 
 Namespace: Microsoft.SharePoint.Client.Search.Query
