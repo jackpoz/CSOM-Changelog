@@ -753,6 +753,9 @@ Base class: ClientObject
 | **EntityType** | [EntityType](#entitytype-class) |  |
 | **FieldType** | [CustomFieldType](#customfieldtype-enum) |  |
 | **Formula** | string |  |
+| **GraphicalIndicatorNonSummary** | string |  |
+| **GraphicalIndicatorProjectSummary** | string |  |
+| **GraphicalIndicatorSummary** | string |  |
 | **Id** | Guid |  |
 | **InternalName** | string |  |
 | **IsEditableInVisibility** | bool |  |
@@ -767,6 +770,7 @@ Base class: ClientObject
 | **Name** | string |  |
 | **RollsDownToAssignments** | bool |  |
 | **RollupType** | [CustomFieldRollupType](#customfieldrolluptype-enum) |  |
+| **ShowToolTip** | bool |  |
 | **UseFieldForMatching** | bool |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
@@ -844,6 +848,9 @@ Base class: ClientValueObject
 | **EntityType** | [EntityType](#entitytype-class) |  |
 | **FieldType** | [CustomFieldType](#customfieldtype-enum) |  |
 | **Formula** | string |  |
+| **GraphicalIndicatorNonSummary** | string |  |
+| **GraphicalIndicatorProjectSummary** | string |  |
+| **GraphicalIndicatorSummary** | string |  |
 | **Id** | Guid |  |
 | **IsEditableInVisibility** | bool |  |
 | **IsLeafOnly** | bool |  |
@@ -854,6 +861,7 @@ Base class: ClientValueObject
 | **LookupDefaultValue** | Guid |  |
 | **LookupTable** | [LookupTable](#lookuptable-class) |  |
 | **Name** | string |  |
+| **ShowToolTip** | bool |  |
 | **UseFieldForMatching** | bool |  |
 | **TypeId** | string |  |
 ## Methods
@@ -887,6 +895,9 @@ Namespace: Microsoft.ProjectServer.Client
 | **Description** | string |  |
 | **FieldType** | string |  |
 | **Formula** | string |  |
+| **GraphicalIndicatorNonSummary** | string |  |
+| **GraphicalIndicatorProjectSummary** | string |  |
+| **GraphicalIndicatorSummary** | string |  |
 | **Id** | string |  |
 | **InternalName** | string |  |
 | **IsEditableInVisibility** | string |  |
@@ -899,6 +910,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **Name** | string |  |
 | **RollsDownToAssignments** | string |  |
 | **RollupType** | string |  |
+| **ShowToolTip** | string |  |
 | **UseFieldForMatching** | string |  |
 # CustomFieldRollupType Enum
 

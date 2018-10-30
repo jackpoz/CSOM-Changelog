@@ -1144,6 +1144,7 @@ Base class: ClientObject
 | **CommentsOnSitePagesDisabled** | bool |  |
 | **CompatibilityRange** | string |  |
 | **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
+| **CustomizedExternalSharingServiceUrl** | string |  |
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DisabledWebPartIds** | Guid[] |  |
@@ -1453,6 +1454,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **CommentsOnSitePagesDisabled** | string |  |
 | **CompatibilityRange** | string |  |
 | **ConditionalAccessPolicy** | string |  |
+| **CustomizedExternalSharingServiceUrl** | string |  |
 | **DefaultLinkPermission** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DisabledWebPartIds** | string |  |
@@ -2083,7 +2085,9 @@ Base class: ClientObject
 |---|---|---|
 | **ClientId** | string |  |
 | **ConsentType** | string |  |
+| **IsDomainIsolated** | bool |  |
 | **ObjectId** | string |  |
+| **PackageName** | string |  |
 | **Resource** | string |  |
 | **ResourceId** | string |  |
 | **Scope** | string |  |
@@ -2154,7 +2158,9 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration.Internal
 |---|---|---|
 | **ClientId** | string |  |
 | **ConsentType** | string |  |
+| **IsDomainIsolated** | string |  |
 | **ObjectId** | string |  |
+| **PackageName** | string |  |
 | **Resource** | string |  |
 | **ResourceId** | string |  |
 | **Scope** | string |  |
@@ -2170,6 +2176,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **Id** | Guid |  |
+| **IsDomainIsolated** | bool |  |
 | **PackageApproverName** | string |  |
 | **PackageName** | string |  |
 | **PackageVersion** | string |  |
@@ -2245,6 +2252,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration.Internal
 | Name | Type | Summary |
 |---|---|---|
 | **Id** | string |  |
+| **IsDomainIsolated** | string |  |
 | **PackageApproverName** | string |  |
 | **PackageName** | string |  |
 | **PackageVersion** | string |  |
@@ -2589,6 +2597,7 @@ Base class: ClientObject
 | **BlockMacSync** | bool |  |
 | **CommentsOnSitePagesDisabled** | bool |  |
 | **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
+| **CustomizedExternalSharingServiceUrl** | string |  |
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DisplayStartASiteOption** | bool |  |
@@ -2727,6 +2736,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **BlockMacSync** | string |  |
 | **CommentsOnSitePagesDisabled** | string |  |
 | **ConditionalAccessPolicy** | string |  |
+| **CustomizedExternalSharingServiceUrl** | string |  |
 | **DefaultLinkPermission** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DisplayStartASiteOption** | string |  |
