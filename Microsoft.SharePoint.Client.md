@@ -9143,6 +9143,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **KeepBoth** | bool |  |
+| **ResetAuthorAndCreatedOnCopy** | bool |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -13864,6 +13865,7 @@ Base class: [SecurableObject](#securableobject-class)
 
 | Name | Type | Summary |
 |---|---|---|
+| **AccessRequestSiteDescription** | string |  |
 | **Alerts** | [AlertCollection](#alertcollection-class) |  |
 | **AllowAutomaticASPXPageIndexing** | bool |  |
 | **AllowCreateDeclarativeWorkflowForCurrentUser** | bool |  |
@@ -13930,6 +13932,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **ParentWeb** | [WebInformation](#webinformation-class) |  |
 | **ResourcePath** | [ResourcePath](#resourcepath-class) |  |
 | **PreviewFeaturesEnabled** | bool |  |
+| **PrimaryColor** | string |  |
 | **PushNotificationSubscribers** | [PushNotificationSubscriberCollection](#pushnotificationsubscribercollection-class) |  |
 | **QuickLaunchEnabled** | bool |  |
 | **RecycleBin** | [RecycleBinItemCollection](#recyclebinitemcollection-class) |  |
@@ -13961,6 +13964,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **UIVersion** | int |  |
 | **UIVersionConfigurationEnabled** | bool |  |
 | **Url** | string |  |
+| **UseAccessRequestDefault** | bool |  |
 | **UserCustomActions** | [UserCustomActionCollection](#usercustomactioncollection-class) |  |
 | **Webs** | [WebCollection](#webcollection-class) |  |
 | **WebTemplate** | string |  |
@@ -14052,10 +14056,13 @@ Base class: [SecurableObject](#securableobject-class)
 | **LoadAndInstallAppInSpecifiedLocale(Stream appPackageStream, int installationLocaleLCID)** | [AppInstance](#appinstance-class) |  |
 | **LoadApp(Stream appPackageStream, int installationLocaleLCID)** | [AppInstance](#appinstance-class) |  |
 | **MapToIcon(string fileName, string progId, IconSize size)** | ClientResult\<string\> |  |
+| **PageContextInfo(bool includeODBSettings, bool emitNavigationInfo)** | ClientResult\<Stream\> |  |
 | **RegisterPushNotificationSubscriber(Guid deviceAppInstanceId, string serviceToken)** | [PushNotificationSubscriber](#pushnotificationsubscriber-class) |  |
 | **RemoveStorageEntity(string key)** | void |  |
 | **RemoveSupportedUILanguage(int lcid)** | void |  |
+| **SetAccessRequestSiteDescriptionAndUpdate(string description)** | void |  |
 | **SetStorageEntity(string key, string value, string description, string comments)** | void |  |
+| **SetUseAccessRequestDefaultAndUpdate(bool useAccessRequestDefault)** | void |  |
 | **ShareObject(ClientRuntimeContext context, string url, string peoplePickerInput, string roleValue, int groupId, bool propagateAcl, bool sendEmail, bool includeAnonymousLinkInEmail, string emailSubject, string emailBody, bool useSimplifiedRoles)** | [SharingResult](#sharingresult-class) |  |
 | **UnregisterPushNotificationSubscriber(Guid deviceAppInstanceId)** | void |  |
 | **UnshareObject(ClientRuntimeContext context, string url)** | [SharingResult](#sharingresult-class) |  |
@@ -14234,6 +14241,7 @@ Namespace: Microsoft.SharePoint.Client
 
 | Name | Type | Summary |
 |---|---|---|
+| **AccessRequestSiteDescription** | string |  |
 | **AllowAutomaticASPXPageIndexing** | string |  |
 | **AllowCreateDeclarativeWorkflowForCurrentUser** | string |  |
 | **AllowDesignerForCurrentUser** | string |  |
@@ -14278,6 +14286,7 @@ Namespace: Microsoft.SharePoint.Client
 | **OverwriteTranslationsOnChange** | string |  |
 | **ResourcePath** | string |  |
 | **PreviewFeaturesEnabled** | string |  |
+| **PrimaryColor** | string |  |
 | **QuickLaunchEnabled** | string |  |
 | **RecycleBinEnabled** | string |  |
 | **RequestAccessEmail** | string |  |
@@ -14297,6 +14306,7 @@ Namespace: Microsoft.SharePoint.Client
 | **UIVersion** | string |  |
 | **UIVersionConfigurationEnabled** | string |  |
 | **Url** | string |  |
+| **UseAccessRequestDefault** | string |  |
 | **WebTemplate** | string |  |
 | **WelcomePage** | string |  |
 # WebProxy Class

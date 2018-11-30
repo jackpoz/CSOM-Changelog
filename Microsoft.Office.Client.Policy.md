@@ -10,16 +10,16 @@ Created by
 | [ScriptTypeFactory Class](#scripttypefactory-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
 | [ComplianceTag Class](#compliancetag-class) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
 | [DlpAccessScope Enum](#dlpaccessscope-enum) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
-| [DlpClassificationResult Class](#dlpclassificationresult-class) | [SPPolicyBinding Class](#sppolicybinding-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
-| [PendingReviewItemsStatistics Class](#pendingreviewitemsstatistics-class) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [SPSyncNotificationEndpointInfoPropertyNames Class](#spsyncnotificationendpointinfopropertynames-class) |
-| [PolicyEvaluationInfo Class](#policyevaluationinfo-class) | [SPPolicyDefinition Class](#sppolicydefinition-class) | [Case Class](#case-class) |
-| [PolicyEvaluationInfoEnums Enum](#policyevaluationinfoenums-enum) | [SPPolicyDefinitionPropertyNames Class](#sppolicydefinitionpropertynames-class) | [Export Class](#export-class) |
-| [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyEvent Class](#sppolicyevent-class) | [ExportPropertyNames Class](#exportpropertynames-class) |
-| [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyEventPropertyNames Class](#sppolicyeventpropertynames-class) | [ExportStatus Enum](#exportstatus-enum) |
-| [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyRule Class](#sppolicyrule-class) | [ProjectPolicy Class](#projectpolicy-class) |
-| [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
-| [SPContainerId Class](#spcontainerid-class) | [SPPolicyStore Class](#sppolicystore-class) | [Records Class](#records-class) |
-| [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |   |
+| [DlpClassificationResult Class](#dlpclassificationresult-class) | [SPPolicyBinding Class](#sppolicybinding-class) | [SPSitePreservationUtility Class](#spsitepreservationutility-class) |
+| [PendingReviewItemsStatistics Class](#pendingreviewitemsstatistics-class) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
+| [PolicyEvaluationInfo Class](#policyevaluationinfo-class) | [SPPolicyDefinition Class](#sppolicydefinition-class) | [SPSyncNotificationEndpointInfoPropertyNames Class](#spsyncnotificationendpointinfopropertynames-class) |
+| [PolicyEvaluationInfoEnums Enum](#policyevaluationinfoenums-enum) | [SPPolicyDefinitionPropertyNames Class](#sppolicydefinitionpropertynames-class) | [Case Class](#case-class) |
+| [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyEvent Class](#sppolicyevent-class) | [Export Class](#export-class) |
+| [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyEventPropertyNames Class](#sppolicyeventpropertynames-class) | [ExportPropertyNames Class](#exportpropertynames-class) |
+| [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyRule Class](#sppolicyrule-class) | [ExportStatus Enum](#exportstatus-enum) |
+| [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) | [ProjectPolicy Class](#projectpolicy-class) |
+| [SPContainerId Class](#spcontainerid-class) | [SPPolicyStore Class](#sppolicystore-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
+| [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) | [Records Class](#records-class) |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Office.Client.Policy
@@ -767,6 +767,16 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 | **FarmLabel** | string |  |
 | **ScsEndPointUrl** | string |  |
 | **SearchFarmId** | string |  |
+# SPSitePreservationUtility Class
+
+Namespace: Microsoft.SharePoint.Client.CompliancePolicy
+
+
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **PlaceOnHold(ClientRuntimeContext context, string siteId, Guid holdId, int durationInDays, string holdPeriodSource)** | void |  |
 # SPSyncNotificationEndpointInfo Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy

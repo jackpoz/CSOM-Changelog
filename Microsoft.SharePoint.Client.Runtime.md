@@ -7,43 +7,44 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [AttachmentStreamFromServer Class](#attachmentstreamfromserver-class) | [ExceptionHandlingExecutionScope Class](#exceptionhandlingexecutionscope-class) | [TextPeekReader Class](#textpeekreader-class) |
-| [ChunkStreamBuilder Class](#chunkstreambuilder-class) | [ExceptionHandlingScope Class](#exceptionhandlingscope-class) | [Token Class](#token-class) |
-| [ChunkStringBuilder Class](#chunkstringbuilder-class) | [ExecuteQueryMimeInfo Class](#executequerymimeinfo-class) | [UTF8ReadonlyStream Class](#utf8readonlystream-class) |
-| [ChunkStringReader Class](#chunkstringreader-class) | [ExecutionScope Class](#executionscope-class) | [WebRequestEventArgs Class](#webrequesteventargs-class) |
-| [ChunkStringWriter Class](#chunkstringwriter-class) | [ExecutionScopeDisposingCallback Class](#executionscopedisposingcallback-class) | [WebRequestExecutor Class](#webrequestexecutor-class) |
-| [ClientAction Class](#clientaction-class) | [ExpressionEvaluator Class](#expressionevaluator-class) | [WebRequestExecutorFactory Class](#webrequestexecutorfactory-class) |
-| [ClientActionExecutionScopeEnd Class](#clientactionexecutionscopeend-class) | [ExpressionUtility Class](#expressionutility-class) | [WriteValueHandler Class](#writevaluehandler-class) |
-| [ClientActionExecutionScopeStart Class](#clientactionexecutionscopestart-class) | [ExpressionVisitor Class](#expressionvisitor-class) | [Authentication Class](#authentication-class) |
-| [ClientActionInstantiateObjectPath Class](#clientactioninstantiateobjectpath-class) | [FormsAuthenticationLoginInfo Class](#formsauthenticationlogininfo-class) | [AuthenticationMode Enum](#authenticationmode-enum) |
-| [ClientActionInstantiateObjectPathResult Class](#clientactioninstantiateobjectpathresult-class) | [IdcrlException Class](#idcrlexception-class) | [LoginCompletedEventArgs Class](#logincompletedeventargs-class) |
-| [ClientActionInvokeMethod Class](#clientactioninvokemethod-class) | [IFromJson Class](#ifromjson-class) | [LoginCompletedEventHandler Class](#logincompletedeventhandler-class) |
-| [ClientActionInvokeStaticMethod Class](#clientactioninvokestaticmethod-class) | [InvalidQueryExpressionException Class](#invalidqueryexpressionexception-class) | [LoginErrorCode Enum](#loginerrorcode-enum) |
-| [ClientActionSetProperty Class](#clientactionsetproperty-class) | [IScriptTypeFactory Class](#iscripttypefactory-class) | [LoginResult Class](#loginresult-class) |
-| [ClientActionSetStaticProperty Class](#clientactionsetstaticproperty-class) | [ISharePointOnlineAuthenticationProvider Class](#isharepointonlineauthenticationprovider-class) | [ModeCompletedEventArgs Class](#modecompletedeventargs-class) |
-| [ClientArrayResult\<T\> Class](#clientarrayresultt-class) | [JsonReader Class](#jsonreader-class) | [ModeCompletedEventHandler Class](#modecompletedeventhandler-class) |
-| [ClientAuthenticationMode Enum](#clientauthenticationmode-enum) | [JsonReaderOptions Enum](#jsonreaderoptions-enum) | [FederationProviderInfo Class](#federationproviderinfo-class) |
-| [ClientConstants Class](#clientconstants-class) | [JsonTokenType Enum](#jsontokentype-enum) | [FederationProviderInfoCache Class](#federationproviderinfocache-class) |
-| [ClientDictionaryResultHandler\<T\> Class](#clientdictionaryresulthandlert-class) | [Nominator Class](#nominator-class) | [FederationProviderInfoCacheEntry Class](#federationproviderinfocacheentry-class) |
-| [ClientErrorCodes Class](#clienterrorcodes-class) | [NotSupportedExpressionChecker Class](#notsupportedexpressionchecker-class) | [IdcrlAuth Class](#idcrlauth-class) |
-| [ClientListResultHandler\<T\> Class](#clientlistresulthandlert-class) | [ObjectIdentityQuery Class](#objectidentityquery-class) | [IdcrlConstants Class](#idcrlconstants-class) |
-| [ClientObject Class](#clientobject-class) | [ObjectPath Class](#objectpath-class) | [IdcrlEnvironment Enum](#idcrlenvironment-enum) |
-| [ClientObjectCollection Class](#clientobjectcollection-class) | [ObjectPathConstructor Class](#objectpathconstructor-class) | [IdcrlErrorCodes Class](#idcrlerrorcodes-class) |
-| [ClientObjectCollection\<T\> Class](#clientobjectcollectiont-class) | [ObjectPathIdentity Class](#objectpathidentity-class) | [IdcrlHeader Class](#idcrlheader-class) |
-| [ClientObjectCollectionPrototype\<ItemType\> Class](#clientobjectcollectionprototypeitemtype-class) | [ObjectPathMethod Class](#objectpathmethod-class) | [IdcrlMessageConstants Class](#idcrlmessageconstants-class) |
-| [ClientObjectData Class](#clientobjectdata-class) | [ObjectPathProperty Class](#objectpathproperty-class) | [IdcrlUtility Class](#idcrlutility-class) |
-| [ClientObjectList\<T\> Class](#clientobjectlistt-class) | [ObjectPathStaticMethod Class](#objectpathstaticmethod-class) | [SharePointOnlineAuthenticationProvider Class](#sharepointonlineauthenticationprovider-class) |
-| [ClientObjectPrototype Class](#clientobjectprototype-class) | [ObjectPathStaticProperty Class](#objectpathstaticproperty-class) | [STSSoapFaultCodes Class](#stssoapfaultcodes-class) |
-| [ClientObjectPrototype\<T\> Class](#clientobjectprototypet-class) | [OfficeVersion Class](#officeversion-class) | [UserRealmInfo Class](#userrealminfo-class) |
-| [ClientObjectQueryableExtension Class](#clientobjectqueryableextension-class) | [PropertyOrFieldNotInitializedException Class](#propertyorfieldnotinitializedexception-class) | [BufferedReadStream Class](#bufferedreadstream-class) |
-| [ClientQueryable\<T\> Class](#clientqueryablet-class) | [PseudoRemoteAttribute Class](#pseudoremoteattribute-class) | [BufferedWrite Class](#bufferedwrite-class) |
-| [ClientQueryableResult\<T\> Class](#clientqueryableresultt-class) | [QueryMethodAggregator Class](#querymethodaggregator-class) | [Constants Class](#constants-class) |
-| [ClientQueryInternal Class](#clientqueryinternal-class) | [QueryProcessInfo Class](#queryprocessinfo-class) | [ContentIDHeader Class](#contentidheader-class) |
-| [ClientQueryProperty Class](#clientqueryproperty-class) | [ReadObjectHandler Class](#readobjecthandler-class) | [ContentLengthHeader Class](#contentlengthheader-class) |
-| [ClientQueryProvider Class](#clientqueryprovider-class) | [ReadObjectHandlers Class](#readobjecthandlers-class) | [ContentTransferEncoding Enum](#contenttransferencoding-enum) |
-| [ClientRequest Class](#clientrequest-class) | [ReadonlyChunkStream Class](#readonlychunkstream-class) | [ContentTransferEncodingHeader Class](#contenttransferencodingheader-class) |
-| [ClientRequestException Class](#clientrequestexception-class) | [ReadonlyWrapStream Class](#readonlywrapstream-class) | [ContentTypeHeader Class](#contenttypeheader-class) |
-| [ClientRequestStatus Enum](#clientrequeststatus-enum) | [RemoteAttribute Class](#remoteattribute-class) | [DelimittedReadStream Class](#delimittedreadstream-class) |
+| [AttachmentStreamFromServer Class](#attachmentstreamfromserver-class) | [EnumerableClientObjectCollection\<T\> Class](#enumerableclientobjectcollectiont-class) | [SubtreeEvaluator Class](#subtreeevaluator-class) |
+| [ChunkStreamBuilder Class](#chunkstreambuilder-class) | [ExceptionHandlingExecutionScope Class](#exceptionhandlingexecutionscope-class) | [TextPeekReader Class](#textpeekreader-class) |
+| [ChunkStringBuilder Class](#chunkstringbuilder-class) | [ExceptionHandlingScope Class](#exceptionhandlingscope-class) | [Token Class](#token-class) |
+| [ChunkStringReader Class](#chunkstringreader-class) | [ExecuteQueryMimeInfo Class](#executequerymimeinfo-class) | [UTF8ReadonlyStream Class](#utf8readonlystream-class) |
+| [ChunkStringWriter Class](#chunkstringwriter-class) | [ExecutionScope Class](#executionscope-class) | [WebRequestEventArgs Class](#webrequesteventargs-class) |
+| [ClientAction Class](#clientaction-class) | [ExecutionScopeDisposingCallback Class](#executionscopedisposingcallback-class) | [WebRequestExecutor Class](#webrequestexecutor-class) |
+| [ClientActionExecutionScopeEnd Class](#clientactionexecutionscopeend-class) | [ExpressionEvaluator Class](#expressionevaluator-class) | [WebRequestExecutorFactory Class](#webrequestexecutorfactory-class) |
+| [ClientActionExecutionScopeStart Class](#clientactionexecutionscopestart-class) | [ExpressionUtility Class](#expressionutility-class) | [WriteValueHandler Class](#writevaluehandler-class) |
+| [ClientActionInstantiateObjectPath Class](#clientactioninstantiateobjectpath-class) | [ExpressionVisitor Class](#expressionvisitor-class) | [Authentication Class](#authentication-class) |
+| [ClientActionInstantiateObjectPathResult Class](#clientactioninstantiateobjectpathresult-class) | [FormsAuthenticationLoginInfo Class](#formsauthenticationlogininfo-class) | [AuthenticationMode Enum](#authenticationmode-enum) |
+| [ClientActionInvokeMethod Class](#clientactioninvokemethod-class) | [IdcrlException Class](#idcrlexception-class) | [LoginCompletedEventArgs Class](#logincompletedeventargs-class) |
+| [ClientActionInvokeStaticMethod Class](#clientactioninvokestaticmethod-class) | [IFromJson Class](#ifromjson-class) | [LoginCompletedEventHandler Class](#logincompletedeventhandler-class) |
+| [ClientActionSetProperty Class](#clientactionsetproperty-class) | [InvalidQueryExpressionException Class](#invalidqueryexpressionexception-class) | [LoginErrorCode Enum](#loginerrorcode-enum) |
+| [ClientActionSetStaticProperty Class](#clientactionsetstaticproperty-class) | [IScriptTypeFactory Class](#iscripttypefactory-class) | [LoginResult Class](#loginresult-class) |
+| [ClientArrayResult\<T\> Class](#clientarrayresultt-class) | [ISharePointOnlineAuthenticationProvider Class](#isharepointonlineauthenticationprovider-class) | [ModeCompletedEventArgs Class](#modecompletedeventargs-class) |
+| [ClientAuthenticationMode Enum](#clientauthenticationmode-enum) | [JsonReader Class](#jsonreader-class) | [ModeCompletedEventHandler Class](#modecompletedeventhandler-class) |
+| [ClientConstants Class](#clientconstants-class) | [JsonReaderOptions Enum](#jsonreaderoptions-enum) | [FederationProviderInfo Class](#federationproviderinfo-class) |
+| [ClientDictionaryResultHandler\<T\> Class](#clientdictionaryresulthandlert-class) | [JsonTokenType Enum](#jsontokentype-enum) | [FederationProviderInfoCache Class](#federationproviderinfocache-class) |
+| [ClientErrorCodes Class](#clienterrorcodes-class) | [Nominator Class](#nominator-class) | [FederationProviderInfoCacheEntry Class](#federationproviderinfocacheentry-class) |
+| [ClientListResultHandler\<T\> Class](#clientlistresulthandlert-class) | [NotSupportedExpressionChecker Class](#notsupportedexpressionchecker-class) | [IdcrlAuth Class](#idcrlauth-class) |
+| [ClientObject Class](#clientobject-class) | [ObjectIdentityQuery Class](#objectidentityquery-class) | [IdcrlConstants Class](#idcrlconstants-class) |
+| [ClientObjectCollection Class](#clientobjectcollection-class) | [ObjectPath Class](#objectpath-class) | [IdcrlEnvironment Enum](#idcrlenvironment-enum) |
+| [ClientObjectCollection\<T\> Class](#clientobjectcollectiont-class) | [ObjectPathConstructor Class](#objectpathconstructor-class) | [IdcrlErrorCodes Class](#idcrlerrorcodes-class) |
+| [ClientObjectCollectionPrototype\<ItemType\> Class](#clientobjectcollectionprototypeitemtype-class) | [ObjectPathIdentity Class](#objectpathidentity-class) | [IdcrlHeader Class](#idcrlheader-class) |
+| [ClientObjectData Class](#clientobjectdata-class) | [ObjectPathMethod Class](#objectpathmethod-class) | [IdcrlMessageConstants Class](#idcrlmessageconstants-class) |
+| [ClientObjectList\<T\> Class](#clientobjectlistt-class) | [ObjectPathProperty Class](#objectpathproperty-class) | [IdcrlUtility Class](#idcrlutility-class) |
+| [ClientObjectPrototype Class](#clientobjectprototype-class) | [ObjectPathStaticMethod Class](#objectpathstaticmethod-class) | [SharePointOnlineAuthenticationProvider Class](#sharepointonlineauthenticationprovider-class) |
+| [ClientObjectPrototype\<T\> Class](#clientobjectprototypet-class) | [ObjectPathStaticProperty Class](#objectpathstaticproperty-class) | [STSSoapFaultCodes Class](#stssoapfaultcodes-class) |
+| [ClientObjectQueryableExtension Class](#clientobjectqueryableextension-class) | [OfficeVersion Class](#officeversion-class) | [UserRealmInfo Class](#userrealminfo-class) |
+| [ClientQueryable\<T\> Class](#clientqueryablet-class) | [PropertyOrFieldNotInitializedException Class](#propertyorfieldnotinitializedexception-class) | [BufferedReadStream Class](#bufferedreadstream-class) |
+| [ClientQueryableResult\<T\> Class](#clientqueryableresultt-class) | [PseudoRemoteAttribute Class](#pseudoremoteattribute-class) | [BufferedWrite Class](#bufferedwrite-class) |
+| [ClientQueryInternal Class](#clientqueryinternal-class) | [QueryMethodAggregator Class](#querymethodaggregator-class) | [Constants Class](#constants-class) |
+| [ClientQueryProperty Class](#clientqueryproperty-class) | [QueryProcessInfo Class](#queryprocessinfo-class) | [ContentIDHeader Class](#contentidheader-class) |
+| [ClientQueryProvider Class](#clientqueryprovider-class) | [ReadObjectHandler Class](#readobjecthandler-class) | [ContentLengthHeader Class](#contentlengthheader-class) |
+| [ClientRequest Class](#clientrequest-class) | [ReadObjectHandlers Class](#readobjecthandlers-class) | [ContentTransferEncoding Enum](#contenttransferencoding-enum) |
+| [ClientRequestException Class](#clientrequestexception-class) | [ReadonlyChunkStream Class](#readonlychunkstream-class) | [ContentTransferEncodingHeader Class](#contenttransferencodingheader-class) |
+| [ClientRequestStatus Enum](#clientrequeststatus-enum) | [ReadonlyWrapStream Class](#readonlywrapstream-class) | [ContentTypeHeader Class](#contenttypeheader-class) |
+| [ClientRequestWrapper Class](#clientrequestwrapper-class) | [RemoteAttribute Class](#remoteattribute-class) | [DelimittedReadStream Class](#delimittedreadstream-class) |
 | [ClientResult\<T\> Class](#clientresultt-class) | [ReplaceQueryableCollectionWithEnumerableCollectionExpressionVisitor Class](#replacequeryablecollectionwithenumerablecollectionexpressionvisitor-class) | [DelimittedStreamReader Class](#delimittedstreamreader-class) |
 | [ClientRuntimeConfigurationSection Class](#clientruntimeconfigurationsection-class) | [Resources Class](#resources-class) | [DiagnosticUtility Class](#diagnosticutility-class) |
 | [ClientRuntimeContext Class](#clientruntimecontext-class) | [ResourceStrings Class](#resourcestrings-class) | [ExceptionUtility Class](#exceptionutility-class) |
@@ -65,7 +66,6 @@ Created by
 | [DataConvert Class](#dataconvert-class) | [SPResourceManager Class](#spresourcemanager-class) | [MtomGlobals Class](#mtomglobals-class) |
 | [DataRetrieval Class](#dataretrieval-class) | [SPWebRequestExecutor Class](#spwebrequestexecutor-class) | [ReadState Enum](#readstate-enum) |
 | [DefaultWebRequestExecutorFactory Class](#defaultwebrequestexecutorfactory-class) | [StreamInfo Class](#streaminfo-class) | [SR Class](#sr-class) |
-| [EnumerableClientObjectCollection\<T\> Class](#enumerableclientobjectcollectiont-class) | [SubtreeEvaluator Class](#subtreeevaluator-class) |   |
 # AttachmentStreamFromServer Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -870,6 +870,7 @@ Namespace: Microsoft.SharePoint.Client
 | **SoapPageUrl** | string |  |
 | **RequestStatus** | [ClientRequestStatus](#clientrequeststatus-enum) |  |
 | **Actions** | List\<[ClientAction](#clientaction-class)\> |  |
+| **QueryBuilder** | [ChunkStringBuilder](#chunkstringbuilder-class) |  |
 | **LastAction** | [ClientAction](#clientaction-class) |  |
 | **ExecutionScopes** | Stack\<[ExecutionScope](#executionscope-class)\> |  |
 | **SerializationContext** | [SerializationContext](#serializationcontext-class) |  |
@@ -916,6 +917,16 @@ Namespace: Microsoft.SharePoint.Client
 | **InProgress** |  |
 | **CompletedSuccess** |  |
 | **CompletedException** |  |
+# ClientRequestWrapper Class
+
+Namespace: Microsoft.SharePoint.Client
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Value** | [ClientRequest](#clientrequest-class) |  |
 # ClientResult\<T\> Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -1006,6 +1017,8 @@ Namespace: Microsoft.SharePoint.Client
 | **LoadQuery(ClientObjectCollection\<T\> clientObjects)** | IEnumerable\<T\> |  |
 | **LoadQuery(IQueryable\<T\> clientObjects)** | IEnumerable\<T\> |  |
 | **ParseObjectFromJsonString(string json)** | Object |  |
+| **RetryQuery(ClientRequest request)** | void |  |
+| **RetryQueryAsync(ClientRequest request)** | Task |  |
 | **SetupRequestCredential(ClientRuntimeContext context, HttpWebRequest request)** | void |  |
 # ClientSchemaVersions Class
 

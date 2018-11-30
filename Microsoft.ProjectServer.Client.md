@@ -1272,6 +1272,7 @@ Base class: [Project](#project-class)
 | **ProjectIdentifier** | string |  |
 | **ProjectResources** | [DraftProjectResourceCollection](#draftprojectresourcecollection-class) |  |
 | **ProtectedActualsSynch** | bool |  |
+| **ScheduledFromStart** | bool |  |
 | **ShowEstimatedDurations** | bool |  |
 | **StartDate** | DateTime |  |
 | **StatusDate** | DateTime |  |
@@ -1318,7 +1319,6 @@ Base class: [Project](#project-class)
 | **ProjectSummaryTask** | [ProjectSummaryTask](#projectsummarytask-class) |  |
 | **ProjectType** | [ProjectType](#projecttype-enum) |  |
 | **QueueJobs** | [QueueJobCollection](#queuejobcollection-class) |  |
-| **ScheduledFromStart** | bool |  |
 | **SplitInProgress** | bool |  |
 | **SpreadActualCostsToStatus** | bool |  |
 | **SpreadPercentCompleteToStatus** | bool |  |
@@ -1396,6 +1396,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **NumberFiscalYearFromStart** | string |  |
 | **ProjectIdentifier** | string |  |
 | **ProtectedActualsSynch** | string |  |
+| **ScheduledFromStart** | string |  |
 | **ShowEstimatedDurations** | string |  |
 | **StartDate** | string |  |
 | **StatusDate** | string |  |
@@ -2253,6 +2254,7 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **Departments** | IEnumerable\<Guid\> |  |
 | **Description** | string |  |
 | **Id** | Guid |  |
 | **ImageUrl** | string |  |
@@ -2288,7 +2290,10 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **AddDepartment(Guid departmentValueGuid)** | void |  |
 | **DeleteObject()** | void |  |
+| **RemoveDepartment(Guid departmentValueGuid)** | void |  |
+| **UpdateCreatePDP(ProjectDetailPageCreationInformation pdp)** | void |  |
 # EnterpriseProjectTypeCollection Class
 
 Namespace: Microsoft.ProjectServer.Client
@@ -2341,6 +2346,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **DepartmentIds** | IEnumerable\<Guid\> |  |
 | **Description** | string |  |
 | **Id** | Guid |  |
 | **ImageUrl** | string |  |
@@ -2383,6 +2389,7 @@ Namespace: Microsoft.ProjectServer.Client
 
 | Name | Type | Summary |
 |---|---|---|
+| **Departments** | string |  |
 | **Description** | string |  |
 | **Id** | string |  |
 | **ImageUrl** | string |  |
@@ -2483,6 +2490,7 @@ Base class: ClientObject
 | **ForceCheckIn()** | void |  |
 | **GetSelf(ClientRuntimeContext Context)** | [EnterpriseResource](#enterpriseresource-class) |  |
 | **RefreshLoad()** | void |  |
+| **UpdateClaimsAccount(string newClaimsAccount)** | void |  |
 # EnterpriseResourceCollection Class
 
 Namespace: Microsoft.ProjectServer.Client
@@ -4165,7 +4173,6 @@ Base class: ClientObject
 | **ProjectSummaryTask** | [ProjectSummaryTask](#projectsummarytask-class) |  |
 | **ProjectType** | [ProjectType](#projecttype-enum) |  |
 | **QueueJobs** | [QueueJobCollection](#queuejobcollection-class) |  |
-| **ScheduledFromStart** | bool |  |
 | **SplitInProgress** | bool |  |
 | **SpreadActualCostsToStatus** | bool |  |
 | **SpreadPercentCompleteToStatus** | bool |  |
@@ -4756,7 +4763,6 @@ Namespace: Microsoft.ProjectServer.Client
 | **PlannerDecision** | string |  |
 | **ProjectSiteUrl** | string |  |
 | **ProjectType** | string |  |
-| **ScheduledFromStart** | string |  |
 | **SplitInProgress** | string |  |
 | **SpreadActualCostsToStatus** | string |  |
 | **SpreadPercentCompleteToStatus** | string |  |
@@ -5489,6 +5495,7 @@ Base class: [Project](#project-class)
 | **ProjectIdentifier** | string |  |
 | **ProjectResources** | [PublishedProjectResourceCollection](#publishedprojectresourcecollection-class) |  |
 | **ProtectedActualsSynch** | bool |  |
+| **ScheduledFromStart** | bool |  |
 | **ShowEstimatedDurations** | bool |  |
 | **StartDate** | DateTime |  |
 | **StatusDate** | DateTime |  |
@@ -5535,7 +5542,6 @@ Base class: [Project](#project-class)
 | **ProjectSummaryTask** | [ProjectSummaryTask](#projectsummarytask-class) |  |
 | **ProjectType** | [ProjectType](#projecttype-enum) |  |
 | **QueueJobs** | [QueueJobCollection](#queuejobcollection-class) |  |
-| **ScheduledFromStart** | bool |  |
 | **SplitInProgress** | bool |  |
 | **SpreadActualCostsToStatus** | bool |  |
 | **SpreadPercentCompleteToStatus** | bool |  |
@@ -5616,6 +5622,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **NumberFiscalYearFromStart** | string |  |
 | **ProjectIdentifier** | string |  |
 | **ProtectedActualsSynch** | string |  |
+| **ScheduledFromStart** | string |  |
 | **ShowEstimatedDurations** | string |  |
 | **StartDate** | string |  |
 | **StatusDate** | string |  |
