@@ -57,54 +57,54 @@ Created by
 | [DraftTask Class](#drafttask-class) | [Project Class](#project-class) | [StatusTaskCreationInformation Class](#statustaskcreationinformation-class) |
 | [DraftTaskCollection Class](#drafttaskcollection-class) | [ProjectCollection Class](#projectcollection-class) | [StatusTaskObjectPropertyNames Class](#statustaskobjectpropertynames-class) |
 | [DraftTaskLink Class](#drafttasklink-class) | [ProjectContext Class](#projectcontext-class) | [StatusTaskPropertyNames Class](#statustaskpropertynames-class) |
-| [DraftTaskLinkCollection Class](#drafttasklinkcollection-class) | [ProjectCreationInformation Class](#projectcreationinformation-class) | [StatusUpdateType Enum](#statusupdatetype-enum) |
-| [DraftTaskLinkObjectPropertyNames Class](#drafttasklinkobjectpropertynames-class) | [ProjectDetailPage Class](#projectdetailpage-class) | [StrategicImpactBehavior Enum](#strategicimpactbehavior-enum) |
-| [DraftTaskLinkPropertyNames Class](#drafttasklinkpropertynames-class) | [ProjectDetailPageCollection Class](#projectdetailpagecollection-class) | [Task Class](#task-class) |
-| [DraftTaskObjectPropertyNames Class](#drafttaskobjectpropertynames-class) | [ProjectDetailPageCollectionObjectPropertyNames Class](#projectdetailpagecollectionobjectpropertynames-class) | [TaskCreationInformation Class](#taskcreationinformation-class) |
-| [DraftTaskPropertyNames Class](#drafttaskpropertynames-class) | [ProjectDetailPageCreationInformation Class](#projectdetailpagecreationinformation-class) | [TaskLink Class](#tasklink-class) |
-| [Engagement Class](#engagement-class) | [ProjectDetailPageObjectPropertyNames Class](#projectdetailpageobjectpropertynames-class) | [TaskLinkCreationInformation Class](#tasklinkcreationinformation-class) |
-| [EngagementComment Class](#engagementcomment-class) | [ProjectDetailPagePropertyNames Class](#projectdetailpagepropertynames-class) | [TaskLinkPropertyNames Class](#tasklinkpropertynames-class) |
-| [EngagementCommentCollection Class](#engagementcommentcollection-class) | [ProjectDetailPageType Enum](#projectdetailpagetype-enum) | [TaskObjectPropertyNames Class](#taskobjectpropertynames-class) |
-| [EngagementCommentObjectPropertyNames Class](#engagementcommentobjectpropertynames-class) | [ProjectEngagement Class](#projectengagement-class) | [TaskPropertyNames Class](#taskpropertynames-class) |
-| [EngagementCommentPropertyNames Class](#engagementcommentpropertynames-class) | [ProjectEngagementCollection Class](#projectengagementcollection-class) | [TaskType Enum](#tasktype-enum) |
-| [EngagementContourType Enum](#engagementcontourtype-enum) | [ProjectEngagementComment Class](#projectengagementcomment-class) | [TimePhase Class](#timephase-class) |
-| [EngagementCreationInformation Class](#engagementcreationinformation-class) | [ProjectEngagementCreationInformation Class](#projectengagementcreationinformation-class) | [TimePhaseObjectPropertyNames Class](#timephaseobjectpropertynames-class) |
-| [EngagementObjectPropertyNames Class](#engagementobjectpropertynames-class) | [ProjectEngagementPropertyNames Class](#projectengagementpropertynames-class) | [TimePhasePropertyNames Class](#timephasepropertynames-class) |
-| [EngagementPropertyNames Class](#engagementpropertynames-class) | [ProjectEngagementTimephasedCollection Class](#projectengagementtimephasedcollection-class) | [TimeScale Enum](#timescale-enum) |
-| [EngagementSaveConflictException Class](#engagementsaveconflictexception-class) | [ProjectEngagementTimephasedPeriod Class](#projectengagementtimephasedperiod-class) | [TimeSheet Class](#timesheet-class) |
-| [EngagementStatus Enum](#engagementstatus-enum) | [ProjectObjectPropertyNames Class](#projectobjectpropertynames-class) | [TimeSheetEntryMode Enum](#timesheetentrymode-enum) |
-| [EngagementTimephasedPeriod Class](#engagementtimephasedperiod-class) | [ProjectPropertyNames Class](#projectpropertynames-class) | [TimeSheetLine Class](#timesheetline-class) |
-| [EngagementTimephasedPeriodCreationInformation Class](#engagementtimephasedperiodcreationinformation-class) | [ProjectResource Class](#projectresource-class) | [TimeSheetLineClass Enum](#timesheetlineclass-enum) |
-| [EngagementTimephasedPeriodPropertyNames Class](#engagementtimephasedperiodpropertynames-class) | [ProjectResourceCreationInformation Class](#projectresourcecreationinformation-class) | [TimeSheetLineCollection Class](#timesheetlinecollection-class) |
-| [EnterpriseProjectType Class](#enterpriseprojecttype-class) | [ProjectResourceObjectPropertyNames Class](#projectresourceobjectpropertynames-class) | [TimeSheetLineCreationInformation Class](#timesheetlinecreationinformation-class) |
-| [EnterpriseProjectTypeCollection Class](#enterpriseprojecttypecollection-class) | [ProjectResourcePropertyNames Class](#projectresourcepropertynames-class) | [TimeSheetLineObjectPropertyNames Class](#timesheetlineobjectpropertynames-class) |
-| [EnterpriseProjectTypeCreationInformation Class](#enterpriseprojecttypecreationinformation-class) | [ProjectServer Class](#projectserver-class) | [TimeSheetLinePropertyNames Class](#timesheetlinepropertynames-class) |
-| [EnterpriseProjectTypeObjectPropertyNames Class](#enterpriseprojecttypeobjectpropertynames-class) | [ProjectServerData Class](#projectserverdata-class) | [TimeSheetLineStatus Enum](#timesheetlinestatus-enum) |
-| [EnterpriseProjectTypePropertyNames Class](#enterpriseprojecttypepropertynames-class) | [ProjectServerObjectPropertyNames Class](#projectserverobjectpropertynames-class) | [TimeSheetObjectPropertyNames Class](#timesheetobjectpropertynames-class) |
-| [EnterpriseProjectTypeSiteCreationOptions Enum](#enterpriseprojecttypesitecreationoptions-enum) | [ProjectServerPropertyNames Class](#projectserverpropertynames-class) | [TimeSheetPeriod Class](#timesheetperiod-class) |
-| [EnterpriseResource Class](#enterpriseresource-class) | [ProjectSummaryTask Class](#projectsummarytask-class) | [TimeSheetPeriodCollection Class](#timesheetperiodcollection-class) |
-| [EnterpriseResourceCollection Class](#enterpriseresourcecollection-class) | [ProjectSummaryTaskPropertyNames Class](#projectsummarytaskpropertynames-class) | [TimeSheetPeriodObjectPropertyNames Class](#timesheetperiodobjectpropertynames-class) |
-| [EnterpriseResourceCostRate Class](#enterpriseresourcecostrate-class) | [ProjectType Enum](#projecttype-enum) | [TimeSheetPeriodPropertyNames Class](#timesheetperiodpropertynames-class) |
-| [EnterpriseResourceCostRateCollection Class](#enterpriseresourcecostratecollection-class) | [ProjectUtilizationType Enum](#projectutilizationtype-enum) | [TimeSheetPropertyNames Class](#timesheetpropertynames-class) |
-| [EnterpriseResourceCostRatePropertyNames Class](#enterpriseresourcecostratepropertynames-class) | [PublishedAssignment Class](#publishedassignment-class) | [TimeSheetStatus Enum](#timesheetstatus-enum) |
-| [EnterpriseResourceCostRateTable Class](#enterpriseresourcecostratetable-class) | [PublishedAssignmentCollection Class](#publishedassignmentcollection-class) | [TimeSheetValidationType Enum](#timesheetvalidationtype-enum) |
-| [EnterpriseResourceCostRateTableCollection Class](#enterpriseresourcecostratetablecollection-class) | [PublishedAssignmentObjectPropertyNames Class](#publishedassignmentobjectpropertynames-class) | [TimeSheetWork Class](#timesheetwork-class) |
-| [EnterpriseResourceCostRateTableObjectPropertyNames Class](#enterpriseresourcecostratetableobjectpropertynames-class) | [PublishedAssignmentPropertyNames Class](#publishedassignmentpropertynames-class) | [TimeSheetWorkCollection Class](#timesheetworkcollection-class) |
-| [EnterpriseResourceCostRateTablePropertyNames Class](#enterpriseresourcecostratetablepropertynames-class) | [PublishedProject Class](#publishedproject-class) | [TimeSheetWorkCreationInformation Class](#timesheetworkcreationinformation-class) |
-| [EnterpriseResourceCreationInformation Class](#enterpriseresourcecreationinformation-class) | [PublishedProjectObjectPropertyNames Class](#publishedprojectobjectpropertynames-class) | [TimeSheetWorkPropertyNames Class](#timesheetworkpropertynames-class) |
-| [EnterpriseResourceObjectPropertyNames Class](#enterpriseresourceobjectpropertynames-class) | [PublishedProjectPropertyNames Class](#publishedprojectpropertynames-class) | [TrackingMode Enum](#trackingmode-enum) |
-| [EnterpriseResourcePropertyNames Class](#enterpriseresourcepropertynames-class) | [PublishedProjectResource Class](#publishedprojectresource-class) | [UpdateProjectStageStatusFieldValue Enum](#updateprojectstagestatusfieldvalue-enum) |
-| [EnterpriseResourceType Enum](#enterpriseresourcetype-enum) | [PublishedProjectResourceCollection Class](#publishedprojectresourcecollection-class) | [UtilizationType Enum](#utilizationtype-enum) |
-| [EntityType Class](#entitytype-class) | [PublishedProjectResourceObjectPropertyNames Class](#publishedprojectresourceobjectpropertynames-class) | [WorkContourType Enum](#workcontourtype-enum) |
-| [EntityTypePropertyNames Class](#entitytypepropertynames-class) | [PublishedProjectResourcePropertyNames Class](#publishedprojectresourcepropertynames-class) | [WorkflowActivities Class](#workflowactivities-class) |
-| [EntityTypes Class](#entitytypes-class) | [PublishedTask Class](#publishedtask-class) | [WorkflowDesigner Class](#workflowdesigner-class) |
-| [EntityTypesObjectPropertyNames Class](#entitytypesobjectpropertynames-class) | [PublishedTaskCollection Class](#publishedtaskcollection-class) | [WorkflowDesignerField Class](#workflowdesignerfield-class) |
-| [Event Class](#event-class) | [PublishedTaskLink Class](#publishedtasklink-class) | [WorkflowDesignerFieldCollection Class](#workflowdesignerfieldcollection-class) |
-| [EventCollection Class](#eventcollection-class) | [PublishedTaskLinkCollection Class](#publishedtasklinkcollection-class) | [WorkflowDesignerFieldObjectPropertyNames Class](#workflowdesignerfieldobjectpropertynames-class) |
-| [EventHandler Class](#eventhandler-class) | [PublishedTaskLinkObjectPropertyNames Class](#publishedtasklinkobjectpropertynames-class) | [WorkflowDesignerFieldPropertyNames Class](#workflowdesignerfieldpropertynames-class) |
-| [EventHandlerCollection Class](#eventhandlercollection-class) | [PublishedTaskLinkPropertyNames Class](#publishedtasklinkpropertynames-class) | [WorkflowDesignerObjectPropertyNames Class](#workflowdesignerobjectpropertynames-class) |
-| [EventHandlerCreationInformation Class](#eventhandlercreationinformation-class) | [PublishedTaskObjectPropertyNames Class](#publishedtaskobjectpropertynames-class) | [WorkFormat Enum](#workformat-enum) |
-| [EventHandlerObjectPropertyNames Class](#eventhandlerobjectpropertynames-class) | [PublishedTaskPropertyNames Class](#publishedtaskpropertynames-class) |   |
+| [DraftTaskLinkCollection Class](#drafttasklinkcollection-class) | [ProjectCreationInformation Class](#projectcreationinformation-class) | [StatusTransactionState Enum](#statustransactionstate-enum) |
+| [DraftTaskLinkObjectPropertyNames Class](#drafttasklinkobjectpropertynames-class) | [ProjectDetailPage Class](#projectdetailpage-class) | [StatusUpdateType Enum](#statusupdatetype-enum) |
+| [DraftTaskLinkPropertyNames Class](#drafttasklinkpropertynames-class) | [ProjectDetailPageCollection Class](#projectdetailpagecollection-class) | [StrategicImpactBehavior Enum](#strategicimpactbehavior-enum) |
+| [DraftTaskObjectPropertyNames Class](#drafttaskobjectpropertynames-class) | [ProjectDetailPageCollectionObjectPropertyNames Class](#projectdetailpagecollectionobjectpropertynames-class) | [Task Class](#task-class) |
+| [DraftTaskPropertyNames Class](#drafttaskpropertynames-class) | [ProjectDetailPageCreationInformation Class](#projectdetailpagecreationinformation-class) | [TaskCreationInformation Class](#taskcreationinformation-class) |
+| [Engagement Class](#engagement-class) | [ProjectDetailPageObjectPropertyNames Class](#projectdetailpageobjectpropertynames-class) | [TaskLink Class](#tasklink-class) |
+| [EngagementComment Class](#engagementcomment-class) | [ProjectDetailPagePropertyNames Class](#projectdetailpagepropertynames-class) | [TaskLinkCreationInformation Class](#tasklinkcreationinformation-class) |
+| [EngagementCommentCollection Class](#engagementcommentcollection-class) | [ProjectDetailPageType Enum](#projectdetailpagetype-enum) | [TaskLinkPropertyNames Class](#tasklinkpropertynames-class) |
+| [EngagementCommentObjectPropertyNames Class](#engagementcommentobjectpropertynames-class) | [ProjectEngagement Class](#projectengagement-class) | [TaskObjectPropertyNames Class](#taskobjectpropertynames-class) |
+| [EngagementCommentPropertyNames Class](#engagementcommentpropertynames-class) | [ProjectEngagementCollection Class](#projectengagementcollection-class) | [TaskPropertyNames Class](#taskpropertynames-class) |
+| [EngagementContourType Enum](#engagementcontourtype-enum) | [ProjectEngagementComment Class](#projectengagementcomment-class) | [TaskType Enum](#tasktype-enum) |
+| [EngagementCreationInformation Class](#engagementcreationinformation-class) | [ProjectEngagementCreationInformation Class](#projectengagementcreationinformation-class) | [TimePhase Class](#timephase-class) |
+| [EngagementObjectPropertyNames Class](#engagementobjectpropertynames-class) | [ProjectEngagementPropertyNames Class](#projectengagementpropertynames-class) | [TimePhaseObjectPropertyNames Class](#timephaseobjectpropertynames-class) |
+| [EngagementPropertyNames Class](#engagementpropertynames-class) | [ProjectEngagementTimephasedCollection Class](#projectengagementtimephasedcollection-class) | [TimePhasePropertyNames Class](#timephasepropertynames-class) |
+| [EngagementSaveConflictException Class](#engagementsaveconflictexception-class) | [ProjectEngagementTimephasedPeriod Class](#projectengagementtimephasedperiod-class) | [TimeScale Enum](#timescale-enum) |
+| [EngagementStatus Enum](#engagementstatus-enum) | [ProjectObjectPropertyNames Class](#projectobjectpropertynames-class) | [TimeSheet Class](#timesheet-class) |
+| [EngagementTimephasedPeriod Class](#engagementtimephasedperiod-class) | [ProjectPropertyNames Class](#projectpropertynames-class) | [TimeSheetEntryMode Enum](#timesheetentrymode-enum) |
+| [EngagementTimephasedPeriodCreationInformation Class](#engagementtimephasedperiodcreationinformation-class) | [ProjectResource Class](#projectresource-class) | [TimeSheetLine Class](#timesheetline-class) |
+| [EngagementTimephasedPeriodPropertyNames Class](#engagementtimephasedperiodpropertynames-class) | [ProjectResourceCreationInformation Class](#projectresourcecreationinformation-class) | [TimeSheetLineClass Enum](#timesheetlineclass-enum) |
+| [EnterpriseProjectType Class](#enterpriseprojecttype-class) | [ProjectResourceObjectPropertyNames Class](#projectresourceobjectpropertynames-class) | [TimeSheetLineCollection Class](#timesheetlinecollection-class) |
+| [EnterpriseProjectTypeCollection Class](#enterpriseprojecttypecollection-class) | [ProjectResourcePropertyNames Class](#projectresourcepropertynames-class) | [TimeSheetLineCreationInformation Class](#timesheetlinecreationinformation-class) |
+| [EnterpriseProjectTypeCreationInformation Class](#enterpriseprojecttypecreationinformation-class) | [ProjectServer Class](#projectserver-class) | [TimeSheetLineObjectPropertyNames Class](#timesheetlineobjectpropertynames-class) |
+| [EnterpriseProjectTypeObjectPropertyNames Class](#enterpriseprojecttypeobjectpropertynames-class) | [ProjectServerData Class](#projectserverdata-class) | [TimeSheetLinePropertyNames Class](#timesheetlinepropertynames-class) |
+| [EnterpriseProjectTypePropertyNames Class](#enterpriseprojecttypepropertynames-class) | [ProjectServerObjectPropertyNames Class](#projectserverobjectpropertynames-class) | [TimeSheetLineStatus Enum](#timesheetlinestatus-enum) |
+| [EnterpriseProjectTypeSiteCreationOptions Enum](#enterpriseprojecttypesitecreationoptions-enum) | [ProjectServerPropertyNames Class](#projectserverpropertynames-class) | [TimeSheetObjectPropertyNames Class](#timesheetobjectpropertynames-class) |
+| [EnterpriseResource Class](#enterpriseresource-class) | [ProjectSummaryTask Class](#projectsummarytask-class) | [TimeSheetPeriod Class](#timesheetperiod-class) |
+| [EnterpriseResourceCollection Class](#enterpriseresourcecollection-class) | [ProjectSummaryTaskPropertyNames Class](#projectsummarytaskpropertynames-class) | [TimeSheetPeriodCollection Class](#timesheetperiodcollection-class) |
+| [EnterpriseResourceCostRate Class](#enterpriseresourcecostrate-class) | [ProjectType Enum](#projecttype-enum) | [TimeSheetPeriodObjectPropertyNames Class](#timesheetperiodobjectpropertynames-class) |
+| [EnterpriseResourceCostRateCollection Class](#enterpriseresourcecostratecollection-class) | [ProjectUtilizationType Enum](#projectutilizationtype-enum) | [TimeSheetPeriodPropertyNames Class](#timesheetperiodpropertynames-class) |
+| [EnterpriseResourceCostRatePropertyNames Class](#enterpriseresourcecostratepropertynames-class) | [PublishedAssignment Class](#publishedassignment-class) | [TimeSheetPropertyNames Class](#timesheetpropertynames-class) |
+| [EnterpriseResourceCostRateTable Class](#enterpriseresourcecostratetable-class) | [PublishedAssignmentCollection Class](#publishedassignmentcollection-class) | [TimeSheetStatus Enum](#timesheetstatus-enum) |
+| [EnterpriseResourceCostRateTableCollection Class](#enterpriseresourcecostratetablecollection-class) | [PublishedAssignmentObjectPropertyNames Class](#publishedassignmentobjectpropertynames-class) | [TimeSheetValidationType Enum](#timesheetvalidationtype-enum) |
+| [EnterpriseResourceCostRateTableObjectPropertyNames Class](#enterpriseresourcecostratetableobjectpropertynames-class) | [PublishedAssignmentPropertyNames Class](#publishedassignmentpropertynames-class) | [TimeSheetWork Class](#timesheetwork-class) |
+| [EnterpriseResourceCostRateTablePropertyNames Class](#enterpriseresourcecostratetablepropertynames-class) | [PublishedProject Class](#publishedproject-class) | [TimeSheetWorkCollection Class](#timesheetworkcollection-class) |
+| [EnterpriseResourceCreationInformation Class](#enterpriseresourcecreationinformation-class) | [PublishedProjectObjectPropertyNames Class](#publishedprojectobjectpropertynames-class) | [TimeSheetWorkCreationInformation Class](#timesheetworkcreationinformation-class) |
+| [EnterpriseResourceObjectPropertyNames Class](#enterpriseresourceobjectpropertynames-class) | [PublishedProjectPropertyNames Class](#publishedprojectpropertynames-class) | [TimeSheetWorkPropertyNames Class](#timesheetworkpropertynames-class) |
+| [EnterpriseResourcePropertyNames Class](#enterpriseresourcepropertynames-class) | [PublishedProjectResource Class](#publishedprojectresource-class) | [TrackingMode Enum](#trackingmode-enum) |
+| [EnterpriseResourceType Enum](#enterpriseresourcetype-enum) | [PublishedProjectResourceCollection Class](#publishedprojectresourcecollection-class) | [UpdateProjectStageStatusFieldValue Enum](#updateprojectstagestatusfieldvalue-enum) |
+| [EntityType Class](#entitytype-class) | [PublishedProjectResourceObjectPropertyNames Class](#publishedprojectresourceobjectpropertynames-class) | [UtilizationType Enum](#utilizationtype-enum) |
+| [EntityTypePropertyNames Class](#entitytypepropertynames-class) | [PublishedProjectResourcePropertyNames Class](#publishedprojectresourcepropertynames-class) | [WorkContourType Enum](#workcontourtype-enum) |
+| [EntityTypes Class](#entitytypes-class) | [PublishedTask Class](#publishedtask-class) | [WorkflowActivities Class](#workflowactivities-class) |
+| [EntityTypesObjectPropertyNames Class](#entitytypesobjectpropertynames-class) | [PublishedTaskCollection Class](#publishedtaskcollection-class) | [WorkflowDesigner Class](#workflowdesigner-class) |
+| [Event Class](#event-class) | [PublishedTaskLink Class](#publishedtasklink-class) | [WorkflowDesignerField Class](#workflowdesignerfield-class) |
+| [EventCollection Class](#eventcollection-class) | [PublishedTaskLinkCollection Class](#publishedtasklinkcollection-class) | [WorkflowDesignerFieldCollection Class](#workflowdesignerfieldcollection-class) |
+| [EventHandler Class](#eventhandler-class) | [PublishedTaskLinkObjectPropertyNames Class](#publishedtasklinkobjectpropertynames-class) | [WorkflowDesignerFieldObjectPropertyNames Class](#workflowdesignerfieldobjectpropertynames-class) |
+| [EventHandlerCollection Class](#eventhandlercollection-class) | [PublishedTaskLinkPropertyNames Class](#publishedtasklinkpropertynames-class) | [WorkflowDesignerFieldPropertyNames Class](#workflowdesignerfieldpropertynames-class) |
+| [EventHandlerCreationInformation Class](#eventhandlercreationinformation-class) | [PublishedTaskObjectPropertyNames Class](#publishedtaskobjectpropertynames-class) | [WorkflowDesignerObjectPropertyNames Class](#workflowdesignerobjectpropertynames-class) |
+| [EventHandlerObjectPropertyNames Class](#eventhandlerobjectpropertynames-class) | [PublishedTaskPropertyNames Class](#publishedtaskpropertynames-class) | [WorkFormat Enum](#workformat-enum) |
 # AccrueAt Enum
 
 Namespace: Microsoft.ProjectServer.Client
@@ -5571,6 +5571,7 @@ Base class: [Project](#project-class)
 | **DeleteObject()** | [QueueJob](#queuejob-class) |  |
 | **RefreshLoad()** | void |  |
 | **SubmitToWorkflow()** | void |  |
+| **UnlinkProjectSite()** | void |  |
 | **UpdateVisibilityCustomFields()** | [QueueJob](#queuejob-class) |  |
 # PublishedProjectObjectPropertyNames Class
 
@@ -6025,6 +6026,9 @@ Base class: [TaskLink](#tasklink-class)
 |---|---|---|
 | **DependencyType** | [DependencyType](#dependencytype-enum) |  |
 | **End** | [PublishedTask](#publishedtask-class) |  |
+| **LinkLag** | int |  |
+| **LinkLagFmt** | short |  |
+| **ProjUid** | Guid |  |
 | **Start** | [PublishedTask](#publishedtask-class) |  |
 | **Id** | Guid |  |
 | **Context** | ClientRuntimeContext |  |
@@ -6100,6 +6104,9 @@ Namespace: Microsoft.ProjectServer.Client
 | Name | Type | Summary |
 |---|---|---|
 | **DependencyType** | string |  |
+| **LinkLag** | string |  |
+| **LinkLagFmt** | string |  |
+| **ProjUid** | string |  |
 # PublishedTaskObjectPropertyNames Class
 
 Namespace: Microsoft.ProjectServer.Client
@@ -7366,11 +7373,17 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **ApproverId** | Guid |  |
 | **Author** | User |  |
 | **Comment** | string |  |
 | **Decision** | [StatusApprovalType](#statusapprovaltype-enum) |  |
+| **DecisionDate** | DateTime |  |
 | **Id** | Guid |  |
+| **ReassignedResourceId** | Guid |  |
+| **ReassignmentDate** | DateTime |  |
+| **State** | int |  |
 | **Submitted** | DateTime |  |
+| **SubmitterId** | Guid |  |
 | **UpdateType** | [StatusUpdateType](#statusupdatetype-enum) |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
@@ -7442,10 +7455,16 @@ Namespace: Microsoft.ProjectServer.Client
 
 | Name | Type | Summary |
 |---|---|---|
+| **ApproverId** | string |  |
 | **Comment** | string |  |
 | **Decision** | string |  |
+| **DecisionDate** | string |  |
 | **Id** | string |  |
+| **ReassignedResourceId** | string |  |
+| **ReassignmentDate** | string |  |
+| **State** | string |  |
 | **Submitted** | string |  |
+| **SubmitterId** | string |  |
 | **UpdateType** | string |  |
 # StatusAssignmentObjectPropertyNames Class
 
@@ -7624,6 +7643,20 @@ Namespace: Microsoft.ProjectServer.Client
 | **Start** | string |  |
 | **Work** | string |  |
 | **WorkTimeSpan** | string |  |
+# StatusTransactionState Enum
+
+Namespace: Microsoft.ProjectServer.Client
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Saved** |  |
+| **Submitted** |  |
+| **InProcess** |  |
+| **ApplySuccessful** |  |
+| **ApplyFailed** |  |
 # StatusUpdateType Enum
 
 Namespace: Microsoft.ProjectServer.Client
