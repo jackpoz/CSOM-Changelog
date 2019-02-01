@@ -837,6 +837,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AlwaysSuggest** | bool |  |
 | **ClickCount** | int |  |
 | **LCID** | int |  |
 | **QueryCount** | int |  |

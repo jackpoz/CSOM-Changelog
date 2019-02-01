@@ -1683,6 +1683,7 @@ Base class: [Task](#task-class)
 | **Id** | Guid |  |
 | **IgnoreResourceCalendar** | bool |  |
 | **IsCritical** | bool |  |
+| **IsDurationEstimate** | bool |  |
 | **IsExternalTask** | bool |  |
 | **IsOverAllocated** | bool |  |
 | **IsRecurring** | bool |  |
@@ -5122,6 +5123,7 @@ Base class: [Task](#task-class)
 | **Id** | Guid |  |
 | **IgnoreResourceCalendar** | bool |  |
 | **IsCritical** | bool |  |
+| **IsDurationEstimate** | bool |  |
 | **IsExternalTask** | bool |  |
 | **IsOverAllocated** | bool |  |
 | **IsRecurring** | bool |  |
@@ -5906,6 +5908,7 @@ Base class: [Task](#task-class)
 | **Id** | Guid |  |
 | **IgnoreResourceCalendar** | bool |  |
 | **IsCritical** | bool |  |
+| **IsDurationEstimate** | bool |  |
 | **IsExternalTask** | bool |  |
 | **IsOverAllocated** | bool |  |
 | **IsRecurring** | bool |  |
@@ -7737,6 +7740,7 @@ Base class: ClientObject
 | **Id** | Guid |  |
 | **IgnoreResourceCalendar** | bool |  |
 | **IsCritical** | bool |  |
+| **IsDurationEstimate** | bool |  |
 | **IsExternalTask** | bool |  |
 | **IsOverAllocated** | bool |  |
 | **IsRecurring** | bool |  |
@@ -7943,6 +7947,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **Id** | string |  |
 | **IgnoreResourceCalendar** | string |  |
 | **IsCritical** | string |  |
+| **IsDurationEstimate** | string |  |
 | **IsExternalTask** | string |  |
 | **IsOverAllocated** | string |  |
 | **IsRecurring** | string |  |
