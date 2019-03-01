@@ -1215,6 +1215,7 @@ Base class: ClientObject
 | **AllowDownloadingNonWebViewableFiles** | bool |  |
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
 | **AllowEditing** | bool |  |
+| **AllowGuestUserShareToUsersNotInSiteCollection** | bool |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | bool |  |
 | **AllowSelectSGsInODBListInTenant** | IList\<string\> |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | bool |  |
@@ -1368,6 +1369,7 @@ Base class: ClientObject
 | **GetDeletedSiteProperties(int startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
 | **GetDeletedSitePropertiesByUrl(string siteUrl)** | [DeletedSiteProperties](#deletedsiteproperties-class) |  |
 | **GetDeletedSitePropertiesFromSharePoint(string startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
+| **GetHiddenBuiltInDesignPackages(ClientRuntimeContext context)** | ClientResult\<DesignPackageType\> |  |
 | **GetHubSitePropertiesById(Guid hubSiteId)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **GetHubSitePropertiesByUrl(string siteUrl)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **GetHubSitesProperties()** | ClientObjectList\<[HubSiteProperties](#hubsiteproperties-class)\> |  |
@@ -1420,6 +1422,7 @@ Base class: ClientObject
 | **RevokeHubSiteRights(string hubSiteUrl, string[] principals)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **RevokeHubSiteRightsById(Guid hubSiteId, string[] principals)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **RevokeSiteDesignRights(ClientRuntimeContext context, Guid id, string[] principalNames)** | void |  |
+| **SetBuiltInDesignPackageVisibility(ClientRuntimeContext context, DesignPackageType designPackageType, bool isVisible)** | void |  |
 | **SetIdleSessionSignOutForUnmanagedDevices(bool enabled, TimeSpan warnAfter, TimeSpan signOutAfter)** | ClientResult\<bool\> |  |
 | **SetOrgNewsSite(string orgNewsSiteUrl)** | ClientResult\<string\> |  |
 | **SetSiteAdmin(string siteUrl, string loginName, bool isSiteAdmin)** | User |  |
@@ -1538,6 +1541,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **AllowDownloadingNonWebViewableFiles** | string |  |
 | **AllowedDomainListForSyncClient** | string |  |
 | **AllowEditing** | string |  |
+| **AllowGuestUserShareToUsersNotInSiteCollection** | string |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | string |  |
 | **AllowSelectSGsInODBListInTenant** | string |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | string |  |
@@ -2695,6 +2699,7 @@ Base class: ClientObject
 | **AllowDownloadingNonWebViewableFiles** | bool |  |
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
 | **AllowEditing** | bool |  |
+| **AllowGuestUserShareToUsersNotInSiteCollection** | bool |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | bool |  |
 | **AllowSelectSGsInODBList** | IList\<string\> |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | bool |  |
@@ -2840,6 +2845,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **AllowDownloadingNonWebViewableFiles** | string |  |
 | **AllowedDomainListForSyncClient** | string |  |
 | **AllowEditing** | string |  |
+| **AllowGuestUserShareToUsersNotInSiteCollection** | string |  |
 | **AllowLimitedAccessOnUnmanagedDevices** | string |  |
 | **AllowSelectSGsInODBList** | string |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | string |  |
