@@ -429,6 +429,7 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **GetCrawledUrls(bool getCountOnly, long maxRows, string queryString, bool isLike, int contentSourceID, int errorLevel, int errorID, DateTime startDateTime, DateTime endDateTime)** | ClientResult\<SimpleDataTable\> |  |
+| **GetUnsuccesfulCrawledUrls(string displayUrl, DateTime startDateTime, DateTime endDateTime)** | ClientResult\<SimpleDataTable\> |  |
 # SearchObjectLevel Enum
 
 Namespace: Microsoft.SharePoint.Client.Search.Administration
