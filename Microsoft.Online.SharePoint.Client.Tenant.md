@@ -552,6 +552,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **Description** | string |  |
+| **HideNameInNavigation** | bool |  |
 | **ID** | Guid |  |
 | **LogoUrl** | string |  |
 | **Permissions** | IList\<[HubSitePermission](#hubsitepermission-class)\> |  |
@@ -589,6 +590,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | Name | Type | Summary |
 |---|---|---|
 | **Description** | string |  |
+| **HideNameInNavigation** | string |  |
 | **ID** | string |  |
 | **LogoUrl** | string |  |
 | **Permissions** | string |  |
@@ -776,6 +778,7 @@ Base class: ClientObject
 | **DisableAppViews** | [AppViewsPolicy](#appviewspolicy-enum) |  |
 | **DisableCompanyWideSharingLinks** | [CompanyWideSharingLinksPolicy](#companywidesharinglinkspolicy-enum) |  |
 | **DisableFlows** | [FlowsPolicy](#flowspolicy-enum) |  |
+| **ExternalUserExpirationInDays** | int |  |
 | **GroupId** | Guid |  |
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | bool |  |
@@ -788,6 +791,7 @@ Base class: ClientObject
 | **LockIssue** | string |  |
 | **LockState** | string |  |
 | **OverrideTenantAnonymousLinkExpirationPolicy** | bool |  |
+| **OverrideTenantExternalUserExpirationPolicy** | bool |  |
 | **Owner** | string |  |
 | **OwnerEmail** | string |  |
 | **OwnerLoginName** | string |  |
@@ -863,6 +867,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DisableAppViews** | string |  |
 | **DisableCompanyWideSharingLinks** | string |  |
 | **DisableFlows** | string |  |
+| **ExternalUserExpirationInDays** | string |  |
 | **GroupId** | string |  |
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | string |  |
@@ -875,6 +880,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **LockIssue** | string |  |
 | **LockState** | string |  |
 | **OverrideTenantAnonymousLinkExpirationPolicy** | string |  |
+| **OverrideTenantExternalUserExpirationPolicy** | string |  |
 | **Owner** | string |  |
 | **OwnerEmail** | string |  |
 | **OwnerLoginName** | string |  |
@@ -1423,6 +1429,7 @@ Base class: ClientObject
 | **AddTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
 | **AddTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
 | **AddToOrgAssetsLibAndCdn(SPOTenantCdnType cdnType, string libUrl, string thumbnailUrl)** | void |  |
+| **AddToOrgAssetsLibAndCdnWithType(SPOTenantCdnType cdnType, string libUrl, string thumbnailUrl, OrgAssetType orgAssetType)** | void |  |
 | **ApplySiteDesign(string webUrl, Guid siteDesignId)** | ClientObjectList\<[TenantSiteScriptActionResult](#tenantsitescriptactionresult-class)\> |  |
 | **ConnectSiteToHubSite(string siteUrl, string hubSiteUrl)** | void |  |
 | **ConnectSiteToHubSiteById(string siteUrl, Guid hubSiteId)** | void |  |
@@ -1476,6 +1483,7 @@ Base class: ClientObject
 | **GetSiteScriptFromSite(string webUrl, TenantSiteScriptSerializationInfo info)** | ClientResult\<[TenantSiteScriptSerializationResult](#tenantsitescriptserializationresult-class)\> |  |
 | **GetSiteScripts()** | ClientObjectList\<[TenantSiteScript](#tenantsitescript-class)\> |  |
 | **GetSPHSiteUrl()** | ClientResult\<string\> |  |
+| **GetSPOAllWebTemplates(uint localeId, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetSPOTenantAllWebTemplates()** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetSPOTenantSiteUserInvitations(string siteUrl, string emailAddress)** | ClientObjectList\<[SPOTenantSiteUserInvitation](#spotenantsiteuserinvitation-class)\> |  |
 | **GetSPOTenantWebTemplates(uint localeId, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
@@ -1511,6 +1519,7 @@ Base class: ClientObject
 | **SetBuiltInDesignPackageVisibility(ClientRuntimeContext context, DesignPackageType designPackageType, bool isVisible)** | void |  |
 | **SetIdleSessionSignOutForUnmanagedDevices(bool enabled, TimeSpan warnAfter, TimeSpan signOutAfter)** | ClientResult\<bool\> |  |
 | **SetOrgAssets(string libUrl, string thumbnailUrl)** | void |  |
+| **SetOrgAssetsWithType(string libUrl, string thumbnailUrl, OrgAssetType orgAssetType)** | void |  |
 | **SetOrgNewsSite(string orgNewsSiteUrl)** | ClientResult\<string\> |  |
 | **SetSiteAdmin(string siteUrl, string loginName, bool isSiteAdmin)** | User |  |
 | **SetSPHSite(string sphSiteUrl)** | ClientResult\<string\> |  |
@@ -3030,7 +3039,7 @@ Base class: ClientObject
 | **AddSdnProvider(string identifier, string license)** | void |  |
 | **AddTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
 | **AddTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
-| **AddToOrgAssetsLibAndCdn(SPOTenantCdnType cdnType, ResourcePath libUrl, ResourcePath thumbnailUrl)** | void |  |
+| **AddToOrgAssetsLibAndCdn(SPOTenantCdnType cdnType, ResourcePath libUrl, ResourcePath thumbnailUrl, OrgAssetType orgAssetType)** | void |  |
 | **CreateGroupForSite(string siteUrl, string displayName, string alias, bool isPublic, GroupCreationParams optionalParams)** | void |  |
 | **CreateTenantCdnDefaultOrigins(SPOTenantCdnType cdnType)** | void |  |
 | **DeleteImportProfilePropertiesJob(Guid jobId)** | ClientResult\<bool\> |  |
@@ -3059,7 +3068,7 @@ Base class: ClientObject
 | **RevokeAllUserSessionsByPuid(IList\<string\> puidList)** | ClientObjectList\<[SPOUserSessionRevocationResult](#spousersessionrevocationresult-class)\> |  |
 | **SetHideDefaultThemes(bool hideDefaultThemes)** | ClientResult\<bool\> |  |
 | **SetIdleSessionSignOutForUnmanagedDevices(bool enabled, TimeSpan warnAfter, TimeSpan signOutAfter)** | ClientResult\<bool\> |  |
-| **SetOrgAssetsLib(ResourcePath libUrl, ResourcePath thumbnailUrl)** | void |  |
+| **SetOrgAssetsLib(ResourcePath libUrl, ResourcePath thumbnailUrl, OrgAssetType orgAssetType)** | void |  |
 | **SetTenantCdnEnabled(SPOTenantCdnType cdnType, bool isEnabled)** | void |  |
 | **SetTenantCdnPolicy(SPOTenantCdnType cdnType, SPOTenantCdnPolicyType policy, string policyValue)** | void |  |
 | **UpdateTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
