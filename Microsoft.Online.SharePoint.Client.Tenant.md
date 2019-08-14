@@ -7,14 +7,15 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [SPO3rdPartyAADPermissionGrantManager Class](#spo3rdpartyaadpermissiongrantmanager-class) |
-| [CredentialsType Enum](#credentialstype-enum) | [SPOSitePropertiesEnumerableFilter Class](#spositepropertiesenumerablefilter-class) | [SPO3rdPartyAADPermissionGrantPropertyNames Class](#spo3rdpartyaadpermissiongrantpropertynames-class) |
-| [DeviceActionId Enum](#deviceactionid-enum) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [SPOWebAppServicePrincipal Class](#spowebappserviceprincipal-class) |
-| [DeviceStatus Enum](#devicestatus-enum) | [SPOTenantCdnPolicy Class](#spotenantcdnpolicy-class) | [SPOWebAppServicePrincipalObjectPropertyNames Class](#spowebappserviceprincipalobjectpropertynames-class) |
-| [MigrationTaskStatus Enum](#migrationtaskstatus-enum) | [SPOTenantCdnPolicyPropertyNames Class](#spotenantcdnpolicypropertynames-class) | [SPOWebAppServicePrincipalPermissionGrant Class](#spowebappserviceprincipalpermissiongrant-class) |
-| [SourceType Enum](#sourcetype-enum) | [SPOTenantCdnPolicyType Enum](#spotenantcdnpolicytype-enum) | [SPOWebAppServicePrincipalPermissionGrantCollection Class](#spowebappserviceprincipalpermissiongrantcollection-class) |
-| [TaskActionId Enum](#taskactionid-enum) | [SPOTenantCdnType Enum](#spotenantcdntype-enum) | [SPOWebAppServicePrincipalPermissionGrantPropertyNames Class](#spowebappserviceprincipalpermissiongrantpropertynames-class) |
-| [TaskErrorCodes Enum](#taskerrorcodes-enum) | [SPOTenantInstance Class](#spotenantinstance-class) | [SPOWebAppServicePrincipalPermissionRequest Class](#spowebappserviceprincipalpermissionrequest-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [SPO3rdPartyAADPermissionGrant Class](#spo3rdpartyaadpermissiongrant-class) |
+| [CredentialsType Enum](#credentialstype-enum) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [SPO3rdPartyAADPermissionGrantManager Class](#spo3rdpartyaadpermissiongrantmanager-class) |
+| [DeviceActionId Enum](#deviceactionid-enum) | [SPOSitePropertiesEnumerableFilter Class](#spositepropertiesenumerablefilter-class) | [SPO3rdPartyAADPermissionGrantPropertyNames Class](#spo3rdpartyaadpermissiongrantpropertynames-class) |
+| [DeviceStatus Enum](#devicestatus-enum) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [SPOWebAppServicePrincipal Class](#spowebappserviceprincipal-class) |
+| [MigrationTaskStatus Enum](#migrationtaskstatus-enum) | [SPOTenantCdnPolicy Class](#spotenantcdnpolicy-class) | [SPOWebAppServicePrincipalObjectPropertyNames Class](#spowebappserviceprincipalobjectpropertynames-class) |
+| [SourceType Enum](#sourcetype-enum) | [SPOTenantCdnPolicyPropertyNames Class](#spotenantcdnpolicypropertynames-class) | [SPOWebAppServicePrincipalPermissionGrant Class](#spowebappserviceprincipalpermissiongrant-class) |
+| [TaskActionId Enum](#taskactionid-enum) | [SPOTenantCdnPolicyType Enum](#spotenantcdnpolicytype-enum) | [SPOWebAppServicePrincipalPermissionGrantCollection Class](#spowebappserviceprincipalpermissiongrantcollection-class) |
+| [TaskErrorCode Enum](#taskerrorcode-enum) | [SPOTenantCdnType Enum](#spotenantcdntype-enum) | [SPOWebAppServicePrincipalPermissionGrantPropertyNames Class](#spowebappserviceprincipalpermissiongrantpropertynames-class) |
+| [TaskFailure Enum](#taskfailure-enum) | [SPOTenantInstance Class](#spotenantinstance-class) | [SPOWebAppServicePrincipalPermissionRequest Class](#spowebappserviceprincipalpermissionrequest-class) |
 | [TaskManagementStatus Enum](#taskmanagementstatus-enum) | [SPOTenantInstancePropertyNames Class](#spotenantinstancepropertynames-class) | [SPOWebAppServicePrincipalPermissionRequestCollection Class](#spowebappserviceprincipalpermissionrequestcollection-class) |
 | [LogExport Class](#logexport-class) | [SPOTenantSiteUserInvitation Class](#spotenantsiteuserinvitation-class) | [SPOWebAppServicePrincipalPermissionRequestPropertyNames Class](#spowebappserviceprincipalpermissionrequestpropertynames-class) |
 | [LogFileInfo Class](#logfileinfo-class) | [SPOTenantSiteUserInvitationPropertyNames Class](#spotenantsiteuserinvitationpropertynames-class) | [SPOWebAppServicePrincipalPropertyNames Class](#spowebappserviceprincipalpropertynames-class) |
@@ -46,12 +47,12 @@ Created by
 | [SecondaryAdministratorsInfo Class](#secondaryadministratorsinfo-class) | [TenantSiteScriptPropertyNames Class](#tenantsitescriptpropertynames-class) | [SPOConditionalAccessPolicyType Enum](#spoconditionalaccesspolicytype-enum) |
 | [SiteCreationProperties Class](#sitecreationproperties-class) | [TenantSiteScriptSerializationInfo Class](#tenantsitescriptserializationinfo-class) | [SPOLimitedAccessFileType Enum](#spolimitedaccessfiletype-enum) |
 | [SiteProperties Class](#siteproperties-class) | [TenantSiteScriptSerializationResult Class](#tenantsitescriptserializationresult-class) | [SPOUserSessionRevocationResult Class](#spousersessionrevocationresult-class) |
-| [SitePropertiesPropertyNames Class](#sitepropertiespropertynames-class) | [UserMigrationProperties Class](#usermigrationproperties-class) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
-| [SPODeletedSitePropertiesEnumerable Class](#spodeletedsitepropertiesenumerable-class) | [UserMigrationPropertiesEnumerable Class](#usermigrationpropertiesenumerable-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
-| [SPODeletedSitePropertiesEnumerablePropertyNames Class](#spodeletedsitepropertiesenumerablepropertynames-class) | [UserMigrationPropertiesEnumerableFilter Class](#usermigrationpropertiesenumerablefilter-class) | [ThemeProperties Class](#themeproperties-class) |
-| [SPOHubSiteUserRights Enum](#spohubsiteuserrights-enum) | [UserMigrationPropertiesEnumerablePropertyNames Class](#usermigrationpropertiesenumerablepropertynames-class) | [ThemePropertiesPropertyNames Class](#themepropertiespropertynames-class) |
+| [SitePropertiesPropertyNames Class](#sitepropertiespropertynames-class) | [UserInfo Class](#userinfo-class) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
+| [SiteUserGroupInfo Class](#siteusergroupinfo-class) | [UserMigrationProperties Class](#usermigrationproperties-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
+| [SPODeletedSitePropertiesEnumerable Class](#spodeletedsitepropertiesenumerable-class) | [UserMigrationPropertiesEnumerable Class](#usermigrationpropertiesenumerable-class) | [ThemeProperties Class](#themeproperties-class) |
+| [SPODeletedSitePropertiesEnumerablePropertyNames Class](#spodeletedsitepropertiesenumerablepropertynames-class) | [UserMigrationPropertiesEnumerableFilter Class](#usermigrationpropertiesenumerablefilter-class) | [ThemePropertiesPropertyNames Class](#themepropertiespropertynames-class) |
+| [SPOHubSiteUserRights Enum](#spohubsiteuserrights-enum) | [UserMigrationPropertiesEnumerablePropertyNames Class](#usermigrationpropertiesenumerablepropertynames-class) |   |
 | [SpoOperation Class](#spooperation-class) | [UserMigrationPropertiesPropertyNames Class](#usermigrationpropertiespropertynames-class) |   |
-| [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [SPO3rdPartyAADPermissionGrant Class](#spo3rdpartyaadpermissiongrant-class) |   |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Online.SharePoint.Client.TenantAdmin
@@ -86,6 +87,7 @@ Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 | **EnableDevice** |  |
 | **DisableDevice** |  |
 | **UpdateStatus** |  |
+| **Debug** |  |
 # DeviceStatus Enum
 
 Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
@@ -98,6 +100,7 @@ Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 | **Ready** |  |
 | **Scheduled** |  |
 | **Working** |  |
+| **Upgrading** |  |
 | **Disabling** |  |
 | **Disabled** |  |
 | **Enabling** |  |
@@ -146,7 +149,11 @@ Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 | **CancelTask** |  |
 | **RerunTask** |  |
 | **UpdateStatus** |  |
-# TaskErrorCodes Enum
+| **ScheduleTask** |  |
+| **DeleteTask** |  |
+| **AddTask** |  |
+| **Debug** |  |
+# TaskErrorCode Enum
 
 Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 
@@ -156,10 +163,29 @@ Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 | Name | Summary |
 |---|---|
 | **NoError** |  |
-| **ScheduleFailed** |  |
-| **ContinueFailed** |  |
-| **PauseFailed** |  |
-| **CancelFailed** |  |
+| **UnknownError** |  |
+| **NoResponse** |  |
+| **SourceCredentialsNotFound** |  |
+| **SourceCredentialsInvalid** |  |
+| **TargetCredentialsNotFound** |  |
+| **TargetCredentialsInvalid** |  |
+| **InvalidDecryptionKey** |  |
+# TaskFailure Enum
+
+Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **NoFailure** |  |
+| **FailedToStartTask** |  |
+| **FailedToPauseTask** |  |
+| **FailedToResumeTask** |  |
+| **FailedToCancelTask** |  |
+| **FailedRunningTask** |  |
+| **FailedToUploadReport** |  |
 # TaskManagementStatus Enum
 
 Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
@@ -911,6 +937,24 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **UserCodeMaximumLevel** | string |  |
 | **UserCodeWarningLevel** | string |  |
 | **WebsCount** | string |  |
+# SiteUserGroupInfo Class
+
+Namespace: Microsoft.Online.SharePoint.TenantAdministration
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **userGroup** | IList\<[UserInfo](#userinfo-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # SPODeletedSitePropertiesEnumerable Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -1483,7 +1527,8 @@ Base class: ClientObject
 | **GetSiteScriptFromSite(string webUrl, TenantSiteScriptSerializationInfo info)** | ClientResult\<[TenantSiteScriptSerializationResult](#tenantsitescriptserializationresult-class)\> |  |
 | **GetSiteScripts()** | ClientObjectList\<[TenantSiteScript](#tenantsitescript-class)\> |  |
 | **GetSPHSiteUrl()** | ClientResult\<string\> |  |
-| **GetSPOAllWebTemplates(uint localeId, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
+| **GetSPOAllWebTemplates(string cultureName, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
+| **GetSPOLocaleWebTemplates(string cultureName, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetSPOTenantAllWebTemplates()** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetSPOTenantSiteUserInvitations(string siteUrl, string emailAddress)** | ClientObjectList\<[SPOTenantSiteUserInvitation](#spotenantsiteuserinvitation-class)\> |  |
 | **GetSPOTenantWebTemplates(uint localeId, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
@@ -2178,6 +2223,27 @@ Base class: ClientValueObject
 | Name | Returns | Summary |
 |---|---|---|
 | **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# UserInfo Class
+
+Namespace: Microsoft.Online.SharePoint.TenantAdministration
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **email** | string |  |
+| **loginName** | string |  |
+| **name** | string |  |
+| **userPrincipalName** | string |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # UserMigrationProperties Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -2387,6 +2453,7 @@ Base class: ClientObject
 | **PermissionGrants** | [SPOWebAppServicePrincipalPermissionGrantCollection](#spowebappserviceprincipalpermissiongrantcollection-class) |  |
 | **PermissionRequests** | [SPOWebAppServicePrincipalPermissionRequestCollection](#spowebappserviceprincipalpermissionrequestcollection-class) |  |
 | **ReplyUrls** | IEnumerable\<string\> |  |
+| **ServicePrincipalObjectIds** | IList\<Guid\> |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -2407,6 +2474,8 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **Create(ClientRuntimeContext context)** | [SPOWebAppServicePrincipal](#spowebappserviceprincipal-class) |  |
+| **GetAppPreAuthorizationFlag(string appId)** | ClientResult\<string\> |  |
+| **SetAppPreAuthorizationFlag(string appId)** | void |  |
 | **Update()** | void |  |
 # SPOWebAppServicePrincipalObjectPropertyNames Class
 
@@ -2620,6 +2689,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration.Internal
 | **AccountEnabled** | string |  |
 | **AppId** | string |  |
 | **ReplyUrls** | string |  |
+| **ServicePrincipalObjectIds** | string |  |
 # ExternalUser Class
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement

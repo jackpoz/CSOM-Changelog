@@ -1345,6 +1345,7 @@ Base class: [Project](#project-class)
 |---|---|---|
 | **CheckIn(bool force)** | [QueueJob](#queuejob-class) |  |
 | **Publish(bool checkIn)** | [QueueJob](#queuejob-class) |  |
+| **PublishSummary(bool checkIn)** | [QueueJob](#queuejob-class) |  |
 | **RefreshLoad()** | void |  |
 | **Update()** | [QueueJob](#queuejob-class) |  |
 | **Validate()** | void |  |

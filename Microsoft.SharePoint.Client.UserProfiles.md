@@ -2560,11 +2560,16 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **DeleteCacheItemsAsync(PersonalCacheItem[] cacheItems)** | void |  |
+| **DeleteCacheItemsAsync2(PersonalCacheItem[] cacheItems, string mySiteUrl)** | void |  |
 | **LoadUserProfile(string email)** | void |  |
 | **ReadCache(string folderPath)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
+| **ReadCache2(string folderPath, string mySiteUrl)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
 | **ReadCacheOrCreate(ResourcePath folderPath, string[] requiredCacheKeys, bool createIfMissing)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
+| **ReadCacheOrCreate2(ResourcePath folderPath, string[] requiredCacheKeys, bool createIfMissing, string mySiteUrl)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
 | **ReadCacheOrCreateOrderById(ResourcePath folderPath, string[] requiredCacheKeys, bool createIfMissing)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
+| **ReadCacheOrCreateOrderById2(ResourcePath folderPath, string[] requiredCacheKeys, bool createIfMissing, string mySiteUrl)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
 | **WriteCache(PersonalCacheItem[] cacheItems)** | void |  |
+| **WriteCache2(PersonalCacheItem[] cacheItems, string mySiteUrl)** | void |  |
 # PersonalCacheExceptionCode Enum
 
 Namespace: Microsoft.SharePoint.Client.UserProfiles
@@ -2582,6 +2587,7 @@ Namespace: Microsoft.SharePoint.Client.UserProfiles
 | **FailedToRetreiveCacheListItems** |  |
 | **PersonalCacheItemInvalidListItemId** |  |
 | **FailedToUpdateCacheListItem** |  |
+| **ProfileNotFound** |  |
 # PersonalCacheItem Class
 
 Namespace: Microsoft.SharePoint.Client.UserProfiles

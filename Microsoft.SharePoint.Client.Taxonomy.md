@@ -677,6 +677,8 @@ Base class: FieldLookup
 | **CanBeDeleted** | bool |  |
 | **ClientSideComponentId** | Guid |  |
 | **ClientSideComponentProperties** | string |  |
+| **ClientValidationFormula** | string |  |
+| **ClientValidationMessage** | string |  |
 | **CustomFormatter** | string |  |
 | **DefaultFormula** | string |  |
 | **DefaultValue** | string |  |
