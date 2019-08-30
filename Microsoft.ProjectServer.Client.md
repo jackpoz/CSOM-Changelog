@@ -1674,6 +1674,8 @@ Base class: [Task](#task-class)
 | **EarliestFinish** | DateTime |  |
 | **EarliestStart** | DateTime |  |
 | **EstimateAtCompletion** | double |  |
+| **ExternalProjectUid** | Guid |  |
+| **ExternalTaskUid** | Guid |  |
 | **FinishSlack** | string |  |
 | **FinishSlackTimeSpan** | TimeSpan |  |
 | **FinishVariance** | string |  |
@@ -1808,6 +1810,7 @@ Base class: [TaskLink](#tasklink-class)
 |---|---|---|
 | **DependencyType** | [DependencyType](#dependencytype-enum) |  |
 | **End** | [DraftTask](#drafttask-class) |  |
+| **LinkLagDuration** | string |  |
 | **Start** | [DraftTask](#drafttask-class) |  |
 | **Id** | Guid |  |
 | **Context** | ClientRuntimeContext |  |
@@ -1890,6 +1893,7 @@ Namespace: Microsoft.ProjectServer.Client
 | Name | Type | Summary |
 |---|---|---|
 | **DependencyType** | string |  |
+| **LinkLagDuration** | string |  |
 # DraftTaskObjectPropertyNames Class
 
 Namespace: Microsoft.ProjectServer.Client
@@ -5114,6 +5118,8 @@ Base class: [Task](#task-class)
 | **EarliestFinish** | DateTime |  |
 | **EarliestStart** | DateTime |  |
 | **EstimateAtCompletion** | double |  |
+| **ExternalProjectUid** | Guid |  |
+| **ExternalTaskUid** | Guid |  |
 | **FinishSlack** | string |  |
 | **FinishSlackTimeSpan** | TimeSpan |  |
 | **FinishVariance** | string |  |
@@ -5899,6 +5905,8 @@ Base class: [Task](#task-class)
 | **EarliestFinish** | DateTime |  |
 | **EarliestStart** | DateTime |  |
 | **EstimateAtCompletion** | double |  |
+| **ExternalProjectUid** | Guid |  |
+| **ExternalTaskUid** | Guid |  |
 | **FinishSlack** | string |  |
 | **FinishSlackTimeSpan** | TimeSpan |  |
 | **FinishVariance** | string |  |
@@ -6031,6 +6039,7 @@ Base class: [TaskLink](#tasklink-class)
 | **DependencyType** | [DependencyType](#dependencytype-enum) |  |
 | **End** | [PublishedTask](#publishedtask-class) |  |
 | **LinkLag** | int |  |
+| **LinkLagDuration** | string |  |
 | **LinkLagFmt** | short |  |
 | **ProjUid** | Guid |  |
 | **Start** | [PublishedTask](#publishedtask-class) |  |
@@ -6109,6 +6118,7 @@ Namespace: Microsoft.ProjectServer.Client
 |---|---|---|
 | **DependencyType** | string |  |
 | **LinkLag** | string |  |
+| **LinkLagDuration** | string |  |
 | **LinkLagFmt** | string |  |
 | **ProjUid** | string |  |
 # PublishedTaskObjectPropertyNames Class
@@ -7731,6 +7741,8 @@ Base class: ClientObject
 | **EarliestFinish** | DateTime |  |
 | **EarliestStart** | DateTime |  |
 | **EstimateAtCompletion** | double |  |
+| **ExternalProjectUid** | Guid |  |
+| **ExternalTaskUid** | Guid |  |
 | **FinishSlack** | string |  |
 | **FinishSlackTimeSpan** | TimeSpan |  |
 | **FinishVariance** | string |  |
@@ -7873,6 +7885,7 @@ Base class: ClientValueObject
 | **DependencyType** | [DependencyType](#dependencytype-enum) |  |
 | **EndId** | Guid |  |
 | **Id** | Guid |  |
+| **LinkLagDuration** | string |  |
 | **StartId** | Guid |  |
 | **TypeId** | string |  |
 ## Methods
@@ -7938,6 +7951,8 @@ Namespace: Microsoft.ProjectServer.Client
 | **EarliestFinish** | string |  |
 | **EarliestStart** | string |  |
 | **EstimateAtCompletion** | string |  |
+| **ExternalProjectUid** | string |  |
+| **ExternalTaskUid** | string |  |
 | **FinishSlack** | string |  |
 | **FinishSlackTimeSpan** | string |  |
 | **FinishVariance** | string |  |

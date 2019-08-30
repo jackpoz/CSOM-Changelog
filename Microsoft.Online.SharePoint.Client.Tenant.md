@@ -798,6 +798,8 @@ Base class: ClientObject
 | **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
 | **CurrentResourceUsage** | double |  |
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
+| **DefaultLinkToExistingAccess** | bool |  |
+| **DefaultLinkToExistingAccessReset** | bool |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DenyAddAndCustomizePages** | [DenyAddAndCustomizePagesStatus](#denyaddandcustomizepagesstatus-enum) |  |
 | **Description** | string |  |
@@ -887,6 +889,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ConditionalAccessPolicy** | string |  |
 | **CurrentResourceUsage** | string |  |
 | **DefaultLinkPermission** | string |  |
+| **DefaultLinkToExistingAccess** | string |  |
+| **DefaultLinkToExistingAccessReset** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DenyAddAndCustomizePages** | string |  |
 | **Description** | string |  |
@@ -1475,6 +1479,7 @@ Base class: ClientObject
 | **AddToOrgAssetsLibAndCdn(SPOTenantCdnType cdnType, string libUrl, string thumbnailUrl)** | void |  |
 | **AddToOrgAssetsLibAndCdnWithType(SPOTenantCdnType cdnType, string libUrl, string thumbnailUrl, OrgAssetType orgAssetType)** | void |  |
 | **ApplySiteDesign(string webUrl, Guid siteDesignId)** | ClientObjectList\<[TenantSiteScriptActionResult](#tenantsitescriptactionresult-class)\> |  |
+| **ConnectHubSiteToHubSiteById(Guid srcHubSiteId, Guid destHubSiteId)** | void |  |
 | **ConnectSiteToHubSite(string siteUrl, string hubSiteUrl)** | void |  |
 | **ConnectSiteToHubSiteById(string siteUrl, Guid hubSiteId)** | void |  |
 | **CreateGroupForSite(string siteUrl, string displayName, string alias, bool isPublic, GroupCreationParams optionalParams)** | void |  |
@@ -1487,6 +1492,7 @@ Base class: ClientObject
 | **DeleteSiteDesign(Guid id)** | void |  |
 | **DeleteSiteScript(Guid id)** | void |  |
 | **DeleteTenantTheme(string name)** | void |  |
+| **DisconnectHubSiteFromHubSiteById(Guid hubSiteId)** | void |  |
 | **DisconnectSiteFromHubSite(string siteUrl)** | void |  |
 | **EnableCommSite(string siteUrl, Guid designPackageId)** | void |  |
 | **EncodeClaim(string identifier)** | ClientResult\<string\> |  |
@@ -1528,7 +1534,6 @@ Base class: ClientObject
 | **GetSiteScripts()** | ClientObjectList\<[TenantSiteScript](#tenantsitescript-class)\> |  |
 | **GetSPHSiteUrl()** | ClientResult\<string\> |  |
 | **GetSPOAllWebTemplates(string cultureName, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
-| **GetSPOLocaleWebTemplates(string cultureName, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetSPOTenantAllWebTemplates()** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetSPOTenantSiteUserInvitations(string siteUrl, string emailAddress)** | ClientObjectList\<[SPOTenantSiteUserInvitation](#spotenantsiteuserinvitation-class)\> |  |
 | **GetSPOTenantWebTemplates(uint localeId, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
@@ -1546,6 +1551,7 @@ Base class: ClientObject
 | **RegisterHubSiteWithCreationInformation(string siteUrl, HubSiteCreationInformation creationInformation)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **RemoveDeletedSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveDeletedSitePreferId(string siteUrl, Guid siteId)** | [SpoOperation](#spooperation-class) |  |
+| **RemoveFromOrgAssets(string libUrl, Guid listId)** | void |  |
 | **RemoveFromOrgAssetsAndCdn(bool remove, SPOTenantCdnType cdnType, string libUrl)** | void |  |
 | **RemoveOrgNewsSite(string orgNewsSiteUrl)** | ClientResult\<string\> |  |
 | **RemovePublicCdnOrigin(string originId)** | void |  |
@@ -2448,6 +2454,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **AccountEnabled** | bool |  |
+| **AppHelperId** | string |  |
 | **AppId** | string |  |
 | **GrantManager** | [SPO3rdPartyAADPermissionGrantManager](#spo3rdpartyaadpermissiongrantmanager-class) |  |
 | **PermissionGrants** | [SPOWebAppServicePrincipalPermissionGrantCollection](#spowebappserviceprincipalpermissiongrantcollection-class) |  |
@@ -2473,9 +2480,6 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
-| **Create(ClientRuntimeContext context)** | [SPOWebAppServicePrincipal](#spowebappserviceprincipal-class) |  |
-| **GetAppPreAuthorizationFlag(string appId)** | ClientResult\<string\> |  |
-| **SetAppPreAuthorizationFlag(string appId)** | void |  |
 | **Update()** | void |  |
 # SPOWebAppServicePrincipalObjectPropertyNames Class
 
@@ -2687,6 +2691,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration.Internal
 | Name | Type | Summary |
 |---|---|---|
 | **AccountEnabled** | string |  |
+| **AppHelperId** | string |  |
 | **AppId** | string |  |
 | **ReplyUrls** | string |  |
 | **ServicePrincipalObjectIds** | string |  |
@@ -3130,6 +3135,7 @@ Base class: ClientObject
 | **IsSharingDisabledForNonOwnersOfSite(string siteUrl)** | ClientResult\<bool\> |  |
 | **QueueImportProfileProperties(ImportProfilePropertiesUserIdType idType, string sourceDataIdProperty, IDictionary\<string, string\> propertyMap, string sourceUri)** | ClientResult\<Guid\> |  |
 | **RemoveExternalUsers(string[] uniqueIds)** | [RemoveExternalUsersResults](#removeexternalusersresults-class) |  |
+| **RemoveFromOrgAssets(ResourcePath libUrl, Guid listId)** | void |  |
 | **RemoveFromOrgAssetsAndCdn(bool remove, SPOTenantCdnType cdnType, ResourcePath libUrl)** | void |  |
 | **RemovePublicCdnOrigin(string originId)** | void |  |
 | **RemoveSdnProvider()** | void |  |
