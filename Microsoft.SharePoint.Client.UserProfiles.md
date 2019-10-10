@@ -2599,6 +2599,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AltTitle** | string |  |
 | **CacheKey** | string |  |
 | **CacheValue** | string |  |
 | **CacheValueHash** | string |  |

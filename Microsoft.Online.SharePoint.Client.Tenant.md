@@ -7,12 +7,14 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [SPO3rdPartyAADPermissionGrant Class](#spo3rdpartyaadpermissiongrant-class) |
-| [CredentialsType Enum](#credentialstype-enum) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [SPO3rdPartyAADPermissionGrantManager Class](#spo3rdpartyaadpermissiongrantmanager-class) |
-| [DeviceActionId Enum](#deviceactionid-enum) | [SPOSitePropertiesEnumerableFilter Class](#spositepropertiesenumerablefilter-class) | [SPO3rdPartyAADPermissionGrantPropertyNames Class](#spo3rdpartyaadpermissiongrantpropertynames-class) |
-| [DeviceStatus Enum](#devicestatus-enum) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [SPOWebAppServicePrincipal Class](#spowebappserviceprincipal-class) |
-| [MigrationTaskStatus Enum](#migrationtaskstatus-enum) | [SPOTenantCdnPolicy Class](#spotenantcdnpolicy-class) | [SPOWebAppServicePrincipalObjectPropertyNames Class](#spowebappserviceprincipalobjectpropertynames-class) |
-| [SourceType Enum](#sourcetype-enum) | [SPOTenantCdnPolicyPropertyNames Class](#spotenantcdnpolicypropertynames-class) | [SPOWebAppServicePrincipalPermissionGrant Class](#spowebappserviceprincipalpermissiongrant-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [SPOHubSiteUserRights Enum](#spohubsiteuserrights-enum) | [UserMigrationPropertiesEnumerablePropertyNames Class](#usermigrationpropertiesenumerablepropertynames-class) |
+| [ConnectionStatus Enum](#connectionstatus-enum) | [SpoOperation Class](#spooperation-class) | [UserMigrationPropertiesPropertyNames Class](#usermigrationpropertiespropertynames-class) |
+| [CredentialsType Enum](#credentialstype-enum) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [SPO3rdPartyAADPermissionGrant Class](#spo3rdpartyaadpermissiongrant-class) |
+| [DeviceActionId Enum](#deviceactionid-enum) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [SPO3rdPartyAADPermissionGrantManager Class](#spo3rdpartyaadpermissiongrantmanager-class) |
+| [DeviceStatus Enum](#devicestatus-enum) | [SPOSitePropertiesEnumerableFilter Class](#spositepropertiesenumerablefilter-class) | [SPO3rdPartyAADPermissionGrantPropertyNames Class](#spo3rdpartyaadpermissiongrantpropertynames-class) |
+| [MigrationTaskStatus Enum](#migrationtaskstatus-enum) | [SPOSitePropertiesEnumerablePropertyNames Class](#spositepropertiesenumerablepropertynames-class) | [SPOWebAppServicePrincipal Class](#spowebappserviceprincipal-class) |
+| [SourceType Enum](#sourcetype-enum) | [SPOTenantCdnPolicy Class](#spotenantcdnpolicy-class) | [SPOWebAppServicePrincipalObjectPropertyNames Class](#spowebappserviceprincipalobjectpropertynames-class) |
+| [StorageActionId Enum](#storageactionid-enum) | [SPOTenantCdnPolicyPropertyNames Class](#spotenantcdnpolicypropertynames-class) | [SPOWebAppServicePrincipalPermissionGrant Class](#spowebappserviceprincipalpermissiongrant-class) |
 | [TaskActionId Enum](#taskactionid-enum) | [SPOTenantCdnPolicyType Enum](#spotenantcdnpolicytype-enum) | [SPOWebAppServicePrincipalPermissionGrantCollection Class](#spowebappserviceprincipalpermissiongrantcollection-class) |
 | [TaskErrorCode Enum](#taskerrorcode-enum) | [SPOTenantCdnType Enum](#spotenantcdntype-enum) | [SPOWebAppServicePrincipalPermissionGrantPropertyNames Class](#spowebappserviceprincipalpermissiongrantpropertynames-class) |
 | [TaskFailure Enum](#taskfailure-enum) | [SPOTenantInstance Class](#spotenantinstance-class) | [SPOWebAppServicePrincipalPermissionRequest Class](#spowebappserviceprincipalpermissionrequest-class) |
@@ -51,8 +53,6 @@ Created by
 | [SiteUserGroupInfo Class](#siteusergroupinfo-class) | [UserMigrationProperties Class](#usermigrationproperties-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
 | [SPODeletedSitePropertiesEnumerable Class](#spodeletedsitepropertiesenumerable-class) | [UserMigrationPropertiesEnumerable Class](#usermigrationpropertiesenumerable-class) | [ThemeProperties Class](#themeproperties-class) |
 | [SPODeletedSitePropertiesEnumerablePropertyNames Class](#spodeletedsitepropertiesenumerablepropertynames-class) | [UserMigrationPropertiesEnumerableFilter Class](#usermigrationpropertiesenumerablefilter-class) | [ThemePropertiesPropertyNames Class](#themepropertiespropertynames-class) |
-| [SPOHubSiteUserRights Enum](#spohubsiteuserrights-enum) | [UserMigrationPropertiesEnumerablePropertyNames Class](#usermigrationpropertiesenumerablepropertynames-class) |   |
-| [SpoOperation Class](#spooperation-class) | [UserMigrationPropertiesPropertyNames Class](#usermigrationpropertiespropertynames-class) |   |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Online.SharePoint.Client.TenantAdmin
@@ -63,6 +63,18 @@ Namespace: Microsoft.Online.SharePoint.Client.TenantAdmin
 | Name | Returns | Summary |
 |---|---|---|
 | **CreateObjectFromScriptType(string scriptType, ClientRuntimeContext context)** | IFromJson |  |
+# ConnectionStatus Enum
+
+Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **None** |  |
+| **Connected** |  |
+| **Disconnected** |  |
 # CredentialsType Enum
 
 Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
@@ -87,6 +99,7 @@ Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 | **EnableDevice** |  |
 | **DisableDevice** |  |
 | **UpdateStatus** |  |
+| **Heartbeat** |  |
 | **Debug** |  |
 # DeviceStatus Enum
 
@@ -105,7 +118,7 @@ Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 | **Disabled** |  |
 | **Enabling** |  |
 | **Disconnected** |  |
-| **NotReachable** |  |
+| **NotAccessible** |  |
 # MigrationTaskStatus Enum
 
 Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
@@ -134,6 +147,19 @@ Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 |---|---|
 | **FileShare** |  |
 | **SharePoint** |  |
+# StorageActionId Enum
+
+Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **None** |  |
+| **Update** |  |
+| **Upgrade** |  |
+| **Debug** |  |
 # TaskActionId Enum
 
 Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
@@ -578,6 +604,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **Description** | string |  |
+| **EnablePermissionsSync** | bool |  |
 | **HideNameInNavigation** | bool |  |
 | **ID** | Guid |  |
 | **LogoUrl** | string |  |
@@ -616,6 +643,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | Name | Type | Summary |
 |---|---|---|
 | **Description** | string |  |
+| **EnablePermissionsSync** | string |  |
 | **HideNameInNavigation** | string |  |
 | **ID** | string |  |
 | **LogoUrl** | string |  |
@@ -811,6 +839,8 @@ Base class: ClientObject
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | bool |  |
 | **HubSiteId** | Guid |  |
+| **IBSegmentDisplayNames** | string |  |
+| **IBSegments** | Guid[] |  |
 | **IsGroupOwnerSiteAdmin** | bool |  |
 | **IsHubSite** | bool |  |
 | **LastContentModifiedDate** | DateTime |  |
@@ -902,6 +932,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | string |  |
 | **HubSiteId** | string |  |
+| **IBSegmentDisplayNames** | string |  |
+| **IBSegments** | string |  |
 | **IsGroupOwnerSiteAdmin** | string |  |
 | **IsHubSite** | string |  |
 | **LastContentModifiedDate** | string |  |
@@ -1371,6 +1403,7 @@ Base class: ClientObject
 | **DisableReportProblemDialog** | bool |  |
 | **DisallowInfectedFileDownload** | bool |  |
 | **DisplayNamesOfFileViewers** | bool |  |
+| **DisplayNamesOfFileViewersInSpo** | bool |  |
 | **DisplayStartASiteOption** | bool |  |
 | **EmailAttestationEnabled** | bool |  |
 | **EmailAttestationReAuthDays** | int |  |
@@ -1379,6 +1412,7 @@ Base class: ClientObject
 | **EnableAzureADB2BIntegration** | bool |  |
 | **EnableGuestSignInAcceleration** | bool |  |
 | **EnableMinimumVersionRequirement** | bool |  |
+| **EnableMipSiteLabel** | bool |  |
 | **EnablePromotedFileHandlers** | bool |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
 | **ExternalServicesEnabled** | bool |  |
@@ -1486,6 +1520,7 @@ Base class: ClientObject
 | **CreateSite(SiteCreationProperties siteCreationProperties)** | [SpoOperation](#spooperation-class) |  |
 | **CreateSiteDesign(TenantSiteDesignCreationInfo info)** | [TenantSiteDesign](#tenantsitedesign-class) |  |
 | **CreateSiteScript(TenantSiteScriptCreationInfo info)** | [TenantSiteScript](#tenantsitescript-class) |  |
+| **CreateSiteScriptPackage(TenantSiteScriptCreationInfo info)** | [TenantSiteScript](#tenantsitescript-class) |  |
 | **CreateTenantCdnDefaultOrigins(SPOTenantCdnType cdnType)** | void |  |
 | **DecodeClaim(string identifier)** | ClientResult\<string\> |  |
 | **DecodeClaims(IList\<string\> claims)** | IList\<string\> |  |
@@ -1511,6 +1546,7 @@ Base class: ClientObject
 | **GetHubSitePropertiesByUrl(string siteUrl)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **GetHubSitesProperties()** | ClientObjectList\<[HubSiteProperties](#hubsiteproperties-class)\> |  |
 | **GetIdleSessionSignOutForUnmanagedDevices()** | ClientResult\<string\> |  |
+| **GetKnowledgeHubSite()** | ClientResult\<string\> |  |
 | **GetOrgAssets()** | ClientResult\<OrgAssets\> |  |
 | **GetOrgNewsSites()** | IEnumerable\<string\> |  |
 | **GetRootSiteUrl()** | ClientResult\<string\> |  |
@@ -1553,6 +1589,7 @@ Base class: ClientObject
 | **RemoveDeletedSitePreferId(string siteUrl, Guid siteId)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveFromOrgAssets(string libUrl, Guid listId)** | void |  |
 | **RemoveFromOrgAssetsAndCdn(bool remove, SPOTenantCdnType cdnType, string libUrl)** | void |  |
+| **RemoveKnowledgeHubSite()** | ClientResult\<string\> |  |
 | **RemoveOrgNewsSite(string orgNewsSiteUrl)** | ClientResult\<string\> |  |
 | **RemovePublicCdnOrigin(string originId)** | void |  |
 | **RemoveSdnProvider()** | void |  |
@@ -1569,6 +1606,7 @@ Base class: ClientObject
 | **RevokeSiteDesignRights(ClientRuntimeContext context, Guid id, string[] principalNames)** | void |  |
 | **SetBuiltInDesignPackageVisibility(ClientRuntimeContext context, DesignPackageType designPackageType, bool isVisible)** | void |  |
 | **SetIdleSessionSignOutForUnmanagedDevices(bool enabled, TimeSpan warnAfter, TimeSpan signOutAfter)** | ClientResult\<bool\> |  |
+| **SetKnowledgeHubSite(string knowledgeHubSiteUrl)** | ClientResult\<string\> |  |
 | **SetOrgAssets(string libUrl, string thumbnailUrl)** | void |  |
 | **SetOrgAssetsWithType(string libUrl, string thumbnailUrl, OrgAssetType orgAssetType)** | void |  |
 | **SetOrgNewsSite(string orgNewsSiteUrl)** | ClientResult\<string\> |  |
@@ -1578,11 +1616,13 @@ Base class: ClientObject
 | **SetTenantCdnPolicy(SPOTenantCdnType cdnType, SPOTenantCdnPolicyType policyType, string policyValue)** | void |  |
 | **SetWebTheme(string themeName, string webUrl)** | ClientResult\<string\> |  |
 | **SwapSite(string sourceUrl, string targetUrl, string archiveUrl)** | [SpoOperation](#spooperation-class) |  |
+| **SwapSiteWithSmartGestureOption(string sourceUrl, string targetUrl, string archiveUrl, bool includeSmartGestures)** | [SpoOperation](#spooperation-class) |  |
 | **UnregisterHubSite(string siteUrl)** | void |  |
 | **UnregisterHubSiteById(Guid hubSiteId)** | void |  |
 | **Update()** | void |  |
 | **UpdateSiteDesign(TenantSiteDesign updateInfo)** | [TenantSiteDesign](#tenantsitedesign-class) |  |
 | **UpdateSiteScript(TenantSiteScript updateInfo)** | [TenantSiteScript](#tenantsitescript-class) |  |
+| **UpdateSiteScriptPackage(TenantSiteScript updateInfo)** | [TenantSiteScript](#tenantsitescript-class) |  |
 | **UpdateTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
 | **UpdateUserTypeFromAzureAD(string siteUrl, string loginName)** | User |  |
 | **UpdateUserTypeFromAzureADForAllSites(string loginName)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
@@ -1717,6 +1757,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DisableReportProblemDialog** | string |  |
 | **DisallowInfectedFileDownload** | string |  |
 | **DisplayNamesOfFileViewers** | string |  |
+| **DisplayNamesOfFileViewersInSpo** | string |  |
 | **DisplayStartASiteOption** | string |  |
 | **EmailAttestationEnabled** | string |  |
 | **EmailAttestationReAuthDays** | string |  |
@@ -1725,6 +1766,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **EnableAzureADB2BIntegration** | string |  |
 | **EnableGuestSignInAcceleration** | string |  |
 | **EnableMinimumVersionRequirement** | string |  |
+| **EnableMipSiteLabel** | string |  |
 | **EnablePromotedFileHandlers** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
 | **ExternalServicesEnabled** | string |  |
@@ -2030,8 +2072,10 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **Content** | string |  |
+| **ContentStream** | Stream |  |
 | **Description** | string |  |
 | **Id** | Guid |  |
+| **IsSiteScriptPackage** | bool |  |
 | **Title** | string |  |
 | **Version** | int |  |
 | **Context** | ClientRuntimeContext |  |
@@ -2165,6 +2209,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **Content** | string |  |
+| **ContentStream** | Stream |  |
 | **Description** | string |  |
 | **Title** | string |  |
 | **TypeId** | string |  |
@@ -2183,8 +2228,10 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | Name | Type | Summary |
 |---|---|---|
 | **Content** | string |  |
+| **ContentStream** | string |  |
 | **Description** | string |  |
 | **Id** | string |  |
+| **IsSiteScriptPackage** | string |  |
 | **Title** | string |  |
 | **Version** | string |  |
 # TenantSiteScriptSerializationInfo Class
@@ -2453,6 +2500,7 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AadApplicationIds** | IList\<Guid\> |  |
 | **AccountEnabled** | bool |  |
 | **AppHelperId** | string |  |
 | **AppId** | string |  |
@@ -2690,6 +2738,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration.Internal
 
 | Name | Type | Summary |
 |---|---|---|
+| **AadApplicationIds** | string |  |
 | **AccountEnabled** | string |  |
 | **AppHelperId** | string |  |
 | **AppId** | string |  |

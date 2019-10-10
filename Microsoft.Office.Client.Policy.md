@@ -701,6 +701,7 @@ Base class: ClientObject
 | **GetAvailableTagsForSite(ClientRuntimeContext context, string siteUrl)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetAvailableTagsForSiteLabel(ClientRuntimeContext context)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetDynamicScopeBindingBySiteId(string siteId)** | IList\<string\> |  |
+| **GetHoldGracePeriodInDays(ClientRuntimeContext context)** | ClientResult\<int\> |  |
 | **GetListComplianceTag(ClientRuntimeContext context, string listUrl)** | ClientResult\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetPendingReviewItemsStatistics()** | ClientResult\<IDictionary\<string, [PendingReviewItemsStatistics](#pendingreviewitemsstatistics-class)\>\> |  |
 | **GetPolicyEvaluationInfo(ClientRuntimeContext context, string itemUrl, PolicyScenario policyScenario, PolicyEvaluationInfoEnums infos)** | [PolicyEvaluationInfo](#policyevaluationinfo-class) |  |
@@ -712,6 +713,7 @@ Base class: ClientObject
 | **RetagReviewItems(int[] itemIds, string newTag, bool newTagIsRecord, bool newTagBlockDelete, bool newTagIsEventBased)** | ClientArrayResult\<int\> |  |
 | **RetagReviewItemsWithMetas(int[] itemIds, string newTagName, string[] newTagMetas)** | ClientArrayResult\<int\> |  |
 | **SetContainerRetentionPolicy(string siteId, Guid defaultContainerLabel)** | void |  |
+| **SetHoldGracePeriodInDays(ClientRuntimeContext context, int gracePeriodInDays)** | void |  |
 | **SetListComplianceTag(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, bool syncToItems)** | void |  |
 | **SetListComplianceTagWithMetaInfo(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, DateTime complianceTagWrittenTime, string userEmailAddress, bool syncToItems)** | void |  |
 | **UpdateContainerSetting(string siteId, string externalId, int settingType, string setting)** | void |  |

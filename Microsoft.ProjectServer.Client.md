@@ -6256,6 +6256,7 @@ Base class: ClientObjectCollection<[QueueJob](#queuejob-class)>
 
 | Name | Returns | Summary |
 |---|---|---|
+| **getAll()** | ClientObjectList\<[QueueJob](#queuejob-class)\> |  |
 | **GetByGuid(Guid uid)** | [QueueJob](#queuejob-class) |  |
 | **GetById(string objectId)** | [QueueJob](#queuejob-class) |  |
 # QueueJobObjectPropertyNames Class
