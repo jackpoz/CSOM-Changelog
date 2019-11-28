@@ -2479,6 +2479,9 @@ Base class: EventArgs
 | Name | Type | Summary |
 |---|---|---|
 | **WebRequest** | HttpWebRequest |  |
+| **HaveResponse** | bool |  |
+| **ResponseTime** | TimeSpan |  |
+| **WebResponse** | HttpWebResponse |  |
 # SimpleDataTable Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -2970,6 +2973,7 @@ Namespace: Microsoft.SharePoint.Client.Idcrl
 | Name | Summary |
 |---|---|
 | **IdcrlAuth(IdcrlEnvironment env, EventHandler\<SharePointOnlineCredentialsWebRequestEventArgs\> executingWebRequest)** |  |
+| **IdcrlAuth(string identityProvider, EventHandler\<SharePointOnlineCredentialsWebRequestEventArgs\> executingWebRequest)** |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -2993,13 +2997,17 @@ Namespace: Microsoft.SharePoint.Client.Idcrl
 | **REGVAL_ServiceEnvironment** | string |  |
 | **ENV_INT_MSO** | string |  |
 | **ENV_PPE_MSO** | string |  |
-| **ENV_PRODUCTION** | string |  |
+| **ENV_ITAR_MSO** | string |  |
 | **BPOSIDCRL_AUTHORIZATION_HEADER_PREFIX** | string |  |
 | **IDCRLTYPE_BPOSIDRL** | string |  |
 | **IDCRL_PARAM_IDCRL_TYPE** | string |  |
 | **IDCRL_PARAM_ENDPOINT** | string |  |
 | **IDCRL_PARAM_ROOTDOMAIN** | string |  |
 | **IDCRL_PARAM_POLICY** | string |  |
+| **IDCRL_PARAM_IDENTITYPROVIDER** | string |  |
+| **IDCRL_PARAM_IDENTITYPROVIDER_VALUE_ITAR** | string |  |
+| **IDCRL_PARAM_IDENTITYPROVIDER_VALUE_PRODUCTION** | string |  |
+| **IDCRL_PARAM_IDENTITYPROVIDER_VALUE_PPE** | string |  |
 # IdcrlEnvironment Enum
 
 Namespace: Microsoft.SharePoint.Client.Idcrl
@@ -3012,6 +3020,7 @@ Namespace: Microsoft.SharePoint.Client.Idcrl
 | **Production** |  |
 | **Int** |  |
 | **Ppe** |  |
+| **ITAR** |  |
 # IdcrlErrorCodes Class
 
 Namespace: Microsoft.SharePoint.Client.Idcrl
@@ -3155,6 +3164,7 @@ Namespace: Microsoft.SharePoint.Client.Idcrl
 | **ServiceTarget** | string |  |
 | **ServicePolicy** | string |  |
 | **Endpoint** | string |  |
+| **IdentityProvider** | string |  |
 # IdcrlMessageConstants Class
 
 Namespace: Microsoft.SharePoint.Client.Idcrl
@@ -3166,14 +3176,17 @@ Namespace: Microsoft.SharePoint.Client.Idcrl
 |---|---|---|
 | **FPUrlFullUrlFormat** | string |  |
 | **FPListFullUrlFormat** | string |  |
+| **UserRealmServiceUrl_Itar** | string |  |
+| **SecurityTokenServiceUrl_Itar** | string |  |
+| **FederationTokenIssuer_Itar** | string |  |
 | **UserRealmServiceUrl_Prod** | string |  |
-| **UserRealmServiceUrl_Int** | string |  |
-| **UserRealmServiceUrl_Ppe** | string |  |
 | **SecurityTokenServiceUrl_Prod** | string |  |
-| **SecurityTokenServiceUrl_Int** | string |  |
-| **SecurityTokenServiceUrl_Ppe** | string |  |
 | **FederationTokenIssuer_Prod** | string |  |
+| **UserRealmServiceUrl_Int** | string |  |
+| **SecurityTokenServiceUrl_Int** | string |  |
 | **FederationTokenIssuer_Int** | string |  |
+| **UserRealmServiceUrl_Ppe** | string |  |
+| **SecurityTokenServiceUrl_Ppe** | string |  |
 | **FederationTokenIssuer_Ppe** | string |  |
 | **FederationProvider** | string |  |
 | **FPDOMAINNAME** | string |  |
@@ -3239,7 +3252,7 @@ Namespace: Microsoft.SharePoint.Client.Idcrl
 
 | Name | Type | Summary |
 |---|---|---|
-| **IdcrlServiceEnvironment** | string |  |
+| **IdcrlServiceEnvironmentFromRegistry** | [IdcrlEnvironment](#idcrlenvironment-enum)? |  |
 ## Methods
 
 | Name | Returns | Summary |

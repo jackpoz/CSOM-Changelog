@@ -693,6 +693,7 @@ Base class: FieldLookup
 | **Hidden** | bool |  |
 | **Id** | Guid |  |
 | **Indexed** | bool |  |
+| **IndexStatus** | FieldIndexStatus |  |
 | **InternalName** | string |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
