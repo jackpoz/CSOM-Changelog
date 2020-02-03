@@ -1537,6 +1537,7 @@ Base class: ClientObject
 | **DeleteTenantTheme(string name)** | void |  |
 | **DisconnectSiteFromHubSite(string siteUrl)** | void |  |
 | **EnableCommSite(string siteUrl, Guid designPackageId)** | void |  |
+| **EnableCommunicationSite(string siteUrl, Guid designPackageId)** | ClientResult\<string\> |  |
 | **EncodeClaim(string identifier)** | ClientResult\<string\> |  |
 | **EncodeClaims(IList\<string\> identifiers)** | IList\<string\> |  |
 | **GetAllDeletedPersonalSitesPropertiesAllVersions(int startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
@@ -1578,6 +1579,9 @@ Base class: ClientObject
 | **GetSPHSiteUrl()** | ClientResult\<string\> |  |
 | **GetSPOAllWebTemplates(string cultureName, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetSPOTenantAllWebTemplates()** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
+| **GetSPOTenantOrgRelationAll()** | ClientResult\<string\> |  |
+| **GetSPOTenantOrgRelationByPartner(Guid companyId, Guid instanceId)** | ClientResult\<string\> |  |
+| **GetSPOTenantOrgRelationByScenario(OrgRelationScenario scenario, OrgRelationRole role)** | ClientResult\<string\> |  |
 | **GetSPOTenantSiteUserInvitations(string siteUrl, string emailAddress)** | ClientObjectList\<[SPOTenantSiteUserInvitation](#spotenantsiteuserinvitation-class)\> |  |
 | **GetSPOTenantWebTemplates(uint localeId, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetTenantCdnEnabled(SPOTenantCdnType cdnType)** | ClientResult\<bool\> |  |
@@ -1590,6 +1594,7 @@ Base class: ClientObject
 | **GrantHubSiteRights(string hubSiteUrl, string[] principals, SPOHubSiteUserRights grantedRights)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **GrantHubSiteRightsById(Guid hubSiteId, string[] principals, SPOHubSiteUserRights grantedRights)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **GrantSiteDesignRights(Guid id, string[] principalNames, TenantSiteDesignPrincipalRights grantedRights)** | void |  |
+| **NewSPOTenantOrgRelation(OrgRelationScenario scenario, OrgRelationRole role, Guid companyId, Guid instanceId, Guid partnerSiteSubscriptionId)** | void |  |
 | **RegisterHubSite(string siteUrl)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **RegisterHubSiteWithCreationInformation(string siteUrl, HubSiteCreationInformation creationInformation)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **RemoveDeletedSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
@@ -1603,6 +1608,7 @@ Base class: ClientObject
 | **RemoveSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveSiteDesignTask(ClientRuntimeContext context, Guid taskId)** | void |  |
 | **RemoveSPHSite()** | ClientResult\<string\> |  |
+| **RemoveSPOTenantOrgRelation(OrgRelationScenario scenario, OrgRelationRole role, Guid companyId, Guid instanceId)** | void |  |
 | **RemoveSPOTenantSiteUserInvitations(string siteUrl, string emailAddress, bool countOnly)** | ClientResult\<int\> |  |
 | **RemoveTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
 | **RequestPersonalSites(string[] userIds)** | [SpoOperation](#spooperation-class) |  |
@@ -1634,6 +1640,7 @@ Base class: ClientObject
 | **UpdateUserTypeFromAzureAD(string siteUrl, string loginName)** | User |  |
 | **UpdateUserTypeFromAzureADForAllSites(string loginName)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **UpdateUserTypesFromAzureADForSite(string siteUrl)** | ClientObjectList\<User\> |  |
+| **VerifySPOTenantOrgRelation(OrgRelationScenario scenario, OrgRelationRole role, Guid companyId, Guid instanceId)** | ClientResult\<OrgRelationVerificationStatus\> |  |
 # TenantLog Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
