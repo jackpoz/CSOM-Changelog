@@ -2506,6 +2506,7 @@ Base class: ClientObject
 | **GetPropertiesFor(string accountName)** | [PersonProperties](#personproperties-class) |  |
 | **GetSPUserInformation(string accountName, Guid siteId)** | ClientResult\<IDictionary\<string, string\>\> |  |
 | **GetTrendingTags(ClientRuntimeContext context)** | [HashTagCollection](#hashtagcollection-class) |  |
+| **GetUserOneDriveQuotaMax(string accountName)** | ClientResult\<long\> |  |
 | **GetUserProfileProperties(string accountName)** | ClientResult\<IDictionary\<string, string\>\> |  |
 | **GetUserProfilePropertiesFor(UserProfilePropertiesForUser propertiesForUser)** | IEnumerable\<string\> |  |
 | **GetUserProfilePropertyFor(string accountName, string propertyName)** | ClientResult\<string\> |  |
@@ -2513,9 +2514,11 @@ Base class: ClientObject
 | **HideSuggestion(string accountName)** | void |  |
 | **IsFollowing(ClientRuntimeContext context, string possibleFollowerAccountName, string possibleFolloweeAccountName)** | ClientResult\<bool\> |  |
 | **RemoveSPUserInformation(string accountName, Guid siteId, string redactName)** | ClientResult\<IDictionary\<string, string\>\> |  |
+| **ResetUserOneDriveQuotaToDefault(string accountName)** | ClientResult\<string\> |  |
 | **SetMultiValuedProfileProperty(string accountName, string propertyName, IList\<string\> propertyValues)** | void |  |
 | **SetMyProfilePicture(Stream picture)** | void |  |
 | **SetSingleValueProfileProperty(string accountName, string propertyName, string propertyValue)** | void |  |
+| **SetUserOneDriveQuota(string accountName, long newQuota, long newQuotaWarning)** | ClientResult\<string\> |  |
 | **StopFollowing(string accountName)** | void |  |
 | **StopFollowingTag(Guid value)** | void |  |
 # PeopleManagerPropertyNames Class

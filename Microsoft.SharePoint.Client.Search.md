@@ -318,6 +318,7 @@ Namespace: Microsoft.Office.Server.Search.REST
 | **SharePointOnly** |  |
 | **SharePointSharedOnly** |  |
 | **OneDriveWeb** |  |
+| **SharePointSharedLssOdbMerged** |  |
 # ScsEndpoint Class
 
 Namespace: Microsoft.Office.Server.Search.REST

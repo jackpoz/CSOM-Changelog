@@ -102,6 +102,7 @@ Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 | **UpdateStatus** |  |
 | **Heartbeat** |  |
 | **Disconnecting** |  |
+| **DeleteDevice** |  |
 | **Debug** |  |
 # DeviceStatus Enum
 
@@ -1578,6 +1579,8 @@ Base class: ClientObject
 | **GetSiteScripts()** | ClientObjectList\<[TenantSiteScript](#tenantsitescript-class)\> |  |
 | **GetSPHSiteUrl()** | ClientResult\<string\> |  |
 | **GetSPOAllWebTemplates(string cultureName, int compatibilityLevel)** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
+| **GetSPOStructuralNavigationCacheSiteState(string siteUrl)** | ClientResult\<bool\> |  |
+| **GetSPOStructuralNavigationCacheWebState(string webUrl)** | ClientResult\<bool\> |  |
 | **GetSPOTenantAllWebTemplates()** | [SPOTenantWebTemplateCollection](#spotenantwebtemplatecollection-class) |  |
 | **GetSPOTenantOrgRelationAll()** | ClientResult\<string\> |  |
 | **GetSPOTenantOrgRelationByPartner(Guid companyId, Guid instanceId)** | ClientResult\<string\> |  |
@@ -1625,11 +1628,14 @@ Base class: ClientObject
 | **SetOrgNewsSite(string orgNewsSiteUrl)** | ClientResult\<string\> |  |
 | **SetSiteAdmin(string siteUrl, string loginName, bool isSiteAdmin)** | User |  |
 | **SetSPHSite(string sphSiteUrl)** | ClientResult\<string\> |  |
+| **SetSPOStructuralNavigationCacheSiteState(string siteUrl, bool isEnabled)** | void |  |
+| **SetSPOStructuralNavigationCacheWebState(string webUrl, bool isEnabled)** | void |  |
 | **SetTenantCdnEnabled(SPOTenantCdnType cdnType, bool isEnabled)** | void |  |
 | **SetTenantCdnPolicy(SPOTenantCdnType cdnType, SPOTenantCdnPolicyType policyType, string policyValue)** | void |  |
 | **SetWebTheme(string themeName, string webUrl)** | ClientResult\<string\> |  |
 | **SwapSite(string sourceUrl, string targetUrl, string archiveUrl)** | [SpoOperation](#spooperation-class) |  |
 | **SwapSiteWithSmartGestureOption(string sourceUrl, string targetUrl, string archiveUrl, bool includeSmartGestures)** | [SpoOperation](#spooperation-class) |  |
+| **SwapSiteWithSmartGestureOptionForce(string sourceUrl, string targetUrl, string archiveUrl, bool includeSmartGestures, bool force)** | [SpoOperation](#spooperation-class) |  |
 | **UnregisterHubSite(string siteUrl)** | void |  |
 | **UnregisterHubSiteById(Guid hubSiteId)** | void |  |
 | **Update()** | void |  |
