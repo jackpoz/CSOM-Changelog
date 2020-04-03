@@ -280,6 +280,7 @@ Base class: ClientValueObject
 | **RoleIds** | IList\<Guid\> |  |
 | **SpSiteId** | Guid |  |
 | **SpWebId** | Guid |  |
+| **TenantInstanceId** | Guid |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -1432,7 +1433,6 @@ Base class: ClientObject
 | **ExportPopularQueries(Web web, Guid sourceId)** | IList\<[PopularQuery](#popularquery-class)\> |  |
 | **GetPromotedResults(bool siteCollectionLevel, int offset, int numberOfRules)** | ClientResult\<[PromotedResultsOperationsResult](#promotedresultsoperationsresult-class)\> |  |
 | **GetQueryConfiguration(bool callLocalSearchFarmsOnly, bool skipGroupObjectIds)** | ClientResult\<[QueryConfiguration](#queryconfiguration-class)\> |  |
-| **GetScsEndPointInfo()** | ClientResult\<[ScsEndpoint](#scsendpoint-class)\> |  |
 | **GetScsPartialUpdateEndPointInfo()** | ClientResult\<[ScsEndpoint](#scsendpoint-class)\> |  |
 | **GetSsaId()** | ClientResult\<string\> |  |
 | **RecordPageClick(string pageInfo, string clickType, int blockType, string clickedResultId, int subResultIndex, string immediacySourceId, string immediacyQueryString, string immediacyTitle, string immediacyUrl)** | void |  |

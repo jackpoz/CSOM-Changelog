@@ -705,6 +705,7 @@ Base class: ClientObject
 | **GetListComplianceTag(ClientRuntimeContext context, string listUrl)** | ClientResult\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetPendingReviewItemsStatistics()** | ClientResult\<IDictionary\<string, [PendingReviewItemsStatistics](#pendingreviewitemsstatistics-class)\>\> |  |
 | **GetPolicyEvaluationInfo(ClientRuntimeContext context, string itemUrl, PolicyScenario policyScenario, PolicyEvaluationInfoEnums infos)** | [PolicyEvaluationInfo](#policyevaluationinfo-class) |  |
+| **GetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName)** | ClientResult\<string\> |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
 | **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
 | **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
@@ -716,6 +717,7 @@ Base class: ClientObject
 | **SetHoldGracePeriodInDays(ClientRuntimeContext context, int gracePeriodInDays)** | void |  |
 | **SetListComplianceTag(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, bool syncToItems)** | void |  |
 | **SetListComplianceTagWithMetaInfo(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, DateTime complianceTagWrittenTime, string userEmailAddress, bool syncToItems)** | void |  |
+| **SetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName, string propertyValue)** | void |  |
 | **UpdateContainerSetting(string siteId, string externalId, int settingType, string setting)** | void |  |
 # SPPolicyStoreProxyPropertyNames Class
 

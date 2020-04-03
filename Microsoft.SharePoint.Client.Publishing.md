@@ -1998,7 +1998,7 @@ Namespace: Microsoft.SharePoint.Client.Publishing.Navigation
 | Name | Summary |
 |---|---|
 | **Enabled** |  |
-| **Disabled** |  |
+| **PendingEnable** |  |
 | **Refreshing** |  |
 | **PendingOptOut** |  |
 | **OptedOut** |  |
