@@ -709,6 +709,7 @@ Base class: ClientObject
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
 | **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
 | **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
+| **RegisterSiteHoldEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **RemoveContainerRetentionPolicy(string siteId)** | void |  |
 | **RemoveContainerSettings(string[] externalId)** | void |  |
 | **RetagReviewItems(int[] itemIds, string newTag, bool newTagIsRecord, bool newTagBlockDelete, bool newTagIsEventBased)** | ClientArrayResult\<int\> |  |
@@ -718,6 +719,7 @@ Base class: ClientObject
 | **SetListComplianceTag(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, bool syncToItems)** | void |  |
 | **SetListComplianceTagWithMetaInfo(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, DateTime complianceTagWrittenTime, string userEmailAddress, bool syncToItems)** | void |  |
 | **SetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName, string propertyValue)** | void |  |
+| **UnRegisterHoldEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **UpdateContainerSetting(string siteId, string externalId, int settingType, string setting)** | void |  |
 # SPPolicyStoreProxyPropertyNames Class
 
