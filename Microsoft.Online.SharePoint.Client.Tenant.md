@@ -54,7 +54,7 @@ Created by
 | [SPODeletedSitePropertiesEnumerable Class](#spodeletedsitepropertiesenumerable-class) | [UserInfo Class](#userinfo-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
 | [SPODeletedSitePropertiesEnumerablePropertyNames Class](#spodeletedsitepropertiesenumerablepropertynames-class) | [UserMigrationProperties Class](#usermigrationproperties-class) | [ThemeProperties Class](#themeproperties-class) |
 | [SPOHubSiteUserRights Enum](#spohubsiteuserrights-enum) | [UserMigrationPropertiesEnumerable Class](#usermigrationpropertiesenumerable-class) | [ThemePropertiesPropertyNames Class](#themepropertiespropertynames-class) |
-| [SpoOperation Class](#spooperation-class) | [UserMigrationPropertiesEnumerableFilter Class](#usermigrationpropertiesenumerablefilter-class) |   |
+| [SpoOperation Class](#spooperation-class) | [UserMigrationPropertiesEnumerableFilter Class](#usermigrationpropertiesenumerablefilter-class) | [Workflows2013State Enum](#workflows2013state-enum) |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Online.SharePoint.Client.TenantAdmin
@@ -1478,6 +1478,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **AddressbarLinkPermission** | Role |  |
+| **AIBuilderEnabled** | bool |  |
 | **AllowCommentsTextOnEmailEnabled** | bool |  |
 | **AllowDownloadingNonWebViewableFiles** | bool |  |
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
@@ -1533,6 +1534,7 @@ Base class: ClientObject
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | bool |  |
 | **IPAddressWACTokenLifetime** | int |  |
+| **IsFluidEnabled** | bool |  |
 | **IsHubSitesMultiGeoFlightEnabled** | bool |  |
 | **IsMultiGeo** | bool |  |
 | **IsUnmanagedSyncClientForTenantRestricted** | bool |  |
@@ -1592,6 +1594,7 @@ Base class: ClientObject
 | **UserVoiceForFeedbackEnabled** | bool |  |
 | **WhoCanShareAllowListInTenant** | string |  |
 | **WhoCanShareAllowListInTenantByPrincipalIdentity** | IList\<string\> |  |
+| **Workflows2013State** | [Workflows2013State](#workflows2013state-enum) |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -1629,6 +1632,7 @@ Base class: ClientObject
 | **CreateSiteDesign(TenantSiteDesignCreationInfo info)** | [TenantSiteDesign](#tenantsitedesign-class) |  |
 | **CreateSiteScript(TenantSiteScriptCreationInfo info)** | [TenantSiteScript](#tenantsitescript-class) |  |
 | **CreateSiteScriptPackage(TenantSiteScriptCreationInfo info)** | [TenantSiteScript](#tenantsitescript-class) |  |
+| **CreateSiteSharingReportJobForTenantAdmin(string siteUrl, string reportWebUrl, string reportFolderUrl)** | ClientResult\<string\> |  |
 | **CreateTenantCdnDefaultOrigins(SPOTenantCdnType cdnType)** | void |  |
 | **DecodeClaim(string identifier)** | ClientResult\<string\> |  |
 | **DecodeClaims(IList\<string\> claims)** | IList\<string\> |  |
@@ -1711,6 +1715,7 @@ Base class: ClientObject
 | **RemoveSdnProvider()** | void |  |
 | **RemoveSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveSiteDesignTask(ClientRuntimeContext context, Guid taskId)** | void |  |
+| **RemoveSiteSharingReportJobForTenantAdmin(string siteUrl)** | ClientResult\<string\> |  |
 | **RemoveSPHSite()** | ClientResult\<string\> |  |
 | **RemoveSPOTenantOrgRelation(OrgRelationScenario scenario, OrgRelationRole partnerRole, string partnerMySiteHostUrl)** | void |  |
 | **RemoveSPOTenantSiteUserInvitations(string siteUrl, string emailAddress, bool countOnly)** | ClientResult\<int\> |  |
@@ -1736,6 +1741,7 @@ Base class: ClientObject
 | **SetTenantCdnEnabled(SPOTenantCdnType cdnType, bool isEnabled)** | void |  |
 | **SetTenantCdnPolicy(SPOTenantCdnType cdnType, SPOTenantCdnPolicyType policyType, string policyValue)** | void |  |
 | **SetWebTheme(string themeName, string webUrl)** | ClientResult\<string\> |  |
+| **SetWorkflows2013Enabled(bool enabled)** | void |  |
 | **SwapSite(string sourceUrl, string targetUrl, string archiveUrl)** | [SpoOperation](#spooperation-class) |  |
 | **SwapSiteWithSmartGestureOption(string sourceUrl, string targetUrl, string archiveUrl, bool includeSmartGestures)** | [SpoOperation](#spooperation-class) |  |
 | **SwapSiteWithSmartGestureOptionForce(string sourceUrl, string targetUrl, string archiveUrl, bool includeSmartGestures, bool force)** | [SpoOperation](#spooperation-class) |  |
@@ -1851,6 +1857,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | Name | Type | Summary |
 |---|---|---|
 | **AddressbarLinkPermission** | string |  |
+| **AIBuilderEnabled** | string |  |
 | **AllowCommentsTextOnEmailEnabled** | string |  |
 | **AllowDownloadingNonWebViewableFiles** | string |  |
 | **AllowedDomainListForSyncClient** | string |  |
@@ -1906,6 +1913,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **IPAddressAllowList** | string |  |
 | **IPAddressEnforcement** | string |  |
 | **IPAddressWACTokenLifetime** | string |  |
+| **IsFluidEnabled** | string |  |
 | **IsHubSitesMultiGeoFlightEnabled** | string |  |
 | **IsMultiGeo** | string |  |
 | **IsUnmanagedSyncClientForTenantRestricted** | string |  |
@@ -1965,6 +1973,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **UserVoiceForFeedbackEnabled** | string |  |
 | **WhoCanShareAllowListInTenant** | string |  |
 | **WhoCanShareAllowListInTenantByPrincipalIdentity** | string |  |
+| **Workflows2013State** | string |  |
 # TenantSiteDesign Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -3188,6 +3197,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **AddressbarLinkPermission** | Role |  |
+| **AIBuilderEnabled** | bool |  |
 | **AllowCommentsTextOnEmailEnabled** | bool |  |
 | **AllowDownloadingNonWebViewableFiles** | bool |  |
 | **AllowedDomainListForSyncClient** | IList\<Guid\> |  |
@@ -3276,6 +3286,7 @@ Base class: ClientObject
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **UserVoiceForFeedbackEnabled** | bool |  |
 | **WhoCanShareAllowList** | string |  |
+| **Workflows2013State** | [Workflows2013State](#workflows2013state-enum) |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -3343,6 +3354,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | Name | Type | Summary |
 |---|---|---|
 | **AddressbarLinkPermission** | string |  |
+| **AIBuilderEnabled** | string |  |
 | **AllowCommentsTextOnEmailEnabled** | string |  |
 | **AllowDownloadingNonWebViewableFiles** | string |  |
 | **AllowedDomainListForSyncClient** | string |  |
@@ -3431,6 +3443,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **UserVoiceForFeedbackEnabled** | string |  |
 | **WhoCanShareAllowList** | string |  |
+| **Workflows2013State** | string |  |
 # RemoveExternalUsersResults Class
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement
@@ -3668,3 +3681,15 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **IsInverted** | string |  |
 | **Name** | string |  |
 | **Palette** | string |  |
+# Workflows2013State Enum
+
+Namespace: Microsoft.Online.SharePoint.TenantManagement
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Disabled** |  |
+| **Configuring** |  |
+| **Enabled** |  |

@@ -228,17 +228,17 @@ Created by
 | [FieldCurrency Class](#fieldcurrency-class) | [RoleAssignmentPropertyNames Class](#roleassignmentpropertynames-class) | [SiteCollectionAppCatalogAllowedItem Class](#sitecollectionappcatalogalloweditem-class) |
 | [FieldCurrencyPropertyNames Class](#fieldcurrencypropertynames-class) | [RoleDefinition Class](#roledefinition-class) | [SiteCollectionAppCatalogAllowedItemPropertyNames Class](#sitecollectionappcatalogalloweditempropertynames-class) |
 | [FieldDateTime Class](#fielddatetime-class) | [RoleDefinitionBindingCollection Class](#roledefinitionbindingcollection-class) | [SiteCollectionCorporateCatalogAccessor Class](#sitecollectioncorporatecatalogaccessor-class) |
-| [FieldDateTimePropertyNames Class](#fielddatetimepropertynames-class) | [RoleDefinitionCollection Class](#roledefinitioncollection-class) | [TenantCorporateCatalogAccessor Class](#tenantcorporatecatalogaccessor-class) |
-| [FieldGeolocation Class](#fieldgeolocation-class) | [RoleDefinitionCreationInformation Class](#roledefinitioncreationinformation-class) | [TenantCorporateCatalogAccessorObjectPropertyNames Class](#tenantcorporatecatalogaccessorobjectpropertynames-class) |
-| [FieldGeolocationValue Class](#fieldgeolocationvalue-class) | [RoleDefinitionPropertyNames Class](#roledefinitionpropertynames-class) | [AppDetails Class](#appdetails-class) |
-| [FieldGuid Class](#fieldguid-class) | [RoleType Enum](#roletype-enum) | [AppDetailsPropertyNames Class](#appdetailspropertynames-class) |
-| [FieldIndexStatus Enum](#fieldindexstatus-enum) | [RuleOverrideOptions Enum](#ruleoverrideoptions-enum) | [AppIconInfo Class](#appiconinfo-class) |
-| [FieldLink Class](#fieldlink-class) | [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [AppIconInfoPropertyNames Class](#appiconinfopropertynames-class) |
-| [FieldLinkCollection Class](#fieldlinkcollection-class) | [SaveBinaryCheckMode Enum](#savebinarycheckmode-enum) | [TenantCdnUrl Class](#tenantcdnurl-class) |
-| [FieldLinkCreationInformation Class](#fieldlinkcreationinformation-class) | [ScriptSafeDomain Class](#scriptsafedomain-class) | [ModuleLink Class](#modulelink-class) |
-| [FieldLinkPropertyNames Class](#fieldlinkpropertynames-class) | [ScriptSafeDomainEntityData Class](#scriptsafedomainentitydata-class) | [ResourceManifestInformation Class](#resourcemanifestinformation-class) |
-| [FieldLocation Class](#fieldlocation-class) | [ScriptSafeExternalEmbedding Enum](#scriptsafeexternalembedding-enum) | [ResourceManifestInformationPropertyNames Class](#resourcemanifestinformationpropertynames-class) |
-| [FieldLookup Class](#fieldlookup-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |   |
+| [FieldDateTimePropertyNames Class](#fielddatetimepropertynames-class) | [RoleDefinitionCollection Class](#roledefinitioncollection-class) | [StoreAppCreationInformation Class](#storeappcreationinformation-class) |
+| [FieldGeolocation Class](#fieldgeolocation-class) | [RoleDefinitionCreationInformation Class](#roledefinitioncreationinformation-class) | [TenantCorporateCatalogAccessor Class](#tenantcorporatecatalogaccessor-class) |
+| [FieldGeolocationValue Class](#fieldgeolocationvalue-class) | [RoleDefinitionPropertyNames Class](#roledefinitionpropertynames-class) | [TenantCorporateCatalogAccessorObjectPropertyNames Class](#tenantcorporatecatalogaccessorobjectpropertynames-class) |
+| [FieldGuid Class](#fieldguid-class) | [RoleType Enum](#roletype-enum) | [AppDetails Class](#appdetails-class) |
+| [FieldIndexStatus Enum](#fieldindexstatus-enum) | [RuleOverrideOptions Enum](#ruleoverrideoptions-enum) | [AppDetailsPropertyNames Class](#appdetailspropertynames-class) |
+| [FieldLink Class](#fieldlink-class) | [SandboxedCodeActivationCapabilities Enum](#sandboxedcodeactivationcapabilities-enum) | [AppIconInfo Class](#appiconinfo-class) |
+| [FieldLinkCollection Class](#fieldlinkcollection-class) | [SaveBinaryCheckMode Enum](#savebinarycheckmode-enum) | [AppIconInfoPropertyNames Class](#appiconinfopropertynames-class) |
+| [FieldLinkCreationInformation Class](#fieldlinkcreationinformation-class) | [ScriptSafeDomain Class](#scriptsafedomain-class) | [TenantCdnUrl Class](#tenantcdnurl-class) |
+| [FieldLinkPropertyNames Class](#fieldlinkpropertynames-class) | [ScriptSafeDomainEntityData Class](#scriptsafedomainentitydata-class) | [ModuleLink Class](#modulelink-class) |
+| [FieldLocation Class](#fieldlocation-class) | [ScriptSafeExternalEmbedding Enum](#scriptsafeexternalembedding-enum) | [ResourceManifestInformation Class](#resourcemanifestinformation-class) |
+| [FieldLookup Class](#fieldlookup-class) | [ScriptTypeFactory Class](#scripttypefactory-class) | [ResourceManifestInformationPropertyNames Class](#resourcemanifestinformationpropertynames-class) |
 # __StaticArrayInitTypeSize=128 Struct
 
 Namespace: 
@@ -3714,6 +3714,8 @@ Base class: ClientValueObject
 | **Metas** | IDictionary\<string, string\> |  |
 | **ModelId** | string |  |
 | **ModelVersion** | string |  |
+| **RetentionLabelFlags** | int |  |
+| **RetentionLabelName** | string |  |
 | **RetryCount** | int |  |
 | **TypeId** | string |  |
 ## Methods
@@ -4124,6 +4126,7 @@ Base class: ClientValueObject
 | **AllowSmallerVersionLimitOnDestination** | bool |  |
 | **BypassSharedLock** | bool |  |
 | **ClientEtags** | string[] |  |
+| **ExcludeChildren** | bool |  |
 | **IgnoreVersionHistory** | bool |  |
 | **IncludeItemPermissions** | bool |  |
 | **IsMoveMode** | bool |  |
@@ -4947,6 +4950,7 @@ Base class: [ListHomeItem](#listhomeitem-class)
 | **listId** | string |  |
 | **listUrl** | string |  |
 | **siteId** | string |  |
+| **siteTitle** | string |  |
 | **siteUrl** | string |  |
 | **title** | string |  |
 ## Methods
@@ -4965,6 +4969,7 @@ Namespace: Microsoft.SharePoint.Client
 |---|---|---|
 | **AddList(ClientRuntimeContext context, FavoriteListHomeItem favoriteList)** | void |  |
 | **GetListsBy(ClientRuntimeContext context, string siteId, string listId, int page)** | ClientResult\<[FavoriteListHomeItem](#favoritelisthomeitem-class)[]\> |  |
+| **GetListsBySubstrate(ClientRuntimeContext context, string siteId, string listId, int page)** | ClientResult\<string\> |  |
 | **RemoveList(ClientRuntimeContext context, string siteId, string listId)** | void |  |
 | **UpdateList(ClientRuntimeContext context, FavoriteListHomeItem favoriteList)** | void |  |
 # FavoriteListsDeprecated Class
@@ -8053,6 +8058,7 @@ Namespace: Microsoft.SharePoint.Client
 | **Standard** |  |
 | **Compact** |  |
 | **Minimal** |  |
+| **Extended** |  |
 # HubSiteCreationInformation Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -8750,6 +8756,7 @@ Base class: ClientValueObject
 | **listId** | string |  |
 | **listUrl** | string |  |
 | **siteId** | string |  |
+| **siteTitle** | string |  |
 | **siteUrl** | string |  |
 | **title** | string |  |
 | **TypeId** | string |  |
@@ -9601,6 +9608,7 @@ Namespace: Microsoft.SharePoint.Client
 | **HealthRules** |  |
 | **HealthReports** |  |
 | **DeveloperSiteDraftApps** |  |
+| **ContentCenterModelLibrary** |  |
 | **ContentCenterPrimeLibrary** |  |
 | **ContentCenterSampleLibrary** |  |
 | **AccessApp** |  |
@@ -12741,6 +12749,7 @@ Namespace: Microsoft.SharePoint.Client
 |---|---|
 | **CompletedSuccessfully** |  |
 | **AccessRequestsQueued** |  |
+| **RequestThrottled** |  |
 | **MountPointSharingNotAllowed** |  |
 | **InvalidObjectStatus** |  |
 | **SharingBufferExceeded** |  |
@@ -12994,6 +13003,7 @@ Base class: ClientObject
 | **AuditLogTrimmingRetention** | int |  |
 | **CanSyncHubSitePermissions** | bool |  |
 | **CanUpgrade** | bool |  |
+| **ChannelGroupId** | Guid |  |
 | **Classification** | string |  |
 | **CommentsOnSitePagesDisabled** | bool |  |
 | **CompatibilityLevel** | int |  |
@@ -13145,6 +13155,7 @@ Namespace: Microsoft.SharePoint.Client
 | **AuditLogTrimmingRetention** | string |  |
 | **CanSyncHubSitePermissions** | string |  |
 | **CanUpgrade** | string |  |
+| **ChannelGroupId** | string |  |
 | **Classification** | string |  |
 | **CommentsOnSitePagesDisabled** | string |  |
 | **CompatibilityLevel** | string |  |
@@ -13431,6 +13442,7 @@ Base class: ClientValueObject
 | **IsActive** | bool |  |
 | **LastModifiedDate** | DateTime |  |
 | **Outcome** | string |  |
+| **Owner** | string |  |
 | **Title** | string |  |
 | **TriggerType** | int |  |
 | **TypeId** | string |  |
@@ -14526,7 +14538,9 @@ Base class: ClientObject
 |---|---|---|
 | **Aggregations** | string |  |
 | **AggregationsStatus** | string |  |
+| **AssociatedContentTypeId** | string |  |
 | **BaseViewId** | string |  |
+| **CalendarViewStyles** | string |  |
 | **ColumnWidth** | string |  |
 | **ContentTypeId** | [ContentTypeId](#contenttypeid-class) |  |
 | **CustomFormatter** | string |  |
@@ -14642,7 +14656,9 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AssociatedContentTypeId** | string |  |
 | **baseViewId** | int |  |
+| **CalendarViewStyles** | string |  |
 | **Paged** | bool |  |
 | **PersonalView** | bool |  |
 | **Query** | string |  |
@@ -14652,6 +14668,7 @@ Base class: ClientValueObject
 | **ViewData** | string |  |
 | **ViewFields** | string[] |  |
 | **ViewTypeKind** | [ViewType](#viewtype-enum) |  |
+| **ViewType2** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -14730,7 +14747,9 @@ Namespace: Microsoft.SharePoint.Client
 |---|---|---|
 | **Aggregations** | string |  |
 | **AggregationsStatus** | string |  |
+| **AssociatedContentTypeId** | string |  |
 | **BaseViewId** | string |  |
+| **CalendarViewStyles** | string |  |
 | **ColumnWidth** | string |  |
 | **ContentTypeId** | string |  |
 | **CustomFormatter** | string |  |
@@ -15138,6 +15157,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **UserCustomActions** | [UserCustomActionCollection](#usercustomactioncollection-class) |  |
 | **Webs** | [WebCollection](#webcollection-class) |  |
 | **WebTemplate** | string |  |
+| **WebTemplatesGalleryFirstRunEnabled** | bool |  |
 | **WelcomePage** | string |  |
 | **WorkflowAssociations** | [WorkflowAssociationCollection](#workflowassociationcollection-class) |  |
 | **WorkflowTemplates** | [WorkflowTemplateCollection](#workflowtemplatecollection-class) |  |
@@ -15232,7 +15252,6 @@ Base class: [SecurableObject](#securableobject-class)
 | **RemoveStorageEntity(string key)** | void |  |
 | **RemoveSupportedUILanguage(int lcid)** | void |  |
 | **SetAccessRequestSiteDescriptionAndUpdate(string description)** | void |  |
-| **SetChromeOptions(int headerLayout, int headerEmphasis, bool megaMenuEnabled, bool footerEnabled, int footerLayout, int footerEmphasis)** | void |  |
 | **SetStorageEntity(string key, string value, string description, string comments)** | void |  |
 | **SetUseAccessRequestDefaultAndUpdate(bool useAccessRequestDefault)** | void |  |
 | **ShareObject(ClientRuntimeContext context, string url, string peoplePickerInput, string roleValue, int groupId, bool propagateAcl, bool sendEmail, bool includeAnonymousLinkInEmail, string emailSubject, string emailBody, bool useSimplifiedRoles)** | [SharingResult](#sharingresult-class) |  |
@@ -15497,6 +15516,7 @@ Namespace: Microsoft.SharePoint.Client
 | **Url** | string |  |
 | **UseAccessRequestDefault** | string |  |
 | **WebTemplate** | string |  |
+| **WebTemplatesGalleryFirstRunEnabled** | string |  |
 | **WelcomePage** | string |  |
 # WebProxy Class
 
@@ -17597,6 +17617,28 @@ Base class: ClientObject
 | Name | Summary |
 |---|---|
 | **SiteCollectionCorporateCatalogAccessor(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+# StoreAppCreationInformation Class
+
+Namespace: Microsoft.SharePoint.Marketplace.CorporateCuratedGallery
+
+Base class: [FileCreationInformation](#filecreationinformation-class)
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **StoreAssetId** | string |  |
+| **TypeId** | string |  |
+| **Content** | byte[] |  |
+| **ContentStream** | Stream |  |
+| **Overwrite** | bool |  |
+| **Url** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # TenantCorporateCatalogAccessor Class
 
 Namespace: Microsoft.SharePoint.Marketplace.CorporateCuratedGallery

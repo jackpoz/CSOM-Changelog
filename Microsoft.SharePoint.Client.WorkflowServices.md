@@ -354,6 +354,7 @@ Base class: ClientObject
 |---|---|---|
 | **AppId** | string |  |
 | **IsConnected** | bool |  |
+| **IsRegistered** | bool |  |
 | **ScopePath** | string |  |
 | **ServiceHealthStatus** | [WorkflowServiceHealthStatus](#workflowservicehealthstatus-enum) |  |
 | **Context** | ClientRuntimeContext |  |
@@ -391,6 +392,7 @@ Namespace: Microsoft.SharePoint.Client.WorkflowServices
 |---|---|---|
 | **AppId** | string |  |
 | **IsConnected** | string |  |
+| **IsRegistered** | string |  |
 | **ScopePath** | string |  |
 | **ServiceHealthStatus** | string |  |
 # WorkflowStatus Enum

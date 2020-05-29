@@ -7,37 +7,39 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [AcronymInformation Class](#acronyminformation-class) | [SiteServicesAddins Class](#siteservicesaddins-class) | [VideoPlaybackOrigin Enum](#videoplaybackorigin-enum) |
-| [AddinPlugin Class](#addinplugin-class) | [SiteSharingEmailContext Class](#sitesharingemailcontext-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) |
-| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannel Class](#spotlightchannel-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |
-| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [VideoThumbnail Class](#videothumbnail-class) |
-| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
-| [ChannelPermission Enum](#channelpermission-enum) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
-| [CustomizableString Class](#customizablestring-class) | [SpotlightVideo Class](#spotlightvideo-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
-| [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
-| [DesignPackage Class](#designpackage-class) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
-| [DesignPackageInfo Class](#designpackageinfo-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [NavigationTerm Class](#navigationterm-class) |
-| [EnumerateOnlyVideoCollection Class](#enumerateonlyvideocollection-class) | [SubtitleCollection Class](#subtitlecollection-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
-| [ImageRendition Class](#imagerendition-class) | [SubtitleFile Class](#subtitlefile-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
-| [PageLayoutCreationInformation Class](#pagelayoutcreationinformation-class) | [SubtitleFilePropertyNames Class](#subtitlefilepropertynames-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
-| [PortalPermission Enum](#portalpermission-enum) | [TextValueWithLanguage Class](#textvaluewithlanguage-class) | [NavigationTermProviderNameCollection Class](#navigationtermprovidernamecollection-class) |
-| [PublishingPage Class](#publishingpage-class) | [TopicPageFieldsData Class](#topicpagefieldsdata-class) | [NavigationTermSet Class](#navigationtermset-class) |
-| [PublishingPageInformation Class](#publishingpageinformation-class) | [VariationLabel Class](#variationlabel-class) | [NavigationTermSetItem Class](#navigationtermsetitem-class) |
-| [PublishingSite Class](#publishingsite-class) | [VariationLabelPropertyNames Class](#variationlabelpropertynames-class) | [NavigationTermSetItemObjectPropertyNames Class](#navigationtermsetitemobjectpropertynames-class) |
-| [PublishingWeb Class](#publishingweb-class) | [Variations Class](#variations-class) | [NavigationTermSetItemPropertyNames Class](#navigationtermsetitempropertynames-class) |
-| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoChannel Class](#videochannel-class) | [NavigationTermSetPropertyNames Class](#navigationtermsetpropertynames-class) |
-| [RepostPageFieldsData Class](#repostpagefieldsdata-class) | [VideoChannelCollection Class](#videochannelcollection-class) | [NavigationTermSetView Class](#navigationtermsetview-class) |
-| [ScheduledItem Class](#scheduleditem-class) | [VideoChannelObjectPropertyNames Class](#videochannelobjectpropertynames-class) | [NavigationTermSetViewPropertyNames Class](#navigationtermsetviewpropertynames-class) |
-| [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoChannelPropertyNames Class](#videochannelpropertynames-class) | [PortalNavigationCacheState Enum](#portalnavigationcachestate-enum) |
-| [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoCollection Class](#videocollection-class) | [StandardNavigationSettings Class](#standardnavigationsettings-class) |
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoItem Class](#videoitem-class) | [StandardNavigationSettingsPropertyNames Class](#standardnavigationsettingspropertynames-class) |
-| [Search Class](#search-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [StandardNavigationSource Enum](#standardnavigationsource-enum) |
-| [SearchPropertyNames Class](#searchpropertynames-class) | [VideoItemPropertyNames Class](#videoitempropertynames-class) | [TaxonomyNavigation Class](#taxonomynavigation-class) |
-| [SharePagePreviewByEmailFieldsData Class](#sharepagepreviewbyemailfieldsdata-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) | [WebNavigationSettings Class](#webnavigationsettings-class) |
-| [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) | [WebNavigationSettingsObjectPropertyNames Class](#webnavigationsettingsobjectpropertynames-class) |
-| [SitePage3DFieldsData Class](#sitepage3dfieldsdata-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) | [WebNavigationSettingsPropertyNames Class](#webnavigationsettingspropertynames-class) |
-| [SitePageFieldsData Class](#sitepagefieldsdata-class) | [VideoPlaybackMetadata Class](#videoplaybackmetadata-class) |   |
-| [SitePageVersionInfo Class](#sitepageversioninfo-class) | [VideoPlaybackMetadataPropertyNames Class](#videoplaybackmetadatapropertynames-class) |   |
+| [AcronymInformation Class](#acronyminformation-class) | [SpotlightChannel Class](#spotlightchannel-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
+| [AddinPlugin Class](#addinplugin-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
+| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
+| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
+| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightVideo Class](#spotlightvideo-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
+| [ChannelPermission Enum](#channelpermission-enum) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [NavigationTerm Class](#navigationterm-class) |
+| [CustomizableString Class](#customizablestring-class) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
+| [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
+| [DesignPackage Class](#designpackage-class) | [SubtitleCollection Class](#subtitlecollection-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
+| [DesignPackageInfo Class](#designpackageinfo-class) | [SubtitleFile Class](#subtitlefile-class) | [NavigationTermProviderNameCollection Class](#navigationtermprovidernamecollection-class) |
+| [EnumerateOnlyVideoCollection Class](#enumerateonlyvideocollection-class) | [SubtitleFilePropertyNames Class](#subtitlefilepropertynames-class) | [NavigationTermSet Class](#navigationtermset-class) |
+| [ImageRendition Class](#imagerendition-class) | [TextValueWithLanguage Class](#textvaluewithlanguage-class) | [NavigationTermSetItem Class](#navigationtermsetitem-class) |
+| [PageLayoutCreationInformation Class](#pagelayoutcreationinformation-class) | [TopicPageFieldsData Class](#topicpagefieldsdata-class) | [NavigationTermSetItemObjectPropertyNames Class](#navigationtermsetitemobjectpropertynames-class) |
+| [PortalPermission Enum](#portalpermission-enum) | [VariationLabel Class](#variationlabel-class) | [NavigationTermSetItemPropertyNames Class](#navigationtermsetitempropertynames-class) |
+| [PublishingPage Class](#publishingpage-class) | [VariationLabelPropertyNames Class](#variationlabelpropertynames-class) | [NavigationTermSetPropertyNames Class](#navigationtermsetpropertynames-class) |
+| [PublishingPageInformation Class](#publishingpageinformation-class) | [Variations Class](#variations-class) | [NavigationTermSetView Class](#navigationtermsetview-class) |
+| [PublishingSite Class](#publishingsite-class) | [VideoChannel Class](#videochannel-class) | [NavigationTermSetViewPropertyNames Class](#navigationtermsetviewpropertynames-class) |
+| [PublishingWeb Class](#publishingweb-class) | [VideoChannelCollection Class](#videochannelcollection-class) | [PortalNavigationCacheState Enum](#portalnavigationcachestate-enum) |
+| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoChannelObjectPropertyNames Class](#videochannelobjectpropertynames-class) | [StandardNavigationSettings Class](#standardnavigationsettings-class) |
+| [RepostPageFieldsData Class](#repostpagefieldsdata-class) | [VideoChannelPropertyNames Class](#videochannelpropertynames-class) | [StandardNavigationSettingsPropertyNames Class](#standardnavigationsettingspropertynames-class) |
+| [ScheduledItem Class](#scheduleditem-class) | [VideoCollection Class](#videocollection-class) | [StandardNavigationSource Enum](#standardnavigationsource-enum) |
+| [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoItem Class](#videoitem-class) | [TaxonomyNavigation Class](#taxonomynavigation-class) |
+| [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [WebNavigationSettings Class](#webnavigationsettings-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoItemPropertyNames Class](#videoitempropertynames-class) | [WebNavigationSettingsObjectPropertyNames Class](#webnavigationsettingsobjectpropertynames-class) |
+| [Search Class](#search-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) | [WebNavigationSettingsPropertyNames Class](#webnavigationsettingspropertynames-class) |
+| [SearchPropertyNames Class](#searchpropertynames-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) | [PortalLaunchRedirectionType Enum](#portallaunchredirectiontype-enum) |
+| [SharePagePreviewByEmailFieldsData Class](#sharepagepreviewbyemailfieldsdata-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) | [PortalLaunchSetupWrapper Class](#portallaunchsetupwrapper-class) |
+| [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoPlaybackMetadata Class](#videoplaybackmetadata-class) | [PortalLaunchStatus Enum](#portallaunchstatus-enum) |
+| [SitePage3DFieldsData Class](#sitepage3dfieldsdata-class) | [VideoPlaybackMetadataPropertyNames Class](#videoplaybackmetadatapropertynames-class) | [PortalLaunchUsersSizeType Enum](#portallaunchuserssizetype-enum) |
+| [SitePageFieldsData Class](#sitepagefieldsdata-class) | [VideoPlaybackOrigin Enum](#videoplaybackorigin-enum) | [PortalLaunchWave Class](#portallaunchwave-class) |
+| [SitePageVersionInfo Class](#sitepageversioninfo-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) | [PortalLaunchWaveGroup Class](#portallaunchwavegroup-class) |
+| [SiteServicesAddins Class](#siteservicesaddins-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) | [PortalLaunchWaveSetup Class](#portallaunchwavesetup-class) |
+| [SiteSharingEmailContext Class](#sitesharingemailcontext-class) | [VideoThumbnail Class](#videothumbnail-class) |   |
 # AcronymInformation Class
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -2084,6 +2086,7 @@ Base class: ClientObject
 |---|---|---|
 | **AddNewPagesToNavigation** | bool |  |
 | **CachedHierarchyDepth** | int |  |
+| **CacheSchemaVersion** | int |  |
 | **CachingRetryAttemptLeft** | int |  |
 | **CachingState** | [PortalNavigationCacheState](#portalnavigationcachestate-enum) |  |
 | **CreateFriendlyUrlsForNewPages** | bool |  |
@@ -2133,7 +2136,138 @@ Namespace: Microsoft.SharePoint.Client.Publishing.Navigation
 |---|---|---|
 | **AddNewPagesToNavigation** | string |  |
 | **CachedHierarchyDepth** | string |  |
+| **CacheSchemaVersion** | string |  |
 | **CachingRetryAttemptLeft** | string |  |
 | **CachingState** | string |  |
 | **CreateFriendlyUrlsForNewPages** | string |  |
 | **LastCachingRefreshAttempted** | string |  |
+# PortalLaunchRedirectionType Enum
+
+Namespace: Microsoft.SharePoint.Client.Publishing.PortalLaunch
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Bidirectional** |  |
+| **ToTemporaryPage** |  |
+| **SiteBased** |  |
+# PortalLaunchSetupWrapper Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing.PortalLaunch
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **SPPortalLaunchWaveSetups** | IDictionary\<string, [PortalLaunchWaveSetup](#portallaunchwavesetup-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# PortalLaunchStatus Enum
+
+Namespace: Microsoft.SharePoint.Client.Publishing.PortalLaunch
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Created** |  |
+| **Started** |  |
+| **Paused** |  |
+| **Canceled** |  |
+| **Completed** |  |
+| **Deleted** |  |
+# PortalLaunchUsersSizeType Enum
+
+Namespace: Microsoft.SharePoint.Client.Publishing.PortalLaunch
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **LessThan10kUsers** |  |
+| **From10kTo30kUsers** |  |
+| **From30kTo100KUsers** |  |
+| **MoreThan100kUsers** |  |
+# PortalLaunchWave Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing.PortalLaunch
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Groups** | IList\<[PortalLaunchWaveGroup](#portallaunchwavegroup-class)\> |  |
+| **LaunchDateUtc** | DateTime |  |
+| **Name** | string |  |
+| **Order** | int |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# PortalLaunchWaveGroup Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing.PortalLaunch
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Id** | Guid |  |
+| **SiteUrl** | string |  |
+| **UserGroupName** | string |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# PortalLaunchWaveSetup Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing.PortalLaunch
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **AlternativeUrlsOfNewSite** | string |  |
+| **AlternativeUrlsOfOldSite** | string |  |
+| **CreatedOn** | DateTime |  |
+| **ExpectedUsersSize** | [PortalLaunchUsersSizeType](#portallaunchuserssizetype-enum) |  |
+| **IsPaused** | bool |  |
+| **ModifiedOn** | DateTime |  |
+| **NewSiteUrl** | string |  |
+| **PauseAtWave** | int |  |
+| **RedirectionType** | [PortalLaunchRedirectionType](#portallaunchredirectiontype-enum) |  |
+| **RedirectUrl** | string |  |
+| **SiteId** | Guid |  |
+| **Status** | [PortalLaunchStatus](#portallaunchstatus-enum) |  |
+| **TriggerUrls** | IDictionary\<string, string\> |  |
+| **Waves** | IList\<[PortalLaunchWave](#portallaunchwave-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
