@@ -1811,7 +1811,9 @@ Base class: [TaskLink](#tasklink-class)
 | **DependencyType** | [DependencyType](#dependencytype-enum) |  |
 | **End** | [DraftTask](#drafttask-class) |  |
 | **LinkLagDuration** | string |  |
+| **PredecessorTaskId** | Guid |  |
 | **Start** | [DraftTask](#drafttask-class) |  |
+| **SuccessorTaskId** | Guid |  |
 | **Id** | Guid |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
@@ -1894,6 +1896,8 @@ Namespace: Microsoft.ProjectServer.Client
 |---|---|---|
 | **DependencyType** | string |  |
 | **LinkLagDuration** | string |  |
+| **PredecessorTaskId** | string |  |
+| **SuccessorTaskId** | string |  |
 # DraftTaskObjectPropertyNames Class
 
 Namespace: Microsoft.ProjectServer.Client
@@ -4283,7 +4287,6 @@ Base class: ClientContext
 | **Web** | Web |  |
 | **Site** | Site |  |
 | **RequestResources** | RequestResources |  |
-| **FormDigestHandlingEnabled** | bool |  |
 | **ServerVersion** | Version |  |
 | **NextSequenceId** | long |  |
 | **ServiceRelativeUrl** | string |  |
@@ -4292,8 +4295,6 @@ Base class: ClientContext
 | **ClientTag** | string |  |
 | **DisableReturnValueCache** | bool |  |
 | **ValidateOnClient** | bool |  |
-| **AuthenticationMode** | ClientAuthenticationMode |  |
-| **FormsAuthenticationLoginInfo** | FormsAuthenticationLoginInfo |  |
 | **Credentials** | ICredentials |  |
 | **WebRequestExecutorFactory** | WebRequestExecutorFactory |  |
 | **PendingRequest** | ClientRequest |  |
@@ -6041,8 +6042,10 @@ Base class: [TaskLink](#tasklink-class)
 | **LinkLag** | int |  |
 | **LinkLagDuration** | string |  |
 | **LinkLagFmt** | short |  |
+| **PredecessorTaskId** | Guid |  |
 | **ProjUid** | Guid |  |
 | **Start** | [PublishedTask](#publishedtask-class) |  |
+| **SuccessorTaskId** | Guid |  |
 | **Id** | Guid |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
@@ -6120,7 +6123,9 @@ Namespace: Microsoft.ProjectServer.Client
 | **LinkLag** | string |  |
 | **LinkLagDuration** | string |  |
 | **LinkLagFmt** | string |  |
+| **PredecessorTaskId** | string |  |
 | **ProjUid** | string |  |
+| **SuccessorTaskId** | string |  |
 # PublishedTaskObjectPropertyNames Class
 
 Namespace: Microsoft.ProjectServer.Client

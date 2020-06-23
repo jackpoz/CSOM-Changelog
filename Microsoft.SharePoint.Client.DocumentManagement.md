@@ -7,12 +7,14 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [MetadataDefaults Class](#metadatadefaults-class) | [DocumentSet Class](#documentset-class) | [ConfiguredMetadataNavigationItemCollection Class](#configuredmetadatanavigationitemcollection-class) |
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [DocumentSetTemplate Class](#documentsettemplate-class) | [MetadataNavigationSettings Class](#metadatanavigationsettings-class) |
-| [AllowedContentTypeCollection Class](#allowedcontenttypecollection-class) | [DocumentSetTemplateObjectPropertyNames Class](#documentsettemplateobjectpropertynames-class) | [EmbedCodeConfiguration Class](#embedcodeconfiguration-class) |
-| [DefaultDocument Class](#defaultdocument-class) | [SharedFieldCollection Class](#sharedfieldcollection-class) | [VideoSet Class](#videoset-class) |
-| [DefaultDocumentCollection Class](#defaultdocumentcollection-class) | [WelcomePageFieldCollection Class](#welcomepagefieldcollection-class) |   |
-| [DefaultDocumentPropertyNames Class](#defaultdocumentpropertynames-class) | [ConfiguredMetadataNavigationItem Class](#configuredmetadatanavigationitem-class) |   |
+| [MetadataDefaults Class](#metadatadefaults-class) | [DocumentSetTemplate Class](#documentsettemplate-class) | [SharedFieldCollection Class](#sharedfieldcollection-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [DocumentSetTemplateObjectPropertyNames Class](#documentsettemplateobjectpropertynames-class) | [WelcomePageFieldCollection Class](#welcomepagefieldcollection-class) |
+| [AllowedContentTypeCollection Class](#allowedcontenttypecollection-class) | [DocumentSetVersion Class](#documentsetversion-class) | [ConfiguredMetadataNavigationItem Class](#configuredmetadatanavigationitem-class) |
+| [DefaultDocument Class](#defaultdocument-class) | [DocumentSetVersionCollection Class](#documentsetversioncollection-class) | [ConfiguredMetadataNavigationItemCollection Class](#configuredmetadatanavigationitemcollection-class) |
+| [DefaultDocumentCollection Class](#defaultdocumentcollection-class) | [DocumentSetVersionField Class](#documentsetversionfield-class) | [MetadataNavigationSettings Class](#metadatanavigationsettings-class) |
+| [DefaultDocumentPropertyNames Class](#defaultdocumentpropertynames-class) | [DocumentSetVersionItem Class](#documentsetversionitem-class) | [EmbedCodeConfiguration Class](#embedcodeconfiguration-class) |
+| [DocumentSet Class](#documentset-class) | [DocumentSetVersionObjectPropertyNames Class](#documentsetversionobjectpropertynames-class) | [VideoSet Class](#videoset-class) |
+| [DocumentSetObjectPropertyNames Class](#documentsetobjectpropertynames-class) | [DocumentSetVersionPropertyNames Class](#documentsetversionpropertynames-class) |   |
 # MetadataDefaults Class
 
 Namespace: Microsoft.SharePoint.Client.DocumentManagement
@@ -183,6 +185,7 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **VersionCollection** | [DocumentSetVersionCollection](#documentsetversioncollection-class) |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -205,6 +208,16 @@ Base class: ClientObject
 | **ExportDocumentSet()** | ClientResult\<Stream\> |  |
 | **GetDocumentSet(ClientRuntimeContext context, Folder folder)** | [DocumentSet](#documentset-class) |  |
 | **ImportDocumentSet(ClientRuntimeContext context, Stream archiveStream, string archiveName, Folder parentFolder, ContentTypeId docsetContentTypeId)** | [DocumentSet](#documentset-class) |  |
+# DocumentSetObjectPropertyNames Class
+
+Namespace: Microsoft.SharePoint.Client.DocumentSet
+
+
+## Fields
+
+| Name | Type | Summary |
+|---|---|---|
+| **VersionCollection** | string |  |
 # DocumentSetTemplate Class
 
 Namespace: Microsoft.SharePoint.Client.DocumentSet
@@ -255,6 +268,146 @@ Namespace: Microsoft.SharePoint.Client.DocumentSet
 | **DefaultDocuments** | string |  |
 | **SharedFields** | string |  |
 | **WelcomePageFields** | string |  |
+# DocumentSetVersion Class
+
+Namespace: Microsoft.SharePoint.Client.DocumentSet
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Comments** | string |  |
+| **Created** | DateTime |  |
+| **CreatedBy** | string |  |
+| **ParentCollection** | [DocumentSetVersionCollection](#documentsetversioncollection-class) |  |
+| **VersionLabel** | string |  |
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **DocumentSetVersion(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **GetDisplayContents()** | IList\<[DocumentSetVersionItem](#documentsetversionitem-class)\> |  |
+| **GetDisplayFields()** | IList\<[DocumentSetVersionField](#documentsetversionfield-class)\> |  |
+# DocumentSetVersionCollection Class
+
+Namespace: Microsoft.SharePoint.Client.DocumentSet
+
+Base class: ClientObjectCollection<[DocumentSetVersion](#documentsetversion-class)>
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Item** | [DocumentSetVersion](#documentsetversion-class) |  |
+| **ElementType** | Type |  |
+| **Expression** | Expression |  |
+| **Provider** | IQueryProvider |  |
+| **AreItemsAvailable** | bool |  |
+| **Count** | int |  |
+| **Data** | List\<Object\> |  |
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **DocumentSetVersionCollection(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **Add(bool isLastMajor, string comments)** | void |  |
+# DocumentSetVersionField Class
+
+Namespace: Microsoft.SharePoint.Client.DocumentSet
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **FormattedValue** | string |  |
+| **Id** | Guid |  |
+| **IsFieldFound** | bool |  |
+| **Title** | string |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# DocumentSetVersionItem Class
+
+Namespace: Microsoft.SharePoint.Client.DocumentSet
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **InternalId** | int |  |
+| **IsItemFound** | bool |  |
+| **ItemUrl** | string |  |
+| **LinkToDocumentUrl** | string |  |
+| **Title** | string |  |
+| **VersionLabel** | string |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# DocumentSetVersionObjectPropertyNames Class
+
+Namespace: Microsoft.SharePoint.Client.DocumentSet
+
+
+## Fields
+
+| Name | Type | Summary |
+|---|---|---|
+| **ParentCollection** | string |  |
+# DocumentSetVersionPropertyNames Class
+
+Namespace: Microsoft.SharePoint.Client.DocumentSet
+
+
+## Fields
+
+| Name | Type | Summary |
+|---|---|---|
+| **Comments** | string |  |
+| **Created** | string |  |
+| **CreatedBy** | string |  |
+| **VersionLabel** | string |  |
 # SharedFieldCollection Class
 
 Namespace: Microsoft.SharePoint.Client.DocumentSet
@@ -443,6 +596,7 @@ Base class: [DocumentSet](#documentset-class)
 
 | Name | Type | Summary |
 |---|---|---|
+| **VersionCollection** | [DocumentSetVersionCollection](#documentsetversioncollection-class) |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |

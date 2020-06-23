@@ -7,65 +7,53 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [AttachmentStreamFromServer Class](#attachmentstreamfromserver-class) | [EnumerableClientObjectCollection\<T\> Class](#enumerableclientobjectcollectiont-class) | [SubtreeEvaluator Class](#subtreeevaluator-class) |
-| [ChunkStreamBuilder Class](#chunkstreambuilder-class) | [ExceptionHandlingExecutionScope Class](#exceptionhandlingexecutionscope-class) | [TextPeekReader Class](#textpeekreader-class) |
-| [ChunkStringBuilder Class](#chunkstringbuilder-class) | [ExceptionHandlingScope Class](#exceptionhandlingscope-class) | [Token Class](#token-class) |
-| [ChunkStringReader Class](#chunkstringreader-class) | [ExecuteQueryMimeInfo Class](#executequerymimeinfo-class) | [UTF8ReadonlyStream Class](#utf8readonlystream-class) |
-| [ChunkStringWriter Class](#chunkstringwriter-class) | [ExecutionScope Class](#executionscope-class) | [WebRequestEventArgs Class](#webrequesteventargs-class) |
-| [ClientAction Class](#clientaction-class) | [ExecutionScopeDisposingCallback Class](#executionscopedisposingcallback-class) | [WebRequestExecutor Class](#webrequestexecutor-class) |
-| [ClientActionExecutionScopeEnd Class](#clientactionexecutionscopeend-class) | [ExpressionEvaluator Class](#expressionevaluator-class) | [WebRequestExecutorFactory Class](#webrequestexecutorfactory-class) |
-| [ClientActionExecutionScopeStart Class](#clientactionexecutionscopestart-class) | [ExpressionUtility Class](#expressionutility-class) | [WriteValueHandler Class](#writevaluehandler-class) |
-| [ClientActionInstantiateObjectPath Class](#clientactioninstantiateobjectpath-class) | [ExpressionVisitor Class](#expressionvisitor-class) | [Authentication Class](#authentication-class) |
-| [ClientActionInstantiateObjectPathResult Class](#clientactioninstantiateobjectpathresult-class) | [FormsAuthenticationLoginInfo Class](#formsauthenticationlogininfo-class) | [AuthenticationMode Enum](#authenticationmode-enum) |
-| [ClientActionInvokeMethod Class](#clientactioninvokemethod-class) | [IdcrlException Class](#idcrlexception-class) | [LoginCompletedEventArgs Class](#logincompletedeventargs-class) |
-| [ClientActionInvokeStaticMethod Class](#clientactioninvokestaticmethod-class) | [IFromJson Class](#ifromjson-class) | [LoginCompletedEventHandler Class](#logincompletedeventhandler-class) |
-| [ClientActionSetProperty Class](#clientactionsetproperty-class) | [InvalidQueryExpressionException Class](#invalidqueryexpressionexception-class) | [LoginErrorCode Enum](#loginerrorcode-enum) |
-| [ClientActionSetStaticProperty Class](#clientactionsetstaticproperty-class) | [IScriptTypeFactory Class](#iscripttypefactory-class) | [LoginResult Class](#loginresult-class) |
-| [ClientArrayResult\<T\> Class](#clientarrayresultt-class) | [ISharePointOnlineAuthenticationProvider Class](#isharepointonlineauthenticationprovider-class) | [ModeCompletedEventArgs Class](#modecompletedeventargs-class) |
-| [ClientAuthenticationMode Enum](#clientauthenticationmode-enum) | [JsonReader Class](#jsonreader-class) | [ModeCompletedEventHandler Class](#modecompletedeventhandler-class) |
-| [ClientConstants Class](#clientconstants-class) | [JsonReaderOptions Enum](#jsonreaderoptions-enum) | [FederationProviderInfo Class](#federationproviderinfo-class) |
-| [ClientDictionaryResultHandler\<T\> Class](#clientdictionaryresulthandlert-class) | [JsonTokenType Enum](#jsontokentype-enum) | [FederationProviderInfoCache Class](#federationproviderinfocache-class) |
-| [ClientErrorCodes Class](#clienterrorcodes-class) | [Nominator Class](#nominator-class) | [FederationProviderInfoCacheEntry Class](#federationproviderinfocacheentry-class) |
-| [ClientListResultHandler\<T\> Class](#clientlistresulthandlert-class) | [NotSupportedExpressionChecker Class](#notsupportedexpressionchecker-class) | [IdcrlAuth Class](#idcrlauth-class) |
-| [ClientObject Class](#clientobject-class) | [ObjectIdentityQuery Class](#objectidentityquery-class) | [IdcrlConstants Class](#idcrlconstants-class) |
-| [ClientObjectCollection Class](#clientobjectcollection-class) | [ObjectPath Class](#objectpath-class) | [IdcrlEnvironment Enum](#idcrlenvironment-enum) |
-| [ClientObjectCollection\<T\> Class](#clientobjectcollectiont-class) | [ObjectPathConstructor Class](#objectpathconstructor-class) | [IdcrlErrorCodes Class](#idcrlerrorcodes-class) |
-| [ClientObjectCollectionPrototype\<ItemType\> Class](#clientobjectcollectionprototypeitemtype-class) | [ObjectPathIdentity Class](#objectpathidentity-class) | [IdcrlHeader Class](#idcrlheader-class) |
-| [ClientObjectData Class](#clientobjectdata-class) | [ObjectPathMethod Class](#objectpathmethod-class) | [IdcrlMessageConstants Class](#idcrlmessageconstants-class) |
-| [ClientObjectList\<T\> Class](#clientobjectlistt-class) | [ObjectPathProperty Class](#objectpathproperty-class) | [IdcrlUtility Class](#idcrlutility-class) |
-| [ClientObjectPrototype Class](#clientobjectprototype-class) | [ObjectPathStaticMethod Class](#objectpathstaticmethod-class) | [SharePointOnlineAuthenticationProvider Class](#sharepointonlineauthenticationprovider-class) |
-| [ClientObjectPrototype\<T\> Class](#clientobjectprototypet-class) | [ObjectPathStaticProperty Class](#objectpathstaticproperty-class) | [STSSoapFaultCodes Class](#stssoapfaultcodes-class) |
-| [ClientObjectQueryableExtension Class](#clientobjectqueryableextension-class) | [OfficeVersion Class](#officeversion-class) | [UserRealmInfo Class](#userrealminfo-class) |
-| [ClientQueryable\<T\> Class](#clientqueryablet-class) | [PropertyOrFieldNotInitializedException Class](#propertyorfieldnotinitializedexception-class) | [BufferedReadStream Class](#bufferedreadstream-class) |
-| [ClientQueryableResult\<T\> Class](#clientqueryableresultt-class) | [PseudoRemoteAttribute Class](#pseudoremoteattribute-class) | [BufferedWrite Class](#bufferedwrite-class) |
-| [ClientQueryInternal Class](#clientqueryinternal-class) | [QueryMethodAggregator Class](#querymethodaggregator-class) | [Constants Class](#constants-class) |
-| [ClientQueryProperty Class](#clientqueryproperty-class) | [QueryProcessInfo Class](#queryprocessinfo-class) | [ContentIDHeader Class](#contentidheader-class) |
-| [ClientQueryProvider Class](#clientqueryprovider-class) | [ReadObjectHandler Class](#readobjecthandler-class) | [ContentLengthHeader Class](#contentlengthheader-class) |
-| [ClientRequest Class](#clientrequest-class) | [ReadObjectHandlers Class](#readobjecthandlers-class) | [ContentTransferEncoding Enum](#contenttransferencoding-enum) |
-| [ClientRequestException Class](#clientrequestexception-class) | [ReadonlyChunkStream Class](#readonlychunkstream-class) | [ContentTransferEncodingHeader Class](#contenttransferencodingheader-class) |
-| [ClientRequestStatus Enum](#clientrequeststatus-enum) | [ReadonlyWrapStream Class](#readonlywrapstream-class) | [ContentTypeHeader Class](#contenttypeheader-class) |
-| [ClientRequestWrapper Class](#clientrequestwrapper-class) | [RemoteAttribute Class](#remoteattribute-class) | [DelimittedReadStream Class](#delimittedreadstream-class) |
-| [ClientResult\<T\> Class](#clientresultt-class) | [ReplaceQueryableCollectionWithEnumerableCollectionExpressionVisitor Class](#replacequeryablecollectionwithenumerablecollectionexpressionvisitor-class) | [DelimittedStreamReader Class](#delimittedstreamreader-class) |
-| [ClientRuntimeConfigurationSection Class](#clientruntimeconfigurationsection-class) | [Resources Class](#resources-class) | [DiagnosticUtility Class](#diagnosticutility-class) |
-| [ClientRuntimeContext Class](#clientruntimecontext-class) | [ResourceStrings Class](#resourcestrings-class) | [ExceptionUtility Class](#exceptionutility-class) |
-| [ClientSchemaVersions Class](#clientschemaversions-class) | [Scope Class](#scope-class) | [MailBnfHelper Class](#mailbnfhelper-class) |
-| [ClientTraceCategory Enum](#clienttracecategory-enum) | [ScopeType Enum](#scopetype-enum) | [MatchState Enum](#matchstate-enum) |
-| [ClientTraceLevel Enum](#clienttracelevel-enum) | [ScriptTypeAttribute Class](#scripttypeattribute-class) | [MergedStream Class](#mergedstream-class) |
-| [ClientTypeAssemblyAttribute Class](#clienttypeassemblyattribute-class) | [ScriptTypeInfo Class](#scripttypeinfo-class) | [MimeGlobals Class](#mimeglobals-class) |
-| [ClientULS Class](#clientuls-class) | [ScriptTypeMap Class](#scripttypemap-class) | [MimeHeader Class](#mimeheader-class) |
-| [ClientUtility Class](#clientutility-class) | [SerializationContext Class](#serializationcontext-class) | [MimeHeaderReader Class](#mimeheaderreader-class) |
-| [ClientValueObject Class](#clientvalueobject-class) | [ServerException Class](#serverexception-class) | [MimeHeaders Class](#mimeheaders-class) |
-| [ClientValueObjectCollection\<T\> Class](#clientvalueobjectcollectiont-class) | [ServerInfo Class](#serverinfo-class) | [MimeMergedStream Class](#mimemergedstream-class) |
-| [CollectionNotInitializedException Class](#collectionnotinitializedexception-class) | [ServerObjectNullReferenceException Class](#serverobjectnullreferenceexception-class) | [MimeMessageReader Class](#mimemessagereader-class) |
-| [ConditionalExecutionScope Class](#conditionalexecutionscope-class) | [ServerUnauthorizedAccessException Class](#serverunauthorizedaccessexception-class) | [MimePart Class](#mimepart-class) |
-| [ConditionalExpressionToXmlConverter Class](#conditionalexpressiontoxmlconverter-class) | [SharePointOnlineAuthenticationModule Class](#sharepointonlineauthenticationmodule-class) | [MimeReader Class](#mimereader-class) |
-| [ConditionalScope Class](#conditionalscope-class) | [SharePointOnlineAuthenticationProviderHelper Class](#sharepointonlineauthenticationproviderhelper-class) | [MimeUtility Class](#mimeutility-class) |
-| [ConditionalScopeBase Class](#conditionalscopebase-class) | [SharePointOnlineCredentials Class](#sharepointonlinecredentials-class) | [MimeVersionHeader Class](#mimeversionheader-class) |
-| [CookieCacheEntry Class](#cookiecacheentry-class) | [SharePointOnlineCredentialsWebRequestEventArgs Class](#sharepointonlinecredentialswebrequesteventargs-class) | [MimeWriter Class](#mimewriter-class) |
-| [CookieInfo Class](#cookieinfo-class) | [SimpleDataTable Class](#simpledatatable-class) | [MimeWriterState Enum](#mimewriterstate-enum) |
-| [DataConvert Class](#dataconvert-class) | [SPResourceManager Class](#spresourcemanager-class) | [MtomGlobals Class](#mtomglobals-class) |
-| [DataRetrieval Class](#dataretrieval-class) | [SPWebRequestExecutor Class](#spwebrequestexecutor-class) | [ReadState Enum](#readstate-enum) |
-| [DefaultWebRequestExecutorFactory Class](#defaultwebrequestexecutorfactory-class) | [StreamInfo Class](#streaminfo-class) | [SR Class](#sr-class) |
+| [AttachmentStreamFromServer Class](#attachmentstreamfromserver-class) | [ConditionalScope Class](#conditionalscope-class) | [ScriptTypeMap Class](#scripttypemap-class) |
+| [ChunkStreamBuilder Class](#chunkstreambuilder-class) | [ConditionalScopeBase Class](#conditionalscopebase-class) | [SerializationContext Class](#serializationcontext-class) |
+| [ChunkStringBuilder Class](#chunkstringbuilder-class) | [DataConvert Class](#dataconvert-class) | [ServerException Class](#serverexception-class) |
+| [ChunkStringReader Class](#chunkstringreader-class) | [DataRetrieval Class](#dataretrieval-class) | [ServerObjectNullReferenceException Class](#serverobjectnullreferenceexception-class) |
+| [ChunkStringWriter Class](#chunkstringwriter-class) | [DefaultWebRequestExecutorFactory Class](#defaultwebrequestexecutorfactory-class) | [ServerUnauthorizedAccessException Class](#serverunauthorizedaccessexception-class) |
+| [ClientAction Class](#clientaction-class) | [EnumerableClientObjectCollection\<T\> Class](#enumerableclientobjectcollectiont-class) | [SimpleDataTable Class](#simpledatatable-class) |
+| [ClientActionExecutionScopeEnd Class](#clientactionexecutionscopeend-class) | [ExceptionHandlingExecutionScope Class](#exceptionhandlingexecutionscope-class) | [SPResourceManager Class](#spresourcemanager-class) |
+| [ClientActionExecutionScopeStart Class](#clientactionexecutionscopestart-class) | [ExceptionHandlingScope Class](#exceptionhandlingscope-class) | [SPWebRequestExecutor Class](#spwebrequestexecutor-class) |
+| [ClientActionInstantiateObjectPath Class](#clientactioninstantiateobjectpath-class) | [ExecuteQueryMimeInfo Class](#executequerymimeinfo-class) | [StreamInfo Class](#streaminfo-class) |
+| [ClientActionInstantiateObjectPathResult Class](#clientactioninstantiateobjectpathresult-class) | [ExecutionScope Class](#executionscope-class) | [SubtreeEvaluator Class](#subtreeevaluator-class) |
+| [ClientActionInvokeMethod Class](#clientactioninvokemethod-class) | [ExecutionScopeDisposingCallback Class](#executionscopedisposingcallback-class) | [TextPeekReader Class](#textpeekreader-class) |
+| [ClientActionInvokeStaticMethod Class](#clientactioninvokestaticmethod-class) | [ExpressionEvaluator Class](#expressionevaluator-class) | [Token Class](#token-class) |
+| [ClientActionSetProperty Class](#clientactionsetproperty-class) | [ExpressionUtility Class](#expressionutility-class) | [UTF8ReadonlyStream Class](#utf8readonlystream-class) |
+| [ClientActionSetStaticProperty Class](#clientactionsetstaticproperty-class) | [ExpressionVisitor Class](#expressionvisitor-class) | [WebRequestEventArgs Class](#webrequesteventargs-class) |
+| [ClientArrayResult\<T\> Class](#clientarrayresultt-class) | [IFromJson Class](#ifromjson-class) | [WebRequestExecutor Class](#webrequestexecutor-class) |
+| [ClientConstants Class](#clientconstants-class) | [InvalidQueryExpressionException Class](#invalidqueryexpressionexception-class) | [WebRequestExecutorFactory Class](#webrequestexecutorfactory-class) |
+| [ClientDictionaryResultHandler\<T\> Class](#clientdictionaryresulthandlert-class) | [IScriptTypeFactory Class](#iscripttypefactory-class) | [WriteValueHandler Class](#writevaluehandler-class) |
+| [ClientErrorCodes Class](#clienterrorcodes-class) | [JsonReader Class](#jsonreader-class) | [BufferedReadStream Class](#bufferedreadstream-class) |
+| [ClientListResultHandler\<T\> Class](#clientlistresulthandlert-class) | [JsonReaderOptions Enum](#jsonreaderoptions-enum) | [BufferedWrite Class](#bufferedwrite-class) |
+| [ClientObject Class](#clientobject-class) | [JsonTokenType Enum](#jsontokentype-enum) | [Constants Class](#constants-class) |
+| [ClientObjectCollection Class](#clientobjectcollection-class) | [Nominator Class](#nominator-class) | [ContentIDHeader Class](#contentidheader-class) |
+| [ClientObjectCollection\<T\> Class](#clientobjectcollectiont-class) | [NotSupportedExpressionChecker Class](#notsupportedexpressionchecker-class) | [ContentLengthHeader Class](#contentlengthheader-class) |
+| [ClientObjectCollectionPrototype\<ItemType\> Class](#clientobjectcollectionprototypeitemtype-class) | [ObjectIdentityQuery Class](#objectidentityquery-class) | [ContentTransferEncoding Enum](#contenttransferencoding-enum) |
+| [ClientObjectData Class](#clientobjectdata-class) | [ObjectPath Class](#objectpath-class) | [ContentTransferEncodingHeader Class](#contenttransferencodingheader-class) |
+| [ClientObjectList\<T\> Class](#clientobjectlistt-class) | [ObjectPathConstructor Class](#objectpathconstructor-class) | [ContentTypeHeader Class](#contenttypeheader-class) |
+| [ClientObjectPrototype Class](#clientobjectprototype-class) | [ObjectPathIdentity Class](#objectpathidentity-class) | [DelimittedReadStream Class](#delimittedreadstream-class) |
+| [ClientObjectPrototype\<T\> Class](#clientobjectprototypet-class) | [ObjectPathMethod Class](#objectpathmethod-class) | [DelimittedStreamReader Class](#delimittedstreamreader-class) |
+| [ClientObjectQueryableExtension Class](#clientobjectqueryableextension-class) | [ObjectPathProperty Class](#objectpathproperty-class) | [DiagnosticUtility Class](#diagnosticutility-class) |
+| [ClientQueryable\<T\> Class](#clientqueryablet-class) | [ObjectPathStaticMethod Class](#objectpathstaticmethod-class) | [ExceptionUtility Class](#exceptionutility-class) |
+| [ClientQueryableResult\<T\> Class](#clientqueryableresultt-class) | [ObjectPathStaticProperty Class](#objectpathstaticproperty-class) | [MailBnfHelper Class](#mailbnfhelper-class) |
+| [ClientQueryInternal Class](#clientqueryinternal-class) | [OfficeVersion Class](#officeversion-class) | [MatchState Enum](#matchstate-enum) |
+| [ClientQueryProperty Class](#clientqueryproperty-class) | [PropertyOrFieldNotInitializedException Class](#propertyorfieldnotinitializedexception-class) | [MergedStream Class](#mergedstream-class) |
+| [ClientQueryProvider Class](#clientqueryprovider-class) | [PseudoRemoteAttribute Class](#pseudoremoteattribute-class) | [MimeGlobals Class](#mimeglobals-class) |
+| [ClientRequest Class](#clientrequest-class) | [QueryMethodAggregator Class](#querymethodaggregator-class) | [MimeHeader Class](#mimeheader-class) |
+| [ClientRequestException Class](#clientrequestexception-class) | [QueryProcessInfo Class](#queryprocessinfo-class) | [MimeHeaderReader Class](#mimeheaderreader-class) |
+| [ClientRequestStatus Enum](#clientrequeststatus-enum) | [ReadObjectHandler Class](#readobjecthandler-class) | [MimeHeaders Class](#mimeheaders-class) |
+| [ClientRequestWrapper Class](#clientrequestwrapper-class) | [ReadObjectHandlers Class](#readobjecthandlers-class) | [MimeMergedStream Class](#mimemergedstream-class) |
+| [ClientResult\<T\> Class](#clientresultt-class) | [ReadonlyChunkStream Class](#readonlychunkstream-class) | [MimeMessageReader Class](#mimemessagereader-class) |
+| [ClientRuntimeContext Class](#clientruntimecontext-class) | [ReadonlyWrapStream Class](#readonlywrapstream-class) | [MimePart Class](#mimepart-class) |
+| [ClientSchemaVersions Class](#clientschemaversions-class) | [RemoteAttribute Class](#remoteattribute-class) | [MimeReader Class](#mimereader-class) |
+| [ClientTypeAssemblyAttribute Class](#clienttypeassemblyattribute-class) | [ReplaceQueryableCollectionWithEnumerableCollectionExpressionVisitor Class](#replacequeryablecollectionwithenumerablecollectionexpressionvisitor-class) | [MimeUtility Class](#mimeutility-class) |
+| [ClientUtility Class](#clientutility-class) | [Resources Class](#resources-class) | [MimeVersionHeader Class](#mimeversionheader-class) |
+| [ClientValueObject Class](#clientvalueobject-class) | [ResourceStrings Class](#resourcestrings-class) | [MimeWriter Class](#mimewriter-class) |
+| [ClientValueObjectCollection\<T\> Class](#clientvalueobjectcollectiont-class) | [Scope Class](#scope-class) | [MimeWriterState Enum](#mimewriterstate-enum) |
+| [CollectionNotInitializedException Class](#collectionnotinitializedexception-class) | [ScopeType Enum](#scopetype-enum) | [MtomGlobals Class](#mtomglobals-class) |
+| [ConditionalExecutionScope Class](#conditionalexecutionscope-class) | [ScriptTypeAttribute Class](#scripttypeattribute-class) | [ReadState Enum](#readstate-enum) |
+| [ConditionalExpressionToXmlConverter Class](#conditionalexpressiontoxmlconverter-class) | [ScriptTypeInfo Class](#scripttypeinfo-class) | [SR Class](#sr-class) |
 # AttachmentStreamFromServer Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -371,18 +359,6 @@ Namespace: Microsoft.SharePoint.Client
 | Name | Type | Summary |
 |---|---|---|
 | **Value** | T[] |  |
-# ClientAuthenticationMode Enum
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Values
-
-| Name | Summary |
-|---|---|
-| **Default** |  |
-| **FormsAuthentication** |  |
-| **Anonymous** |  |
 # ClientConstants Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -937,39 +913,6 @@ Namespace: Microsoft.SharePoint.Client
 | Name | Type | Summary |
 |---|---|---|
 | **Value** | T |  |
-# ClientRuntimeConfigurationSection Class
-
-Namespace: Microsoft.SharePoint.Client
-
-Base class: ConfigurationSection
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **TypeAssemblies** | AssemblyCollection |  |
-| **SectionInformation** | SectionInformation |  |
-| **DataToWriteInternal** | bool |  |
-| **ElementPresent** | bool |  |
-| **ElementTagName** | string |  |
-| **LockedAttributesList** | ConfigurationLockCollection |  |
-| **LockedAllExceptAttributesList** | ConfigurationLockCollection |  |
-| **ItemLocked** | ConfigurationValueFlags |  |
-| **LockAttributes** | ConfigurationLockCollection |  |
-| **LockAllAttributesExcept** | ConfigurationLockCollection |  |
-| **LockElements** | ConfigurationLockCollection |  |
-| **LockAllElementsExcept** | ConfigurationLockCollection |  |
-| **LockItem** | bool |  |
-| **Item** | Object |  |
-| **Item** | Object |  |
-| **Properties** | ConfigurationPropertyCollection |  |
-| **Values** | ConfigurationValues |  |
-| **ElementInformation** | ElementInformation |  |
-| **EvaluationContext** | ContextInformation |  |
-| **ElementProperty** | ConfigurationElementProperty |  |
-| **HasContext** | bool |  |
-| **CurrentConfiguration** | Configuration |  |
 # ClientRuntimeContext Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -986,8 +929,6 @@ Namespace: Microsoft.SharePoint.Client
 | **ClientTag** | string |  |
 | **DisableReturnValueCache** | bool |  |
 | **ValidateOnClient** | bool |  |
-| **AuthenticationMode** | [ClientAuthenticationMode](#clientauthenticationmode-enum) |  |
-| **FormsAuthenticationLoginInfo** | [FormsAuthenticationLoginInfo](#formsauthenticationlogininfo-class) |  |
 | **Credentials** | ICredentials |  |
 | **WebRequestExecutorFactory** | [WebRequestExecutorFactory](#webrequestexecutorfactory-class) |  |
 | **PendingRequest** | [ClientRequest](#clientrequest-class) |  |
@@ -1019,7 +960,6 @@ Namespace: Microsoft.SharePoint.Client
 | **ParseObjectFromJsonString(string json)** | Object |  |
 | **RetryQuery(ClientRequest request)** | void |  |
 | **RetryQueryAsync(ClientRequest request)** | Task |  |
-| **SetupRequestCredential(ClientRuntimeContext context, HttpWebRequest request)** | void |  |
 # ClientSchemaVersions Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -1032,30 +972,6 @@ Namespace: Microsoft.SharePoint.Client
 | **Version14** | Version |  |
 | **Version15** | Version |  |
 | **CurrentVersion** | Version |  |
-# ClientTraceCategory Enum
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Values
-
-| Name | Summary |
-|---|---|
-| **General** |  |
-| **Request** |  |
-| **Authentication** |  |
-# ClientTraceLevel Enum
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Values
-
-| Name | Summary |
-|---|---|
-| **Verbose** |  |
-| **Medium** |  |
-| **High** |  |
 # ClientTypeAssemblyAttribute Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -1069,18 +985,6 @@ Base class: Attribute
 |---|---|---|
 | **ScriptTypeFactory** | Type |  |
 | **TypeId** | Object |  |
-# ClientULS Class
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **AuthTraceSource** | TraceSource |  |
-| **RequestTraceSource** | TraceSource |  |
-| **GeneralTraceSource** | TraceSource |  |
 # ClientUtility Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -1237,33 +1141,6 @@ Namespace: Microsoft.SharePoint.Client
 | **StartIfFalse()** | IDisposable |  |
 | **StartIfTrue()** | IDisposable |  |
 | **StartScope()** | IDisposable |  |
-# CookieCacheEntry Class
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **IsValid** | bool |  |
-## Fields
-
-| Name | Type | Summary |
-|---|---|---|
-| **Cookie** | string |  |
-| **Expires** | DateTime |  |
-# CookieInfo Class
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Fields
-
-| Name | Type | Summary |
-|---|---|---|
-| **Cookies** | CookieCollection |  |
-| **Expires** | DateTime |  |
 # DataConvert Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -1469,55 +1346,6 @@ Namespace: Microsoft.SharePoint.Client
 | **VisitParameter(ParameterExpression p)** | Expression |  |
 | **VisitTypeIs(TypeBinaryExpression b)** | Expression |  |
 | **VisitUnary(UnaryExpression u)** | Expression |  |
-# FormsAuthenticationLoginInfo Class
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **LoginName** | string |  |
-| **Password** | string |  |
-| **CookieContainer** | CookieContainer |  |
-| **AuthenticationServiceUrl** | Uri |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **FormsAuthenticationLoginInfo(string loginName, string password)** |  |
-# IdcrlException Class
-
-Namespace: Microsoft.SharePoint.Client
-
-Base class: Exception
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **ErrorCode** | int |  |
-| **Message** | string |  |
-| **Data** | IDictionary |  |
-| **InnerException** | Exception |  |
-| **TargetSite** | MethodBase |  |
-| **StackTrace** | string |  |
-| **HelpLink** | string |  |
-| **Source** | string |  |
-| **IPForWatsonBuckets** | UIntPtr |  |
-| **WatsonBuckets** | Object |  |
-| **RemoteStackTrace** | string |  |
-| **HResult** | int |  |
-| **IsTransient** | bool |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **IdcrlException(string message)** |  |
-| **IdcrlException(string message, Exception innerException)** |  |
-| **IdcrlException(string message, int errorcode)** |  |
 # IFromJson Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -1568,16 +1396,6 @@ Namespace: Microsoft.SharePoint.Client
 | Name | Returns | Summary |
 |---|---|---|
 | **CreateObjectFromScriptType(string scriptTypeName, ClientRuntimeContext context)** | [IFromJson](#ifromjson-class) |  |
-# ISharePointOnlineAuthenticationProvider Class
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **GetAuthenticationCookie(Uri url, string userName, SecureString password, bool alwaysThrowOnFailure, EventHandler\<SharePointOnlineCredentialsWebRequestEventArgs\> executingWebRequest)** | string |  |
 # JsonReader Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -2349,21 +2167,6 @@ Base class: Exception
 | Name | Returns | Summary |
 |---|---|---|
 | **ToString()** | string |  |
-# ServerInfo Class
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **AuthenticationMode** | AuthenticationMode |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **ServerInfo(Uri url)** |  |
 # ServerObjectNullReferenceException Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -2422,66 +2225,6 @@ Base class: [ServerException](#serverexception-class)
 | **RemoteStackTrace** | string |  |
 | **HResult** | int |  |
 | **IsTransient** | bool |  |
-# SharePointOnlineAuthenticationModule Class
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **AuthenticationType** | string |  |
-| **CanPreAuthenticate** | bool |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **Authenticate(string challenge, WebRequest request, ICredentials credentials)** | Authorization |  |
-| **PreAuthenticate(WebRequest request, ICredentials credentials)** | Authorization |  |
-# SharePointOnlineAuthenticationProviderHelper Class
-
-Namespace: Microsoft.SharePoint.Client
-
-
-# SharePointOnlineCredentials Class
-
-Namespace: Microsoft.SharePoint.Client
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **UserName** | string |  |
-| **Password** | SecureString |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **SharePointOnlineCredentials(string username, SecureString password)** |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **GetAuthenticationCookie(Uri url)** | string |  |
-| **GetAuthenticationCookie(Uri url, bool alwaysThrowOnFailure)** | string |  |
-| **GetCredential(Uri uri, string authType)** | NetworkCredential |  |
-# SharePointOnlineCredentialsWebRequestEventArgs Class
-
-Namespace: Microsoft.SharePoint.Client
-
-Base class: EventArgs
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **WebRequest** | HttpWebRequest |  |
-| **HaveResponse** | bool |  |
-| **ResponseTime** | TimeSpan |  |
-| **WebResponse** | HttpWebResponse |  |
 # SimpleDataTable Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -2749,546 +2492,6 @@ Base class: MulticastDelegate
 | **BeginInvoke(XmlWriter writer, Object objValue, AsyncCallback callback, Object object)** | IAsyncResult |  |
 | **EndInvoke(IAsyncResult result)** | void |  |
 | **Invoke(XmlWriter writer, Object objValue)** | void |  |
-# Authentication Class
-
-Namespace: Microsoft.SharePoint.Client.Application
-
-Base class: SoapHttpClientProtocol
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **SoapVersion** | SoapProtocolVersion |  |
-| **AllowAutoRedirect** | bool |  |
-| **CookieContainer** | CookieContainer |  |
-| **ClientCertificates** | X509CertificateCollection |  |
-| **EnableDecompression** | bool |  |
-| **UserAgent** | string |  |
-| **Proxy** | IWebProxy |  |
-| **UnsafeAuthenticatedConnectionSharing** | bool |  |
-| **Credentials** | ICredentials |  |
-| **UseDefaultCredentials** | bool |  |
-| **ConnectionGroupName** | string |  |
-| **PendingSyncRequest** | WebRequest |  |
-| **PreAuthenticate** | bool |  |
-| **Url** | string |  |
-| **AsyncInvokes** | Hashtable |  |
-| **NullToken** | Object |  |
-| **Uri** | Uri |  |
-| **RequestEncoding** | Encoding |  |
-| **Timeout** | int |  |
-| **CanRaiseEvents** | bool |  |
-| **CanRaiseEventsInternal** | bool |  |
-| **Events** | EventHandlerList |  |
-| **Site** | ISite |  |
-| **Container** | IContainer |  |
-| **DesignMode** | bool |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **Authentication(Uri uri)** |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **BeginLogin(string username, string password, AsyncCallback callback, Object asyncState)** | IAsyncResult |  |
-| **BeginMode(AsyncCallback callback, Object asyncState)** | IAsyncResult |  |
-| **CancelAsync(Object userState)** | void |  |
-| **EndLogin(IAsyncResult asyncResult)** | [LoginResult](#loginresult-class) |  |
-| **EndMode(IAsyncResult asyncResult)** | [AuthenticationMode](#authenticationmode-enum) |  |
-| **Login(string username, string password)** | [LoginResult](#loginresult-class) |  |
-| **LoginAsync(string username, string password)** | void |  |
-| **LoginAsync(string username, string password, Object userState)** | void |  |
-| **Mode()** | [AuthenticationMode](#authenticationmode-enum) |  |
-| **ModeAsync()** | void |  |
-| **ModeAsync(Object userState)** | void |  |
-# AuthenticationMode Enum
-
-Namespace: Microsoft.SharePoint.Client.Application
-
-
-## Values
-
-| Name | Summary |
-|---|---|
-| **None** |  |
-| **Windows** |  |
-| **Passport** |  |
-| **Forms** |  |
-# LoginCompletedEventArgs Class
-
-Namespace: Microsoft.SharePoint.Client.Application
-
-Base class: AsyncCompletedEventArgs
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **Result** | [LoginResult](#loginresult-class) |  |
-| **Cancelled** | bool |  |
-| **Error** | Exception |  |
-| **UserState** | Object |  |
-# LoginCompletedEventHandler Class
-
-Namespace: Microsoft.SharePoint.Client.Application
-
-Base class: MulticastDelegate
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **Method** | MethodInfo |  |
-| **Target** | Object |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **LoginCompletedEventHandler(Object object, IntPtr method)** |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **BeginInvoke(Object sender, LoginCompletedEventArgs e, AsyncCallback callback, Object object)** | IAsyncResult |  |
-| **EndInvoke(IAsyncResult result)** | void |  |
-| **Invoke(Object sender, LoginCompletedEventArgs e)** | void |  |
-# LoginErrorCode Enum
-
-Namespace: Microsoft.SharePoint.Client.Application
-
-
-## Values
-
-| Name | Summary |
-|---|---|
-| **NoError** |  |
-| **NotInFormsAuthenticationMode** |  |
-| **PasswordNotMatch** |  |
-# LoginResult Class
-
-Namespace: Microsoft.SharePoint.Client.Application
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **CookieName** | string |  |
-| **ErrorCode** | [LoginErrorCode](#loginerrorcode-enum) |  |
-| **TimeoutSeconds** | int |  |
-# ModeCompletedEventArgs Class
-
-Namespace: Microsoft.SharePoint.Client.Application
-
-Base class: AsyncCompletedEventArgs
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **Result** | [AuthenticationMode](#authenticationmode-enum) |  |
-| **Cancelled** | bool |  |
-| **Error** | Exception |  |
-| **UserState** | Object |  |
-# ModeCompletedEventHandler Class
-
-Namespace: Microsoft.SharePoint.Client.Application
-
-Base class: MulticastDelegate
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **Method** | MethodInfo |  |
-| **Target** | Object |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **ModeCompletedEventHandler(Object object, IntPtr method)** |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **BeginInvoke(Object sender, ModeCompletedEventArgs e, AsyncCallback callback, Object object)** | IAsyncResult |  |
-| **EndInvoke(IAsyncResult result)** | void |  |
-| **Invoke(Object sender, ModeCompletedEventArgs e)** | void |  |
-# FederationProviderInfo Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **UserRealmServiceUrl** | string |  |
-| **SecurityTokenServiceUrl** | string |  |
-| **FederationTokenIssuer** | string |  |
-# FederationProviderInfoCache Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **Put(string domainname, FederationProviderInfo value)** | void |  |
-| **TryGetValue(string domainname, out FederationProviderInfo value)** | bool |  |
-# FederationProviderInfoCacheEntry Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Fields
-
-| Name | Type | Summary |
-|---|---|---|
-| **Value** | [FederationProviderInfo](#federationproviderinfo-class) |  |
-| **Expires** | DateTime |  |
-# IdcrlAuth Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **UserRealmServiceUrl** | string |  |
-| **ServiceTokenUrl** | string |  |
-| **FederationTokenIssuer** | string |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **IdcrlAuth(IdcrlEnvironment env, EventHandler\<SharePointOnlineCredentialsWebRequestEventArgs\> executingWebRequest)** |  |
-| **IdcrlAuth(string identityProvider, EventHandler\<SharePointOnlineCredentialsWebRequestEventArgs\> executingWebRequest)** |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **GetServiceToken(string username, string password, string serviceTarget, string servicePolicy)** | string |  |
-# IdcrlConstants Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Fields
-
-| Name | Type | Summary |
-|---|---|---|
-| **HEADER_IDCRL_AUTH_ACCEPTED** | string |  |
-| **HEADER_FORMS_BASED_AUTH_ACCEPTED** | string |  |
-| **HEADER_IDCRL_AUTH_PARAMS_V1** | string |  |
-| **True** | string |  |
-| **False** | string |  |
-| **REGKEY_MSOIdentityCRL** | string |  |
-| **REGVAL_ServiceEnvironment** | string |  |
-| **ENV_INT_MSO** | string |  |
-| **ENV_PPE_MSO** | string |  |
-| **ENV_ITAR_MSO** | string |  |
-| **BPOSIDCRL_AUTHORIZATION_HEADER_PREFIX** | string |  |
-| **IDCRLTYPE_BPOSIDRL** | string |  |
-| **IDCRL_PARAM_IDCRL_TYPE** | string |  |
-| **IDCRL_PARAM_ENDPOINT** | string |  |
-| **IDCRL_PARAM_ROOTDOMAIN** | string |  |
-| **IDCRL_PARAM_POLICY** | string |  |
-| **IDCRL_PARAM_IDENTITYPROVIDER** | string |  |
-| **IDCRL_PARAM_IDENTITYPROVIDER_VALUE_ITAR** | string |  |
-| **IDCRL_PARAM_IDENTITYPROVIDER_VALUE_PRODUCTION** | string |  |
-| **IDCRL_PARAM_IDENTITYPROVIDER_VALUE_PPE** | string |  |
-# IdcrlEnvironment Enum
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Values
-
-| Name | Summary |
-|---|---|
-| **Production** |  |
-| **Int** |  |
-| **Ppe** |  |
-| **ITAR** |  |
-# IdcrlErrorCodes Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Fields
-
-| Name | Type | Summary |
-|---|---|---|
-| **PPCRL_AUTHSTATE_S_AUTHENTICATED_OFFLINE** | int |  |
-| **PPCRL_AUTHSTATE_S_AUTHENTICATED_PASSWORD** | int |  |
-| **PPCRL_AUTHSTATE_S_AUTHENTICATED_PARTNER** | int |  |
-| **PPCRL_REQUEST_S_IO_PENDING** | int |  |
-| **PPCRL_S_NO_MORE_IDENTITIES** | int |  |
-| **PPCRL_S_TOKEN_TYPE_DOES_NOT_SUPPORT_SESSION_KEY** | int |  |
-| **PPCRL_S_NO_SUCH_CREDENTIAL** | int |  |
-| **PPCRL_S_NO_AUTHENTICATION_REQUIRED** | int |  |
-| **PPCRL_S_OK_CLIENTTIME** | int |  |
-| **PPCRL_REQUEST_S_OK_NO_SLC** | int |  |
-| **PPCRL_REQUEST_S_IO_PENDING_NO_SLC** | int |  |
-| **PPCRL_AUTHSTATE_E_UNAUTHENTICATED** | int |  |
-| **PPCRL_AUTHSTATE_E_EXPIRED** | int |  |
-| **PPCRL_AUTHREQUIRED_E_PASSWORD** | int |  |
-| **PPCRL_AUTHREQUIRED_E_UNKNOWN** | int |  |
-| **PPCRL_REQUEST_E_AUTH_SERVER_ERROR** | int |  |
-| **PPCRL_REQUEST_E_BAD_MEMBER_NAME_OR_PASSWORD** | int |  |
-| **PPCRL_REQUEST_E_PASSWORD_LOCKED_OUT** | int |  |
-| **PPCRL_REQUEST_E_PASSWORD_LOCKED_OUT_BAD_PASSWORD_OR_HIP** | int |  |
-| **PPCRL_REQUEST_E_FORCE_RENAME_REQUIRED** | int |  |
-| **PPCRL_REQUEST_E_FORCE_CHANGE_PASSWORD_REQUIRED** | int |  |
-| **PPCRL_REQUEST_E_STRONG_PASSWORD_REQUIRED** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_NOT_FOUND** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_HAS_NO_ASYMMETRIC_KEY** | int |  |
-| **PPCRL_REQUEST_E_INVALID_POLICY** | int |  |
-| **PPCRL_REQUEST_E_INVALID_MEMBER_NAME** | int |  |
-| **PPCRL_REQUEST_E_MISSING_PRIMARY_CREDENTIAL** | int |  |
-| **PPCRL_REQUEST_E_PENDING_NETWORK_REQUEST** | int |  |
-| **PPCRL_REQUEST_E_FORCE_CHANGE_SQSA** | int |  |
-| **PPCRL_REQUEST_E_PASSWORD_EXPIRED** | int |  |
-| **PPCRL_REQUEST_E_PROFILE_ACCRUE_REQUIRED** | int |  |
-| **PPCRL_REQUEST_E_EMAIL_VALIDATION_REQUIRED** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_NEED_STRONGPW** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_NEED_STRONGPW_EXPIRY** | int |  |
-| **PPCRL_REQUEST_E_AUTH_EXPIRED** | int |  |
-| **PPCRL_REQUEST_E_USER_FORGOT_PASSWORD** | int |  |
-| **PPCRL_REQUEST_E_USER_CANCELED** | int |  |
-| **PPCRL_REQUEST_E_NO_NETWORK** | int |  |
-| **PPCRL_REQUEST_E_UNKNOWN** | int |  |
-| **PPCRL_REQUEST_E_KID_HAS_NO_CONSENT** | int |  |
-| **PPCRL_REQUEST_E_RSTR_FAULT** | int |  |
-| **PPCRL_REQUEST_E_RSTR_MISSING_BASE64CERT** | int |  |
-| **PPCRL_REQUEST_E_RSTR_MISSING_TOKENTYPE** | int |  |
-| **PPCRL_REQUEST_E_RSTR_MISSING_PRIVATE_KEY** | int |  |
-| **PPCRL_REQUEST_E_INVALID_SERVICE_TIMESTAMP** | int |  |
-| **PPCRL_REQUEST_E_INVALID_PKCS10_TIMESTAMP** | int |  |
-| **PPCRL_REQUEST_E_INVALID_PKCS10** | int |  |
-| **PPCRL_E_IDENTITY_NOT_AUTHENTICATED** | int |  |
-| **PPCRL_E_UNABLE_TO_RETRIEVE_SERVICE_TOKEN** | int |  |
-| **PPCRL_E_AUTH_SERVICE_UNAVAILABLE** | int |  |
-| **PPCRL_E_INVALID_AUTH_SERVICE_RESPONSE** | int |  |
-| **PPCRL_E_UNABLE_TO_INITIALIZE_CRYPTO_PROVIDER** | int |  |
-| **PPCRL_E_NO_MEMBER_NAME_SET** | int |  |
-| **PPCRL_E_CALLBACK_REQUIRED** | int |  |
-| **PPCRL_E_INVALIDFLAGS** | int |  |
-| **PPCRL_E_UNABLE_TO_RETRIEVE_CERT** | int |  |
-| **PPCRL_E_INVALID_RSTPARAMS** | int |  |
-| **PPCRL_E_MISSING_FILE** | int |  |
-| **PPCRL_E_ILLEGAL_LOGONIDENTITY_FLAG** | int |  |
-| **PPCRL_E_CERT_NOT_VALID_FOR_MINTTL** | int |  |
-| **PPCRL_E_CERT_INVALID_ISSUER** | int |  |
-| **PPCRL_E_NO_CERTSTORE_FOR_ISSUERS** | int |  |
-| **PPCRL_E_OFFLINE_AUTH** | int |  |
-| **PPCRL_E_SIGN_POP_FAILED** | int |  |
-| **PPCRL_E_CERT_INVALID_POP** | int |  |
-| **PPCRL_E_CALLER_NOT_SIGNED** | int |  |
-| **PPCRL_E_BUSY** | int |  |
-| **PPCRL_E_DOWNLOAD_FILE_FAILED** | int |  |
-| **PPCRL_E_BUILD_CERT_REQUEST_FAILED** | int |  |
-| **PPCRL_E_CERTIFICATE_NOT_FOUND** | int |  |
-| **PPCRL_E_AUTHBLOB_TOO_LARGE** | int |  |
-| **PPCRL_E_AUTHBLOB_NOT_FOUND** | int |  |
-| **PPCRL_E_AUTHBLOB_INVALID** | int |  |
-| **PPCRL_E_EXTPROP_NOTFOUND** | int |  |
-| **PPCRL_E_RESPONSE_TOO_LARGE** | int |  |
-| **PPCRL_E_USER_NOTFOUND** | int |  |
-| **PPCRL_E_SIGCHECK_FAILED** | int |  |
-| **PPCRL_E_CREDTARGETNAME_INVALID** | int |  |
-| **PPCRL_E_CREDINFO_CORRUPTED** | int |  |
-| **PPCRL_E_CREDPROP_NOTFOUND** | int |  |
-| **PPCRL_E_NO_LINKEDACCOUNTS** | int |  |
-| **PPCRL_E_NO_LINKEDHANDLE** | int |  |
-| **PPCRL_E_CERT_CA_ROLLOVER** | int |  |
-| **PPCRL_E_REALM_LOOKUP** | int |  |
-| **PPCRL_E_FORBIDDEN_NAMESPACE** | int |  |
-| **PPCRL_E_IDENTITY_NOCID** | int |  |
-| **PPCRL_E_IE_MISCONFIGURED** | int |  |
-| **PPCRL_E_NO_UI** | int |  |
-| **PPCRL_E_INVALID_RPS_TOKEN** | int |  |
-| **PPCRL_E_NOT_UI_ERROR** | int |  |
-| **PPCRL_E_INVALID_URL** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_INVALID_REQUEST** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_REQUEST_FAILED** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_INVALID_SECURITY_TOKEN** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_AUTHENTICATION_BAD_ELEMENTS** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_BAD_REQUEST** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_EXPIRED_DATA** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_INVALID_TIME_RANGE** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_INVALID_SCOPE** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_RENEW_NEEDED** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_UNABLE_TO_RENEW** | int |  |
-| **PPCRL_REQUEST_E_MISSING_HASHED_PASSWORD** | int |  |
-| **PPCRL_REQUEST_E_CLIENT_DEPRECATED** | int |  |
-| **PPCRL_REQUEST_E_CANCELLED** | int |  |
-| **PPCRL_REQUEST_E_INVALID_PKCS10_KEYLEN** | int |  |
-| **PPCRL_REQUEST_E_DUPLICATE_SERVICETARGET** | int |  |
-| **PPCRL_REQUEST_E_FORCE_SIGNIN** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_NEED_CERTIFICATE** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_NEED_PIN** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_NEED_PASSWORD** | int |  |
-| **PPCRL_REQUEST_E_SCHANNEL_ERROR** | int |  |
-| **PPCRL_REQUEST_E_CERT_PARSE_ERROR** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_SERVER_ERROR** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_LOGIN** | int |  |
-| **PPCRL_REQUEST_E_FLOWDISABLED** | int |  |
-| **PPCRL_REQUEST_E_USER_NOT_LINKED** | int |  |
-| **PPCRL_REQUEST_E_ACCOUNT_CONVERSION_NEEDED** | int |  |
-| **PPCRL_REQUEST_E_PARTNER_BAD_MEMBER_NAME_OR_PASSWORD** | int |  |
-| **PPCRL_REQUEST_E_BAD_MEMBER_NAME_OR_PASSWORD_FED** | int |  |
-| **PPCRL_REQUEST_E_HIP_ON_FIRST_LOGIN** | int |  |
-| **PPCRL_REQUEST_E_INVALID_CARDSPACE_TOKEN** | int |  |
-# IdcrlHeader Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Fields
-
-| Name | Type | Summary |
-|---|---|---|
-| **IdcrlType** | string |  |
-| **ServiceTarget** | string |  |
-| **ServicePolicy** | string |  |
-| **Endpoint** | string |  |
-| **IdentityProvider** | string |  |
-# IdcrlMessageConstants Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Fields
-
-| Name | Type | Summary |
-|---|---|---|
-| **FPUrlFullUrlFormat** | string |  |
-| **FPListFullUrlFormat** | string |  |
-| **UserRealmServiceUrl_Itar** | string |  |
-| **SecurityTokenServiceUrl_Itar** | string |  |
-| **FederationTokenIssuer_Itar** | string |  |
-| **UserRealmServiceUrl_Prod** | string |  |
-| **SecurityTokenServiceUrl_Prod** | string |  |
-| **FederationTokenIssuer_Prod** | string |  |
-| **UserRealmServiceUrl_Int** | string |  |
-| **SecurityTokenServiceUrl_Int** | string |  |
-| **FederationTokenIssuer_Int** | string |  |
-| **UserRealmServiceUrl_Ppe** | string |  |
-| **SecurityTokenServiceUrl_Ppe** | string |  |
-| **FederationTokenIssuer_Ppe** | string |  |
-| **FederationProvider** | string |  |
-| **FPDOMAINNAME** | string |  |
-| **FPList** | string |  |
-| **FP** | string |  |
-| **DomainName** | string |  |
-| **URL** | string |  |
-| **GETUSERREALM** | string |  |
-| **RST2** | string |  |
-| **ENTITYID** | string |  |
-| **AuthURL** | string |  |
-| **NameSpaceType** | string |  |
-| **Federated** | string |  |
-| **Managed** | string |  |
-| **Success** | string |  |
-| **STSAuthURL** | string |  |
-| **GetUserRealmMessage** | string |  |
-| **GetUserRealmContentType** | string |  |
-| **SoapContentType** | string |  |
-| **SoapNamespace** | string |  |
-| **EnvelopeElementFullName** | string |  |
-| **BodyElementFullName** | string |  |
-| **TrustNamespace** | string |  |
-| **RequestSecurityTokenResponseFullName** | string |  |
-| **RequestedSecurityTokenFullName** | string |  |
-| **SamlNamespace** | string |  |
-| **AssertionFullName** | string |  |
-| **WsSecurityNamespace** | string |  |
-| **BinarySecurityTokenFullName** | string |  |
-| **FaultFullName** | string |  |
-| **DetailFullName** | string |  |
-| **CodeFullName** | string |  |
-| **ValueFullName** | string |  |
-| **SubcodeFullName** | string |  |
-| **ReasonFullName** | string |  |
-| **TextFullName** | string |  |
-| **PassportNamespace** | string |  |
-| **PassportErrorFullName** | string |  |
-| **PassportValueFullName** | string |  |
-| **PassportInternalErrorFullName** | string |  |
-| **PassportCodeFullName** | string |  |
-| **PassportTextFullName** | string |  |
-| **AdfsAuthMessage** | string |  |
-| **PolicyReferenceFragment** | string |  |
-| **AuthMessage** | string |  |
-| **UsernameTokenSecurityFragment** | string |  |
-# IdcrlUtility Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **XmlValueEncode(string value)** | string |  |
-# SharePointOnlineAuthenticationProvider Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **IdcrlServiceEnvironmentFromRegistry** | [IdcrlEnvironment](#idcrlenvironment-enum)? |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **GetAuthenticationCookie(Uri url, string username, SecureString password, bool alwaysThrowOnFailure, EventHandler\<SharePointOnlineCredentialsWebRequestEventArgs\> executingWebRequest)** | string |  |
-# STSSoapFaultCodes Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Fields
-
-| Name | Type | Summary |
-|---|---|---|
-| **InvalidRequest** | string |  |
-| **FailedAuthentication** | string |  |
-| **RequestFailed** | string |  |
-| **InvalidSecurityToken** | string |  |
-| **AuthenticationBadElements** | string |  |
-| **BadRequest** | string |  |
-| **ExpiredData** | string |  |
-| **InvalidTimeRange** | string |  |
-| **InvalidScope** | string |  |
-| **RenewNeeded** | string |  |
-| **UnableToRenew** | string |  |
-# UserRealmInfo Class
-
-Namespace: Microsoft.SharePoint.Client.Idcrl
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **STSAuthUrl** | string |  |
-| **IsFederated** | bool |  |
 # BufferedReadStream Class
 
 Namespace: Microsoft.SharePoint.Client.Mime
