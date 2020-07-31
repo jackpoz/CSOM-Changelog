@@ -7,11 +7,12 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [AcronymInformation Class](#acronyminformation-class) | [SpotlightChannel Class](#spotlightchannel-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
-| [AddinPlugin Class](#addinplugin-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
-| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
-| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
-| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightVideo Class](#spotlightvideo-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
+| [AcronymInformation Class](#acronyminformation-class) | [SiteSharingEmailContext Class](#sitesharingemailcontext-class) | [VideoThumbnail Class](#videothumbnail-class) |
+| [AddinPlugin Class](#addinplugin-class) | [SpotlightChannel Class](#spotlightchannel-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
+| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
+| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
+| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
+| [BoostFieldsData Class](#boostfieldsdata-class) | [SpotlightVideo Class](#spotlightvideo-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
 | [ChannelPermission Enum](#channelpermission-enum) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [NavigationTerm Class](#navigationterm-class) |
 | [CustomizableString Class](#customizablestring-class) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
 | [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
@@ -39,7 +40,6 @@ Created by
 | [SitePageFieldsData Class](#sitepagefieldsdata-class) | [VideoPlaybackOrigin Enum](#videoplaybackorigin-enum) | [PortalLaunchWave Class](#portallaunchwave-class) |
 | [SitePageVersionInfo Class](#sitepageversioninfo-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) | [PortalLaunchWaveGroup Class](#portallaunchwavegroup-class) |
 | [SiteServicesAddins Class](#siteservicesaddins-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) | [PortalLaunchWaveSetup Class](#portallaunchwavesetup-class) |
-| [SiteSharingEmailContext Class](#sitesharingemailcontext-class) | [VideoThumbnail Class](#videothumbnail-class) |   |
 # AcronymInformation Class
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -155,6 +155,26 @@ Namespace: Microsoft.SharePoint.Client.Publishing
 | **MetaTagPagePropertyMappings** | string |  |
 | **Namespace** | string |  |
 | **Title** | string |  |
+# BoostFieldsData Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **BoostUntilSeen** | bool |  |
+| **Expiry** | DateTime |  |
+| **Impressions** | uint |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # ChannelPermission Enum
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -2263,7 +2283,6 @@ Base class: ClientValueObject
 | **RedirectUrl** | string |  |
 | **SiteId** | Guid |  |
 | **Status** | [PortalLaunchStatus](#portallaunchstatus-enum) |  |
-| **TriggerUrls** | IDictionary\<string, string\> |  |
 | **Waves** | IList\<[PortalLaunchWave](#portallaunchwave-class)\> |  |
 | **TypeId** | string |  |
 ## Methods
