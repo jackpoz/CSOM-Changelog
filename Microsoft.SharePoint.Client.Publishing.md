@@ -166,9 +166,14 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **BoostOrderType** | [BoostFieldsData](#boostfieldsdata-class) |  |
 | **BoostUntilSeen** | bool |  |
 | **Expiry** | DateTime |  |
 | **Impressions** | uint |  |
+| **NextItemId** | int |  |
+| **NextItemVersion** | int |  |
+| **PreviousItemId** | int |  |
+| **PreviousItemVersion** | int |  |
 | **TypeId** | string |  |
 ## Methods
 
