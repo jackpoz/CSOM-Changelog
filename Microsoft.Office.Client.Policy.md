@@ -764,7 +764,9 @@ Base class: ClientObject
 | **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
 | **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
 | **RegisterSiteHoldEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
+| **RegisterSiteItemDeleteEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **RegisterSiteSubscriptionEventReceiver(ClientRuntimeContext context, Guid tenantId)** | void |  |
+| **RegisterSiteSubscriptionItemDeleteEventReceiver(ClientRuntimeContext context, Guid tenantId)** | void |  |
 | **RemoveContainerRetentionPolicy(string siteId)** | void |  |
 | **RemoveContainerSettings(string[] externalId)** | void |  |
 | **RetagReviewItems(int[] itemIds, string newTag, bool newTagIsRecord, bool newTagBlockDelete, bool newTagIsEventBased)** | ClientArrayResult\<int\> |  |
