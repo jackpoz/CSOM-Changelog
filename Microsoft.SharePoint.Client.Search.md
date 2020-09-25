@@ -7,27 +7,33 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [SearchTenantSettings Class](#searchtenantsettings-class) | [SearchObjectOwner Class](#searchobjectowner-class) | [QueryPersonalizationData Class](#querypersonalizationdata-class) |
-| [TenantClassification Class](#tenantclassification-class) | [CertificateService Class](#certificateservice-class) | [QueryPropertyNames Class](#querypropertynames-class) |
-| [TenantRoutingSettings Class](#tenantroutingsettings-class) | [PushTenantManager Class](#pushtenantmanager-class) | [QueryPropertyValue Class](#querypropertyvalue-class) |
-| [ContextCondition Class](#contextcondition-class) | [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [QueryPropertyValueType Enum](#querypropertyvaluetype-enum) |
-| [DrainingState Enum](#drainingstate-enum) | [PushTenantServiceInfoPropertyNames Class](#pushtenantserviceinfopropertynames-class) | [QuerySuggestionQuery Class](#querysuggestionquery-class) |
-| [ExpandedQueryParameters Class](#expandedqueryparameters-class) | [SearchConfigurationPortability Class](#searchconfigurationportability-class) | [QuerySuggestionRange Class](#querysuggestionrange-class) |
-| [PromotedResultQueryRule Class](#promotedresultqueryrule-class) | [SearchConfigurationPortabilityPropertyNames Class](#searchconfigurationportabilitypropertynames-class) | [QuerySuggestionResults Class](#querysuggestionresults-class) |
-| [PromotedResults Class](#promotedresults-class) | [CustomQuerySuggestions Class](#customquerysuggestions-class) | [QueryUtility Class](#queryutility-class) |
-| [PromotedResultsOperationsResult Class](#promotedresultsoperationsresult-class) | [KeywordQuery Class](#keywordquery-class) | [RankingLabeling Class](#rankinglabeling-class) |
-| [QueryCondition Class](#querycondition-class) | [KeywordQueryObjectPropertyNames Class](#keywordqueryobjectpropertynames-class) | [ReorderingRule Class](#reorderingrule-class) |
-| [QueryConfiguration Class](#queryconfiguration-class) | [KeywordQueryProperties Class](#keywordqueryproperties-class) | [ReorderingRuleCollection Class](#reorderingrulecollection-class) |
-| [QueryContext Class](#querycontext-class) | [KeywordQueryPropertyNames Class](#keywordquerypropertynames-class) | [ReorderingRuleMatchType Enum](#reorderingrulematchtype-enum) |
-| [QueryRoutingInfo Class](#queryroutinginfo-class) | [KnownTableTypes Class](#knowntabletypes-class) | [ResultTable Class](#resulttable-class) |
-| [QueryState Enum](#querystate-enum) | [PersonalResultSuggestion Class](#personalresultsuggestion-class) | [ResultTableCollection Class](#resulttablecollection-class) |
-| [ScsEndpoint Class](#scsendpoint-class) | [PopularQuery Class](#popularquery-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
-| [SearchEndpoints Class](#searchendpoints-class) | [PopularTenantQuery Class](#populartenantquery-class) | [SearchExecutor Class](#searchexecutor-class) |
-| [SearchObjectOwnerResult Class](#searchobjectownerresult-class) | [Query Class](#query-class) | [Sort Class](#sort-class) |
-| [ControlMessage Class](#controlmessage-class) | [QueryAutoCompletion Class](#queryautocompletion-class) | [SortCollection Class](#sortcollection-class) |
-| [MessageLevel Enum](#messagelevel-enum) | [QueryAutoCompletionMatch Class](#queryautocompletionmatch-class) | [SortDirection Enum](#sortdirection-enum) |
-| [DocumentCrawlLog Class](#documentcrawllog-class) | [QueryAutoCompletionResults Class](#queryautocompletionresults-class) | [StringCollection Class](#stringcollection-class) |
-| [SearchObjectLevel Enum](#searchobjectlevel-enum) | [QueryObjectPropertyNames Class](#queryobjectpropertynames-class) | [TenantCustomQuerySuggestions Class](#tenantcustomquerysuggestions-class) |
+| [SearchTenantSettings Class](#searchtenantsettings-class) | [ReportTopQueries Class](#reporttopqueries-class) | [QueryAutoCompletion Class](#queryautocompletion-class) |
+| [TenantClassification Class](#tenantclassification-class) | [ReportTopQueriesData Class](#reporttopqueriesdata-class) | [QueryAutoCompletionMatch Class](#queryautocompletionmatch-class) |
+| [TenantRoutingSettings Class](#tenantroutingsettings-class) | [ReportTopQueriesItem Class](#reporttopqueriesitem-class) | [QueryAutoCompletionResults Class](#queryautocompletionresults-class) |
+| [ContextCondition Class](#contextcondition-class) | [ScsEndpoint Class](#scsendpoint-class) | [QueryObjectPropertyNames Class](#queryobjectpropertynames-class) |
+| [DrainingState Enum](#drainingstate-enum) | [SearchEndpoints Class](#searchendpoints-class) | [QueryPersonalizationData Class](#querypersonalizationdata-class) |
+| [ExpandedQueryParameters Class](#expandedqueryparameters-class) | [SearchObjectOwnerResult Class](#searchobjectownerresult-class) | [QueryPropertyNames Class](#querypropertynames-class) |
+| [PromotedResultQueryRule Class](#promotedresultqueryrule-class) | [ControlMessage Class](#controlmessage-class) | [QueryPropertyValue Class](#querypropertyvalue-class) |
+| [PromotedResults Class](#promotedresults-class) | [MessageLevel Enum](#messagelevel-enum) | [QueryPropertyValueType Enum](#querypropertyvaluetype-enum) |
+| [PromotedResultsOperationsResult Class](#promotedresultsoperationsresult-class) | [DocumentCrawlLog Class](#documentcrawllog-class) | [QuerySuggestionQuery Class](#querysuggestionquery-class) |
+| [QueryCondition Class](#querycondition-class) | [SearchObjectLevel Enum](#searchobjectlevel-enum) | [QuerySuggestionRange Class](#querysuggestionrange-class) |
+| [QueryConfiguration Class](#queryconfiguration-class) | [SearchObjectOwner Class](#searchobjectowner-class) | [QuerySuggestionResults Class](#querysuggestionresults-class) |
+| [QueryContext Class](#querycontext-class) | [CertificateService Class](#certificateservice-class) | [QueryUtility Class](#queryutility-class) |
+| [QueryRoutingInfo Class](#queryroutinginfo-class) | [PushTenantManager Class](#pushtenantmanager-class) | [RankingLabeling Class](#rankinglabeling-class) |
+| [QueryState Enum](#querystate-enum) | [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [ReorderingRule Class](#reorderingrule-class) |
+| [ReportAbandonedQueries Class](#reportabandonedqueries-class) | [PushTenantServiceInfoPropertyNames Class](#pushtenantserviceinfopropertynames-class) | [ReorderingRuleCollection Class](#reorderingrulecollection-class) |
+| [ReportAbandonedQueriesData Class](#reportabandonedqueriesdata-class) | [SearchConfigurationPortability Class](#searchconfigurationportability-class) | [ReorderingRuleMatchType Enum](#reorderingrulematchtype-enum) |
+| [ReportAbandonedQueriesItem Class](#reportabandonedqueriesitem-class) | [SearchConfigurationPortabilityPropertyNames Class](#searchconfigurationportabilitypropertynames-class) | [ResultTable Class](#resulttable-class) |
+| [ReportBase Class](#reportbase-class) | [CustomQuerySuggestions Class](#customquerysuggestions-class) | [ResultTableCollection Class](#resulttablecollection-class) |
+| [ReportNoResultData Class](#reportnoresultdata-class) | [KeywordQuery Class](#keywordquery-class) | [ScriptTypeFactory Class](#scripttypefactory-class) |
+| [ReportNoResultItem Class](#reportnoresultitem-class) | [KeywordQueryObjectPropertyNames Class](#keywordqueryobjectpropertynames-class) | [SearchExecutor Class](#searchexecutor-class) |
+| [ReportNoResultQueries Class](#reportnoresultqueries-class) | [KeywordQueryProperties Class](#keywordqueryproperties-class) | [Sort Class](#sort-class) |
+| [ReportNumberOfQueries Class](#reportnumberofqueries-class) | [KeywordQueryPropertyNames Class](#keywordquerypropertynames-class) | [SortCollection Class](#sortcollection-class) |
+| [ReportNumberOfQueriesData Class](#reportnumberofqueriesdata-class) | [KnownTableTypes Class](#knowntabletypes-class) | [SortDirection Enum](#sortdirection-enum) |
+| [ReportNumberOfQueriesItem Class](#reportnumberofqueriesitem-class) | [PersonalResultSuggestion Class](#personalresultsuggestion-class) | [StringCollection Class](#stringcollection-class) |
+| [ReportQueryRules Class](#reportqueryrules-class) | [PopularQuery Class](#popularquery-class) | [TenantCustomQuerySuggestions Class](#tenantcustomquerysuggestions-class) |
+| [ReportQueryRulesData Class](#reportqueryrulesdata-class) | [PopularTenantQuery Class](#populartenantquery-class) |   |
+| [ReportQueryRulesItem Class](#reportqueryrulesitem-class) | [Query Class](#query-class) |   |
 # SearchTenantSettings Class
 
 Namespace: Microsoft.Office.Server.Search.lib.OM.SearchSubscriptionSettings
@@ -320,6 +326,316 @@ Namespace: Microsoft.Office.Server.Search.REST
 | **SharePointSharedOnly** |  |
 | **OneDriveWeb** |  |
 | **SharePointSharedLssOdbMerged** |  |
+# ReportAbandonedQueries Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: [ReportBase](#reportbase-class)
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Reports** | IList\<[ReportAbandonedQueriesItem](#reportabandonedqueriesitem-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportAbandonedQueriesData Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **AbandonedPercentage** | double |  |
+| **QueryText** | string |  |
+| **ResultSource** | string |  |
+| **Total** | long |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportAbandonedQueriesItem Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Date** | string |  |
+| **Report** | IList\<[ReportAbandonedQueriesData](#reportabandonedqueriesdata-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportBase Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportNoResultData Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **NoResultPercentage** | double |  |
+| **QueryText** | string |  |
+| **ResultSource** | string |  |
+| **Total** | long |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportNoResultItem Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Date** | string |  |
+| **Report** | IList\<[ReportNoResultData](#reportnoresultdata-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportNoResultQueries Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: [ReportBase](#reportbase-class)
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Reports** | IList\<[ReportNoResultItem](#reportnoresultitem-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportNumberOfQueries Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: [ReportBase](#reportbase-class)
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Reports** | IList\<[ReportNumberOfQueriesItem](#reportnumberofqueriesitem-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportNumberOfQueriesData Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Hits** | string |  |
+| **ResultSource** | string |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportNumberOfQueriesItem Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Date** | string |  |
+| **Report** | IList\<[ReportNumberOfQueriesData](#reportnumberofqueriesdata-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportQueryRules Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: [ReportBase](#reportbase-class)
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Reports** | IList\<[ReportQueryRulesItem](#reportqueryrulesitem-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportQueryRulesData Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **DictionaryTerms** | long |  |
+| **Owner** | string |  |
+| **OwnerType** | string |  |
+| **PercentagePromotedResult** | double |  |
+| **PromotedResultClicks** | long |  |
+| **PromotedResultURL** | string |  |
+| **QueryRule** | string |  |
+| **ResultSource** | string |  |
+| **TimesFired** | long |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportQueryRulesItem Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Date** | string |  |
+| **Report** | IList\<[ReportQueryRulesData](#reportqueryrulesdata-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportTopQueries Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: [ReportBase](#reportbase-class)
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Reports** | IList\<[ReportTopQueriesItem](#reporttopqueriesitem-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportTopQueriesData Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **QueryPercentage** | double |  |
+| **QueryText** | string |  |
+| **ResultSource** | string |  |
+| **Total** | long |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ReportTopQueriesItem Class
+
+Namespace: Microsoft.Office.Server.Search.REST
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Date** | string |  |
+| **Report** | IList\<[ReportTopQueriesData](#reporttopqueriesdata-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # ScsEndpoint Class
 
 Namespace: Microsoft.Office.Server.Search.REST
@@ -1433,6 +1749,7 @@ Base class: ClientObject
 | **ExportPopularQueries(Web web, Guid sourceId)** | IList\<[PopularQuery](#popularquery-class)\> |  |
 | **GetPromotedResults(bool siteCollectionLevel, int offset, int numberOfRules)** | ClientResult\<[PromotedResultsOperationsResult](#promotedresultsoperationsresult-class)\> |  |
 | **GetQueryConfiguration(bool callLocalSearchFarmsOnly, bool skipGroupObjectIds)** | ClientResult\<[QueryConfiguration](#queryconfiguration-class)\> |  |
+| **GetReportInfo(string tenantIdStr, string reportType, string interval, string startDate, string endDate, string siteCollectionId)** | ClientResult\<[ReportBase](#reportbase-class)\> |  |
 | **GetScsPartialUpdateEndPointInfo()** | ClientResult\<[ScsEndpoint](#scsendpoint-class)\> |  |
 | **GetSsaId()** | ClientResult\<string\> |  |
 | **RecordPageClick(string pageInfo, string clickType, int blockType, string clickedResultId, int subResultIndex, string immediacySourceId, string immediacyQueryString, string immediacyTitle, string immediacyUrl)** | void |  |

@@ -2029,6 +2029,10 @@ Namespace: Microsoft.SharePoint.Client.Publishing.Navigation
 | **Refreshing** |  |
 | **PendingOptOut** |  |
 | **OptedOut** |  |
+| **EnabledGlobal** |  |
+| **EnabledCurrent** |  |
+| **EnabledBoth** |  |
+| **NotNeeded** |  |
 # StandardNavigationSettings Class
 
 Namespace: Microsoft.SharePoint.Client.Publishing.Navigation
@@ -2283,11 +2287,13 @@ Base class: ClientValueObject
 | **IsPaused** | bool |  |
 | **ModifiedOn** | DateTime |  |
 | **NewSiteUrl** | string |  |
+| **OwnersAndEditors** | IDictionary\<string, string\> |  |
 | **PauseAtWave** | int |  |
 | **RedirectionType** | [PortalLaunchRedirectionType](#portallaunchredirectiontype-enum) |  |
 | **RedirectUrl** | string |  |
 | **SiteId** | Guid |  |
 | **Status** | [PortalLaunchStatus](#portallaunchstatus-enum) |  |
+| **WaveOverrideUsers** | string |  |
 | **Waves** | IList\<[PortalLaunchWave](#portallaunchwave-class)\> |  |
 | **TypeId** | string |  |
 ## Methods

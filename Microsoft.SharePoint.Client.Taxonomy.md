@@ -1436,6 +1436,7 @@ Base class: ClientObject
 | **GetGroup(Guid id)** | [TermGroup](#termgroup-class) |  |
 | **GetPackage(string packageId, Guid packageType, string farmVersion, int siteCompatibilityLevel)** | ClientResult\<Stream\> |  |
 | **GetPackagesUpdateInformation(DateTime lastUpdateTime)** | ClientResult\<Stream\> |  |
+| **GetPackagesUpdateInformationByIds(DateTime lastUpdateTime, string[] strContentTypeIds)** | ClientResult\<Stream\> |  |
 | **GetSiteCollectionGroup(Site currentSite, bool createIfMissing)** | [TermGroup](#termgroup-class) |  |
 | **GetTerm(Guid termId)** | [Term](#term-class) |  |
 | **GetTermInTermSet(Guid termSetId, Guid termId)** | [Term](#term-class) |  |
