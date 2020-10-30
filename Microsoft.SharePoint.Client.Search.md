@@ -326,6 +326,7 @@ Namespace: Microsoft.Office.Server.Search.REST
 | **SharePointSharedOnly** |  |
 | **OneDriveWeb** |  |
 | **SharePointSharedLssOdbMerged** |  |
+| **SubstrateOnly** |  |
 # ReportAbandonedQueries Class
 
 Namespace: Microsoft.Office.Server.Search.REST
@@ -1748,7 +1749,7 @@ Base class: ClientObject
 | **ExecuteQuery(Query query)** | ClientResult\<[ResultTableCollection](#resulttablecollection-class)\> |  |
 | **ExportPopularQueries(Web web, Guid sourceId)** | IList\<[PopularQuery](#popularquery-class)\> |  |
 | **GetPromotedResults(bool siteCollectionLevel, int offset, int numberOfRules)** | ClientResult\<[PromotedResultsOperationsResult](#promotedresultsoperationsresult-class)\> |  |
-| **GetQueryConfiguration(bool callLocalSearchFarmsOnly, bool skipGroupObjectIds)** | ClientResult\<[QueryConfiguration](#queryconfiguration-class)\> |  |
+| **GetQueryConfiguration(bool callLocalSearchFarmsOnly, bool skipGroupObjectIds, bool throwOnRemoteApiCheck)** | ClientResult\<[QueryConfiguration](#queryconfiguration-class)\> |  |
 | **GetReportInfo(string tenantIdStr, string reportType, string interval, string startDate, string endDate, string siteCollectionId)** | ClientResult\<[ReportBase](#reportbase-class)\> |  |
 | **GetScsPartialUpdateEndPointInfo()** | ClientResult\<[ScsEndpoint](#scsendpoint-class)\> |  |
 | **GetSsaId()** | ClientResult\<string\> |  |

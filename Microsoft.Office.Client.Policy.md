@@ -771,6 +771,8 @@ Base class: ClientObject
 | **BulkUpdateDynamicScopeBindings(string[] scopesToAdd, string[] scopesToRemove, string siteId)** | void |  |
 | **DeleteDynamicScopeBinding(string identity, string siteId)** | void |  |
 | **ExtendReviewItemsRetention(int[] itemIds, DateTime extensionDate)** | ClientArrayResult\<int\> |  |
+| **FindAlternativeScope(ClientRuntimeContext context, Guid tenantId, string scope)** | ClientResult\<string\> |  |
+| **FindPolicyScopeById(ClientRuntimeContext context, Guid tenantId, Guid scopeId)** | ClientResult\<string\> |  |
 | **GetAvailableTagsForSite(ClientRuntimeContext context, string siteUrl)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetAvailableTagsForSiteLabel(ClientRuntimeContext context)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetDynamicScopeBindingBySiteId(string siteId)** | IList\<string\> |  |

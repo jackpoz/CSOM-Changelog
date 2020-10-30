@@ -1493,7 +1493,7 @@ Base class: ClientObject
 | Name | Type | Summary |
 |---|---|---|
 | **SourceTenantCompanyId** | Guid |  |
-| **SourceUserPuid** | string |  |
+| **SourceUserKey** | string |  |
 | **TargetUserEmail** | string |  |
 | **TargetUserPuid** | string |  |
 | **TargetUserUpn** | string |  |
@@ -1522,7 +1522,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | Name | Type | Summary |
 |---|---|---|
 | **SourceTenantCompanyId** | string |  |
-| **SourceUserPuid** | string |  |
+| **SourceUserKey** | string |  |
 | **TargetUserEmail** | string |  |
 | **TargetUserPuid** | string |  |
 | **TargetUserUpn** | string |  |
@@ -1754,7 +1754,7 @@ Base class: ClientObject
 |---|---|---|
 | **AddOrUpdateTenantIdentityMap(string[] mapItems)** | IList\<string\> |  |
 | **AddOrUpdateTenantSingleGroupIdentityMappingItem(Guid sourceTenantCompanyId, Guid sourceGroupObjectId, Guid targetGroupObjectId, string targetGroupName, TenantIdentityMappingGroupType groupType)** | void |  |
-| **AddOrUpdateTenantSingleUserIdentityMappingItem(Guid sourceTenantCompanyId, string sourceUserPuid, string targetUserPuid, string targetUserUpn, string targetUserEmail, TenantIdentityMappingUserType userType)** | void |  |
+| **AddOrUpdateTenantSingleUserIdentityMappingItem(Guid sourceTenantCompanyId, string sourceUserKey, string targetUserPuid, string targetUserUpn, string targetUserEmail, TenantIdentityMappingUserType userType)** | void |  |
 | **AddPublicCdnOrigin(string origin)** | void |  |
 | **AddSdnProvider(string identifier, string license)** | void |  |
 | **AddSiteDesignTask(ClientRuntimeContext context, string webUrl, Guid siteDesignId)** | [TenantSiteDesignTask](#tenantsitedesigntask-class) |  |
@@ -1803,6 +1803,7 @@ Base class: ClientObject
 | **GetMySiteHostUrl()** | ClientResult\<string\> |  |
 | **GetOrgAssets()** | ClientResult\<OrgAssets\> |  |
 | **GetOrgNewsSites()** | IEnumerable\<string\> |  |
+| **GetOrgRelationTargetGroupManagedPath(string targetMySiteHostUrl)** | ClientResult\<string\> |  |
 | **GetPersonalSiteUrl(string userPrincipalName)** | ClientResult\<string\> |  |
 | **GetPortalLaunchWaves(string siteUrl)** | ClientResult\<string\> |  |
 | **GetRootSiteUrl()** | ClientResult\<string\> |  |
