@@ -695,6 +695,7 @@ Base class: FieldLookup
 | **Indexed** | bool |  |
 | **IndexStatus** | FieldIndexStatus |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |

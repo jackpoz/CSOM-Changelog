@@ -2687,6 +2687,9 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **RoutingHint** | string |  |
+| **ScaleUnitId** | Guid |  |
+| **Watermark** | string |  |
 | **WorkItemType** | [SensitivityLabelWorkItemType](#sensitivitylabelworkitemtype-enum) |  |
 | **TypeId** | string |  |
 ## Methods
@@ -4684,6 +4687,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **EnqueueJobStatus** | [EnqueueJobStatus](#enqueuejobstatus-enum) |  |
+| **Message** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -5123,6 +5127,7 @@ Base class: ClientObject
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -5209,6 +5214,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -5313,6 +5319,7 @@ Base class: [FieldMultiChoice](#fieldmultichoice-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -5444,6 +5451,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -5530,6 +5538,7 @@ Base class: [FieldNumber](#fieldnumber-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -5612,6 +5621,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -5693,6 +5703,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -5781,6 +5792,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -5951,6 +5963,7 @@ Base class: [FieldMultiLineText](#fieldmultilinetext-class)
 |---|---|---|
 | **AllowHyperlink** | bool |  |
 | **AppendOnly** | bool |  |
+| **IsLongHyperlink** | bool |  |
 | **NumberOfLines** | int |  |
 | **RestrictedMode** | bool |  |
 | **RichText** | bool |  |
@@ -5978,6 +5991,7 @@ Base class: [FieldMultiLineText](#fieldmultilinetext-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -6055,6 +6069,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -6163,6 +6178,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -6222,6 +6238,7 @@ Base class: [Field](#field-class)
 |---|---|---|
 | **AllowHyperlink** | bool |  |
 | **AppendOnly** | bool |  |
+| **IsLongHyperlink** | bool |  |
 | **NumberOfLines** | int |  |
 | **RestrictedMode** | bool |  |
 | **RichText** | bool |  |
@@ -6249,6 +6266,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -6294,6 +6312,7 @@ Namespace: Microsoft.SharePoint.Client
 |---|---|---|
 | **AllowHyperlink** | string |  |
 | **AppendOnly** | string |  |
+| **IsLongHyperlink** | string |  |
 | **NumberOfLines** | string |  |
 | **RestrictedMode** | string |  |
 | **RichText** | string |  |
@@ -6340,6 +6359,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -6432,6 +6452,7 @@ Namespace: Microsoft.SharePoint.Client
 | **Indexed** | string |  |
 | **IndexStatus** | string |  |
 | **InternalName** | string |  |
+| **IsModern** | string |  |
 | **JSLink** | string |  |
 | **NoCrawl** | string |  |
 | **PinnedToFiltersPane** | string |  |
@@ -6494,6 +6515,7 @@ Base class: [FieldMultiChoice](#fieldmultichoice-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -6629,6 +6651,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -6777,6 +6800,7 @@ Base class: [Field](#field-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -6888,6 +6912,7 @@ Base class: [FieldLookup](#fieldlookup-class)
 | **Indexed** | bool |  |
 | **IndexStatus** | [FieldIndexStatus](#fieldindexstatus-enum) |  |
 | **InternalName** | string |  |
+| **IsModern** | bool |  |
 | **JSLink** | string |  |
 | **NoCrawl** | bool |  |
 | **PinnedToFiltersPane** | bool |  |
@@ -7123,6 +7148,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **AutoCheckoutOnInvalidData** | bool |  |
+| **EnsureUniqueFileName** | bool |  |
 | **Overwrite** | bool |  |
 | **XorHash** | string |  |
 | **TypeId** | string |  |
@@ -7642,6 +7668,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **EnsureUniqueFileName** | bool |  |
 | **Overwrite** | bool |  |
 | **TypeId** | string |  |
 ## Methods
@@ -8010,9 +8037,11 @@ Base class: ClientValueObject
 | **Description** | string |  |
 | **EnablePermissionsSync** | bool |  |
 | **EnforcedECTs** | string |  |
+| **EnforcedECTsVersion** | int |  |
 | **HideNameInNavigation** | bool |  |
 | **LogoUrl** | string |  |
 | **ParentHubSiteId** | Guid |  |
+| **PermissionsSyncTag** | int |  |
 | **RequiresJoinApproval** | bool |  |
 | **SiteDesignId** | Guid |  |
 | **SiteId** | Guid |  |
@@ -9659,6 +9688,7 @@ Base class: ClientValueObject
 | **MediaServiceTranscript** | string |  |
 | **SensitivityLabel** | string |  |
 | **SensitivityLabelAssignmentMethod** | [SPSensivityLabelAssignmentMethod](#spsensivitylabelassignmentmethod-enum) |  |
+| **XTenantLabelInfo** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -12704,6 +12734,7 @@ Base class: ClientValueObject
 | **IsDefault** | bool |  |
 | **IsEditLink** | bool |  |
 | **IsFormsLink** | bool |  |
+| **IsManageListLink** | bool |  |
 | **IsReviewLink** | bool |  |
 | **IsUnhealthy** | bool |  |
 | **LastModified** | string |  |
@@ -14591,6 +14622,12 @@ Namespace: Microsoft.SharePoint.Client
 | **CanManagePeopleSharingReadonlyLink** |  |
 | **CanUsePeopleSharingReadWriteLink** |  |
 | **CanManagePeopleSharingReadWriteLink** |  |
+| **CanUseManageListLink** |  |
+| **CanManageManageListLink** |  |
+| **CanUseOrganizationManageListLink** |  |
+| **CanManageOrganizationManageListLink** |  |
+| **CanUsePeopleSharingManageListLink** |  |
+| **CanManagePeopleSharingManageListLink** |  |
 # View Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -15155,6 +15192,7 @@ Base class: [SecurableObject](#securableobject-class)
 | **FooterEmphasis** | [FooterVariantThemeType](#footervariantthemetype-enum) |  |
 | **FooterEnabled** | bool |  |
 | **FooterLayout** | [FooterLayoutType](#footerlayouttype-enum) |  |
+| **HasWebTemplateExtension** | bool |  |
 | **HeaderEmphasis** | [SPVariantThemeType](#spvariantthemetype-enum) |  |
 | **HeaderLayout** | [HeaderLayoutType](#headerlayouttype-enum) |  |
 | **HideTitleInHeader** | bool |  |
@@ -15538,6 +15576,7 @@ Namespace: Microsoft.SharePoint.Client
 | **FooterEmphasis** | string |  |
 | **FooterEnabled** | string |  |
 | **FooterLayout** | string |  |
+| **HasWebTemplateExtension** | string |  |
 | **HeaderEmphasis** | string |  |
 | **HeaderLayout** | string |  |
 | **HideTitleInHeader** | string |  |
@@ -16058,6 +16097,7 @@ Namespace: Microsoft.SharePoint.Client.Sharing
 | **Review** |  |
 | **RestrictedView** |  |
 | **Submit** |  |
+| **ManageList** |  |
 # SharedObjectType Enum
 
 Namespace: Microsoft.SharePoint.Client.Sharing
@@ -17432,6 +17472,8 @@ Base class: [FileCreationInformation](#filecreationinformation-class)
 
 | Name | Type | Summary |
 |---|---|---|
+| **IconUrl** | string |  |
+| **ShortDescription** | string |  |
 | **StoreAssetId** | string |  |
 | **TypeId** | string |  |
 | **Content** | byte[] |  |

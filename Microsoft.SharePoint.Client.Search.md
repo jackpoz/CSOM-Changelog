@@ -340,6 +340,7 @@ Base class: [ReportBase](#reportbase-class)
 |---|---|---|
 | **Reports** | IList\<[ReportAbandonedQueriesItem](#reportabandonedqueriesitem-class)\> |  |
 | **TypeId** | string |  |
+| **FarmId** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -396,6 +397,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **FarmId** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -455,6 +457,7 @@ Base class: [ReportBase](#reportbase-class)
 |---|---|---|
 | **Reports** | IList\<[ReportNoResultItem](#reportnoresultitem-class)\> |  |
 | **TypeId** | string |  |
+| **FarmId** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -473,6 +476,7 @@ Base class: [ReportBase](#reportbase-class)
 |---|---|---|
 | **Reports** | IList\<[ReportNumberOfQueriesItem](#reportnumberofqueriesitem-class)\> |  |
 | **TypeId** | string |  |
+| **FarmId** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -529,6 +533,7 @@ Base class: [ReportBase](#reportbase-class)
 |---|---|---|
 | **Reports** | IList\<[ReportQueryRulesItem](#reportqueryrulesitem-class)\> |  |
 | **TypeId** | string |  |
+| **FarmId** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -545,15 +550,16 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
-| **DictionaryTerms** | long |  |
-| **Owner** | string |  |
+| **DictionaryTerms** | string |  |
 | **OwnerType** | string |  |
-| **PercentagePromotedResult** | double |  |
-| **PromotedResultClicks** | long |  |
+| **PercentagePromotedResult** | string |  |
+| **PromotedResultClicks** | string |  |
 | **PromotedResultURL** | string |  |
+| **PromotedResultURLName** | string |  |
 | **QueryRule** | string |  |
+| **QueryRuleId** | string |  |
 | **ResultSource** | string |  |
-| **TimesFired** | long |  |
+| **TimesFired** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -592,6 +598,7 @@ Base class: [ReportBase](#reportbase-class)
 |---|---|---|
 | **Reports** | IList\<[ReportTopQueriesItem](#reporttopqueriesitem-class)\> |  |
 | **TypeId** | string |  |
+| **FarmId** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
