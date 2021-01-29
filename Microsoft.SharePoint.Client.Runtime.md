@@ -1969,7 +1969,6 @@ Namespace: Microsoft.SharePoint.Client
 | **CannotContactSite** | string |  |
 | **CannotContactSiteWithDetails** | string |  |
 | **CannotFindContextWebServerRelativeUrl** | string |  |
-| **CannotFindPlatformLibrary** | string |  |
 | **CannotGetCookie** | string |  |
 | **CannotHandleServerResponseSchema** | string |  |
 | **CollectionHasNotBeenInitialized** | string |  |

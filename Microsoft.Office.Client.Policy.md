@@ -7,20 +7,21 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [SPContainerId Class](#spcontainerid-class) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |
-| [ComplianceRetentionWorkItemSubmitter Class](#complianceretentionworkitemsubmitter-class) | [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
-| [ComplianceRetentionWorkItemResponse Class](#complianceretentionworkitemresponse-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
-| [RetentionWorkItemInput Class](#retentionworkiteminput-class) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
-| [ComplianceTag Class](#compliancetag-class) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [SPSitePreservationUtility Class](#spsitepreservationutility-class) |
-| [DlpAccessScope Enum](#dlpaccessscope-enum) | [SPPolicyBinding Class](#sppolicybinding-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
-| [DlpClassificationResult Class](#dlpclassificationresult-class) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [SPSyncNotificationEndpointInfoPropertyNames Class](#spsyncnotificationendpointinfopropertynames-class) |
-| [PendingReviewItemsStatistics Class](#pendingreviewitemsstatistics-class) | [SPPolicyDefinition Class](#sppolicydefinition-class) | [Case Class](#case-class) |
-| [PolicyEvaluationInfo Class](#policyevaluationinfo-class) | [SPPolicyDefinitionPropertyNames Class](#sppolicydefinitionpropertynames-class) | [Export Class](#export-class) |
-| [PolicyEvaluationInfoEnums Enum](#policyevaluationinfoenums-enum) | [SPPolicyEvent Class](#sppolicyevent-class) | [ExportPropertyNames Class](#exportpropertynames-class) |
-| [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyEventPropertyNames Class](#sppolicyeventpropertynames-class) | [ExportStatus Enum](#exportstatus-enum) |
-| [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyRule Class](#sppolicyrule-class) | [ProjectPolicy Class](#projectpolicy-class) |
-| [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
-| [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyStore Class](#sppolicystore-class) | [Records Class](#records-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyStore Class](#sppolicystore-class) |
+| [ComplianceRetentionWorkItemSubmitter Class](#complianceretentionworkitemsubmitter-class) | [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |
+| [PreserveDocumentSubmitter Class](#preservedocumentsubmitter-class) | [SPContainerId Class](#spcontainerid-class) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
+| [ComplianceRetentionWorkItemResponse Class](#complianceretentionworkitemresponse-class) | [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
+| [ComplianceTagInfo Class](#compliancetaginfo-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
+| [PreservedCloudAttachment Class](#preservedcloudattachment-class) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPSitePreservationUtility Class](#spsitepreservationutility-class) |
+| [RetentionWorkItemInput Class](#retentionworkiteminput-class) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
+| [ComplianceTag Class](#compliancetag-class) | [SPPolicyBinding Class](#sppolicybinding-class) | [SPSyncNotificationEndpointInfoPropertyNames Class](#spsyncnotificationendpointinfopropertynames-class) |
+| [DlpAccessScope Enum](#dlpaccessscope-enum) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [Case Class](#case-class) |
+| [DlpClassificationResult Class](#dlpclassificationresult-class) | [SPPolicyDefinition Class](#sppolicydefinition-class) | [Export Class](#export-class) |
+| [PendingReviewItemsStatistics Class](#pendingreviewitemsstatistics-class) | [SPPolicyDefinitionPropertyNames Class](#sppolicydefinitionpropertynames-class) | [ExportPropertyNames Class](#exportpropertynames-class) |
+| [PolicyEvaluationInfo Class](#policyevaluationinfo-class) | [SPPolicyEvent Class](#sppolicyevent-class) | [ExportStatus Enum](#exportstatus-enum) |
+| [PolicyEvaluationInfoEnums Enum](#policyevaluationinfoenums-enum) | [SPPolicyEventPropertyNames Class](#sppolicyeventpropertynames-class) | [ProjectPolicy Class](#projectpolicy-class) |
+| [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyRule Class](#sppolicyrule-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
+| [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) | [Records Class](#records-class) |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Office.Client.Policy
@@ -61,6 +62,31 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **AddComplianceRetentionWorkItem(ClientRuntimeContext context, string workItemPayloadJsonString)** | ClientResult\<[ComplianceRetentionWorkItemResponse](#complianceretentionworkitemresponse-class)\> |  |
+# PreserveDocumentSubmitter Class
+
+Namespace: Microsoft.SharePoint.Client.ComplianceFoundation
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **PreserveDocumentSubmitter(ClientRuntimeContext context, ObjectPath objectPath)** |  |
 # ComplianceRetentionWorkItemResponse Class
 
 Namespace: Microsoft.SharePoint.Client.ComplianceFoundation.Models
@@ -76,6 +102,48 @@ Base class: ClientValueObject
 | **TenantId** | string |  |
 | **WorkItemId** | Guid |  |
 | **WorkItemJobStatus** | int |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# ComplianceTagInfo Class
+
+Namespace: Microsoft.SharePoint.Client.ComplianceFoundation.Models
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **IsRecord** | bool |  |
+| **IsRegulatory** | bool |  |
+| **ShouldKeep** | bool |  |
+| **TagName** | string |  |
+| **UnifiedRuleId** | Guid |  |
+| **UnifiedTagId** | Guid |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# PreservedCloudAttachment Class
+
+Namespace: Microsoft.SharePoint.Client.ComplianceFoundation.Models
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **CompositeDocumentId** | string |  |
+| **Url** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -124,6 +192,7 @@ Base class: ClientValueObject
 | **EncryptionRMSTemplateId** | string |  |
 | **HasRetentionAction** | bool |  |
 | **IsEventTag** | bool |  |
+| **MultiStageReviewerEmail** | string |  |
 | **Notes** | string |  |
 | **RequireSenderAuthenticationEnabled** | bool |  |
 | **ReviewerEmail** | string |  |

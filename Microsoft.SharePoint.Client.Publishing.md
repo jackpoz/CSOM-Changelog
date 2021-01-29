@@ -2122,6 +2122,8 @@ Base class: ClientObject
 | **CurrentNavigation** | [StandardNavigationSettings](#standardnavigationsettings-class) |  |
 | **GlobalNavigation** | [StandardNavigationSettings](#standardnavigationsettings-class) |  |
 | **LastCachingRefreshAttempted** | DateTime |  |
+| **PortalNavigationSuccessfulRefreshID** | Guid |  |
+| **PortalNavigationSuccessfulRefreshTime** | DateTime |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -2170,6 +2172,8 @@ Namespace: Microsoft.SharePoint.Client.Publishing.Navigation
 | **CachingState** | string |  |
 | **CreateFriendlyUrlsForNewPages** | string |  |
 | **LastCachingRefreshAttempted** | string |  |
+| **PortalNavigationSuccessfulRefreshID** | string |  |
+| **PortalNavigationSuccessfulRefreshTime** | string |  |
 # PortalLaunchRedirectionType Enum
 
 Namespace: Microsoft.SharePoint.Client.Publishing.PortalLaunch

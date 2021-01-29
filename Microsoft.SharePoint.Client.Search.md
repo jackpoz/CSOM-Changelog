@@ -495,6 +495,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **Hits** | string |  |
 | **ResultSource** | string |  |
+| **TotalQueries** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
