@@ -7,25 +7,26 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ChangedGroup Class](#changedgroup-class) | [LabelCollection Class](#labelcollection-class) | [Term Class](#term-class) |
-| [ChangedItem Class](#changeditem-class) | [LabelMatchInformation Class](#labelmatchinformation-class) | [TermCollection Class](#termcollection-class) |
-| [ChangedItemCollection Class](#changeditemcollection-class) | [LabelMatchInformationPropertyNames Class](#labelmatchinformationpropertynames-class) | [TermGroup Class](#termgroup-class) |
-| [ChangedItemPropertyNames Class](#changeditempropertynames-class) | [LabelObjectPropertyNames Class](#labelobjectpropertynames-class) | [TermGroupCollection Class](#termgroupcollection-class) |
-| [ChangedItemType Enum](#changeditemtype-enum) | [LabelPropertyNames Class](#labelpropertynames-class) | [TermGroupObjectPropertyNames Class](#termgroupobjectpropertynames-class) |
-| [ChangedOperationType Enum](#changedoperationtype-enum) | [MobileTaxonomyField Class](#mobiletaxonomyfield-class) | [TermGroupPropertyNames Class](#termgrouppropertynames-class) |
-| [ChangedSite Class](#changedsite-class) | [MobileTaxonomyFieldPropertyNames Class](#mobiletaxonomyfieldpropertynames-class) | [TermObjectPropertyNames Class](#termobjectpropertynames-class) |
-| [ChangedSitePropertyNames Class](#changedsitepropertynames-class) | [ScriptTypeFactory Class](#scripttypefactory-class) | [TermPropertyNames Class](#termpropertynames-class) |
-| [ChangedTerm Class](#changedterm-class) | [StringMatchOption Enum](#stringmatchoption-enum) | [TermSet Class](#termset-class) |
-| [ChangedTermPropertyNames Class](#changedtermpropertynames-class) | [TaxonomyField Class](#taxonomyfield-class) | [TermSetCollection Class](#termsetcollection-class) |
-| [ChangedTermSet Class](#changedtermset-class) | [TaxonomyFieldPropertyNames Class](#taxonomyfieldpropertynames-class) | [TermSetItem Class](#termsetitem-class) |
-| [ChangedTermSetPropertyNames Class](#changedtermsetpropertynames-class) | [TaxonomyFieldValue Class](#taxonomyfieldvalue-class) | [TermSetItemObjectPropertyNames Class](#termsetitemobjectpropertynames-class) |
-| [ChangedTermStore Class](#changedtermstore-class) | [TaxonomyFieldValueCollection Class](#taxonomyfieldvaluecollection-class) | [TermSetItemPropertyNames Class](#termsetitempropertynames-class) |
-| [ChangedTermStorePropertyNames Class](#changedtermstorepropertynames-class) | [TaxonomyItem Class](#taxonomyitem-class) | [TermSetObjectPropertyNames Class](#termsetobjectpropertynames-class) |
-| [ChangeInformation Class](#changeinformation-class) | [TaxonomyItemObjectPropertyNames Class](#taxonomyitemobjectpropertynames-class) | [TermSetPropertyNames Class](#termsetpropertynames-class) |
-| [ChangeInformationPropertyNames Class](#changeinformationpropertynames-class) | [TaxonomyItemPropertyNames Class](#taxonomyitempropertynames-class) | [TermStore Class](#termstore-class) |
-| [CustomPropertyMatchInformation Class](#custompropertymatchinformation-class) | [TaxonomySession Class](#taxonomysession-class) | [TermStoreCollection Class](#termstorecollection-class) |
-| [CustomPropertyMatchInformationPropertyNames Class](#custompropertymatchinformationpropertynames-class) | [TaxonomySessionObjectPropertyNames Class](#taxonomysessionobjectpropertynames-class) | [TermStoreObjectPropertyNames Class](#termstoreobjectpropertynames-class) |
-| [Label Class](#label-class) | [TaxonomySessionPropertyNames Class](#taxonomysessionpropertynames-class) | [TermStorePropertyNames Class](#termstorepropertynames-class) |
+| [ChangedGroup Class](#changedgroup-class) | [LabelMatchInformation Class](#labelmatchinformation-class) | [TermGroup Class](#termgroup-class) |
+| [ChangedItem Class](#changeditem-class) | [LabelMatchInformationPropertyNames Class](#labelmatchinformationpropertynames-class) | [TermGroupCollection Class](#termgroupcollection-class) |
+| [ChangedItemCollection Class](#changeditemcollection-class) | [LabelObjectPropertyNames Class](#labelobjectpropertynames-class) | [TermGroupObjectPropertyNames Class](#termgroupobjectpropertynames-class) |
+| [ChangedItemPropertyNames Class](#changeditempropertynames-class) | [LabelPropertyNames Class](#labelpropertynames-class) | [TermGroupPropertyNames Class](#termgrouppropertynames-class) |
+| [ChangedItemType Enum](#changeditemtype-enum) | [MobileTaxonomyField Class](#mobiletaxonomyfield-class) | [TermObjectPropertyNames Class](#termobjectpropertynames-class) |
+| [ChangedOperationType Enum](#changedoperationtype-enum) | [MobileTaxonomyFieldPropertyNames Class](#mobiletaxonomyfieldpropertynames-class) | [TermPropertyNames Class](#termpropertynames-class) |
+| [ChangedSite Class](#changedsite-class) | [ScriptTypeFactory Class](#scripttypefactory-class) | [TermSet Class](#termset-class) |
+| [ChangedSitePropertyNames Class](#changedsitepropertynames-class) | [StringMatchOption Enum](#stringmatchoption-enum) | [TermSetCollection Class](#termsetcollection-class) |
+| [ChangedTerm Class](#changedterm-class) | [TaxonomyField Class](#taxonomyfield-class) | [TermSetItem Class](#termsetitem-class) |
+| [ChangedTermPropertyNames Class](#changedtermpropertynames-class) | [TaxonomyFieldPropertyNames Class](#taxonomyfieldpropertynames-class) | [TermSetItemObjectPropertyNames Class](#termsetitemobjectpropertynames-class) |
+| [ChangedTermSet Class](#changedtermset-class) | [TaxonomyFieldValue Class](#taxonomyfieldvalue-class) | [TermSetItemPropertyNames Class](#termsetitempropertynames-class) |
+| [ChangedTermSetPropertyNames Class](#changedtermsetpropertynames-class) | [TaxonomyFieldValueCollection Class](#taxonomyfieldvaluecollection-class) | [TermSetObjectPropertyNames Class](#termsetobjectpropertynames-class) |
+| [ChangedTermStore Class](#changedtermstore-class) | [TaxonomyItem Class](#taxonomyitem-class) | [TermSetPropertyNames Class](#termsetpropertynames-class) |
+| [ChangedTermStorePropertyNames Class](#changedtermstorepropertynames-class) | [TaxonomyItemObjectPropertyNames Class](#taxonomyitemobjectpropertynames-class) | [TermStore Class](#termstore-class) |
+| [ChangeInformation Class](#changeinformation-class) | [TaxonomyItemPropertyNames Class](#taxonomyitempropertynames-class) | [TermStoreCollection Class](#termstorecollection-class) |
+| [ChangeInformationPropertyNames Class](#changeinformationpropertynames-class) | [TaxonomySession Class](#taxonomysession-class) | [TermStoreObjectPropertyNames Class](#termstoreobjectpropertynames-class) |
+| [CustomPropertyMatchInformation Class](#custompropertymatchinformation-class) | [TaxonomySessionObjectPropertyNames Class](#taxonomysessionobjectpropertynames-class) | [TermStorePropertyNames Class](#termstorepropertynames-class) |
+| [CustomPropertyMatchInformationPropertyNames Class](#custompropertymatchinformationpropertynames-class) | [TaxonomySessionPropertyNames Class](#taxonomysessionpropertynames-class) | [ContentTypeSubscriber Class](#contenttypesubscriber-class) |
+| [Label Class](#label-class) | [Term Class](#term-class) | [ContentTypeSyndicationResult Class](#contenttypesyndicationresult-class) |
+| [LabelCollection Class](#labelcollection-class) | [TermCollection Class](#termcollection-class) | [eFailedReason Enum](#efailedreason-enum) |
 # ChangedGroup Class
 
 Namespace: Microsoft.SharePoint.Client.Taxonomy
@@ -1520,3 +1521,71 @@ Namespace: Microsoft.SharePoint.Client.Taxonomy
 | **Languages** | string |  |
 | **Name** | string |  |
 | **WorkingLanguage** | string |  |
+# ContentTypeSubscriber Class
+
+Namespace: Microsoft.SharePoint.Taxonomy.ContentTypeSync.Internal
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **ContentTypeSubscriber(ClientRuntimeContext context)** |  |
+| **ContentTypeSubscriber(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **SyncContentTypesFromHubSite(string siteUrl, IList\<ContentTypeId\> contentTypeIdsToSync)** | ClientResult\<[ContentTypeSyndicationResult](#contenttypesyndicationresult-class)\> |  |
+# ContentTypeSyndicationResult Class
+
+Namespace: Microsoft.SharePoint.Taxonomy.ContentTypeSync.Internal
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **FailedContentTypeIDs** | IList\<string\> |  |
+| **FailedReason** | [eFailedReason](#efailedreason-enum) |  |
+| **IsPassed** | bool |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# eFailedReason Enum
+
+Namespace: Microsoft.SharePoint.Taxonomy.ContentTypeSync.Internal
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **Unknown** |  |
+| **InvalidSubscriptionID** |  |
+| **InvalidSiteID** |  |
+| **Readonly** |  |
+| **FailedAccess** |  |
+| **TaxonomyDisabled** |  |
+| **TemplateNotSupported** |  |
+| **FewContentTypesFailedToSync** |  |
