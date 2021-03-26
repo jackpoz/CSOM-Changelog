@@ -842,6 +842,7 @@ Base class: ClientObject
 | **ExtendReviewItemsRetention(int[] itemIds, DateTime extensionDate)** | ClientArrayResult\<int\> |  |
 | **FindAlternativeScope(ClientRuntimeContext context, Guid tenantId, string scope)** | ClientResult\<string\> |  |
 | **FindPolicyScopeById(ClientRuntimeContext context, Guid tenantId, Guid scopeId)** | ClientResult\<string\> |  |
+| **GetAdvancedRecordVersioningDisabled(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetAvailableTagsForSite(ClientRuntimeContext context, string siteUrl)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetAvailableTagsForSiteLabel(ClientRuntimeContext context)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetDynamicScopeBindingBySiteId(string siteId)** | IList\<string\> |  |
@@ -863,6 +864,7 @@ Base class: ClientObject
 | **RetagReviewItems(int[] itemIds, string newTag, bool newTagIsRecord, bool newTagBlockDelete, bool newTagIsEventBased)** | ClientArrayResult\<int\> |  |
 | **RetagReviewItemsWithMetas(int[] itemIds, string newTagName, string[] newTagMetas)** | ClientArrayResult\<int\> |  |
 | **RetagUnifiedReviewItemsWithMetas(string[] itemIds, string originalTagName, string newTagName, string[] newTagMetas)** | ClientArrayResult\<string\> |  |
+| **SetAdvancedRecordVersioningDisabled(ClientRuntimeContext context, bool disabled)** | void |  |
 | **SetContainerRetentionPolicy(string siteId, Guid defaultContainerLabel)** | void |  |
 | **SetHoldGracePeriodInDays(ClientRuntimeContext context, int gracePeriodInDays)** | void |  |
 | **SetListComplianceTag(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, bool syncToItems)** | void |  |

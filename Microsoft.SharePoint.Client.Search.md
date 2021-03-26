@@ -328,6 +328,7 @@ Namespace: Microsoft.Office.Server.Search.REST
 | **OneDriveWeb** |  |
 | **SharePointSharedLssOdbMerged** |  |
 | **SubstrateOnly** |  |
+| **TSSIsPrimary** |  |
 # ReportAbandonedQueries Class
 
 Namespace: Microsoft.Office.Server.Search.REST

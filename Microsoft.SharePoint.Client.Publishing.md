@@ -499,6 +499,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **BannerImageUrl** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |
+| **Categories** | string |  |
 | **Description** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
@@ -657,6 +658,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **BannerImageUrl** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |
+| **Categories** | string |  |
 | **Description** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
@@ -683,6 +685,7 @@ Base class: ClientValueObject
 | **BannerImageUrl** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |
+| **Categories** | string |  |
 | **Description** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
@@ -1058,6 +1061,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **BannerImageUrl** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |
+| **Categories** | string |  |
 | **Description** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
