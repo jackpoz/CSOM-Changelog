@@ -7,11 +7,12 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [SpoOperation Class](#spooperation-class) | [TenantTemplateDesignType Enum](#tenanttemplatedesigntype-enum) |
-| [ConnectionStatus Enum](#connectionstatus-enum) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [UserInfo Class](#userinfo-class) |
-| [CredentialsType Enum](#credentialstype-enum) | [SPOPortalLaunchValidationResult Class](#spoportallaunchvalidationresult-class) | [UserMigrationProperties Class](#usermigrationproperties-class) |
-| [DeviceActionId Enum](#deviceactionid-enum) | [SPOPortalLaunchValidationResultPropertyNames Class](#spoportallaunchvalidationresultpropertynames-class) | [UserMigrationPropertiesEnumerable Class](#usermigrationpropertiesenumerable-class) |
-| [DeviceStatus Enum](#devicestatus-enum) | [SPOPortalLaunchValidationResultTypes Enum](#spoportallaunchvalidationresulttypes-enum) | [UserMigrationPropertiesEnumerableFilter Class](#usermigrationpropertiesenumerablefilter-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [SPOHubSiteUserRights Enum](#spohubsiteuserrights-enum) | [TenantSiteScriptSerializationResult Class](#tenantsitescriptserializationresult-class) |
+| [ConnectionStatus Enum](#connectionstatus-enum) | [SpoOperation Class](#spooperation-class) | [TenantTemplateDesignType Enum](#tenanttemplatedesigntype-enum) |
+| [CredentialsType Enum](#credentialstype-enum) | [SpoOperationPropertyNames Class](#spooperationpropertynames-class) | [UserInfo Class](#userinfo-class) |
+| [DeviceActionId Enum](#deviceactionid-enum) | [SPOPortalLaunchValidationResult Class](#spoportallaunchvalidationresult-class) | [UserMigrationProperties Class](#usermigrationproperties-class) |
+| [DeviceStatus Enum](#devicestatus-enum) | [SPOPortalLaunchValidationResultPropertyNames Class](#spoportallaunchvalidationresultpropertynames-class) | [UserMigrationPropertiesEnumerable Class](#usermigrationpropertiesenumerable-class) |
+| [EPerfBottleneck Enum](#eperfbottleneck-enum) | [SPOPortalLaunchValidationResultTypes Enum](#spoportallaunchvalidationresulttypes-enum) | [UserMigrationPropertiesEnumerableFilter Class](#usermigrationpropertiesenumerablefilter-class) |
 | [MigrationTaskStatus Enum](#migrationtaskstatus-enum) | [SPOPortalLaunchValidator Class](#spoportallaunchvalidator-class) | [UserMigrationPropertiesEnumerablePropertyNames Class](#usermigrationpropertiesenumerablepropertynames-class) |
 | [SourceType Enum](#sourcetype-enum) | [SPOSitePropertiesEnumerable Class](#spositepropertiesenumerable-class) | [UserMigrationPropertiesPropertyNames Class](#usermigrationpropertiespropertynames-class) |
 | [StorageActionId Enum](#storageactionid-enum) | [SPOSitePropertiesEnumerableFilter Class](#spositepropertiesenumerablefilter-class) | [SPO3rdPartyAADPermissionGrant Class](#spo3rdpartyaadpermissiongrant-class) |
@@ -61,7 +62,6 @@ Created by
 | [SiteUserInfoVisibilityPolicyValue Enum](#siteuserinfovisibilitypolicyvalue-enum) | [TenantSiteScriptCreationInfo Class](#tenantsitescriptcreationinfo-class) | [ThemeProperties Class](#themeproperties-class) |
 | [SPODeletedSitePropertiesEnumerable Class](#spodeletedsitepropertiesenumerable-class) | [TenantSiteScriptPropertyNames Class](#tenantsitescriptpropertynames-class) | [ThemePropertiesPropertyNames Class](#themepropertiespropertynames-class) |
 | [SPODeletedSitePropertiesEnumerablePropertyNames Class](#spodeletedsitepropertiesenumerablepropertynames-class) | [TenantSiteScriptSerializationInfo Class](#tenantsitescriptserializationinfo-class) | [Workflows2013State Enum](#workflows2013state-enum) |
-| [SPOHubSiteUserRights Enum](#spohubsiteuserrights-enum) | [TenantSiteScriptSerializationResult Class](#tenantsitescriptserializationresult-class) |   |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Online.SharePoint.Client.TenantAdmin
@@ -132,6 +132,21 @@ Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
 | **Enabling** |  |
 | **Disconnected** |  |
 | **NotAccessible** |  |
+# EPerfBottleneck Enum
+
+Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **None** |  |
+| **Packing** |  |
+| **Packing_SourceReading** |  |
+| **Packing_DiskWriting** |  |
+| **Uploading** |  |
+| **SPOProcessing** |  |
 # MigrationTaskStatus Enum
 
 Namespace: Microsoft.Online.SharePoint.MigrationCenter.Common
@@ -937,6 +952,7 @@ Base class: ClientObject
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | bool |  |
 | **HubSiteId** | Guid |  |
+| **IBMode** | string |  |
 | **IBSegments** | Guid[] |  |
 | **IBSegmentsToAdd** | Guid[] |  |
 | **IBSegmentsToRemove** | Guid[] |  |
@@ -1034,6 +1050,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | string |  |
 | **HubSiteId** | string |  |
+| **IBMode** | string |  |
 | **IBSegments** | string |  |
 | **IBSegmentsToAdd** | string |  |
 | **IBSegmentsToRemove** | string |  |
@@ -1735,6 +1752,7 @@ Base class: ClientObject
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DisableAddToOneDrive** | bool |  |
+| **DisableBackToClassic** | bool |  |
 | **DisableCustomAppAuthentication** | bool |  |
 | **DisabledModernListTemplateIds** | Guid[] |  |
 | **DisabledWebPartIds** | Guid[] |  |
@@ -2299,6 +2317,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DefaultLinkPermission** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DisableAddToOneDrive** | string |  |
+| **DisableBackToClassic** | string |  |
 | **DisableCustomAppAuthentication** | string |  |
 | **DisabledModernListTemplateIds** | string |  |
 | **DisabledWebPartIds** | string |  |
@@ -3696,6 +3715,7 @@ Base class: ClientObject
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DisableAddToOneDrive** | bool |  |
+| **DisableBackToClassic** | bool |  |
 | **DisableCustomAppAuthentication** | bool |  |
 | **DisabledModernListTemplateIds** | Guid[] |  |
 | **DisablePersonalListCreation** | bool |  |
@@ -3878,6 +3898,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **DefaultLinkPermission** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DisableAddToOneDrive** | string |  |
+| **DisableBackToClassic** | string |  |
 | **DisableCustomAppAuthentication** | string |  |
 | **DisabledModernListTemplateIds** | string |  |
 | **DisablePersonalListCreation** | string |  |

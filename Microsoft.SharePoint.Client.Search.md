@@ -557,6 +557,7 @@ Base class: ClientValueObject
 | **OwnerType** | string |  |
 | **PercentagePromotedResult** | string |  |
 | **PromotedResultClicks** | string |  |
+| **PromotedResultId** | string |  |
 | **PromotedResultURL** | string |  |
 | **PromotedResultURLName** | string |  |
 | **QueryRule** | string |  |

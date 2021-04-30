@@ -1562,6 +1562,7 @@ Base class: ClientObject
 | **GetFollowers()** | ClientResult\<[SocialActor](#socialactor-class)[]\> |  |
 | **GetSuggestions()** | ClientResult\<[SocialActor](#socialactor-class)[]\> |  |
 | **IsFollowed(SocialActorInfo actor)** | ClientResult\<bool\> |  |
+| **MergeFollowedSites(string followedSites)** | ClientResult\<string\> |  |
 | **StopFollowing(SocialActorInfo actor)** | ClientResult\<bool\> |  |
 # SocialFollowingManagerPropertyNames Class
 

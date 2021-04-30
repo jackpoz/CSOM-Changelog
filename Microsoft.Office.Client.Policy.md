@@ -7,13 +7,11 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyStore Class](#sppolicystore-class) |
-| [ComplianceRetentionWorkItemSubmitter Class](#complianceretentionworkitemsubmitter-class) | [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |
-| [PreserveDocumentSubmitter Class](#preservedocumentsubmitter-class) | [SPContainerId Class](#spcontainerid-class) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
-| [ComplianceRetentionWorkItemResponse Class](#complianceretentionworkitemresponse-class) | [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
-| [ComplianceTagInfo Class](#compliancetaginfo-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
-| [PreservedCloudAttachment Class](#preservedcloudattachment-class) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPSitePreservationUtility Class](#spsitepreservationutility-class) |
-| [RetentionWorkItemInput Class](#retentionworkiteminput-class) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [SPContainerId Class](#spcontainerid-class) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
+| [ComplianceRetentionWorkItemSubmitter Class](#complianceretentionworkitemsubmitter-class) | [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
+| [PreserveDocumentSubmitter Class](#preservedocumentsubmitter-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
+| [ComplianceTagInfo Class](#compliancetaginfo-class) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPSitePreservationUtility Class](#spsitepreservationutility-class) |
+| [PreservedCloudAttachment Class](#preservedcloudattachment-class) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
 | [ComplianceTag Class](#compliancetag-class) | [SPPolicyBinding Class](#sppolicybinding-class) | [SPSyncNotificationEndpointInfoPropertyNames Class](#spsyncnotificationendpointinfopropertynames-class) |
 | [DlpAccessScope Enum](#dlpaccessscope-enum) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [Case Class](#case-class) |
 | [DlpClassificationResult Class](#dlpclassificationresult-class) | [SPPolicyDefinition Class](#sppolicydefinition-class) | [Export Class](#export-class) |
@@ -22,6 +20,8 @@ Created by
 | [PolicyEvaluationInfoEnums Enum](#policyevaluationinfoenums-enum) | [SPPolicyEventPropertyNames Class](#sppolicyeventpropertynames-class) | [ProjectPolicy Class](#projectpolicy-class) |
 | [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyRule Class](#sppolicyrule-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
 | [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) | [Records Class](#records-class) |
+| [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyStore Class](#sppolicystore-class) |   |
+| [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |   |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Office.Client.Policy
@@ -57,11 +57,6 @@ Base class: ClientObject
 | Name | Summary |
 |---|---|
 | **ComplianceRetentionWorkItemSubmitter(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **AddComplianceRetentionWorkItem(ClientRuntimeContext context, string workItemPayloadJsonString)** | ClientResult\<[ComplianceRetentionWorkItemResponse](#complianceretentionworkitemresponse-class)\> |  |
 # PreserveDocumentSubmitter Class
 
 Namespace: Microsoft.SharePoint.Client.ComplianceFoundation
@@ -87,27 +82,6 @@ Base class: ClientObject
 | Name | Summary |
 |---|---|
 | **PreserveDocumentSubmitter(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-# ComplianceRetentionWorkItemResponse Class
-
-Namespace: Microsoft.SharePoint.Client.ComplianceFoundation.Models
-
-Base class: ClientValueObject
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **SiteId** | string |  |
-| **TenantId** | string |  |
-| **WorkItemId** | Guid |  |
-| **WorkItemJobStatus** | int |  |
-| **TypeId** | string |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # ComplianceTagInfo Class
 
 Namespace: Microsoft.SharePoint.Client.ComplianceFoundation.Models
@@ -144,26 +118,6 @@ Base class: ClientValueObject
 |---|---|---|
 | **CompositeDocumentId** | string |  |
 | **Url** | string |  |
-| **TypeId** | string |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
-# RetentionWorkItemInput Class
-
-Namespace: Microsoft.SharePoint.Client.ComplianceFoundation.Models
-
-Base class: ClientValueObject
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **SignalsEndTimeStamp** | DateTime |  |
-| **SignalsStartTimeStamp** | DateTime |  |
-| **SignalsStorageName** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
