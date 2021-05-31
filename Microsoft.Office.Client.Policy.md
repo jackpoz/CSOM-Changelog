@@ -156,6 +156,7 @@ Base class: ClientValueObject
 | **TagId** | Guid |  |
 | **TagName** | string |  |
 | **TagRetentionBasedOn** | string |  |
+| **UnlockedAsDefault** | bool |  |
 | **TypeId** | string |  |
 ## Methods
 

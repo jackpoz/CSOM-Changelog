@@ -1523,7 +1523,7 @@ Namespace: Microsoft.SharePoint.Client.Taxonomy
 | **WorkingLanguage** | string |  |
 # ContentTypeSubscriber Class
 
-Namespace: Microsoft.SharePoint.Taxonomy.ContentTypeSync.Internal
+Namespace: Microsoft.SharePoint.Client.Taxonomy.ContentTypeSync
 
 Base class: ClientObject
 
@@ -1552,9 +1552,10 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **SyncContentTypesFromHubSite(string siteUrl, IList\<ContentTypeId\> contentTypeIdsToSync)** | ClientResult\<[ContentTypeSyndicationResult](#contenttypesyndicationresult-class)\> |  |
+| **SyncContentTypesFromHubSite2(string siteUrl, IList\<string\> contentTypeIdsToSync)** | ClientResult\<[ContentTypeSyndicationResult](#contenttypesyndicationresult-class)\> |  |
 # ContentTypeSyndicationResult Class
 
-Namespace: Microsoft.SharePoint.Taxonomy.ContentTypeSync.Internal
+Namespace: Microsoft.SharePoint.Client.Taxonomy.ContentTypeSync
 
 Base class: ClientValueObject
 
@@ -1574,7 +1575,7 @@ Base class: ClientValueObject
 | **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # eFailedReason Enum
 
-Namespace: Microsoft.SharePoint.Taxonomy.ContentTypeSync.Internal
+Namespace: Microsoft.SharePoint.Client.Taxonomy.ContentTypeSync
 
 
 ## Values
