@@ -1588,6 +1588,7 @@ Namespace: Microsoft.SharePoint.Client.Social
 | **AlreadyFollowing** |  |
 | **LimitReached** |  |
 | **InternalError** |  |
+| **ExpectedFailure** |  |
 # SocialLink Class
 
 Namespace: Microsoft.SharePoint.Client.Social
@@ -2198,7 +2199,7 @@ Base class: ClientObject
 | **GetFollowedStatus(string url)** | ClientResult\<[FollowedStatus](#followedstatus-enum)\> |  |
 | **GetGroups(int rowLimit)** | ClientResult\<[FollowedItem](#followeditem-class)[]\> |  |
 | **GetItem(string url)** | ClientResult\<[FollowedItem](#followeditem-class)\> |  |
-| **GetItems(FollowedContentQueryOptions options, int subtype)** | ClientResult\<[FollowedItem](#followeditem-class)[]\> |  |
+| **GetItems(FollowedContentQueryOptions options, int subtype, int count)** | ClientResult\<[FollowedItem](#followeditem-class)[]\> |  |
 | **HasGroupMembershipChangedAndSyncChanges()** | ClientResult\<bool\> |  |
 | **IsFollowed(string url)** | ClientResult\<bool\> |  |
 | **RefreshFollowedItem(FollowedItem item)** | ClientResult\<[FollowedItem](#followeditem-class)\> |  |

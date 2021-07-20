@@ -141,6 +141,7 @@ Base class: ClientValueObject
 | **AutoDelete** | bool |  |
 | **BlockDelete** | bool |  |
 | **BlockEdit** | bool |  |
+| **ComplianceFlags** | int |  |
 | **ContainsSiteLabel** | bool |  |
 | **DisplayName** | string |  |
 | **EncryptionRMSTemplateId** | string |  |
@@ -790,10 +791,8 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **ActivateHoldFeatureOnSite(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
-| **AddDynamicScopeBinding(string identity, string siteId)** | void |  |
 | **ApplyDlpActions(ClientRuntimeContext context, string itemUrl, string actionsPayload)** | void |  |
 | **BulkUpdateDynamicScopeBindings(string[] scopesToAdd, string[] scopesToRemove, string siteId)** | void |  |
-| **DeleteDynamicScopeBinding(string identity, string siteId)** | void |  |
 | **ExtendReviewItemsRetention(int[] itemIds, DateTime extensionDate)** | ClientArrayResult\<int\> |  |
 | **FindAlternativeScope(ClientRuntimeContext context, Guid tenantId, string scope)** | ClientResult\<string\> |  |
 | **FindPolicyScopeById(ClientRuntimeContext context, Guid tenantId, Guid scopeId)** | ClientResult\<string\> |  |
@@ -801,10 +800,12 @@ Base class: ClientObject
 | **GetAvailableTagsForSite(ClientRuntimeContext context, string siteUrl)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetAvailableTagsForSiteLabel(ClientRuntimeContext context)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetDynamicScopeBindingBySiteId(string siteId)** | IList\<string\> |  |
+| **GetExpandFileVersionsInPHLEnabled(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetHoldGracePeriodInDays(ClientRuntimeContext context)** | ClientResult\<int\> |  |
 | **GetListComplianceTag(ClientRuntimeContext context, string listUrl)** | ClientResult\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetPendingReviewItemsStatistics()** | ClientResult\<IDictionary\<string, [PendingReviewItemsStatistics](#pendingreviewitemsstatistics-class)\>\> |  |
 | **GetPolicyEvaluationInfo(ClientRuntimeContext context, string itemUrl, PolicyScenario policyScenario, PolicyEvaluationInfoEnums infos)** | [PolicyEvaluationInfo](#policyevaluationinfo-class) |  |
+| **GetSiteAdaptivePolicies(string siteId)** | IEnumerable\<string\> |  |
 | **GetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName)** | ClientResult\<string\> |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
@@ -821,6 +822,7 @@ Base class: ClientObject
 | **RetagUnifiedReviewItemsWithMetas(string[] itemIds, string originalTagName, string newTagName, string[] newTagMetas)** | ClientArrayResult\<string\> |  |
 | **SetAdvancedRecordVersioningDisabled(ClientRuntimeContext context, bool disabled)** | void |  |
 | **SetContainerRetentionPolicy(string siteId, Guid defaultContainerLabel)** | void |  |
+| **SetExpandFileVersionsInPHLEnabled(ClientRuntimeContext context, bool enabled)** | void |  |
 | **SetHoldGracePeriodInDays(ClientRuntimeContext context, int gracePeriodInDays)** | void |  |
 | **SetListComplianceTag(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, bool syncToItems)** | void |  |
 | **SetListComplianceTagWithMetaInfo(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, DateTime complianceTagWrittenTime, string userEmailAddress, bool syncToItems)** | void |  |
@@ -828,6 +830,7 @@ Base class: ClientObject
 | **SetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName, string propertyValue)** | void |  |
 | **UnRegisterHoldEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **UpdateContainerSetting(string siteId, string externalId, int settingType, string setting)** | void |  |
+| **UpdateSiteAdaptivePolicies(string[] policiesToAdd, string[] policiesToRemove, string siteId)** | void |  |
 # SPPolicyStoreProxyPropertyNames Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
