@@ -1139,6 +1139,7 @@ Base class: ClientValueObject
 | **ContentUri** | string |  |
 | **EmailAddress** | string |  |
 | **FollowedContentUri** | string |  |
+| **GroupId** | Guid |  |
 | **Id** | string |  |
 | **ImageUri** | string |  |
 | **IsFollowed** | bool |  |
@@ -2199,7 +2200,7 @@ Base class: ClientObject
 | **GetFollowedStatus(string url)** | ClientResult\<[FollowedStatus](#followedstatus-enum)\> |  |
 | **GetGroups(int rowLimit)** | ClientResult\<[FollowedItem](#followeditem-class)[]\> |  |
 | **GetItem(string url)** | ClientResult\<[FollowedItem](#followeditem-class)\> |  |
-| **GetItems(FollowedContentQueryOptions options, int subtype, int count)** | ClientResult\<[FollowedItem](#followeditem-class)[]\> |  |
+| **GetItems(FollowedContentQueryOptions options, int subtype)** | ClientResult\<[FollowedItem](#followeditem-class)[]\> |  |
 | **HasGroupMembershipChangedAndSyncChanges()** | ClientResult\<bool\> |  |
 | **IsFollowed(string url)** | ClientResult\<bool\> |  |
 | **RefreshFollowedItem(FollowedItem item)** | ClientResult\<[FollowedItem](#followeditem-class)\> |  |

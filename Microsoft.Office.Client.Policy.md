@@ -828,6 +828,7 @@ Base class: ClientObject
 | **SetListComplianceTagWithMetaInfo(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, DateTime complianceTagWrittenTime, string userEmailAddress, bool syncToItems)** | void |  |
 | **SetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName, string propertyValue)** | void |  |
 | **SetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName, string propertyValue)** | void |  |
+| **UnArchiveSite(ClientRuntimeContext context, string siteUrl)** | ClientResult\<bool\> |  |
 | **UnRegisterHoldEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **UpdateContainerSetting(string siteId, string externalId, int settingType, string setting)** | void |  |
 | **UpdateSiteAdaptivePolicies(string[] policiesToAdd, string[] policiesToRemove, string siteId)** | void |  |

@@ -17,7 +17,7 @@ Created by
 | [PromotedResults Class](#promotedresults-class) | [DocumentCrawlLog Class](#documentcrawllog-class) | [QueryPropertyNames Class](#querypropertynames-class) |
 | [PromotedResultsOperationsResult Class](#promotedresultsoperationsresult-class) | [SearchObjectLevel Enum](#searchobjectlevel-enum) | [QueryPropertyValue Class](#querypropertyvalue-class) |
 | [QueryCondition Class](#querycondition-class) | [SearchObjectOwner Class](#searchobjectowner-class) | [QueryPropertyValueType Enum](#querypropertyvaluetype-enum) |
-| [QueryConfiguration Class](#queryconfiguration-class) | [SiteCrawlVersionInfoProvider Class](#sitecrawlversioninfoprovider-class) | [QuerySuggestionQuery Class](#querysuggestionquery-class) |
+| [QueryConfiguration Class](#queryconfiguration-class) | [TenantCrawlVersionsInfoProvider Class](#tenantcrawlversionsinfoprovider-class) | [QuerySuggestionQuery Class](#querysuggestionquery-class) |
 | [QueryContext Class](#querycontext-class) | [CertificateService Class](#certificateservice-class) | [QuerySuggestionRange Class](#querysuggestionrange-class) |
 | [QueryRoutingInfo Class](#queryroutinginfo-class) | [PushTenantManager Class](#pushtenantmanager-class) | [QuerySuggestionResults Class](#querysuggestionresults-class) |
 | [QueryState Enum](#querystate-enum) | [PushTenantServiceInfo Class](#pushtenantserviceinfo-class) | [QueryUtility Class](#queryutility-class) |
@@ -821,7 +821,7 @@ Base class: ClientObject
 |---|---|
 | **SearchObjectOwner(ClientRuntimeContext context, SearchObjectLevel lowestCurrentLevelToUse)** |  |
 | **SearchObjectOwner(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-# SiteCrawlVersionInfoProvider Class
+# TenantCrawlVersionsInfoProvider Class
 
 Namespace: Microsoft.SharePoint.Client.Search.Administration
 
@@ -845,13 +845,19 @@ Base class: ClientObject
 
 | Name | Summary |
 |---|---|
-| **SiteCrawlVersionInfoProvider(ClientRuntimeContext context, Site site)** |  |
-| **SiteCrawlVersionInfoProvider(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+| **TenantCrawlVersionsInfoProvider(ClientRuntimeContext context, Site site)** |  |
+| **TenantCrawlVersionsInfoProvider(ClientRuntimeContext context, ObjectPath objectPath)** |  |
 ## Methods
 
 | Name | Returns | Summary |
 |---|---|---|
-| **GetSiteCrawlVersionStatus()** | ClientResult\<SimpleDataTable\> |  |
+| **DisableCrawlVersions(Guid siteId)** | ClientResult\<bool\> |  |
+| **DisableCrawlVersionsForTenant()** | ClientResult\<bool\> |  |
+| **EnableCrawlVersions(Guid siteId)** | ClientResult\<bool\> |  |
+| **EnableCrawlVersionsForTenant()** | ClientResult\<bool\> |  |
+| **GetSiteCrawlVersionStatus(Guid siteId)** | ClientResult\<IDictionary\<string, string\>\> |  |
+| **IsCrawlVersionsEnabled(Guid SiteId)** | ClientResult\<bool\> |  |
+| **IsCrawlVersionsEnabledForTenant()** | ClientResult\<bool\> |  |
 # CertificateService Class
 
 Namespace: Microsoft.SharePoint.Client.Search.ContentPush
