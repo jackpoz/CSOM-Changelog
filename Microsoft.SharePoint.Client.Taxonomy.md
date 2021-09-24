@@ -1564,7 +1564,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
-| **FailedContentTypeIDs** | IList\<string\> |  |
+| **FailedContentTypeIDs** | IDictionary\<string, string\> |  |
 | **FailedReason** | [eFailedReason](#efailedreason-enum) |  |
 | **IsPassed** | bool |  |
 | **TypeId** | string |  |

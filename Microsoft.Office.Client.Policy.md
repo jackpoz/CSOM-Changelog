@@ -148,6 +148,7 @@ Base class: ClientValueObject
 | **HasRetentionAction** | bool |  |
 | **IsEventTag** | bool |  |
 | **MultiStageReviewerEmail** | string |  |
+| **NextStageComplianceTag** | string |  |
 | **Notes** | string |  |
 | **RequireSenderAuthenticationEnabled** | bool |  |
 | **ReviewerEmail** | string |  |
@@ -797,6 +798,8 @@ Base class: ClientObject
 | **FindAlternativeScope(ClientRuntimeContext context, Guid tenantId, string scope)** | ClientResult\<string\> |  |
 | **FindPolicyScopeById(ClientRuntimeContext context, Guid tenantId, Guid scopeId)** | ClientResult\<string\> |  |
 | **GetAdvancedRecordVersioningDisabled(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
+| **GetAllowFilesWithKeepLabelToBeDeletedODB(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
+| **GetAllowFilesWithKeepLabelToBeDeletedSPO(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetAvailableTagsForSite(ClientRuntimeContext context, string siteUrl)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetAvailableTagsForSiteLabel(ClientRuntimeContext context)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetDynamicScopeBindingBySiteId(string siteId)** | IList\<string\> |  |
@@ -821,6 +824,8 @@ Base class: ClientObject
 | **RetagReviewItemsWithMetas(int[] itemIds, string newTagName, string[] newTagMetas)** | ClientArrayResult\<int\> |  |
 | **RetagUnifiedReviewItemsWithMetas(string[] itemIds, string originalTagName, string newTagName, string[] newTagMetas)** | ClientArrayResult\<string\> |  |
 | **SetAdvancedRecordVersioningDisabled(ClientRuntimeContext context, bool disabled)** | void |  |
+| **SetAllowFilesWithKeepLabelToBeDeletedODB(ClientRuntimeContext context, bool allowDeletion)** | void |  |
+| **SetAllowFilesWithKeepLabelToBeDeletedSPO(ClientRuntimeContext context, bool allowDeletion)** | void |  |
 | **SetContainerRetentionPolicy(string siteId, Guid defaultContainerLabel)** | void |  |
 | **SetExpandFileVersionsInPHLEnabled(ClientRuntimeContext context, bool enabled)** | void |  |
 | **SetHoldGracePeriodInDays(ClientRuntimeContext context, int gracePeriodInDays)** | void |  |

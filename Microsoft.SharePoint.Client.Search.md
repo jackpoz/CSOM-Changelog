@@ -856,7 +856,7 @@ Base class: ClientObject
 | **EnableCrawlVersions(Guid siteId)** | ClientResult\<bool\> |  |
 | **EnableCrawlVersionsForTenant()** | ClientResult\<bool\> |  |
 | **GetSiteCrawlVersionStatus(Guid siteId)** | ClientResult\<IDictionary\<string, string\>\> |  |
-| **IsCrawlVersionsEnabled(Guid SiteId)** | ClientResult\<bool\> |  |
+| **IsCrawlVersionsEnabled(Guid siteId)** | ClientResult\<bool\> |  |
 | **IsCrawlVersionsEnabledForTenant()** | ClientResult\<bool\> |  |
 # CertificateService Class
 
