@@ -2547,6 +2547,7 @@ Base class: ClientObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **CacheName** | string |  |
 | **MySiteUrl** | string |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
@@ -2630,6 +2631,7 @@ Namespace: Microsoft.SharePoint.Client.UserProfiles
 
 | Name | Type | Summary |
 |---|---|---|
+| **CacheName** | string |  |
 | **MySiteUrl** | string |  |
 # PersonalSiteCapabilities Enum
 

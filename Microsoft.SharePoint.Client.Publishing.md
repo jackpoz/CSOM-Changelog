@@ -314,6 +314,7 @@ Base class: [RepostPageFieldsData](#repostpagefieldsdata-class)
 | **TypeId** | string |  |
 | **AuthorByline** | string[] |  |
 | **BannerImageUrl** | string |  |
+| **CallToAction** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |
 | **Categories** | string |  |
@@ -526,6 +527,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TypeId** | string |  |
 | **AuthorByline** | string[] |  |
 | **BannerImageUrl** | string |  |
+| **CallToAction** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |
 | **Categories** | string |  |
@@ -685,6 +687,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TypeId** | string |  |
 | **AuthorByline** | string[] |  |
 | **BannerImageUrl** | string |  |
+| **CallToAction** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |
 | **Categories** | string |  |
@@ -712,6 +715,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **AuthorByline** | string[] |  |
 | **BannerImageUrl** | string |  |
+| **CallToAction** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |
 | **Categories** | string |  |
@@ -1088,6 +1092,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TypeId** | string |  |
 | **AuthorByline** | string[] |  |
 | **BannerImageUrl** | string |  |
+| **CallToAction** | string |  |
 | **CanvasContent1** | string |  |
 | **CanvasJson1** | string |  |
 | **Categories** | string |  |
