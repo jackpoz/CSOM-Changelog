@@ -806,6 +806,7 @@ Base class: ClientObject
 | **GetExpandFileVersionsInPHLEnabled(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetHoldGracePeriodInDays(ClientRuntimeContext context)** | ClientResult\<int\> |  |
 | **GetListComplianceTag(ClientRuntimeContext context, string listUrl)** | ClientResult\<[ComplianceTag](#compliancetag-class)\> |  |
+| **GetMetadataEditBlockingEnabled(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetPendingReviewItemsStatistics()** | ClientResult\<IDictionary\<string, [PendingReviewItemsStatistics](#pendingreviewitemsstatistics-class)\>\> |  |
 | **GetPolicyEvaluationInfo(ClientRuntimeContext context, string itemUrl, PolicyScenario policyScenario, PolicyEvaluationInfoEnums infos)** | [PolicyEvaluationInfo](#policyevaluationinfo-class) |  |
 | **GetSiteAdaptivePolicies(string siteId)** | IEnumerable\<string\> |  |
@@ -831,6 +832,7 @@ Base class: ClientObject
 | **SetHoldGracePeriodInDays(ClientRuntimeContext context, int gracePeriodInDays)** | void |  |
 | **SetListComplianceTag(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, bool syncToItems)** | void |  |
 | **SetListComplianceTagWithMetaInfo(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, DateTime complianceTagWrittenTime, string userEmailAddress, bool syncToItems)** | void |  |
+| **SetMetadataEditBlockingEnabled(ClientRuntimeContext context, bool enabled)** | void |  |
 | **SetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName, string propertyValue)** | void |  |
 | **SetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName, string propertyValue)** | void |  |
 | **UnArchiveSite(ClientRuntimeContext context, string siteUrl)** | ClientResult\<bool\> |  |

@@ -953,6 +953,8 @@ Base class: ClientObject
 | **AuthenticationContextName** | string |  |
 | **AverageResourceUsage** | double |  |
 | **BlockDownloadLinksFileType** | [BlockDownloadLinksFileTypes](#blockdownloadlinksfiletypes-enum) |  |
+| **BlockDownloadMicrosoft365GroupIds** | Guid[] |  |
+| **BlockDownloadPolicy** | bool |  |
 | **CommentsOnSitePagesDisabled** | bool |  |
 | **CompatibilityLevel** | int |  |
 | **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
@@ -1003,6 +1005,8 @@ Base class: ClientObject
 | **SharingBlockedDomainList** | string |  |
 | **SharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
 | **SharingDomainRestrictionMode** | [SharingDomainRestrictionModes](#sharingdomainrestrictionmodes-enum) |  |
+| **SharingLockDownCanBeCleared** | bool |  |
+| **SharingLockDownEnabled** | bool |  |
 | **ShowPeoplePickerSuggestionsForGuestUsers** | bool |  |
 | **SiteDefinedSharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
 | **SocialBarOnSitePagesDisabled** | bool |  |
@@ -1038,6 +1042,7 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **ClearSharingLockDown(ClientRuntimeContext context, string siteUrl)** | void |  |
 | **Update()** | [SpoOperation](#spooperation-class) |  |
 # SitePropertiesPropertyNames Class
 
@@ -1056,6 +1061,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **AuthenticationContextName** | string |  |
 | **AverageResourceUsage** | string |  |
 | **BlockDownloadLinksFileType** | string |  |
+| **BlockDownloadMicrosoft365GroupIds** | string |  |
+| **BlockDownloadPolicy** | string |  |
 | **CommentsOnSitePagesDisabled** | string |  |
 | **CompatibilityLevel** | string |  |
 | **ConditionalAccessPolicy** | string |  |
@@ -1106,6 +1113,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **SharingBlockedDomainList** | string |  |
 | **SharingCapability** | string |  |
 | **SharingDomainRestrictionMode** | string |  |
+| **SharingLockDownCanBeCleared** | string |  |
+| **SharingLockDownEnabled** | string |  |
 | **ShowPeoplePickerSuggestionsForGuestUsers** | string |  |
 | **SiteDefinedSharingCapability** | string |  |
 | **SocialBarOnSitePagesDisabled** | string |  |

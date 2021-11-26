@@ -1591,3 +1591,7 @@ Namespace: Microsoft.SharePoint.Client.Taxonomy.ContentTypeSync
 | **TaxonomyDisabled** |  |
 | **TemplateNotSupported** |  |
 | **FewContentTypesFailedToSync** |  |
+| **PreCheckFailedColumn** |  |
+| **PreCheckFailedContentTypeName** |  |
+| **PreCheckFailedFeatures** |  |
+| **PackageRetrievingFailed** |  |
