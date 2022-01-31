@@ -7,21 +7,21 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [SPContainerId Class](#spcontainerid-class) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
-| [ComplianceRetentionWorkItemSubmitter Class](#complianceretentionworkitemsubmitter-class) | [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
-| [PreserveDocumentSubmitter Class](#preservedocumentsubmitter-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
-| [ComplianceTagInfo Class](#compliancetaginfo-class) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPSitePreservationUtility Class](#spsitepreservationutility-class) |
-| [PreservedCloudAttachment Class](#preservedcloudattachment-class) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
-| [ComplianceTag Class](#compliancetag-class) | [SPPolicyBinding Class](#sppolicybinding-class) | [SPSyncNotificationEndpointInfoPropertyNames Class](#spsyncnotificationendpointinfopropertynames-class) |
-| [DlpAccessScope Enum](#dlpaccessscope-enum) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [Case Class](#case-class) |
-| [DlpClassificationResult Class](#dlpclassificationresult-class) | [SPPolicyDefinition Class](#sppolicydefinition-class) | [Export Class](#export-class) |
-| [PendingReviewItemsStatistics Class](#pendingreviewitemsstatistics-class) | [SPPolicyDefinitionPropertyNames Class](#sppolicydefinitionpropertynames-class) | [ExportPropertyNames Class](#exportpropertynames-class) |
-| [PolicyEvaluationInfo Class](#policyevaluationinfo-class) | [SPPolicyEvent Class](#sppolicyevent-class) | [ExportStatus Enum](#exportstatus-enum) |
-| [PolicyEvaluationInfoEnums Enum](#policyevaluationinfoenums-enum) | [SPPolicyEventPropertyNames Class](#sppolicyeventpropertynames-class) | [ProjectPolicy Class](#projectpolicy-class) |
-| [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyRule Class](#sppolicyrule-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
-| [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) | [Records Class](#records-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |
+| [ComplianceRetentionWorkItemSubmitter Class](#complianceretentionworkitemsubmitter-class) | [SPContainerId Class](#spcontainerid-class) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
+| [PreserveDocumentSubmitter Class](#preservedocumentsubmitter-class) | [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
+| [ComplianceTagInfo Class](#compliancetaginfo-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
+| [PreservedCloudAttachment Class](#preservedcloudattachment-class) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPSitePreservationUtility Class](#spsitepreservationutility-class) |
+| [ComplianceTag Class](#compliancetag-class) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
+| [DlpAccessScope Enum](#dlpaccessscope-enum) | [SPPolicyBinding Class](#sppolicybinding-class) | [SPSyncNotificationEndpointInfoPropertyNames Class](#spsyncnotificationendpointinfopropertynames-class) |
+| [DlpClassificationResult Class](#dlpclassificationresult-class) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [Case Class](#case-class) |
+| [PendingReviewItemsStatistics Class](#pendingreviewitemsstatistics-class) | [SPPolicyDefinition Class](#sppolicydefinition-class) | [Export Class](#export-class) |
+| [PolicyEvaluationInfo Class](#policyevaluationinfo-class) | [SPPolicyDefinitionPropertyNames Class](#sppolicydefinitionpropertynames-class) | [ExportPropertyNames Class](#exportpropertynames-class) |
+| [PolicyEvaluationInfoEnums Enum](#policyevaluationinfoenums-enum) | [SPPolicyEvent Class](#sppolicyevent-class) | [ExportStatus Enum](#exportstatus-enum) |
+| [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyEventPropertyNames Class](#sppolicyeventpropertynames-class) | [ProjectPolicy Class](#projectpolicy-class) |
+| [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyRule Class](#sppolicyrule-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
+| [PolicyStoreFactory Class](#policystorefactory-class) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) | [Records Class](#records-class) |
 | [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyStore Class](#sppolicystore-class) |   |
-| [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |   |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Office.Client.Policy
@@ -290,6 +290,32 @@ Namespace: Microsoft.SharePoint.Client.CompliancePolicy
 | **DeviceTenantConditionalAccess** |  |
 | **AuditAlert** |  |
 | **CaseHold** |  |
+# PolicyStoreFactory Class
+
+Namespace: Microsoft.SharePoint.Client.CompliancePolicy
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **PolicyStoreFactory(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+| **PolicyStoreFactory(ClientRuntimeContext context, Web spWeb, bool initializeWithUrl)** |  |
 # PolicyTipOverrideResult Enum
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
@@ -812,6 +838,7 @@ Base class: ClientObject
 | **GetSiteAdaptivePolicies(string siteId)** | IEnumerable\<string\> |  |
 | **GetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName)** | ClientResult\<string\> |  |
+| **GetSubstrateAzureConnection(ClientRuntimeContext context, string siteUrl, string siteId)** | ClientResult\<string\> |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
 | **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
 | **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
