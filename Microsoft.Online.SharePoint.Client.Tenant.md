@@ -1023,6 +1023,7 @@ Base class: ClientObject
 | **Template** | string |  |
 | **TimeZoneId** | int |  |
 | **Title** | string |  |
+| **TitleTranslations** | IEnumerable\<SPResourceEntry\> |  |
 | **Url** | string |  |
 | **UserCodeMaximumLevel** | double |  |
 | **UserCodeWarningLevel** | double |  |
@@ -1135,6 +1136,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **Template** | string |  |
 | **TimeZoneId** | string |  |
 | **Title** | string |  |
+| **TitleTranslations** | string |  |
 | **Url** | string |  |
 | **UserCodeMaximumLevel** | string |  |
 | **UserCodeWarningLevel** | string |  |
@@ -1511,6 +1513,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **IncludeFileExtensions** |  |
 | **ExcludeRestrictedSiteClassifications** |  |
 | **ExcludeIfNoScriptDisabled** |  |
+| **ExcludeRestrictedSiteClassificationsFileExtensions** |  |
 # SPOTenantCdnType Enum
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -1916,6 +1919,8 @@ Base class: ClientObject
 | **PublicCdnAllowedFileTypes** | string |  |
 | **PublicCdnEnabled** | bool |  |
 | **PublicCdnOrigins** | IList\<string\> |  |
+| **ReduceTempTokenLifetimeEnabled** | bool |  |
+| **ReduceTempTokenLifetimeValue** | int |  |
 | **RequireAcceptingAccountMatchInvitedAccount** | bool |  |
 | **RequireAnonymousLinksExpireInDays** | int |  |
 | **ResourceQuota** | double |  |
@@ -2021,6 +2026,7 @@ Base class: ClientObject
 | **GetDeletedSitePropertiesFromSharePoint(string startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
 | **GetFileSensitivityLabelInfo(string fileUrl)** | [FileSensitivityLabelInfo](#filesensitivitylabelinfo-class) |  |
 | **GetHiddenBuiltInDesignPackages(ClientRuntimeContext context)** | ClientResult\<DesignPackageType\> |  |
+| **GetHomeSitesDetails()** | IList\<HomeSitesDetails\> |  |
 | **GetHubSitePropertiesById(Guid hubSiteId)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **GetHubSitePropertiesByUrl(string siteUrl)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **GetHubSitesProperties()** | ClientObjectList\<[HubSiteProperties](#hubsiteproperties-class)\> |  |
@@ -2526,6 +2532,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **PublicCdnAllowedFileTypes** | string |  |
 | **PublicCdnEnabled** | string |  |
 | **PublicCdnOrigins** | string |  |
+| **ReduceTempTokenLifetimeEnabled** | string |  |
+| **ReduceTempTokenLifetimeValue** | string |  |
 | **RequireAcceptingAccountMatchInvitedAccount** | string |  |
 | **RequireAnonymousLinksExpireInDays** | string |  |
 | **ResourceQuota** | string |  |
@@ -3404,6 +3412,7 @@ Base class: ClientObject
 |---|---|---|
 | **Id** | Guid |  |
 | **IsDomainIsolated** | bool |  |
+| **MultiTenantAppId** | string |  |
 | **PackageApproverName** | string |  |
 | **PackageName** | string |  |
 | **PackageVersion** | string |  |
@@ -3480,6 +3489,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration.Internal
 |---|---|---|
 | **Id** | string |  |
 | **IsDomainIsolated** | string |  |
+| **MultiTenantAppId** | string |  |
 | **PackageApproverName** | string |  |
 | **PackageName** | string |  |
 | **PackageVersion** | string |  |
@@ -3964,6 +3974,8 @@ Base class: ClientObject
 | **PublicCdnAllowedFileTypes** | string |  |
 | **PublicCdnEnabled** | bool |  |
 | **PublicCdnOrigins** | IList\<string\> |  |
+| **ReduceTempTokenLifetimeEnabled** | bool |  |
+| **ReduceTempTokenLifetimeValue** | int |  |
 | **RequireAcceptingAccountMatchInvitedAccount** | bool |  |
 | **RequireAnonymousLinksExpireInDays** | int |  |
 | **SearchResolveExactEmailOrUPN** | bool |  |
@@ -4168,6 +4180,8 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **PublicCdnAllowedFileTypes** | string |  |
 | **PublicCdnEnabled** | string |  |
 | **PublicCdnOrigins** | string |  |
+| **ReduceTempTokenLifetimeEnabled** | string |  |
+| **ReduceTempTokenLifetimeValue** | string |  |
 | **RequireAcceptingAccountMatchInvitedAccount** | string |  |
 | **RequireAnonymousLinksExpireInDays** | string |  |
 | **SearchResolveExactEmailOrUPN** | string |  |

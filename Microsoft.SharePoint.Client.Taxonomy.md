@@ -22,11 +22,11 @@ Created by
 | [ChangedTermStore Class](#changedtermstore-class) | [TaxonomyItemObjectPropertyNames Class](#taxonomyitemobjectpropertynames-class) | [TermStoreCollection Class](#termstorecollection-class) |
 | [ChangedTermStorePropertyNames Class](#changedtermstorepropertynames-class) | [TaxonomyItemPropertyNames Class](#taxonomyitempropertynames-class) | [TermStoreObjectPropertyNames Class](#termstoreobjectpropertynames-class) |
 | [ChangeInformation Class](#changeinformation-class) | [TaxonomySession Class](#taxonomysession-class) | [TermStorePropertyNames Class](#termstorepropertynames-class) |
-| [ChangeInformationPropertyNames Class](#changeinformationpropertynames-class) | [TaxonomySessionObjectPropertyNames Class](#taxonomysessionobjectpropertynames-class) | [ContentTypePublisher Class](#contenttypepublisher-class) |
-| [CustomPropertyMatchInformation Class](#custompropertymatchinformation-class) | [TaxonomySessionPropertyNames Class](#taxonomysessionpropertynames-class) | [ContentTypeSubscriber Class](#contenttypesubscriber-class) |
-| [CustomPropertyMatchInformationPropertyNames Class](#custompropertymatchinformationpropertynames-class) | [Term Class](#term-class) | [ContentTypeSyndicationResult Class](#contenttypesyndicationresult-class) |
-| [Label Class](#label-class) | [TermCollection Class](#termcollection-class) | [eFailedReason Enum](#efailedreason-enum) |
-| [LabelCollection Class](#labelcollection-class) | [TermGroup Class](#termgroup-class) |   |
+| [ChangeInformationPropertyNames Class](#changeinformationpropertynames-class) | [TaxonomySessionObjectPropertyNames Class](#taxonomysessionobjectpropertynames-class) | [ContentTypeInfo Class](#contenttypeinfo-class) |
+| [CustomPropertyMatchInformation Class](#custompropertymatchinformation-class) | [TaxonomySessionPropertyNames Class](#taxonomysessionpropertynames-class) | [ContentTypePublisher Class](#contenttypepublisher-class) |
+| [CustomPropertyMatchInformationPropertyNames Class](#custompropertymatchinformationpropertynames-class) | [Term Class](#term-class) | [ContentTypeSubscriber Class](#contenttypesubscriber-class) |
+| [Label Class](#label-class) | [TermCollection Class](#termcollection-class) | [ContentTypeSyndicationResult Class](#contenttypesyndicationresult-class) |
+| [LabelCollection Class](#labelcollection-class) | [TermGroup Class](#termgroup-class) | [eFailedReason Enum](#efailedreason-enum) |
 | [LabelMatchInformation Class](#labelmatchinformation-class) | [TermGroupCollection Class](#termgroupcollection-class) |   |
 # ChangedGroup Class
 
@@ -1522,6 +1522,30 @@ Namespace: Microsoft.SharePoint.Client.Taxonomy
 | **Languages** | string |  |
 | **Name** | string |  |
 | **WorkingLanguage** | string |  |
+# ContentTypeInfo Class
+
+Namespace: Microsoft.SharePoint.Client.Taxonomy.ContentTypeSync
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Description** | string |  |
+| **Group** | string |  |
+| **Id** | string |  |
+| **IsHidden** | bool |  |
+| **IsSealed** | bool |  |
+| **Name** | string |  |
+| **ParentName** | string |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # ContentTypePublisher Class
 
 Namespace: Microsoft.SharePoint.Client.Taxonomy.ContentTypeSync
@@ -1585,6 +1609,7 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **GetCompatibleHubContentTypes(string webUrl, string listUrl)** | IList\<[ContentTypeInfo](#contenttypeinfo-class)\> |  |
 | **SyncContentTypesFromHubSite(string siteUrl, IList\<ContentTypeId\> contentTypeIdsToSync)** | ClientResult\<[ContentTypeSyndicationResult](#contenttypesyndicationresult-class)\> |  |
 | **SyncContentTypesFromHubSite2(string siteUrl, IList\<string\> contentTypeIdsToSync)** | ClientResult\<[ContentTypeSyndicationResult](#contenttypesyndicationresult-class)\> |  |
 # ContentTypeSyndicationResult Class
