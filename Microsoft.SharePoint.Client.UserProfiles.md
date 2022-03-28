@@ -2570,6 +2570,7 @@ Base class: ClientObject
 |---|---|---|
 | **DeleteCacheItemsAsync(PersonalCacheItem[] cacheItems)** | void |  |
 | **DeleteCacheItemsAsync2(PersonalCacheItem[] cacheItems, string mySiteUrl)** | void |  |
+| **Dispose()** | void |  |
 | **LoadUserProfile(string email)** | void |  |
 | **ReadCache(string folderPath)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
 | **ReadCache2(string folderPath, string mySiteUrl)** | ClientResult\<[PersonalCacheItem](#personalcacheitem-class)[]\> |  |
