@@ -656,6 +656,7 @@ Base class: FieldLookup
 | **AnchorId** | Guid |  |
 | **CreateValuesInEditForm** | bool |  |
 | **IsAnchorValid** | bool |  |
+| **IsDocTagsEnabled** | bool |  |
 | **IsKeyword** | bool |  |
 | **IsPathRendered** | bool |  |
 | **IsTermSetValid** | bool |  |
@@ -758,6 +759,7 @@ Namespace: Microsoft.SharePoint.Client.Taxonomy
 | **AnchorId** | string |  |
 | **CreateValuesInEditForm** | string |  |
 | **IsAnchorValid** | string |  |
+| **IsDocTagsEnabled** | string |  |
 | **IsKeyword** | string |  |
 | **IsPathRendered** | string |  |
 | **IsTermSetValid** | string |  |
