@@ -7,12 +7,14 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [AcronymInformation Class](#acronyminformation-class) | [SiteSharingEmailContext Class](#sitesharingemailcontext-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
-| [AddinPlugin Class](#addinplugin-class) | [SpotlightChannel Class](#spotlightchannel-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
-| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
-| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
-| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
-| [BoostFieldsData Class](#boostfieldsdata-class) | [SpotlightVideo Class](#spotlightvideo-class) | [NavigationTerm Class](#navigationterm-class) |
+| [AcronymInformation Class](#acronyminformation-class) | [SitePageVersionInfo Class](#sitepageversioninfo-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |
+| [AddinPlugin Class](#addinplugin-class) | [SiteServicesAddins Class](#siteservicesaddins-class) | [VideoThumbnail Class](#videothumbnail-class) |
+| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SiteSharingEmailContext Class](#sitesharingemailcontext-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
+| [AddinSettings Class](#addinsettings-class) | [SpotlightChannel Class](#spotlightchannel-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
+| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
+| [BoostFieldsData Class](#boostfieldsdata-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
+| [CampaignCommunicationFieldsData Class](#campaigncommunicationfieldsdata-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
+| [CampaignCommunicationMailDraftData Class](#campaigncommunicationmaildraftdata-class) | [SpotlightVideo Class](#spotlightvideo-class) | [NavigationTerm Class](#navigationterm-class) |
 | [ChannelPermission Enum](#channelpermission-enum) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
 | [CustomizableString Class](#customizablestring-class) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
 | [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
@@ -39,8 +41,6 @@ Created by
 | [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoPlaybackMetadataPropertyNames Class](#videoplaybackmetadatapropertynames-class) | [PortalLaunchWave Class](#portallaunchwave-class) |
 | [SitePage3DFieldsData Class](#sitepage3dfieldsdata-class) | [VideoPlaybackOrigin Enum](#videoplaybackorigin-enum) | [PortalLaunchWaveGroup Class](#portallaunchwavegroup-class) |
 | [SitePageFieldsData Class](#sitepagefieldsdata-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) | [PortalLaunchWaveSetup Class](#portallaunchwavesetup-class) |
-| [SitePageVersionInfo Class](#sitepageversioninfo-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |   |
-| [SiteServicesAddins Class](#siteservicesaddins-class) | [VideoThumbnail Class](#videothumbnail-class) |   |
 # AcronymInformation Class
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -175,6 +175,58 @@ Base class: ClientValueObject
 | **NextItemVersion** | int |  |
 | **PreviousItemId** | int |  |
 | **PreviousItemVersion** | int |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# CampaignCommunicationFieldsData Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **CommunicationMetadata** | string |  |
+| **EndpointEmail** | string |  |
+| **EndpointSharePoint** | string |  |
+| **EndpointYammer** | string |  |
+| **TypeId** | string |  |
+| **AuthorByline** | string[] |  |
+| **BannerImageUrl** | string |  |
+| **CallToAction** | string |  |
+| **CanvasContent1** | string |  |
+| **CanvasJson1** | string |  |
+| **Categories** | string |  |
+| **Description** | string |  |
+| **LayoutWebpartsContent** | string |  |
+| **Modified** | DateTime |  |
+| **PublishStartDate** | DateTime |  |
+| **Title** | string |  |
+| **TopicHeader** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# CampaignCommunicationMailDraftData Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **DraftId** | string |  |
+| **GroupUpn** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
