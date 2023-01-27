@@ -906,6 +906,7 @@ Base class: ClientObject
 | **SetAdvancedRecordVersioningDisabled(ClientRuntimeContext context, bool disabled)** | void |  |
 | **SetAllowFilesWithKeepLabelToBeDeletedODB(ClientRuntimeContext context, bool allowDeletion)** | void |  |
 | **SetAllowFilesWithKeepLabelToBeDeletedSPO(ClientRuntimeContext context, bool allowDeletion)** | void |  |
+| **SetComplianceTagOnBulkItems(ClientRuntimeContext context, IList\<int\> itemIds, string listUrl, string complianceTagValue)** | IList\<int\> |  |
 | **SetContainerRetentionPolicy(string siteId, Guid defaultContainerLabel)** | void |  |
 | **SetHoldGracePeriodInDays(ClientRuntimeContext context, int gracePeriodInDays)** | void |  |
 | **SetListComplianceTag(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, bool syncToItems)** | void |  |
