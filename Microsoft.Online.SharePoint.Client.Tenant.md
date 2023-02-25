@@ -1120,6 +1120,7 @@ Base class: ClientObject
 | **BlockDownloadLinksFileType** | [BlockDownloadLinksFileTypes](#blockdownloadlinksfiletypes-enum) |  |
 | **BlockDownloadMicrosoft365GroupIds** | Guid[] |  |
 | **BlockDownloadPolicy** | bool |  |
+| **BlockGuestsAsSiteAdmin** | SharingState |  |
 | **ClearRestrictedAccessControl** | bool |  |
 | **CommentsOnSitePagesDisabled** | bool |  |
 | **CompatibilityLevel** | int |  |
@@ -1171,6 +1172,7 @@ Base class: ClientObject
 | **OwnerName** | string |  |
 | **PWAEnabled** | [PWAEnabledStatus](#pwaenabledstatus-enum) |  |
 | **ReadOnlyAccessPolicy** | bool |  |
+| **ReadOnlyForBlockDownloadPolicy** | bool |  |
 | **ReadOnlyForUnmanagedDevices** | bool |  |
 | **RelatedGroupId** | Guid |  |
 | **RequestFilesLinkEnabled** | bool |  |
@@ -1248,6 +1250,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **BlockDownloadLinksFileType** | string |  |
 | **BlockDownloadMicrosoft365GroupIds** | string |  |
 | **BlockDownloadPolicy** | string |  |
+| **BlockGuestsAsSiteAdmin** | string |  |
 | **ClearRestrictedAccessControl** | string |  |
 | **CommentsOnSitePagesDisabled** | string |  |
 | **CompatibilityLevel** | string |  |
@@ -1299,6 +1302,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **OwnerName** | string |  |
 | **PWAEnabled** | string |  |
 | **ReadOnlyAccessPolicy** | string |  |
+| **ReadOnlyForBlockDownloadPolicy** | string |  |
 | **ReadOnlyForUnmanagedDevices** | string |  |
 | **RelatedGroupId** | string |  |
 | **RequestFilesLinkEnabled** | string |  |
@@ -2106,11 +2110,11 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **ActivationStatus** | [SyntexConsumptionBillingActivationStatus](#syntexconsumptionbillingactivationstatus-enum) |  |
 | **AzureResourceId** | string |  |
 | **AzureSubscriptionState** | [AzureSubscriptionState](#azuresubscriptionstate-enum) |  |
+| **EnabledFeatures** | [SyntexConsumptionBillingEnabledFeatures](#syntexconsumptionbillingenabledfeatures-enum) |  |
 | **Location** | string |  |
-| **SyntexConsumptionBillingActivationStatus** | [SyntexConsumptionBillingActivationStatus](#syntexconsumptionbillingactivationstatus-enum) |  |
-| **SyntexConsumptionBillingEnabledFeatures** | [SyntexConsumptionBillingEnabledFeatures](#syntexconsumptionbillingenabledfeatures-enum) |  |
 | **Updated** | DateTime |  |
 | **TypeId** | string |  |
 ## Methods
@@ -2185,6 +2189,7 @@ Base class: ClientObject
 | **AllowSelectSGsInODBListInTenant** | IList\<string\> |  |
 | **AnyoneLinkTrackUsers** | bool |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | bool |  |
+| **ArchiveRedirectUrl** | string |  |
 | **AuthContextResilienceMode** | SPResilienceModeType |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -2208,6 +2213,7 @@ Base class: ClientObject
 | **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
 | **ConditionalAccessPolicyErrorHelpLink** | string |  |
 | **ContentTypeSyncSiteTemplatesList** | IEnumerable\<string\> |  |
+| **CoreBlockGuestsAsSiteAdmin** | SharingState |  |
 | **CoreDefaultLinkToExistingAccess** | bool |  |
 | **CoreDefaultShareLinkRole** | Role |  |
 | **CoreDefaultShareLinkScope** | SharingScope |  |
@@ -2227,6 +2233,7 @@ Base class: ClientObject
 | **DisableBackToClassic** | bool |  |
 | **DisableCustomAppAuthentication** | bool |  |
 | **DisabledModernListTemplateIds** | Guid[] |  |
+| **DisableDocumentLibraryDefaultLabeling** | bool |  |
 | **DisabledWebPartIds** | Guid[] |  |
 | **DisableListSync** | bool |  |
 | **DisableOutlookPSTVersionTrimming** | bool |  |
@@ -2242,6 +2249,7 @@ Base class: ClientObject
 | **EmailAttestationReAuthDays** | int |  |
 | **EmailAttestationRequired** | bool |  |
 | **EnableAIPIntegration** | bool |  |
+| **EnableAutoExpirationVersionTrim** | bool |  |
 | **EnableAutoNewsDigest** | bool |  |
 | **EnableAzureADB2BIntegration** | bool |  |
 | **EnabledFlightAllowAADB2BSkipCheckingOTP** | bool |  |
@@ -2252,11 +2260,13 @@ Base class: ClientObject
 | **EnableRestrictedAccessControl** | bool |  |
 | **ExcludedBlockDownloadGroupIds** | Guid[] |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
+| **ExpireVersionsAfterDays** | int |  |
 | **ExternalServicesEnabled** | bool |  |
 | **ExternalUserExpirationRequired** | bool |  |
 | **ExternalUserExpireInDays** | int |  |
 | **FileAnonymousLinkType** | AnonymousLinkType |  |
 | **FilePickerExternalImageSearchEnabled** | bool |  |
+| **FileVersionPolicyXml** | string |  |
 | **FolderAnonymousLinkType** | AnonymousLinkType |  |
 | **GuestSharingGroupAllowListInTenant** | string |  |
 | **GuestSharingGroupAllowListInTenantByPrincipalIdentity** | IList\<string\> |  |
@@ -2275,6 +2285,7 @@ Base class: ClientObject
 | **IPAddressWACTokenLifetime** | int |  |
 | **IsAppBarTemporarilyDisabled** | bool |  |
 | **IsCollabMeetingNotesFluidEnabled** | bool |  |
+| **IsEnableAppAuthPopUpEnabled** | bool |  |
 | **IsFluidEnabled** | bool |  |
 | **IsHubSitesMultiGeoFlightEnabled** | bool |  |
 | **IsLoopEnabled** | bool |  |
@@ -2284,11 +2295,13 @@ Base class: ClientObject
 | **IsUnmanagedSyncClientForTenantRestricted** | bool |  |
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | bool |  |
 | **IsVivaHomeFlightEnabled** | bool |  |
+| **IsVivaHomeGAFlightEnabled** | bool |  |
 | **IsWBFluidEnabled** | bool |  |
 | **LabelMismatchEmailHelpLink** | string |  |
 | **LegacyAuthProtocolsEnabled** | bool |  |
 | **LimitedAccessFileType** | [SPOLimitedAccessFileType](#spolimitedaccessfiletype-enum) |  |
 | **MachineLearningCaptureEnabled** | bool |  |
+| **MajorVersionLimit** | int |  |
 | **MarkNewFilesSensitiveByDefault** | [SensitiveByDefaultState](#sensitivebydefaultstate-enum) |  |
 | **MediaTranscription** | [MediaTranscriptionPolicyType](#mediatranscriptionpolicytype-enum) |  |
 | **MobileFriendlyUrlEnabledInTenant** | bool |  |
@@ -2310,6 +2323,7 @@ Base class: ClientObject
 | **ODBMembersCanShare** | SharingState |  |
 | **ODBSharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
 | **OfficeClientADALDisabled** | bool |  |
+| **OneDriveBlockGuestsAsSiteAdmin** | SharingState |  |
 | **OneDriveDefaultLinkToExistingAccess** | bool |  |
 | **OneDriveDefaultShareLinkRole** | Role |  |
 | **OneDriveDefaultShareLinkScope** | SharingScope |  |
@@ -2508,6 +2522,7 @@ Base class: ClientObject
 | **GrantSiteDesignRights(Guid id, string[] principalNames, TenantSiteDesignPrincipalRights grantedRights)** | void |  |
 | **IncrementCustomFontsMinorVersion(string libUrl)** | void |  |
 | **IsCustomFontsOAuthEnabled()** | ClientResult\<bool\> |  |
+| **IsDraftModeForCompanyPortalSiteEnabled()** | ClientResult\<bool\> |  |
 | **IsMnACmdletCorrectnessCheckEnabled()** | ClientResult\<bool\> |  |
 | **IsMnALicensingEnabledForTenant(MnALicenseType licenseType, string partnerMySiteHostUrl)** | ClientResult\<bool\> |  |
 | **IsMnALicensingEnabledForUser(string sourceUserUPN, string targetUserUPN, string partnerMySiteHostUrl)** | ClientResult\<MnAUserLicenseCheckResult\> |  |
@@ -2553,6 +2568,7 @@ Base class: ClientObject
 | **SetBlockDownloadFileTypePolicyData(bool blockDownloadFileTypePolicy, SPBlockDownloadFileTypeId[] typeId, Guid[] excludedBlockDownloadGroupIds)** | void |  |
 | **SetBlockDownloadFileTypePolicyExclusionList(Guid[] excludedBlockDownloadGroupIds)** | void |  |
 | **SetBuiltInDesignPackageVisibility(ClientRuntimeContext context, DesignPackageType designPackageType, bool isVisible)** | void |  |
+| **SetFileVersionPolicy(bool isAutoTrimEnabled, int majorVersionLimit, int expireVersionsAfterDays)** | void |  |
 | **SetIdleSessionSignOutForUnmanagedDevices(bool enabled, TimeSpan warnAfter, TimeSpan signOutAfter)** | ClientResult\<bool\> |  |
 | **SetKnowledgeHubSite(string knowledgeHubSiteUrl)** | ClientResult\<string\> |  |
 | **SetOrgAssets(string libUrl, string thumbnailUrl)** | void |  |
@@ -2561,6 +2577,7 @@ Base class: ClientObject
 | **SetPortalLaunchWaves(string siteUrl, string status, bool walkBack, bool isWhatIf, bool updateConfirmed)** | [SPOPortalLaunchValidationResult](#spoportallaunchvalidationresult-class) |  |
 | **SetSiteAdmin(string siteUrl, string loginName, bool isSiteAdmin)** | User |  |
 | **SetSPHSite(string sphSiteUrl)** | ClientResult\<string\> |  |
+| **SetSPHSiteWithConfiguration(string sphSiteUrl, HomeSiteConfigurationParam configuration)** | ClientResult\<string\> |  |
 | **SetSPHSiteWithConfigurations(string sphSiteUrl, bool vivaConnectionsDefaultStart)** | ClientResult\<string\> |  |
 | **SetSPOStructuralNavigationCacheSiteState(string siteUrl, bool isEnabled)** | void |  |
 | **SetSPOStructuralNavigationCacheWebState(string webUrl, bool isEnabled)** | void |  |
@@ -2590,6 +2607,7 @@ Base class: ClientObject
 | **UploadCustomFontsAndCatalog(IList\<CustomFontsResource\> customFontFiles, string libUrl)** | ClientResult\<bool\> |  |
 | **ValidateHomeSite(ValidationActionType validationActionType, string siteUrl)** | void |  |
 | **ValidateMultipleHomeSitesParameterExists(bool hasParameters)** | void |  |
+| **ValidateVivaHomeGAParametersExists(bool hasParameters)** | void |  |
 | **ValidateVivaHomeParameterExists(bool hasParameters)** | void |  |
 | **VerifySPOTenantOrgRelation(OrgRelationScenario scenario, OrgRelationRole partnerRole, string partnerMySiteHostUrl)** | ClientResult\<OrgRelationVerificationStatus\> |  |
 # TenantBrowseUserInfoPolicyValue Enum
@@ -2864,6 +2882,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **AllowSelectSGsInODBListInTenant** | string |  |
 | **AnyoneLinkTrackUsers** | string |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | string |  |
+| **ArchiveRedirectUrl** | string |  |
 | **AuthContextResilienceMode** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
@@ -2887,6 +2906,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ConditionalAccessPolicy** | string |  |
 | **ConditionalAccessPolicyErrorHelpLink** | string |  |
 | **ContentTypeSyncSiteTemplatesList** | string |  |
+| **CoreBlockGuestsAsSiteAdmin** | string |  |
 | **CoreDefaultLinkToExistingAccess** | string |  |
 | **CoreDefaultShareLinkRole** | string |  |
 | **CoreDefaultShareLinkScope** | string |  |
@@ -2906,6 +2926,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DisableBackToClassic** | string |  |
 | **DisableCustomAppAuthentication** | string |  |
 | **DisabledModernListTemplateIds** | string |  |
+| **DisableDocumentLibraryDefaultLabeling** | string |  |
 | **DisabledWebPartIds** | string |  |
 | **DisableListSync** | string |  |
 | **DisableOutlookPSTVersionTrimming** | string |  |
@@ -2921,6 +2942,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **EmailAttestationReAuthDays** | string |  |
 | **EmailAttestationRequired** | string |  |
 | **EnableAIPIntegration** | string |  |
+| **EnableAutoExpirationVersionTrim** | string |  |
 | **EnableAutoNewsDigest** | string |  |
 | **EnableAzureADB2BIntegration** | string |  |
 | **EnabledFlightAllowAADB2BSkipCheckingOTP** | string |  |
@@ -2931,11 +2953,13 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **EnableRestrictedAccessControl** | string |  |
 | **ExcludedBlockDownloadGroupIds** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
+| **ExpireVersionsAfterDays** | string |  |
 | **ExternalServicesEnabled** | string |  |
 | **ExternalUserExpirationRequired** | string |  |
 | **ExternalUserExpireInDays** | string |  |
 | **FileAnonymousLinkType** | string |  |
 | **FilePickerExternalImageSearchEnabled** | string |  |
+| **FileVersionPolicyXml** | string |  |
 | **FolderAnonymousLinkType** | string |  |
 | **GuestSharingGroupAllowListInTenant** | string |  |
 | **GuestSharingGroupAllowListInTenantByPrincipalIdentity** | string |  |
@@ -2954,6 +2978,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **IPAddressWACTokenLifetime** | string |  |
 | **IsAppBarTemporarilyDisabled** | string |  |
 | **IsCollabMeetingNotesFluidEnabled** | string |  |
+| **IsEnableAppAuthPopUpEnabled** | string |  |
 | **IsFluidEnabled** | string |  |
 | **IsHubSitesMultiGeoFlightEnabled** | string |  |
 | **IsLoopEnabled** | string |  |
@@ -2963,11 +2988,13 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **IsUnmanagedSyncClientForTenantRestricted** | string |  |
 | **IsUnmanagedSyncClientRestrictionFlightEnabled** | string |  |
 | **IsVivaHomeFlightEnabled** | string |  |
+| **IsVivaHomeGAFlightEnabled** | string |  |
 | **IsWBFluidEnabled** | string |  |
 | **LabelMismatchEmailHelpLink** | string |  |
 | **LegacyAuthProtocolsEnabled** | string |  |
 | **LimitedAccessFileType** | string |  |
 | **MachineLearningCaptureEnabled** | string |  |
+| **MajorVersionLimit** | string |  |
 | **MarkNewFilesSensitiveByDefault** | string |  |
 | **MediaTranscription** | string |  |
 | **MobileFriendlyUrlEnabledInTenant** | string |  |
@@ -2989,6 +3016,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ODBMembersCanShare** | string |  |
 | **ODBSharingCapability** | string |  |
 | **OfficeClientADALDisabled** | string |  |
+| **OneDriveBlockGuestsAsSiteAdmin** | string |  |
 | **OneDriveDefaultLinkToExistingAccess** | string |  |
 | **OneDriveDefaultShareLinkRole** | string |  |
 | **OneDriveDefaultShareLinkScope** | string |  |
@@ -4396,6 +4424,7 @@ Base class: ClientObject
 | **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
 | **ConditionalAccessPolicyErrorHelpLink** | string |  |
 | **ContentTypeSyncSiteTemplatesList** | IEnumerable\<string\> |  |
+| **CoreBlockGuestsAsSiteAdmin** | SharingState |  |
 | **CoreDefaultLinkToExistingAccess** | bool |  |
 | **CoreDefaultShareLinkRole** | Role |  |
 | **CoreDefaultShareLinkScope** | SharingScope |  |
@@ -4424,6 +4453,7 @@ Base class: ClientObject
 | **EmailAttestationEnabled** | bool |  |
 | **EmailAttestationReAuthDays** | int |  |
 | **EmailAttestationRequired** | bool |  |
+| **EnableAutoExpirationVersionTrim** | bool |  |
 | **EnableAutoNewsDigest** | bool |  |
 | **EnableAzureADB2BIntegration** | bool |  |
 | **EnableGuestSignInAcceleration** | bool |  |
@@ -4431,11 +4461,13 @@ Base class: ClientObject
 | **EnableRestrictedAccessControl** | bool |  |
 | **ExcludedBlockDownloadGroupIds** | Guid[] |  |
 | **ExcludedFileExtensionsForSyncClient** | IList\<string\> |  |
+| **ExpireVersionsAfterDays** | int |  |
 | **ExternalServicesEnabled** | bool |  |
 | **ExternalUserExpirationRequired** | bool |  |
 | **ExternalUserExpireInDays** | int |  |
 | **FileAnonymousLinkType** | AnonymousLinkType |  |
 | **FilePickerExternalImageSearchEnabled** | bool |  |
+| **FileVersionPolicyXml** | string |  |
 | **FolderAnonymousLinkType** | AnonymousLinkType |  |
 | **GetOrgAssets** | OrgAssets |  |
 | **GuestSharingGroupAllowList** | string |  |
@@ -4454,6 +4486,7 @@ Base class: ClientObject
 | **LegacyAuthProtocolsEnabled** | bool |  |
 | **LimitedAccessFileType** | [SPOLimitedAccessFileType](#spolimitedaccessfiletype-enum) |  |
 | **MachineLearningCaptureEnabled** | bool |  |
+| **MajorVersionLimit** | int |  |
 | **MediaTranscription** | [MediaTranscriptionPolicyType](#mediatranscriptionpolicytype-enum) |  |
 | **MobileFriendlyUrlEnabled** | bool |  |
 | **MySitesPublicEnabled** | bool |  |
@@ -4474,6 +4507,7 @@ Base class: ClientObject
 | **ODBMembersCanShare** | SharingState |  |
 | **ODBSharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
 | **OfficeClientADALDisabled** | bool |  |
+| **OneDriveBlockGuestsAsSiteAdmin** | SharingState |  |
 | **OneDriveDefaultLinkToExistingAccess** | bool |  |
 | **OneDriveDefaultShareLinkRole** | Role |  |
 | **OneDriveDefaultShareLinkScope** | SharingScope |  |
@@ -4640,6 +4674,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **ConditionalAccessPolicy** | string |  |
 | **ConditionalAccessPolicyErrorHelpLink** | string |  |
 | **ContentTypeSyncSiteTemplatesList** | string |  |
+| **CoreBlockGuestsAsSiteAdmin** | string |  |
 | **CoreDefaultLinkToExistingAccess** | string |  |
 | **CoreDefaultShareLinkRole** | string |  |
 | **CoreDefaultShareLinkScope** | string |  |
@@ -4668,6 +4703,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **EmailAttestationEnabled** | string |  |
 | **EmailAttestationReAuthDays** | string |  |
 | **EmailAttestationRequired** | string |  |
+| **EnableAutoExpirationVersionTrim** | string |  |
 | **EnableAutoNewsDigest** | string |  |
 | **EnableAzureADB2BIntegration** | string |  |
 | **EnableGuestSignInAcceleration** | string |  |
@@ -4675,11 +4711,13 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **EnableRestrictedAccessControl** | string |  |
 | **ExcludedBlockDownloadGroupIds** | string |  |
 | **ExcludedFileExtensionsForSyncClient** | string |  |
+| **ExpireVersionsAfterDays** | string |  |
 | **ExternalServicesEnabled** | string |  |
 | **ExternalUserExpirationRequired** | string |  |
 | **ExternalUserExpireInDays** | string |  |
 | **FileAnonymousLinkType** | string |  |
 | **FilePickerExternalImageSearchEnabled** | string |  |
+| **FileVersionPolicyXml** | string |  |
 | **FolderAnonymousLinkType** | string |  |
 | **GetOrgAssets** | string |  |
 | **GuestSharingGroupAllowList** | string |  |
@@ -4698,6 +4736,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **LegacyAuthProtocolsEnabled** | string |  |
 | **LimitedAccessFileType** | string |  |
 | **MachineLearningCaptureEnabled** | string |  |
+| **MajorVersionLimit** | string |  |
 | **MediaTranscription** | string |  |
 | **MobileFriendlyUrlEnabled** | string |  |
 | **MySitesPublicEnabled** | string |  |
@@ -4718,6 +4757,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **ODBMembersCanShare** | string |  |
 | **ODBSharingCapability** | string |  |
 | **OfficeClientADALDisabled** | string |  |
+| **OneDriveBlockGuestsAsSiteAdmin** | string |  |
 | **OneDriveDefaultLinkToExistingAccess** | string |  |
 | **OneDriveDefaultShareLinkRole** | string |  |
 | **OneDriveDefaultShareLinkScope** | string |  |
