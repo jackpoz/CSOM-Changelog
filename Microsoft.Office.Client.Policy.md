@@ -7,7 +7,8 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [PolicyStoreFactory Class](#policystorefactory-class) | [SPPolicyStore Class](#sppolicystore-class) |
+| [ComplianceDlpWorkItemSubmitter Class](#compliancedlpworkitemsubmitter-class) | [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |
 | [ComplianceRetentionWorkItemSubmitter Class](#complianceretentionworkitemsubmitter-class) | [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
 | [PreserveDocumentSubmitter Class](#preservedocumentsubmitter-class) | [SPContainerId Class](#spcontainerid-class) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
 | [ComplianceTagInfo Class](#compliancetaginfo-class) | [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
@@ -22,7 +23,6 @@ Created by
 | [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyEventPropertyNames Class](#sppolicyeventpropertynames-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
 | [PolicyFactoryCaller Enum](#policyfactorycaller-enum) | [SPPolicyRule Class](#sppolicyrule-class) | [Records Class](#records-class) |
 | [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) |   |
-| [PolicyStoreFactory Class](#policystorefactory-class) | [SPPolicyStore Class](#sppolicystore-class) |   |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Office.Client.Policy
@@ -33,6 +33,31 @@ Namespace: Microsoft.Office.Client.Policy
 | Name | Returns | Summary |
 |---|---|---|
 | **CreateObjectFromScriptType(string scriptType, ClientRuntimeContext context)** | IFromJson |  |
+# ComplianceDlpWorkItemSubmitter Class
+
+Namespace: Microsoft.SharePoint.Client.ComplianceFoundation
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **ComplianceDlpWorkItemSubmitter(ClientRuntimeContext context, ObjectPath objectPath)** |  |
 # ComplianceRetentionWorkItemSubmitter Class
 
 Namespace: Microsoft.SharePoint.Client.ComplianceFoundation

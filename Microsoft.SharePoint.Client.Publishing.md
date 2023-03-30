@@ -7,44 +7,45 @@ Created by
 
 |   |   |   |
 |---|---|---|
-| [EmailPublishingStatus Class](#emailpublishingstatus-class) | [Search Class](#search-class) | [VideoPlaybackMetadata Class](#videoplaybackmetadata-class) |
-| [PrePublishValidationsErrorCodesForEmail Class](#prepublishvalidationserrorcodesforemail-class) | [SearchPropertyNames Class](#searchpropertynames-class) | [VideoPlaybackMetadataPropertyNames Class](#videoplaybackmetadatapropertynames-class) |
-| [PrePublishValidationsErrorCodesForSharePointSite Class](#prepublishvalidationserrorcodesforsharepointsite-class) | [SharePagePreviewByEmailFieldsData Class](#sharepagepreviewbyemailfieldsdata-class) | [VideoPlaybackOrigin Enum](#videoplaybackorigin-enum) |
+| [EmailPublishingStatus Class](#emailpublishingstatus-class) | [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) |
+| [PrePublishValidationsErrorCodesForEmail Class](#prepublishvalidationserrorcodesforemail-class) | [Search Class](#search-class) | [VideoPlaybackMetadata Class](#videoplaybackmetadata-class) |
+| [PrePublishValidationsErrorCodesForSharePointSite Class](#prepublishvalidationserrorcodesforsharepointsite-class) | [SearchPropertyNames Class](#searchpropertynames-class) | [VideoPlaybackMetadataPropertyNames Class](#videoplaybackmetadatapropertynames-class) |
+| [PrePublishValidationsErrorCodesForTeams Class](#prepublishvalidationserrorcodesforteams-class) | [SharePagePreviewByEmailFieldsData Class](#sharepagepreviewbyemailfieldsdata-class) | [VideoPlaybackOrigin Enum](#videoplaybackorigin-enum) |
 | [PrePublishValidationsResponse Class](#prepublishvalidationsresponse-class) | [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) |
 | [PublishingStatus Enum](#publishingstatus-enum) | [SitePage3DFieldsData Class](#sitepage3dfieldsdata-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |
 | [PublishingStatusResponse Class](#publishingstatusresponse-class) | [SitePageCoAuthAction Enum](#sitepagecoauthaction-enum) | [VideoThumbnail Class](#videothumbnail-class) |
 | [SendTestEmailResponse Class](#sendtestemailresponse-class) | [SitePageCoAuthState Class](#sitepagecoauthstate-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
 | [SharePointPublishingStatus Class](#sharepointpublishingstatus-class) | [SitePageFieldsData Class](#sitepagefieldsdata-class) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
 | [SharePointPublishingStatusResponse Class](#sharepointpublishingstatusresponse-class) | [SitePageVersionInfo Class](#sitepageversioninfo-class) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
-| [AcronymInformation Class](#acronyminformation-class) | [SiteServicesAddins Class](#siteservicesaddins-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
-| [AddinPlugin Class](#addinplugin-class) | [SiteSharingEmailContext Class](#sitesharingemailcontext-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
-| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannel Class](#spotlightchannel-class) | [NavigationTerm Class](#navigationterm-class) |
-| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
-| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
-| [BoostFieldsData Class](#boostfieldsdata-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
-| [CampaignPublicationFieldsData Class](#campaignpublicationfieldsdata-class) | [SpotlightVideo Class](#spotlightvideo-class) | [NavigationTermProviderNameCollection Class](#navigationtermprovidernamecollection-class) |
-| [CampaignPublicationMailDraftData Class](#campaignpublicationmaildraftdata-class) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [NavigationTermSet Class](#navigationtermset-class) |
-| [ChannelPermission Enum](#channelpermission-enum) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [NavigationTermSetItem Class](#navigationtermsetitem-class) |
-| [CustomizableString Class](#customizablestring-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [NavigationTermSetItemObjectPropertyNames Class](#navigationtermsetitemobjectpropertynames-class) |
-| [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SubtitleCollection Class](#subtitlecollection-class) | [NavigationTermSetItemPropertyNames Class](#navigationtermsetitempropertynames-class) |
-| [DesignPackage Class](#designpackage-class) | [SubtitleFile Class](#subtitlefile-class) | [NavigationTermSetPropertyNames Class](#navigationtermsetpropertynames-class) |
-| [DesignPackageInfo Class](#designpackageinfo-class) | [SubtitleFilePropertyNames Class](#subtitlefilepropertynames-class) | [NavigationTermSetView Class](#navigationtermsetview-class) |
-| [EnumerateOnlyVideoCollection Class](#enumerateonlyvideocollection-class) | [TextValueWithLanguage Class](#textvaluewithlanguage-class) | [NavigationTermSetViewPropertyNames Class](#navigationtermsetviewpropertynames-class) |
-| [FeedVideoPageFieldsData Class](#feedvideopagefieldsdata-class) | [TopicPageFieldsData Class](#topicpagefieldsdata-class) | [PortalNavigationCacheState Enum](#portalnavigationcachestate-enum) |
-| [ImageRendition Class](#imagerendition-class) | [VariationLabel Class](#variationlabel-class) | [StandardNavigationSettings Class](#standardnavigationsettings-class) |
-| [PageLayoutCreationInformation Class](#pagelayoutcreationinformation-class) | [VariationLabelPropertyNames Class](#variationlabelpropertynames-class) | [StandardNavigationSettingsPropertyNames Class](#standardnavigationsettingspropertynames-class) |
-| [PortalPermission Enum](#portalpermission-enum) | [Variations Class](#variations-class) | [StandardNavigationSource Enum](#standardnavigationsource-enum) |
-| [PublicationStatus Enum](#publicationstatus-enum) | [VideoChannel Class](#videochannel-class) | [TaxonomyNavigation Class](#taxonomynavigation-class) |
-| [PublishingPage Class](#publishingpage-class) | [VideoChannelCollection Class](#videochannelcollection-class) | [WebNavigationSettings Class](#webnavigationsettings-class) |
-| [PublishingPageInformation Class](#publishingpageinformation-class) | [VideoChannelObjectPropertyNames Class](#videochannelobjectpropertynames-class) | [WebNavigationSettingsObjectPropertyNames Class](#webnavigationsettingsobjectpropertynames-class) |
-| [PublishingSite Class](#publishingsite-class) | [VideoChannelPropertyNames Class](#videochannelpropertynames-class) | [WebNavigationSettingsPropertyNames Class](#webnavigationsettingspropertynames-class) |
-| [PublishingWeb Class](#publishingweb-class) | [VideoCollection Class](#videocollection-class) | [PortalLaunchRedirectionType Enum](#portallaunchredirectiontype-enum) |
-| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoItem Class](#videoitem-class) | [PortalLaunchSetupWrapper Class](#portallaunchsetupwrapper-class) |
-| [RepostPageFieldsData Class](#repostpagefieldsdata-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [PortalLaunchStatus Enum](#portallaunchstatus-enum) |
-| [ScheduledItem Class](#scheduleditem-class) | [VideoItemPropertyNames Class](#videoitempropertynames-class) | [PortalLaunchUsersSizeType Enum](#portallaunchuserssizetype-enum) |
-| [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) | [PortalLaunchWave Class](#portallaunchwave-class) |
-| [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) | [PortalLaunchWaveGroup Class](#portallaunchwavegroup-class) |
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) | [PortalLaunchWaveSetup Class](#portallaunchwavesetup-class) |
+| [TeamsPublishingStatus Class](#teamspublishingstatus-class) | [SitePageVersionInfoCollection Class](#sitepageversioninfocollection-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
+| [AcronymInformation Class](#acronyminformation-class) | [SiteServicesAddins Class](#siteservicesaddins-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
+| [AddinPlugin Class](#addinplugin-class) | [SiteSharingEmailContext Class](#sitesharingemailcontext-class) | [NavigationTerm Class](#navigationterm-class) |
+| [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannel Class](#spotlightchannel-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
+| [AddinSettings Class](#addinsettings-class) | [SpotlightChannelCollection Class](#spotlightchannelcollection-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
+| [AddinSettingsPropertyNames Class](#addinsettingspropertynames-class) | [SpotlightChannelObjectPropertyNames Class](#spotlightchannelobjectpropertynames-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
+| [BoostFieldsData Class](#boostfieldsdata-class) | [SpotlightChannelPropertyNames Class](#spotlightchannelpropertynames-class) | [NavigationTermProviderNameCollection Class](#navigationtermprovidernamecollection-class) |
+| [CampaignPublicationFieldsData Class](#campaignpublicationfieldsdata-class) | [SpotlightVideo Class](#spotlightvideo-class) | [NavigationTermSet Class](#navigationtermset-class) |
+| [CampaignPublicationMailDraftData Class](#campaignpublicationmaildraftdata-class) | [SpotlightVideoCollection Class](#spotlightvideocollection-class) | [NavigationTermSetItem Class](#navigationtermsetitem-class) |
+| [ChannelPermission Enum](#channelpermission-enum) | [SpotlightVideoObjectPropertyNames Class](#spotlightvideoobjectpropertynames-class) | [NavigationTermSetItemObjectPropertyNames Class](#navigationtermsetitemobjectpropertynames-class) |
+| [CustomizableString Class](#customizablestring-class) | [SpotlightVideoPropertyNames Class](#spotlightvideopropertynames-class) | [NavigationTermSetItemPropertyNames Class](#navigationtermsetitempropertynames-class) |
+| [CustomizableStringPropertyNames Class](#customizablestringpropertynames-class) | [SubtitleCollection Class](#subtitlecollection-class) | [NavigationTermSetPropertyNames Class](#navigationtermsetpropertynames-class) |
+| [DesignPackage Class](#designpackage-class) | [SubtitleFile Class](#subtitlefile-class) | [NavigationTermSetView Class](#navigationtermsetview-class) |
+| [DesignPackageInfo Class](#designpackageinfo-class) | [SubtitleFilePropertyNames Class](#subtitlefilepropertynames-class) | [NavigationTermSetViewPropertyNames Class](#navigationtermsetviewpropertynames-class) |
+| [EnumerateOnlyVideoCollection Class](#enumerateonlyvideocollection-class) | [TextValueWithLanguage Class](#textvaluewithlanguage-class) | [PortalNavigationCacheState Enum](#portalnavigationcachestate-enum) |
+| [FeedVideoPageFieldsData Class](#feedvideopagefieldsdata-class) | [TopicPageFieldsData Class](#topicpagefieldsdata-class) | [StandardNavigationSettings Class](#standardnavigationsettings-class) |
+| [ImageRendition Class](#imagerendition-class) | [VariationLabel Class](#variationlabel-class) | [StandardNavigationSettingsPropertyNames Class](#standardnavigationsettingspropertynames-class) |
+| [PageLayoutCreationInformation Class](#pagelayoutcreationinformation-class) | [VariationLabelPropertyNames Class](#variationlabelpropertynames-class) | [StandardNavigationSource Enum](#standardnavigationsource-enum) |
+| [PortalPermission Enum](#portalpermission-enum) | [Variations Class](#variations-class) | [TaxonomyNavigation Class](#taxonomynavigation-class) |
+| [PublicationStatus Enum](#publicationstatus-enum) | [VideoChannel Class](#videochannel-class) | [WebNavigationSettings Class](#webnavigationsettings-class) |
+| [PublishingPage Class](#publishingpage-class) | [VideoChannelCollection Class](#videochannelcollection-class) | [WebNavigationSettingsObjectPropertyNames Class](#webnavigationsettingsobjectpropertynames-class) |
+| [PublishingPageInformation Class](#publishingpageinformation-class) | [VideoChannelObjectPropertyNames Class](#videochannelobjectpropertynames-class) | [WebNavigationSettingsPropertyNames Class](#webnavigationsettingspropertynames-class) |
+| [PublishingSite Class](#publishingsite-class) | [VideoChannelPropertyNames Class](#videochannelpropertynames-class) | [PortalLaunchRedirectionType Enum](#portallaunchredirectiontype-enum) |
+| [PublishingWeb Class](#publishingweb-class) | [VideoCollection Class](#videocollection-class) | [PortalLaunchSetupWrapper Class](#portallaunchsetupwrapper-class) |
+| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoItem Class](#videoitem-class) | [PortalLaunchStatus Enum](#portallaunchstatus-enum) |
+| [RepostPageFieldsData Class](#repostpagefieldsdata-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [PortalLaunchUsersSizeType Enum](#portallaunchuserssizetype-enum) |
+| [ScheduledItem Class](#scheduleditem-class) | [VideoItemPropertyNames Class](#videoitempropertynames-class) | [PortalLaunchWave Class](#portallaunchwave-class) |
+| [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) | [PortalLaunchWaveGroup Class](#portallaunchwavegroup-class) |
+| [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) | [PortalLaunchWaveSetup Class](#portallaunchwavesetup-class) |
 # EmailPublishingStatus Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -103,6 +104,25 @@ Base class: ClientValueObject
 | Name | Returns | Summary |
 |---|---|---|
 | **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# PrePublishValidationsErrorCodesForTeams Class
+
+Namespace: Microsoft.SharePoint.Client
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **AudienceId** | string |  |
+| **ErrorCodes** | IList\<int\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # PrePublishValidationsResponse Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -117,6 +137,7 @@ Base class: ClientValueObject
 | **ErrorCodes** | IEnumerable\<int\> |  |
 | **PrePublishValidationsErrorCodesForEmails** | IList\<[PrePublishValidationsErrorCodesForEmail](#prepublishvalidationserrorcodesforemail-class)\> |  |
 | **PrePublishValidationsErrorCodesForSharePointSites** | IList\<[PrePublishValidationsErrorCodesForSharePointSite](#prepublishvalidationserrorcodesforsharepointsite-class)\> |  |
+| **PrePublishValidationsErrorCodesForTeams** | IList\<[PrePublishValidationsErrorCodesForTeams](#prepublishvalidationserrorcodesforteams-class)\> |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -152,6 +173,7 @@ Base class: ClientValueObject
 | **PrePublishValidationErrorCode** | int |  |
 | **PublishingStatus** | [PublishingStatus](#publishingstatus-enum) |  |
 | **SharePointPublishingStatus** | IList\<[SharePointPublishingStatusResponse](#sharepointpublishingstatusresponse-class)\> |  |
+| **TeamsPublishingStatus** | IDictionary\<string, [TeamsPublishingStatus](#teamspublishingstatus-class)\> |  |
 | **YammerPublishingStatus** | IDictionary\<string, string\> |  |
 | **TypeId** | string |  |
 ## Methods
@@ -211,6 +233,27 @@ Base class: ClientValueObject
 |---|---|---|
 | **SiteId** | string |  |
 | **Status** | [SharePointPublishingStatus](#sharepointpublishingstatus-class) |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# TeamsPublishingStatus Class
+
+Namespace: Microsoft.SharePoint.Client
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **AudienceId** | string |  |
+| **ErrorCode** | int |  |
+| **HttpStatusCode** | int |  |
+| **Status** | [PublishingStatus](#publishingstatus-enum) |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -383,6 +426,9 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **Categories** | string |  |
 | **CoAuthState** | [SitePageCoAuthState](#sitepagecoauthstate-class) |  |
 | **Description** | string |  |
+| **EmailTranspileContent** | string |  |
+| **HiddenHighlightsMetadata** | string |  |
+| **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
 | **PublishStartDate** | DateTime |  |
@@ -551,6 +597,9 @@ Base class: [RepostPageFieldsData](#repostpagefieldsdata-class)
 | **Categories** | string |  |
 | **CoAuthState** | [SitePageCoAuthState](#sitepagecoauthstate-class) |  |
 | **Description** | string |  |
+| **EmailTranspileContent** | string |  |
+| **HiddenHighlightsMetadata** | string |  |
+| **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
 | **PublishStartDate** | DateTime |  |
@@ -782,6 +831,9 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **Categories** | string |  |
 | **CoAuthState** | [SitePageCoAuthState](#sitepagecoauthstate-class) |  |
 | **Description** | string |  |
+| **EmailTranspileContent** | string |  |
+| **HiddenHighlightsMetadata** | string |  |
+| **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
 | **PublishStartDate** | DateTime |  |
@@ -943,6 +995,9 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **Categories** | string |  |
 | **CoAuthState** | [SitePageCoAuthState](#sitepagecoauthstate-class) |  |
 | **Description** | string |  |
+| **EmailTranspileContent** | string |  |
+| **HiddenHighlightsMetadata** | string |  |
+| **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
 | **PublishStartDate** | DateTime |  |
@@ -1003,6 +1058,9 @@ Base class: ClientValueObject
 | **Categories** | string |  |
 | **CoAuthState** | [SitePageCoAuthState](#sitepagecoauthstate-class) |  |
 | **Description** | string |  |
+| **EmailTranspileContent** | string |  |
+| **HiddenHighlightsMetadata** | string |  |
+| **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
 | **PublishStartDate** | DateTime |  |
@@ -1027,6 +1085,25 @@ Base class: ClientValueObject
 |---|---|---|
 | **LastVersionCreated** | DateTime |  |
 | **LastVersionCreatedBy** | string |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# SitePageVersionInfoCollection Class
+
+Namespace: Microsoft.SharePoint.Client.Publishing
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Created** | DateTime |  |
+| **CreatedBy** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -1372,6 +1449,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **EntityId** | string |  |
 | **EntityRelations** | string |  |
 | **EntityType** | string |  |
+| **VerifiedTopicAllowedEditors** | string |  |
 | **TypeId** | string |  |
 | **AuthorByline** | string[] |  |
 | **BannerImageUrl** | string |  |
@@ -1381,6 +1459,9 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **Categories** | string |  |
 | **CoAuthState** | [SitePageCoAuthState](#sitepagecoauthstate-class) |  |
 | **Description** | string |  |
+| **EmailTranspileContent** | string |  |
+| **HiddenHighlightsMetadata** | string |  |
+| **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
 | **PublishStartDate** | DateTime |  |
