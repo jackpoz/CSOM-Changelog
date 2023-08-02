@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Runtime.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 07/04/2023
+[mddox](https://github.com/loxsmoke/mddox) on 2023-08-02
 
 # All types
 
@@ -862,18 +862,14 @@ Base class: Exception
 
 | Name | Type | Summary |
 |---|---|---|
+| **TargetSite** | MethodBase |  |
+| **StackTrace** | string |  |
 | **Message** | string |  |
 | **Data** | IDictionary |  |
 | **InnerException** | Exception |  |
-| **TargetSite** | MethodBase |  |
-| **StackTrace** | string |  |
 | **HelpLink** | string |  |
 | **Source** | string |  |
-| **IPForWatsonBuckets** | UIntPtr |  |
-| **WatsonBuckets** | Object |  |
-| **RemoteStackTrace** | string |  |
 | **HResult** | int |  |
-| **IsTransient** | bool |  |
 ## Constructors
 
 | Name | Summary |
@@ -1047,18 +1043,14 @@ Base class: InvalidOperationException
 
 | Name | Type | Summary |
 |---|---|---|
+| **TargetSite** | MethodBase |  |
+| **StackTrace** | string |  |
 | **Message** | string |  |
 | **Data** | IDictionary |  |
 | **InnerException** | Exception |  |
-| **TargetSite** | MethodBase |  |
-| **StackTrace** | string |  |
 | **HelpLink** | string |  |
 | **Source** | string |  |
-| **IPForWatsonBuckets** | UIntPtr |  |
-| **WatsonBuckets** | Object |  |
-| **RemoteStackTrace** | string |  |
 | **HResult** | int |  |
-| **IsTransient** | bool |  |
 ## Constructors
 
 | Name | Summary |
@@ -1278,8 +1270,8 @@ Base class: MulticastDelegate
 
 | Name | Type | Summary |
 |---|---|---|
-| **Method** | MethodInfo |  |
 | **Target** | Object |  |
+| **Method** | MethodInfo |  |
 ## Constructors
 
 | Name | Summary |
@@ -1368,18 +1360,14 @@ Base class: [ClientRequestException](#clientrequestexception-class)
 
 | Name | Type | Summary |
 |---|---|---|
+| **TargetSite** | MethodBase |  |
+| **StackTrace** | string |  |
 | **Message** | string |  |
 | **Data** | IDictionary |  |
 | **InnerException** | Exception |  |
-| **TargetSite** | MethodBase |  |
-| **StackTrace** | string |  |
 | **HelpLink** | string |  |
 | **Source** | string |  |
-| **IPForWatsonBuckets** | UIntPtr |  |
-| **WatsonBuckets** | Object |  |
-| **RemoteStackTrace** | string |  |
 | **HResult** | int |  |
-| **IsTransient** | bool |  |
 ## Constructors
 
 | Name | Summary |
@@ -1738,18 +1726,14 @@ Base class: InvalidOperationException
 
 | Name | Type | Summary |
 |---|---|---|
+| **TargetSite** | MethodBase |  |
+| **StackTrace** | string |  |
 | **Message** | string |  |
 | **Data** | IDictionary |  |
 | **InnerException** | Exception |  |
-| **TargetSite** | MethodBase |  |
-| **StackTrace** | string |  |
 | **HelpLink** | string |  |
 | **Source** | string |  |
-| **IPForWatsonBuckets** | UIntPtr |  |
-| **WatsonBuckets** | Object |  |
-| **RemoteStackTrace** | string |  |
 | **HResult** | int |  |
-| **IsTransient** | bool |  |
 ## Constructors
 
 | Name | Summary |
@@ -1828,8 +1812,8 @@ Base class: MulticastDelegate
 
 | Name | Type | Summary |
 |---|---|---|
-| **Method** | MethodInfo |  |
 | **Target** | Object |  |
+| **Method** | MethodInfo |  |
 ## Constructors
 
 | Name | Summary |
@@ -2149,18 +2133,14 @@ Base class: Exception
 | **ServerErrorTypeName** | string |  |
 | **ServerErrorDetails** | Object |  |
 | **ServerErrorTraceCorrelationId** | string |  |
+| **TargetSite** | MethodBase |  |
+| **StackTrace** | string |  |
 | **Message** | string |  |
 | **Data** | IDictionary |  |
 | **InnerException** | Exception |  |
-| **TargetSite** | MethodBase |  |
-| **StackTrace** | string |  |
 | **HelpLink** | string |  |
 | **Source** | string |  |
-| **IPForWatsonBuckets** | UIntPtr |  |
-| **WatsonBuckets** | Object |  |
-| **RemoteStackTrace** | string |  |
 | **HResult** | int |  |
-| **IsTransient** | bool |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -2177,18 +2157,14 @@ Base class: InvalidOperationException
 
 | Name | Type | Summary |
 |---|---|---|
+| **TargetSite** | MethodBase |  |
+| **StackTrace** | string |  |
 | **Message** | string |  |
 | **Data** | IDictionary |  |
 | **InnerException** | Exception |  |
-| **TargetSite** | MethodBase |  |
-| **StackTrace** | string |  |
 | **HelpLink** | string |  |
 | **Source** | string |  |
-| **IPForWatsonBuckets** | UIntPtr |  |
-| **WatsonBuckets** | Object |  |
-| **RemoteStackTrace** | string |  |
 | **HResult** | int |  |
-| **IsTransient** | bool |  |
 ## Constructors
 
 | Name | Summary |
@@ -2212,18 +2188,14 @@ Base class: [ServerException](#serverexception-class)
 | **ServerErrorTypeName** | string |  |
 | **ServerErrorDetails** | Object |  |
 | **ServerErrorTraceCorrelationId** | string |  |
+| **TargetSite** | MethodBase |  |
+| **StackTrace** | string |  |
 | **Message** | string |  |
 | **Data** | IDictionary |  |
 | **InnerException** | Exception |  |
-| **TargetSite** | MethodBase |  |
-| **StackTrace** | string |  |
 | **HelpLink** | string |  |
 | **Source** | string |  |
-| **IPForWatsonBuckets** | UIntPtr |  |
-| **WatsonBuckets** | Object |  |
-| **RemoteStackTrace** | string |  |
 | **HResult** | int |  |
-| **IsTransient** | bool |  |
 # SimpleDataTable Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -2477,8 +2449,8 @@ Base class: MulticastDelegate
 
 | Name | Type | Summary |
 |---|---|---|
-| **Method** | MethodInfo |  |
 | **Target** | Object |  |
+| **Method** | MethodInfo |  |
 ## Constructors
 
 | Name | Summary |
