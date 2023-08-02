@@ -921,11 +921,10 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
-| **AllocatedAICredits** | double |  |
-| **ConsumedAICredits** | double |  |
 | **DataverseInstanceUrl** | string |  |
 | **DisplayName** | string |  |
 | **IsTestEnvironment** | bool |  |
+| **LastGetEnvironmentError** | string |  |
 | **Name** | string |  |
 | **UpdatedUTC** | DateTime |  |
 | **TypeId** | string |  |
@@ -1216,6 +1215,7 @@ Base class: ClientObject
 | **AllowEditing** | bool |  |
 | **AllowSelfServiceUpgrade** | bool |  |
 | **AnonymousLinkExpirationInDays** | int |  |
+| **ArchiveStatus** | string |  |
 | **AuthContextStrength** | string |  |
 | **AuthenticationContextLimitedAccess** | bool |  |
 | **AuthenticationContextName** | string |  |
@@ -1348,6 +1348,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **AllowEditing** | string |  |
 | **AllowSelfServiceUpgrade** | string |  |
 | **AnonymousLinkExpirationInDays** | string |  |
+| **ArchiveStatus** | string |  |
 | **AuthContextStrength** | string |  |
 | **AuthenticationContextLimitedAccess** | string |  |
 | **AuthenticationContextName** | string |  |
@@ -1523,6 +1524,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **ContainerApiUrl** | string |  |
 | **ContainerId** | string |  |
 | **ContainerName** | string |  |
 | **ContainerSiteUrl** | string |  |
@@ -1537,7 +1539,6 @@ Base class: ClientValueObject
 | **Readers** | IList\<string\> |  |
 | **SensitivityLabel** | string |  |
 | **Status** | string |  |
-| **Url** | string |  |
 | **Writers** | IList\<string\> |  |
 | **TypeId** | string |  |
 ## Methods
@@ -1874,6 +1875,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **ArchiveStatus** | string |  |
 | **Filter** | string |  |
 | **GroupIdDefined** | int |  |
 | **IncludeDetail** | bool |  |
@@ -2415,6 +2417,7 @@ Base class: ClientObject
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessOnUnmanagedDevices** | bool |  |
+| **BlockAppAccessWithAuthenticationContext** | bool |  |
 | **BlockDownloadFileTypeIds** | SPBlockDownloadFileTypeId[] |  |
 | **BlockDownloadFileTypePolicy** | bool |  |
 | **BlockDownloadLinksFileType** | [BlockDownloadLinksFileTypes](#blockdownloadlinksfiletypes-enum) |  |
@@ -2490,6 +2493,7 @@ Base class: ClientObject
 | **EnablePromotedFileHandlers** | bool |  |
 | **EnableRestrictedAccessControl** | bool |  |
 | **EnableSensitivityLabelForPDF** | bool |  |
+| **EnableSiteArchive** | bool |  |
 | **ESignatureEnabled** | bool |  |
 | **ESignatureSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
 | **ESignatureSiteList** | IEnumerable\<Guid\> |  |
@@ -2629,6 +2633,7 @@ Base class: ClientObject
 | **SyncAadB2BManagementPolicy** | bool |  |
 | **SyncPrivacyProfileProperties** | bool |  |
 | **SyntexBillingSubscriptionSettings** | [SyntexBillingContext](#syntexbillingcontext-class) |  |
+| **SyntexInternalFeatureFlags** | IDictionary\<string, bool\> |  |
 | **SyntexPowerAppsEnvironmentsContext** | [SyntexPowerAppsEnvironmentsContext](#syntexpowerappsenvironmentscontext-class) |  |
 | **TaxonomyTaggingEnabled** | bool |  |
 | **TaxonomyTaggingSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
@@ -2680,6 +2685,7 @@ Base class: ClientObject
 | **ApplyListDesign(string webUrl, Guid listDesignId)** | ClientObjectList\<[TenantSiteScriptActionResult](#tenantsitescriptactionresult-class)\> |  |
 | **ApplySiteDesign(string webUrl, Guid siteDesignId)** | ClientObjectList\<[TenantSiteScriptActionResult](#tenantsitescriptactionresult-class)\> |  |
 | **ArchiveSiteById(Guid siteId)** | [SpoOperation](#spooperation-class) |  |
+| **ArchiveSiteByUrl(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **ConnectSiteToHubSite(string siteUrl, string hubSiteUrl)** | void |  |
 | **ConnectSiteToHubSiteById(string siteUrl, Guid hubSiteId)** | void |  |
 | **CreateGroupForSite(string siteUrl, string displayName, string alias, bool isPublic, GroupCreationParams optionalParams)** | void |  |
@@ -2818,6 +2824,8 @@ Base class: ClientObject
 | **RemoveSiteDesignTask(ClientRuntimeContext context, Guid taskId)** | void |  |
 | **RemoveSiteSharingReportJobForTenantAdmin(string siteUrl)** | ClientResult\<string\> |  |
 | **RemoveSPHSite()** | ClientResult\<string\> |  |
+| **RemoveSPOContainerByContainerId(string containerId)** | void |  |
+| **RemoveSPOContainerByContainerSiteUrl(string containerSiteUrl)** | void |  |
 | **RemoveSPOTenantOrgRelation(OrgRelationScenario scenario, OrgRelationRole partnerRole, string partnerMySiteHostUrl)** | void |  |
 | **RemoveSPOTenantSiteUserInvitations(string siteUrl, string emailAddress, bool countOnly)** | ClientResult\<int\> |  |
 | **RemoveTargetedSite(Guid siteId)** | void |  |
@@ -2861,6 +2869,7 @@ Base class: ClientObject
 | **SwapSiteWithSmartGestureOption(string sourceUrl, string targetUrl, string archiveUrl, bool includeSmartGestures)** | [SpoOperation](#spooperation-class) |  |
 | **SwapSiteWithSmartGestureOptionForce(string sourceUrl, string targetUrl, string archiveUrl, bool includeSmartGestures, bool force)** | [SpoOperation](#spooperation-class) |  |
 | **UnarchiveSiteById(Guid siteId)** | [SpoOperation](#spooperation-class) |  |
+| **UnarchiveSiteByUrl(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **UnlockSensitivityLabelEncryptedFile(string fileUrl, string justificationText)** | void |  |
 | **UnregisterHubSite(string siteUrl)** | void |  |
 | **UnregisterHubSiteById(Guid hubSiteId)** | void |  |
@@ -3158,6 +3167,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessOnUnmanagedDevices** | string |  |
+| **BlockAppAccessWithAuthenticationContext** | string |  |
 | **BlockDownloadFileTypeIds** | string |  |
 | **BlockDownloadFileTypePolicy** | string |  |
 | **BlockDownloadLinksFileType** | string |  |
@@ -3233,6 +3243,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **EnablePromotedFileHandlers** | string |  |
 | **EnableRestrictedAccessControl** | string |  |
 | **EnableSensitivityLabelForPDF** | string |  |
+| **EnableSiteArchive** | string |  |
 | **ESignatureEnabled** | string |  |
 | **ESignatureSiteInfoList** | string |  |
 | **ESignatureSiteList** | string |  |
@@ -3372,6 +3383,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **SyncAadB2BManagementPolicy** | string |  |
 | **SyncPrivacyProfileProperties** | string |  |
 | **SyntexBillingSubscriptionSettings** | string |  |
+| **SyntexInternalFeatureFlags** | string |  |
 | **SyntexPowerAppsEnvironmentsContext** | string |  |
 | **TaxonomyTaggingEnabled** | string |  |
 | **TaxonomyTaggingSiteInfoList** | string |  |
@@ -4727,6 +4739,7 @@ Base class: ClientObject
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessOnUnmanagedDevices** | bool |  |
+| **BlockAppAccessWithAuthenticationContext** | bool |  |
 | **BlockDownloadFileTypeIds** | SPBlockDownloadFileTypeId[] |  |
 | **BlockDownloadFileTypePolicy** | bool |  |
 | **BlockDownloadLinksFileType** | [BlockDownloadLinksFileTypes](#blockdownloadlinksfiletypes-enum) |  |
@@ -4896,6 +4909,7 @@ Base class: ClientObject
 | **SyncAadB2BManagementPolicy** | bool |  |
 | **SyncPrivacyProfileProperties** | bool |  |
 | **SyntexBillingSubscriptionSettings** | [SyntexBillingContext](#syntexbillingcontext-class) |  |
+| **SyntexInternalFeatureFlags** | IDictionary\<string, bool\> |  |
 | **SyntexPowerAppsEnvironmentsContext** | [SyntexPowerAppsEnvironmentsContext](#syntexpowerappsenvironmentscontext-class) |  |
 | **TaxonomyTaggingEnabled** | bool |  |
 | **TaxonomyTaggingSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
@@ -5009,6 +5023,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessOnUnmanagedDevices** | string |  |
+| **BlockAppAccessWithAuthenticationContext** | string |  |
 | **BlockDownloadFileTypeIds** | string |  |
 | **BlockDownloadFileTypePolicy** | string |  |
 | **BlockDownloadLinksFileType** | string |  |
@@ -5178,6 +5193,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **SyncAadB2BManagementPolicy** | string |  |
 | **SyncPrivacyProfileProperties** | string |  |
 | **SyntexBillingSubscriptionSettings** | string |  |
+| **SyntexInternalFeatureFlags** | string |  |
 | **SyntexPowerAppsEnvironmentsContext** | string |  |
 | **TaxonomyTaggingEnabled** | string |  |
 | **TaxonomyTaggingSiteInfoList** | string |  |
