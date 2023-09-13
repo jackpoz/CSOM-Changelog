@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Taxonomy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2023-08-02
+[mddox](https://github.com/loxsmoke/mddox) on 2023-09-13
 
 # All types
 
