@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2023-09-13
+[mddox](https://github.com/loxsmoke/mddox) on 2023-11-06
 
 # All types
 
@@ -916,6 +916,7 @@ Base class: ClientObject
 | **GetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSubstrateAzureConnection(ClientRuntimeContext context, string siteUrl, string siteId)** | ClientResult\<string\> |  |
+| **GetTenantAndSiteHoldsApplicableForSite(ClientRuntimeContext context, string siteId)** | ClientResult\<string\> |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
 | **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
 | **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
