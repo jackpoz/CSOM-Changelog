@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.TranslationServices.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2023-11-06
+[mddox](https://github.com/loxsmoke/mddox) on 2023-11-29
 
 # All types
 

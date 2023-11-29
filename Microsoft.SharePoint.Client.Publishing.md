@@ -1,27 +1,28 @@
 # Microsoft.SharePoint.Client.Publishing.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2023-11-06
+[mddox](https://github.com/loxsmoke/mddox) on 2023-11-29
 
 # All types
 
 |   |   |   |
 |---|---|---|
-| [EmailPublishingStatus Class](#emailpublishingstatus-class) | [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) |
-| [PrePublishValidationsErrorCodesForEmail Class](#prepublishvalidationserrorcodesforemail-class) | [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) |
-| [PrePublishValidationsErrorCodesForSharePointSite Class](#prepublishvalidationserrorcodesforsharepointsite-class) | [Search Class](#search-class) | [VideoPlaybackMetadata Class](#videoplaybackmetadata-class) |
-| [PrePublishValidationsErrorCodesForTeams Class](#prepublishvalidationserrorcodesforteams-class) | [SearchPropertyNames Class](#searchpropertynames-class) | [VideoPlaybackMetadataPropertyNames Class](#videoplaybackmetadatapropertynames-class) |
-| [PrePublishValidationsResponse Class](#prepublishvalidationsresponse-class) | [SharePagePreviewByEmailFieldsData Class](#sharepagepreviewbyemailfieldsdata-class) | [VideoPlaybackOrigin Enum](#videoplaybackorigin-enum) |
-| [PublishingStatus Enum](#publishingstatus-enum) | [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) |
-| [PublishingStatusResponse Class](#publishingstatusresponse-class) | [SitePage3DFieldsData Class](#sitepage3dfieldsdata-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |
-| [PublishPublicationResponse Class](#publishpublicationresponse-class) | [SitePageAuthoringMetadata Class](#sitepageauthoringmetadata-class) | [VideoThumbnail Class](#videothumbnail-class) |
-| [SchedulePublicationResponse Class](#schedulepublicationresponse-class) | [SitePageAuthoringMetadataPropertyNames Class](#sitepageauthoringmetadatapropertynames-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
-| [SendTestEmailResponse Class](#sendtestemailresponse-class) | [SitePageCoAuthAction Enum](#sitepagecoauthaction-enum) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
-| [SendTestTeamsMessageResponse Class](#sendtestteamsmessageresponse-class) | [SitePageCoAuthLockAction Enum](#sitepagecoauthlockaction-enum) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
-| [SharePointPublishingStatus Class](#sharepointpublishingstatus-class) | [SitePageCoAuthState Class](#sitepagecoauthstate-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
-| [SharePointPublishingStatusResponse Class](#sharepointpublishingstatusresponse-class) | [SitePageFieldsData Class](#sitepagefieldsdata-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
-| [TeamsPublishingStatus Class](#teamspublishingstatus-class) | [SitePageVersionInfo Class](#sitepageversioninfo-class) | [NavigationTerm Class](#navigationterm-class) |
-| [TeamsPublishingStatusResponse Class](#teamspublishingstatusresponse-class) | [SitePageVersionInfoCollection Class](#sitepageversioninfocollection-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
+| [EmailPublishingStatus Class](#emailpublishingstatus-class) | [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) |
+| [PrePublishValidationsErrorCodesForEmail Class](#prepublishvalidationserrorcodesforemail-class) | [ScheduledItemPropertyNames Class](#scheduleditempropertynames-class) | [VideoPermissionGroupObjectPropertyNames Class](#videopermissiongroupobjectpropertynames-class) |
+| [PrePublishValidationsErrorCodesForSharePointSite Class](#prepublishvalidationserrorcodesforsharepointsite-class) | [ScriptTypeFactory Class](#scripttypefactory-class) | [VideoPermissionGroupPropertyNames Class](#videopermissiongrouppropertynames-class) |
+| [PrePublishValidationsErrorCodesForTeams Class](#prepublishvalidationserrorcodesforteams-class) | [Search Class](#search-class) | [VideoPlaybackMetadata Class](#videoplaybackmetadata-class) |
+| [PrePublishValidationsResponse Class](#prepublishvalidationsresponse-class) | [SearchPropertyNames Class](#searchpropertynames-class) | [VideoPlaybackMetadataPropertyNames Class](#videoplaybackmetadatapropertynames-class) |
+| [PublishingStatus Enum](#publishingstatus-enum) | [SharePagePreviewByEmailFieldsData Class](#sharepagepreviewbyemailfieldsdata-class) | [VideoPlaybackOrigin Enum](#videoplaybackorigin-enum) |
+| [PublishingStatusResponse Class](#publishingstatusresponse-class) | [SiteImageRenditions Class](#siteimagerenditions-class) | [VideoProcessingStatus Enum](#videoprocessingstatus-enum) |
+| [PublishPublicationResponse Class](#publishpublicationresponse-class) | [SitePage3DFieldsData Class](#sitepage3dfieldsdata-class) | [VideoStreamingFormat Enum](#videostreamingformat-enum) |
+| [SchedulePublicationResponse Class](#schedulepublicationresponse-class) | [SitePageAuthoringMetadata Class](#sitepageauthoringmetadata-class) | [VideoThumbnail Class](#videothumbnail-class) |
+| [SendTestEmailResponse Class](#sendtestemailresponse-class) | [SitePageAuthoringMetadataPropertyNames Class](#sitepageauthoringmetadatapropertynames-class) | [VideoThumbnailChoices Enum](#videothumbnailchoices-enum) |
+| [SendTestTeamsMessageResponse Class](#sendtestteamsmessageresponse-class) | [SitePageCoAuthAction Enum](#sitepagecoauthaction-enum) | [VideoThumbnailCollection Class](#videothumbnailcollection-class) |
+| [SharePointPublishingStatus Class](#sharepointpublishingstatus-class) | [SitePageCoAuthLockAction Enum](#sitepagecoauthlockaction-enum) | [VideoThumbnailPropertyNames Class](#videothumbnailpropertynames-class) |
+| [SharePointPublishingStatusResponse Class](#sharepointpublishingstatusresponse-class) | [SitePageCoAuthState Class](#sitepagecoauthstate-class) | [ViewControlState Enum](#viewcontrolstate-enum) |
+| [TeamsPublishingStatus Class](#teamspublishingstatus-class) | [SitePageFieldsData Class](#sitepagefieldsdata-class) | [NavigationLinkType Enum](#navigationlinktype-enum) |
+| [TeamsPublishingStatusResponse Class](#teamspublishingstatusresponse-class) | [SitePageVersionInfo Class](#sitepageversioninfo-class) | [NavigationTerm Class](#navigationterm-class) |
+| [VivaEngagePublishingStatus Class](#vivaengagepublishingstatus-class) | [SitePageVersionInfoCollection Class](#sitepageversioninfocollection-class) | [NavigationTermCollection Class](#navigationtermcollection-class) |
 | [AcronymInformation Class](#acronyminformation-class) | [SiteServicesAddins Class](#siteservicesaddins-class) | [NavigationTermObjectPropertyNames Class](#navigationtermobjectpropertynames-class) |
 | [AddinPlugin Class](#addinplugin-class) | [SiteSharingEmailContext Class](#sitesharingemailcontext-class) | [NavigationTermPropertyNames Class](#navigationtermpropertynames-class) |
 | [AddinPluginPropertyNames Class](#addinpluginpropertynames-class) | [SpotlightChannel Class](#spotlightchannel-class) | [NavigationTermProviderNameCollection Class](#navigationtermprovidernamecollection-class) |
@@ -48,7 +49,6 @@ Created by
 | [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoItem Class](#videoitem-class) | [PortalLaunchWaveGroup Class](#portallaunchwavegroup-class) |
 | [RepostPageFieldsData Class](#repostpagefieldsdata-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [PortalLaunchWaveSetup Class](#portallaunchwavesetup-class) |
 | [ScheduledItem Class](#scheduleditem-class) | [VideoItemPropertyNames Class](#videoitempropertynames-class) |   |
-| [ScheduledItemObjectPropertyNames Class](#scheduleditemobjectpropertynames-class) | [VideoPermissionGroup Class](#videopermissiongroup-class) |   |
 # EmailPublishingStatus Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -177,6 +177,7 @@ Base class: ClientValueObject
 | **PublishingStatus** | [PublishingStatus](#publishingstatus-enum) |  |
 | **SharePointPublishingStatus** | IList\<[SharePointPublishingStatusResponse](#sharepointpublishingstatusresponse-class)\> |  |
 | **TeamsPublishingStatus** | IList\<[TeamsPublishingStatusResponse](#teamspublishingstatusresponse-class)\> |  |
+| **VivaEngagePublishingStatus** | [VivaEngagePublishingStatus](#vivaengagepublishingstatus-class) |  |
 | **YammerPublishingStatus** | IDictionary\<string, string\> |  |
 | **TypeId** | string |  |
 ## Methods
@@ -340,6 +341,27 @@ Base class: ClientValueObject
 | Name | Returns | Summary |
 |---|---|---|
 | **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# VivaEngagePublishingStatus Class
+
+Namespace: Microsoft.SharePoint.Client
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **DestinationId** | string |  |
+| **ErrorCode** | int |  |
+| **ErrorMessage** | string |  |
+| **Status** | [PublishingStatus](#publishingstatus-enum) |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
 # AcronymInformation Class
 
 Namespace: Microsoft.SharePoint.Client.Publishing
@@ -494,6 +516,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **EndpointEmail** | string |  |
 | **EndpointSharePoint** | string |  |
 | **EndpointTeams** | string |  |
+| **EndpointVivaEngage** | string |  |
 | **EndpointYammer** | string |  |
 | **PublicationMetadata** | string |  |
 | **PublicationStatus** | [PublicationStatus](#publicationstatus-enum) |  |
