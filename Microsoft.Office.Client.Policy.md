@@ -1,19 +1,18 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2023-11-29
+[mddox](https://github.com/loxsmoke/mddox) on 2023-12-11
 
 # All types
 
 |   |   |   |
 |---|---|---|
-| [ScriptTypeFactory Class](#scripttypefactory-class) | [PolicyStoreFactory Class](#policystorefactory-class) | [SPPolicyStore Class](#sppolicystore-class) |
-| [ComplianceDlpWorkItemSubmitter Class](#compliancedlpworkitemsubmitter-class) | [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |
-| [ComplianceRetentionWorkItemSubmitter Class](#complianceretentionworkitemsubmitter-class) | [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
-| [PreserveDocumentSubmitter Class](#preservedocumentsubmitter-class) | [SPContainerId Class](#spcontainerid-class) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
-| [ComplianceTagInfo Class](#compliancetaginfo-class) | [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
-| [PreservedCloudAttachment Class](#preservedcloudattachment-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPSitePreservationUtility Class](#spsitepreservationutility-class) |
-| [ComplianceRetentionLabelProvider Class](#complianceretentionlabelprovider-class) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
+| [ScriptTypeFactory Class](#scripttypefactory-class) | [PolicyTipOverrideResult Enum](#policytipoverrideresult-enum) | [SPPolicyStoreProxy Class](#sppolicystoreproxy-class) |
+| [ComplianceDlpWorkItemSubmitter Class](#compliancedlpworkitemsubmitter-class) | [PolicyTipOverrideUserAction Enum](#policytipoverrideuseraction-enum) | [SPPolicyStoreProxyPropertyNames Class](#sppolicystoreproxypropertynames-class) |
+| [ComplianceRetentionWorkItemSubmitter Class](#complianceretentionworkitemsubmitter-class) | [SPContainerId Class](#spcontainerid-class) | [SPScsTenantEndPointInfo Class](#spscstenantendpointinfo-class) |
+| [PreserveDocumentSubmitter Class](#preservedocumentsubmitter-class) | [SPContainerIdPropertyNames Class](#spcontaineridpropertynames-class) | [SPScsTenantEndPointInfoPropertyNames Class](#spscstenantendpointinfopropertynames-class) |
+| [ComplianceTagInfo Class](#compliancetaginfo-class) | [SPContainerType Enum](#spcontainertype-enum) | [SPSitePreservationUtility Class](#spsitepreservationutility-class) |
+| [PreservedCloudAttachment Class](#preservedcloudattachment-class) | [SPPolicyAssociation Class](#sppolicyassociation-class) | [SPSyncNotificationEndpointInfo Class](#spsyncnotificationendpointinfo-class) |
 | [ComplianceTag Class](#compliancetag-class) | [SPPolicyAssociationPropertyNames Class](#sppolicyassociationpropertynames-class) | [SPSyncNotificationEndpointInfoPropertyNames Class](#spsyncnotificationendpointinfopropertynames-class) |
 | [DlpAccessScope Enum](#dlpaccessscope-enum) | [SPPolicyBinding Class](#sppolicybinding-class) | [Case Class](#case-class) |
 | [DlpClassificationResult Class](#dlpclassificationresult-class) | [SPPolicyBindingPropertyNames Class](#sppolicybindingpropertynames-class) | [Export Class](#export-class) |
@@ -23,6 +22,7 @@ Created by
 | [PolicyEvaluationInfoPropertyNames Class](#policyevaluationinfopropertynames-class) | [SPPolicyEventPropertyNames Class](#sppolicyeventpropertynames-class) | [ProjectPolicyPropertyNames Class](#projectpolicypropertynames-class) |
 | [PolicyFactoryCaller Enum](#policyfactorycaller-enum) | [SPPolicyRule Class](#sppolicyrule-class) | [Records Class](#records-class) |
 | [PolicyScenario Enum](#policyscenario-enum) | [SPPolicyRulePropertyNames Class](#sppolicyrulepropertynames-class) |   |
+| [PolicyStoreFactory Class](#policystorefactory-class) | [SPPolicyStore Class](#sppolicystore-class) |   |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Office.Client.Policy
@@ -150,36 +150,6 @@ Base class: ClientValueObject
 | Name | Returns | Summary |
 |---|---|---|
 | **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
-# ComplianceRetentionLabelProvider Class
-
-Namespace: Microsoft.SharePoint.Client.CompliancePolicy
-
-Base class: ClientObject
-
-
-## Properties
-
-| Name | Type | Summary |
-|---|---|---|
-| **Context** | ClientRuntimeContext |  |
-| **Tag** | Object |  |
-| **Path** | ObjectPath |  |
-| **ObjectVersion** | string |  |
-| **ObjectData** | ClientObjectData |  |
-| **Query** | ClientQueryInternal |  |
-| **ParentCollection** | ClientObjectCollection |  |
-| **ServerObjectIsNull** | bool? |  |
-| **TypedObject** | ClientObject |  |
-## Constructors
-
-| Name | Summary |
-|---|---|
-| **ComplianceRetentionLabelProvider(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-## Methods
-
-| Name | Returns | Summary |
-|---|---|---|
-| **RemoveComplianceTag(ClientRuntimeContext context, string complianceTagName)** | void |  |
 # ComplianceTag Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
