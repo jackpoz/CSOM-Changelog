@@ -1,7 +1,7 @@
 # Microsoft.Online.SharePoint.Client.Tenant.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2023-12-11
+[mddox](https://github.com/loxsmoke/mddox) on 2024-01-29
 
 # All types
 
@@ -38,7 +38,7 @@ Created by
 | [DeletedSiteProperties Class](#deletedsiteproperties-class) | [SPOTenantSiteUserInvitationPropertyNames Class](#spotenantsiteuserinvitationpropertynames-class) | [SPOWebAppServicePrincipalPropertyNames Class](#spowebappserviceprincipalpropertynames-class) |
 | [DeletedSitePropertiesPropertyNames Class](#deletedsitepropertiespropertynames-class) | [SPOTenantUserIdentityMapping Class](#spotenantuseridentitymapping-class) | [BlockDownloadLinksFileTypes Enum](#blockdownloadlinksfiletypes-enum) |
 | [DenyAddAndCustomizePagesStatus Enum](#denyaddandcustomizepagesstatus-enum) | [SPOTenantUserIdentityMappingPropertyNames Class](#spotenantuseridentitymappingpropertynames-class) | [ExternalUser Class](#externaluser-class) |
-| [ExecutionHistoryResponse Class](#executionhistoryresponse-class) | [SPOTenantWebTemplate Class](#spotenantwebtemplate-class) | [ExternalUserCollection Class](#externalusercollection-class) |
+| [EsignatureThirdPartyProvidersInfo Class](#esignaturethirdpartyprovidersinfo-class) | [SPOTenantWebTemplate Class](#spotenantwebtemplate-class) | [ExternalUserCollection Class](#externalusercollection-class) |
 | [FileSensitivityLabelInfo Class](#filesensitivitylabelinfo-class) | [SPOTenantWebTemplateCollection Class](#spotenantwebtemplatecollection-class) | [ExternalUserPropertyNames Class](#externaluserpropertynames-class) |
 | [FileSensitivityLabelInfoPropertyNames Class](#filesensitivitylabelinfopropertynames-class) | [SPOWebAppServicePrincipalPublic Class](#spowebappserviceprincipalpublic-class) | [GetExternalUsersResults Class](#getexternalusersresults-class) |
 | [FlowsPolicy Enum](#flowspolicy-enum) | [SPSyntexApplicationProperties Class](#spsyntexapplicationproperties-class) | [GetExternalUsersResultsObjectPropertyNames Class](#getexternalusersresultsobjectpropertynames-class) |
@@ -642,7 +642,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **Unknown** |  |
 | **Disabled** |  |
 | **Enabled** |  |
-# ExecutionHistoryResponse Class
+# EsignatureThirdPartyProvidersInfo Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
 
@@ -653,26 +653,8 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
-| **CorrelationId** | Guid |  |
-| **EndTime** | DateTime |  |
-| **ExecutionDetails** | string |  |
-| **ExecutionStatus** | PolicyExecutionStatus |  |
-| **ExpectedStartTime** | DateTime |  |
-| **FailureReason** | string |  |
-| **ImpactedDataFileURL** | string |  |
-| **IsPreviewRun** | bool |  |
-| **ItemId** | int |  |
-| **ParentItemId** | int |  |
-| **PolicyFrequency** | PolicyFrequencyUnits |  |
-| **PolicyId** | Guid |  |
-| **PolicyName** | string |  |
-| **PolicyState** | PolicyDefinitionState |  |
-| **PolicyTemplate** | PolicyTemplate |  |
-| **PolicyVersion** | int |  |
-| **RetryCount** | int |  |
-| **StartTime** | DateTime |  |
-| **WorkItemId** | Guid |  |
-| **WorkItemType** | PolicyWorkItemType |  |
+| **IsEnabled** | bool |  |
+| **ProviderName** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -1498,6 +1480,9 @@ Base class: ClientValueObject
 | **ReadOnlyForBlockDownloadPolicy** | bool |  |
 | **ReadOnlyForUnmanagedDevices** | bool |  |
 | **SensitivityLabel** | string |  |
+| **SharingAllowedDomainList** | string |  |
+| **SharingBlockedDomainList** | string |  |
+| **SharingDomainRestrictionMode** | [SharingDomainRestrictionModes](#sharingdomainrestrictionmodes-enum) |  |
 | **Status** | string |  |
 | **StorageUsed** | long |  |
 | **Writers** | IList\<string\> |  |
@@ -2536,6 +2521,7 @@ Base class: ClientObject
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultODBMode** | string |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
+| **DelayDenyAddAndCustomizePagesEnforcement** | bool |  |
 | **DenySelectSecurityGroupsInSPSitesList** | IList\<string\> |  |
 | **DenySelectSGsInODBListInTenant** | IList\<string\> |  |
 | **DisableAddToOneDrive** | bool |  |
@@ -2577,7 +2563,7 @@ Base class: ClientObject
 | **ESignatureSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
 | **ESignatureSiteList** | IEnumerable\<Guid\> |  |
 | **ESignatureSiteListFileName** | string |  |
-| **ESignatureThirdPartyProviderInfoList** | IEnumerable\<string\> |  |
+| **ESignatureThirdPartyProviderInfoList** | IEnumerable\<[EsignatureThirdPartyProvidersInfo](#esignaturethirdpartyprovidersinfo-class)\> |  |
 | **ESignatureThirdPartyProviderList** | IEnumerable\<string\> |  |
 | **ESignatureThirdPartyProviderListFileName** | string |  |
 | **ExcludedBlockDownloadGroupIds** | Guid[] |  |
@@ -3092,6 +3078,7 @@ Base class: ClientObject
 | **ListColor** | [TenantListDesignColor](#tenantlistdesigncolor-enum) |  |
 | **ListIcon** | [TenantListDesignIcon](#tenantlistdesignicon-enum) |  |
 | **SiteScriptIds** | Guid[] |  |
+| **TargetPlatforms** | string[] |  |
 | **TemplateFeatures** | string[] |  |
 | **ThumbnailUrl** | string |  |
 | **Title** | string |  |
@@ -3191,6 +3178,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ListColor** | string |  |
 | **ListIcon** | string |  |
 | **SiteScriptIds** | string |  |
+| **TargetPlatforms** | string |  |
 | **TemplateFeatures** | string |  |
 | **ThumbnailUrl** | string |  |
 | **Title** | string |  |
@@ -3386,6 +3374,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DefaultLinkPermission** | string |  |
 | **DefaultODBMode** | string |  |
 | **DefaultSharingLinkType** | string |  |
+| **DelayDenyAddAndCustomizePagesEnforcement** | string |  |
 | **DenySelectSecurityGroupsInSPSitesList** | string |  |
 | **DenySelectSGsInODBListInTenant** | string |  |
 | **DisableAddToOneDrive** | string |  |
@@ -4987,7 +4976,7 @@ Base class: ClientObject
 | **ESignatureSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
 | **ESignatureSiteList** | IEnumerable\<Guid\> |  |
 | **ESignatureSiteListFileName** | string |  |
-| **ESignatureThirdPartyProviderInfoList** | IEnumerable\<string\> |  |
+| **ESignatureThirdPartyProviderInfoList** | IEnumerable\<[EsignatureThirdPartyProvidersInfo](#esignaturethirdpartyprovidersinfo-class)\> |  |
 | **ESignatureThirdPartyProviderList** | IEnumerable\<string\> |  |
 | **ESignatureThirdPartyProviderListFileName** | string |  |
 | **ExcludedBlockDownloadGroupIds** | Guid[] |  |
