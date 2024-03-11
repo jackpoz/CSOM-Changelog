@@ -1,7 +1,7 @@
 # Microsoft.Online.SharePoint.Client.Tenant.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-01-29
+[mddox](https://github.com/loxsmoke/mddox) on 2024-03-11
 
 # All types
 
@@ -2563,7 +2563,7 @@ Base class: ClientObject
 | **ESignatureSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
 | **ESignatureSiteList** | IEnumerable\<Guid\> |  |
 | **ESignatureSiteListFileName** | string |  |
-| **ESignatureThirdPartyProviderInfoList** | IEnumerable\<[EsignatureThirdPartyProvidersInfo](#esignaturethirdpartyprovidersinfo-class)\> |  |
+| **ESignatureThirdPartyProviderInfoList** | IEnumerable\<string\> |  |
 | **ESignatureThirdPartyProviderList** | IEnumerable\<string\> |  |
 | **ESignatureThirdPartyProviderListFileName** | string |  |
 | **ExcludedBlockDownloadGroupIds** | Guid[] |  |
@@ -2789,6 +2789,7 @@ Base class: ClientObject
 | **EnableCommunicationSite(string siteUrl, Guid designPackageId)** | ClientResult\<string\> |  |
 | **EncodeClaim(string identifier)** | ClientResult\<string\> |  |
 | **EncodeClaims(IList\<string\> identifiers)** | IList\<string\> |  |
+| **ExportCSVFile(int timeZoneId)** | ClientResult\<string\> |  |
 | **GetAllDeletedPersonalSitesPropertiesAllVersions(int startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
 | **GetAllOutOfBoxSiteTemplateSettings()** | IList\<[TenantOutOfBoxSiteTemplateSettings](#tenantoutofboxsitetemplatesettings-class)\> |  |
 | **GetAllPortalLaunchWaves()** | ClientResult\<string\> |  |
@@ -4976,7 +4977,7 @@ Base class: ClientObject
 | **ESignatureSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
 | **ESignatureSiteList** | IEnumerable\<Guid\> |  |
 | **ESignatureSiteListFileName** | string |  |
-| **ESignatureThirdPartyProviderInfoList** | IEnumerable\<[EsignatureThirdPartyProvidersInfo](#esignaturethirdpartyprovidersinfo-class)\> |  |
+| **ESignatureThirdPartyProviderInfoList** | IEnumerable\<string\> |  |
 | **ESignatureThirdPartyProviderList** | IEnumerable\<string\> |  |
 | **ESignatureThirdPartyProviderListFileName** | string |  |
 | **ExcludedBlockDownloadGroupIds** | Guid[] |  |
