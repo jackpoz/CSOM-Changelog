@@ -1,7 +1,7 @@
 # Microsoft.Online.SharePoint.Client.Tenant.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-03-11
+[mddox](https://github.com/loxsmoke/mddox) on 2024-04-08
 
 # All types
 
@@ -63,20 +63,20 @@ Created by
 | [SecondaryAdministratorsInfo Class](#secondaryadministratorsinfo-class) | [TenantLog Class](#tenantlog-class) | [SharingDomainRestrictionModes Enum](#sharingdomainrestrictionmodes-enum) |
 | [SiteAdministratorsFieldsData Class](#siteadministratorsfieldsdata-class) | [TenantLogEntry Class](#tenantlogentry-class) | [SharingLinkType Enum](#sharinglinktype-enum) |
 | [SiteAdministratorsInfo Class](#siteadministratorsinfo-class) | [TenantLogEntryPropertyNames Class](#tenantlogentrypropertynames-class) | [SharingPermissionType Enum](#sharingpermissiontype-enum) |
-| [SiteCreationProperties Class](#sitecreationproperties-class) | [TenantLogPropertyNames Class](#tenantlogpropertynames-class) | [SortOrder Enum](#sortorder-enum) |
-| [SiteInfoForSitePicker Class](#siteinfoforsitepicker-class) | [TenantOutOfBoxSiteTemplateSettings Class](#tenantoutofboxsitetemplatesettings-class) | [SpecialCharactersState Enum](#specialcharactersstate-enum) |
-| [SiteProperties Class](#siteproperties-class) | [TenantPropertyNames Class](#tenantpropertynames-class) | [SPOAuthenticationContextPolicyAccessType Enum](#spoauthenticationcontextpolicyaccesstype-enum) |
-| [SitePropertiesPropertyNames Class](#sitepropertiespropertynames-class) | [TenantSiteDesign Class](#tenantsitedesign-class) | [SPOConditionalAccessPolicyType Enum](#spoconditionalaccesspolicytype-enum) |
-| [SiteRenameStatesInTenantRename Enum](#siterenamestatesintenantrename-enum) | [TenantSiteDesignCreationInfo Class](#tenantsitedesigncreationinfo-class) | [SPOLimitedAccessFileType Enum](#spolimitedaccessfiletype-enum) |
-| [SiteUserGroupInfo Class](#siteusergroupinfo-class) | [TenantSiteDesignPrincipal Class](#tenantsitedesignprincipal-class) | [SPOTlsTokenBindingPolicyValue Enum](#spotlstokenbindingpolicyvalue-enum) |
-| [SiteUserGroupsData Class](#siteusergroupsdata-class) | [TenantSiteDesignPrincipalPropertyNames Class](#tenantsitedesignprincipalpropertynames-class) | [SPOUserSessionRevocationResult Class](#spousersessionrevocationresult-class) |
-| [SiteUserInfoVisibilityPolicyValue Enum](#siteuserinfovisibilitypolicyvalue-enum) | [TenantSiteDesignPrincipalRights Enum](#tenantsitedesignprincipalrights-enum) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
-| [SPContainerCollection Class](#spcontainercollection-class) | [TenantSiteDesignPropertyNames Class](#tenantsitedesignpropertynames-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
-| [SPContainerProperties Class](#spcontainerproperties-class) | [TenantSiteDesignRun Class](#tenantsitedesignrun-class) | [StreamLaunchConfigValues Enum](#streamlaunchconfigvalues-enum) |
-| [SPContainerTypeBillingClassification Enum](#spcontainertypebillingclassification-enum) | [TenantSiteDesignRunPropertyNames Class](#tenantsitedesignrunpropertynames-class) | [ThemeProperties Class](#themeproperties-class) |
-| [SPContainerTypeConfigurationProperties Class](#spcontainertypeconfigurationproperties-class) | [TenantSiteDesignTask Class](#tenantsitedesigntask-class) | [ThemePropertiesPropertyNames Class](#themepropertiespropertynames-class) |
-| [SPContainerTypeProperties Class](#spcontainertypeproperties-class) | [TenantSiteDesignTaskPropertyNames Class](#tenantsitedesigntaskpropertynames-class) | [Workflows2013State Enum](#workflows2013state-enum) |
-| [SPContainerTypeTenantType Enum](#spcontainertypetenanttype-enum) | [TenantSiteScript Class](#tenantsitescript-class) |   |
+| [SiteCreationProperties Class](#sitecreationproperties-class) | [TenantLogPropertyNames Class](#tenantlogpropertynames-class) | [SharingRole Enum](#sharingrole-enum) |
+| [SiteInfoForSitePicker Class](#siteinfoforsitepicker-class) | [TenantOutOfBoxSiteTemplateSettings Class](#tenantoutofboxsitetemplatesettings-class) | [SortOrder Enum](#sortorder-enum) |
+| [SiteProperties Class](#siteproperties-class) | [TenantPropertyNames Class](#tenantpropertynames-class) | [SpecialCharactersState Enum](#specialcharactersstate-enum) |
+| [SitePropertiesPropertyNames Class](#sitepropertiespropertynames-class) | [TenantSiteDesign Class](#tenantsitedesign-class) | [SPOAuthenticationContextPolicyAccessType Enum](#spoauthenticationcontextpolicyaccesstype-enum) |
+| [SiteRenameStatesInTenantRename Enum](#siterenamestatesintenantrename-enum) | [TenantSiteDesignCreationInfo Class](#tenantsitedesigncreationinfo-class) | [SPOConditionalAccessPolicyType Enum](#spoconditionalaccesspolicytype-enum) |
+| [SiteUserGroupInfo Class](#siteusergroupinfo-class) | [TenantSiteDesignPrincipal Class](#tenantsitedesignprincipal-class) | [SPOLimitedAccessFileType Enum](#spolimitedaccessfiletype-enum) |
+| [SiteUserGroupsData Class](#siteusergroupsdata-class) | [TenantSiteDesignPrincipalPropertyNames Class](#tenantsitedesignprincipalpropertynames-class) | [SPOTlsTokenBindingPolicyValue Enum](#spotlstokenbindingpolicyvalue-enum) |
+| [SiteUserInfoVisibilityPolicyValue Enum](#siteuserinfovisibilitypolicyvalue-enum) | [TenantSiteDesignPrincipalRights Enum](#tenantsitedesignprincipalrights-enum) | [SPOUserSessionRevocationResult Class](#spousersessionrevocationresult-class) |
+| [SPContainerCollection Class](#spcontainercollection-class) | [TenantSiteDesignPropertyNames Class](#tenantsitedesignpropertynames-class) | [SPOUserSessionRevocationResultPropertyNames Class](#spousersessionrevocationresultpropertynames-class) |
+| [SPContainerProperties Class](#spcontainerproperties-class) | [TenantSiteDesignRun Class](#tenantsitedesignrun-class) | [SPOUserSessionRevocationState Enum](#spousersessionrevocationstate-enum) |
+| [SPContainerTypeBillingClassification Enum](#spcontainertypebillingclassification-enum) | [TenantSiteDesignRunPropertyNames Class](#tenantsitedesignrunpropertynames-class) | [StreamLaunchConfigValues Enum](#streamlaunchconfigvalues-enum) |
+| [SPContainerTypeConfigurationProperties Class](#spcontainertypeconfigurationproperties-class) | [TenantSiteDesignTask Class](#tenantsitedesigntask-class) | [ThemeProperties Class](#themeproperties-class) |
+| [SPContainerTypeProperties Class](#spcontainertypeproperties-class) | [TenantSiteDesignTaskPropertyNames Class](#tenantsitedesigntaskpropertynames-class) | [ThemePropertiesPropertyNames Class](#themepropertiespropertynames-class) |
+| [SPContainerTypeTenantType Enum](#spcontainertypetenanttype-enum) | [TenantSiteScript Class](#tenantsitescript-class) | [Workflows2013State Enum](#workflows2013state-enum) |
 # ScriptTypeFactory Class
 
 Namespace: Microsoft.Online.SharePoint.Client.TenantAdmin
@@ -572,6 +572,7 @@ Base class: ClientValueObject
 | **policyFrequencyUnit** | PolicyFrequencyUnits |  |
 | **policyFrequencyValue** | int |  |
 | **policyId** | Guid |  |
+| **policyTags** | string |  |
 | **policyTemplate** | PolicyTemplate |  |
 | **policyType** | PolicyTypes |  |
 | **TypeId** | string |  |
@@ -1098,6 +1099,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **CompatibilityLevel** | int |  |
+| **EnableAgreementsSolution** | bool |  |
 | **Lcid** | uint |  |
 | **Owner** | string |  |
 | **StorageMaximumLevel** | long |  |
@@ -1158,6 +1160,7 @@ Base class: ClientObject
 | **BlockDownloadLinksFileType** | [BlockDownloadLinksFileTypes](#blockdownloadlinksfiletypes-enum) |  |
 | **BlockDownloadMicrosoft365GroupIds** | Guid[] |  |
 | **BlockDownloadPolicy** | bool |  |
+| **BlockDownloadPolicyFileTypeId** | string |  |
 | **BlockGuestsAsSiteAdmin** | SharingState |  |
 | **BonusDiskQuota** | long |  |
 | **ClearRestrictedAccessControl** | bool |  |
@@ -1197,6 +1200,7 @@ Base class: ClientObject
 | **LimitedAccessFileType** | [SPOLimitedAccessFileType](#spolimitedaccessfiletype-enum) |  |
 | **ListsShowHeaderAndNavigation** | bool |  |
 | **LockIssue** | string |  |
+| **LockReason** | int |  |
 | **LockState** | string |  |
 | **LoopDefaultSharingLinkRole** | Role |  |
 | **LoopDefaultSharingLinkScope** | SharingScope |  |
@@ -1293,6 +1297,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **BlockDownloadLinksFileType** | string |  |
 | **BlockDownloadMicrosoft365GroupIds** | string |  |
 | **BlockDownloadPolicy** | string |  |
+| **BlockDownloadPolicyFileTypeId** | string |  |
 | **BlockGuestsAsSiteAdmin** | string |  |
 | **BonusDiskQuota** | string |  |
 | **ClearRestrictedAccessControl** | string |  |
@@ -1332,6 +1337,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **LimitedAccessFileType** | string |  |
 | **ListsShowHeaderAndNavigation** | string |  |
 | **LockIssue** | string |  |
+| **LockReason** | string |  |
 | **LockState** | string |  |
 | **LoopDefaultSharingLinkRole** | string |  |
 | **LoopDefaultSharingLinkScope** | string |  |
@@ -1528,6 +1534,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 |---|---|
 | **Standard** |  |
 | **Trial** |  |
+| **DirectToCustomer** |  |
 # SPContainerTypeConfigurationProperties Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -1565,6 +1572,7 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **ApplicationRedirectUrl** | string |  |
 | **AzureSubscriptionId** | Guid |  |
 | **ContainerTypeId** | Guid |  |
 | **CreationDate** | string |  |
@@ -2481,6 +2489,7 @@ Base class: ClientObject
 | **AIBuilderSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
 | **AIBuilderSiteList** | IEnumerable\<Guid\> |  |
 | **AIBuilderSiteListFileName** | string |  |
+| **AllOrganizationSecurityGroupId** | Guid |  |
 | **AllowAnonymousMeetingParticipantsToAccessWhiteboards** | SharingState |  |
 | **AllowCommentsTextOnEmailEnabled** | bool |  |
 | **AllowDownloadingNonWebViewableFiles** | bool |  |
@@ -2500,6 +2509,10 @@ Base class: ClientObject
 | **AppOnlyBypassPeoplePickerPolicies** | bool |  |
 | **ArchiveRedirectUrl** | string |  |
 | **AuthContextResilienceMode** | SPResilienceModeType |  |
+| **AutofillColumnsEnabled** | bool |  |
+| **AutofillColumnsSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
+| **AutofillColumnsSiteList** | IEnumerable\<Guid\> |  |
+| **AutofillColumnsSiteListFileName** | string |  |
 | **BccExternalSharingInvitations** | bool |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessOnUnmanagedDevices** | bool |  |
@@ -2524,12 +2537,6 @@ Base class: ClientObject
 | **CompatibilityRange** | string |  |
 | **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
 | **ConditionalAccessPolicyErrorHelpLink** | string |  |
-| **ContainerDefaultLinkToExistingAccess** | bool |  |
-| **ContainerDefaultShareLinkRole** | Role |  |
-| **ContainerDefaultShareLinkScope** | SharingScope |  |
-| **ContainerLoopDefaultShareLinkRole** | Role |  |
-| **ContainerLoopDefaultShareLinkScope** | SharingScope |  |
-| **ContainerSharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
 | **ContentTypeSyncSiteTemplatesList** | IEnumerable\<string\> |  |
 | **CoreBlockGuestsAsSiteAdmin** | SharingState |  |
 | **CoreDefaultLinkToExistingAccess** | bool |  |
@@ -2559,6 +2566,7 @@ Base class: ClientObject
 | **DisablePersonalListCreation** | bool |  |
 | **DisableReportProblemDialog** | bool |  |
 | **DisableSpacesActivation** | bool |  |
+| **DisableVersionExpirationSetting** | bool |  |
 | **DisableVivaConnectionsAnalytics** | bool |  |
 | **DisallowInfectedFileDownload** | bool |  |
 | **DisplayNamesOfFileViewers** | bool |  |
@@ -2576,6 +2584,7 @@ Base class: ClientObject
 | **EnableAutoNewsDigest** | bool |  |
 | **EnableAzureADB2BIntegration** | bool |  |
 | **EnabledFlightAllowAADB2BSkipCheckingOTP** | bool |  |
+| **EnableDiscoverableByOrganizationForVideos** | bool |  |
 | **EnableGuestSignInAcceleration** | bool |  |
 | **EnableMinimumVersionRequirement** | bool |  |
 | **EnableMipSiteLabel** | bool |  |
@@ -2612,6 +2621,9 @@ Base class: ClientObject
 | **HideSyncButtonOnODB** | bool |  |
 | **IBImplicitGroupBased** | bool |  |
 | **ImageTaggingOption** | [ImageTaggingChoice](#imagetaggingchoice-enum) |  |
+| **ImageTaggingSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
+| **ImageTaggingSiteList** | IEnumerable\<Guid\> |  |
+| **ImageTaggingSiteListFileName** | string |  |
 | **IncludeAtAGlanceInShareEmails** | bool |  |
 | **InformationBarriersSuspension** | bool |  |
 | **IPAddressAllowList** | string |  |
@@ -2780,6 +2792,7 @@ Base class: ClientObject
 | **AddPublicCdnOrigin(string origin)** | void |  |
 | **AddSdnProvider(string identifier, string license)** | void |  |
 | **AddSiteDesignTask(ClientRuntimeContext context, string webUrl, Guid siteDesignId)** | [TenantSiteDesignTask](#tenantsitedesigntask-class) |  |
+| **AddSPOContainerRole(string ContainerId, string loginName, string roleName)** | void |  |
 | **AddSPORestrictedSearchAllowedList(IList\<string\> siteUrls)** | void |  |
 | **AddTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
 | **AddTenantOdbFeature(IList\<string\> userPrincipleNames, FeatureScope scope, IList\<Guid\> featureIds)** | ClientObjectList\<[SPOTenantOdbFeature](#spotenantodbfeature-class)\> |  |
@@ -2946,6 +2959,7 @@ Base class: ClientObject
 | **RemoveSPHSite()** | ClientResult\<string\> |  |
 | **RemoveSPOContainerByContainerId(string containerId)** | void |  |
 | **RemoveSPOContainerByContainerSiteUrl(string containerSiteUrl)** | void |  |
+| **RemoveSPOContainerRole(string ContainerId, string loginName, string roleName)** | void |  |
 | **RemoveSPOContainerType(SPDeletedContainerTypeProperties spDeletedContainerTypeProperties)** | void |  |
 | **RemoveSPORestrictedSearchAllowedList(IList\<string\> siteUrls)** | void |  |
 | **RemoveSPOTenantOrgRelation(OrgRelationScenario scenario, OrgRelationRole partnerRole, string partnerMySiteHostUrl)** | void |  |
@@ -2980,6 +2994,7 @@ Base class: ClientObject
 | **SetSPHSiteWithConfiguration(string sphSiteUrl, HomeSiteConfigurationParam configuration)** | ClientResult\<string\> |  |
 | **SetSPHSiteWithConfigurations(string sphSiteUrl, bool vivaConnectionsDefaultStart)** | ClientResult\<string\> |  |
 | **SetSPOContainerProperties(SPContainerProperties spContainerProperties)** | void |  |
+| **SetSPOContainerRole(string ContainerId, string loginName, string roleName)** | void |  |
 | **SetSPOContainerType(SPContainerTypeProperties containerTypeProperties)** | ClientResult\<[SPContainerTypeProperties](#spcontainertypeproperties-class)\> |  |
 | **SetSPOContainerTypeConfiguration(SPContainerTypeConfigurationProperties spContainerTypeConfigurationProperties)** | ClientResult\<[SPContainerTypeConfigurationProperties](#spcontainertypeconfigurationproperties-class)\> |  |
 | **SetSPORestrictedSearchMode(RestrictedSearchMode mode)** | void |  |
@@ -3341,6 +3356,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **AIBuilderSiteInfoList** | string |  |
 | **AIBuilderSiteList** | string |  |
 | **AIBuilderSiteListFileName** | string |  |
+| **AllOrganizationSecurityGroupId** | string |  |
 | **AllowAnonymousMeetingParticipantsToAccessWhiteboards** | string |  |
 | **AllowCommentsTextOnEmailEnabled** | string |  |
 | **AllowDownloadingNonWebViewableFiles** | string |  |
@@ -3360,6 +3376,10 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **AppOnlyBypassPeoplePickerPolicies** | string |  |
 | **ArchiveRedirectUrl** | string |  |
 | **AuthContextResilienceMode** | string |  |
+| **AutofillColumnsEnabled** | string |  |
+| **AutofillColumnsSiteInfoList** | string |  |
+| **AutofillColumnsSiteList** | string |  |
+| **AutofillColumnsSiteListFileName** | string |  |
 | **BccExternalSharingInvitations** | string |  |
 | **BccExternalSharingInvitationsList** | string |  |
 | **BlockAccessOnUnmanagedDevices** | string |  |
@@ -3384,12 +3404,6 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **CompatibilityRange** | string |  |
 | **ConditionalAccessPolicy** | string |  |
 | **ConditionalAccessPolicyErrorHelpLink** | string |  |
-| **ContainerDefaultLinkToExistingAccess** | string |  |
-| **ContainerDefaultShareLinkRole** | string |  |
-| **ContainerDefaultShareLinkScope** | string |  |
-| **ContainerLoopDefaultShareLinkRole** | string |  |
-| **ContainerLoopDefaultShareLinkScope** | string |  |
-| **ContainerSharingCapability** | string |  |
 | **ContentTypeSyncSiteTemplatesList** | string |  |
 | **CoreBlockGuestsAsSiteAdmin** | string |  |
 | **CoreDefaultLinkToExistingAccess** | string |  |
@@ -3419,6 +3433,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DisablePersonalListCreation** | string |  |
 | **DisableReportProblemDialog** | string |  |
 | **DisableSpacesActivation** | string |  |
+| **DisableVersionExpirationSetting** | string |  |
 | **DisableVivaConnectionsAnalytics** | string |  |
 | **DisallowInfectedFileDownload** | string |  |
 | **DisplayNamesOfFileViewers** | string |  |
@@ -3436,6 +3451,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **EnableAutoNewsDigest** | string |  |
 | **EnableAzureADB2BIntegration** | string |  |
 | **EnabledFlightAllowAADB2BSkipCheckingOTP** | string |  |
+| **EnableDiscoverableByOrganizationForVideos** | string |  |
 | **EnableGuestSignInAcceleration** | string |  |
 | **EnableMinimumVersionRequirement** | string |  |
 | **EnableMipSiteLabel** | string |  |
@@ -3472,6 +3488,9 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **HideSyncButtonOnODB** | string |  |
 | **IBImplicitGroupBased** | string |  |
 | **ImageTaggingOption** | string |  |
+| **ImageTaggingSiteInfoList** | string |  |
+| **ImageTaggingSiteList** | string |  |
+| **ImageTaggingSiteListFileName** | string |  |
 | **IncludeAtAGlanceInShareEmails** | string |  |
 | **InformationBarriersSuspension** | string |  |
 | **IPAddressAllowList** | string |  |
@@ -4963,12 +4982,6 @@ Base class: ClientObject
 | **CommentsOnSitePagesDisabled** | bool |  |
 | **ConditionalAccessPolicy** | [SPOConditionalAccessPolicyType](#spoconditionalaccesspolicytype-enum) |  |
 | **ConditionalAccessPolicyErrorHelpLink** | string |  |
-| **ContainerDefaultLinkToExistingAccess** | bool |  |
-| **ContainerDefaultShareLinkRole** | Role |  |
-| **ContainerDefaultShareLinkScope** | SharingScope |  |
-| **ContainerLoopDefaultShareLinkRole** | Role |  |
-| **ContainerLoopDefaultShareLinkScope** | SharingScope |  |
-| **ContainerSharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
 | **ContentTypeSyncSiteTemplatesList** | IEnumerable\<string\> |  |
 | **CoreBlockGuestsAsSiteAdmin** | SharingState |  |
 | **CoreDefaultLinkToExistingAccess** | bool |  |
@@ -4994,6 +5007,7 @@ Base class: ClientObject
 | **DisableOutlookPSTVersionTrimming** | bool |  |
 | **DisablePersonalListCreation** | bool |  |
 | **DisableSpacesActivation** | bool |  |
+| **DisableVersionExpirationSetting** | bool |  |
 | **DisableVivaConnectionsAnalytics** | bool |  |
 | **DisplayStartASiteOption** | bool |  |
 | **EmailAttestationEnabled** | bool |  |
@@ -5111,10 +5125,6 @@ Base class: ClientObject
 | **SyntexPaygFeatureActivations** | IDictionary\<string, string\> |  |
 | **SyntexPlaybackTranscriptTranslationSettings** | [SyntexPremiumFeatureSettings](#syntexpremiumfeaturesettings-class) |  |
 | **SyntexPowerAppsEnvironmentsContext** | [SyntexPowerAppsEnvironmentsContext](#syntexpowerappsenvironmentscontext-class) |  |
-| **TaxonomyTaggingEnabled** | bool |  |
-| **TaxonomyTaggingSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
-| **TaxonomyTaggingSiteList** | IEnumerable\<Guid\> |  |
-| **TaxonomyTaggingSiteListFileName** | string |  |
 | **TlsTokenBindingPolicyValue** | [SPOTlsTokenBindingPolicyValue](#spotlstokenbindingpolicyvalue-enum) |  |
 | **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
@@ -5238,12 +5248,6 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **CommentsOnSitePagesDisabled** | string |  |
 | **ConditionalAccessPolicy** | string |  |
 | **ConditionalAccessPolicyErrorHelpLink** | string |  |
-| **ContainerDefaultLinkToExistingAccess** | string |  |
-| **ContainerDefaultShareLinkRole** | string |  |
-| **ContainerDefaultShareLinkScope** | string |  |
-| **ContainerLoopDefaultShareLinkRole** | string |  |
-| **ContainerLoopDefaultShareLinkScope** | string |  |
-| **ContainerSharingCapability** | string |  |
 | **ContentTypeSyncSiteTemplatesList** | string |  |
 | **CoreBlockGuestsAsSiteAdmin** | string |  |
 | **CoreDefaultLinkToExistingAccess** | string |  |
@@ -5269,6 +5273,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **DisableOutlookPSTVersionTrimming** | string |  |
 | **DisablePersonalListCreation** | string |  |
 | **DisableSpacesActivation** | string |  |
+| **DisableVersionExpirationSetting** | string |  |
 | **DisableVivaConnectionsAnalytics** | string |  |
 | **DisplayStartASiteOption** | string |  |
 | **EmailAttestationEnabled** | string |  |
@@ -5386,10 +5391,6 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **SyntexPaygFeatureActivations** | string |  |
 | **SyntexPlaybackTranscriptTranslationSettings** | string |  |
 | **SyntexPowerAppsEnvironmentsContext** | string |  |
-| **TaxonomyTaggingEnabled** | string |  |
-| **TaxonomyTaggingSiteInfoList** | string |  |
-| **TaxonomyTaggingSiteList** | string |  |
-| **TaxonomyTaggingSiteListFileName** | string |  |
 | **TlsTokenBindingPolicyValue** | string |  |
 | **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
@@ -5498,6 +5499,20 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **None** |  |
 | **View** |  |
 | **Edit** |  |
+# SharingRole Enum
+
+Namespace: Microsoft.Online.SharePoint.TenantManagement
+
+
+## Values
+
+| Name | Summary |
+|---|---|
+| **None** |  |
+| **View** |  |
+| **Edit** |  |
+| **Review** |  |
+| **RestrictedView** |  |
 # SortOrder Enum
 
 Namespace: Microsoft.Online.SharePoint.TenantManagement
@@ -5685,3 +5700,4 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **Disabled** |  |
 | **Configuring** |  |
 | **Enabled** |  |
+| **Retired** |  |

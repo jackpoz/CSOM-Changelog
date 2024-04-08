@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.WorkflowServices.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-03-11
+[mddox](https://github.com/loxsmoke/mddox) on 2024-04-08
 
 # All types
 
@@ -357,6 +357,7 @@ Base class: ClientObject
 | **IsRegistered** | bool |  |
 | **ScopePath** | string |  |
 | **ServiceHealthStatus** | [WorkflowServiceHealthStatus](#workflowservicehealthstatus-enum) |  |
+| **Workflow2013Retired** | bool |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -395,6 +396,7 @@ Namespace: Microsoft.SharePoint.Client.WorkflowServices
 | **IsRegistered** | string |  |
 | **ScopePath** | string |  |
 | **ServiceHealthStatus** | string |  |
+| **Workflow2013Retired** | string |  |
 # WorkflowStatus Enum
 
 Namespace: Microsoft.SharePoint.Client.WorkflowServices
