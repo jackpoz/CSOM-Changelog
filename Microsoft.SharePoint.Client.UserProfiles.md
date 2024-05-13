@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.UserProfiles.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-04-08
+[mddox](https://github.com/loxsmoke/mddox) on 2024-05-13
 
 # All types
 
@@ -2613,9 +2613,11 @@ Base class: ClientValueObject
 |---|---|---|
 | **AltTitle** | string |  |
 | **CacheKey** | string |  |
+| **CacheName** | string |  |
 | **CacheValue** | string |  |
 | **CacheValueHash** | string |  |
 | **CacheVersion** | string |  |
+| **ContainerUrl** | string |  |
 | **ListItemId** | int |  |
 | **ListItemUniqueId** | string |  |
 | **ModifiedTimeUtc** | DateTime |  |

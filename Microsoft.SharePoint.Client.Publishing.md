@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Publishing.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-04-08
+[mddox](https://github.com/loxsmoke/mddox) on 2024-05-13
 
 # All types
 
@@ -594,6 +594,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **WebTranspileContent** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -769,6 +770,7 @@ Base class: [RepostPageFieldsData](#repostpagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **WebTranspileContent** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -1007,6 +1009,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **WebTranspileContent** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -1175,6 +1178,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **WebTranspileContent** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
@@ -1322,6 +1326,7 @@ Base class: ClientValueObject
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **WebTranspileContent** | string |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -1745,6 +1750,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **WebTranspileContent** | string |  |
 ## Methods
 
 | Name | Returns | Summary |
