@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.UserProfiles.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-05-13
+[mddox](https://github.com/loxsmoke/mddox) on 2024-06-17
 
 # All types
 
@@ -2589,17 +2589,22 @@ Namespace: Microsoft.SharePoint.Client.UserProfiles
 
 | Name | Summary |
 |---|---|
-| **FolderNotFound** |  |
 | **PersonalSiteNotFound** |  |
 | **PersonalCacheListNotFound** |  |
 | **PersonalCacheListProvisionFailed** |  |
 | **PersonalCacheItemProvisionFailed** |  |
-| **FailedToRetreiveCacheListItems** |  |
+| **FailedToRetrieveCacheListItems** |  |
 | **PersonalCacheItemInvalidListItemId** |  |
 | **FailedToUpdateCacheListItem** |  |
 | **ProfileNotFound** |  |
-| **PersonalCacheRootFolderNotFound** |  |
-| **PersonalCacheFolderProvisionFailed** |  |
+| **RootFolderNotFound** |  |
+| **FolderProvisionFailed** |  |
+| **FolderNotFound** |  |
+| **InvalidCacheKeys** |  |
+| **InvalidCacheItems** |  |
+| **WriteConflict** |  |
+| **ReadFailure** |  |
+| **FailedToDeleteCacheListItems** |  |
 # PersonalCacheItem Class
 
 Namespace: Microsoft.SharePoint.Client.UserProfiles
