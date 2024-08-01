@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Search.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-06-17
+[mddox](https://github.com/loxsmoke/mddox) on 2024-08-01
 
 # All types
 
@@ -852,6 +852,7 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **GetAzureContainerToken()** | ClientResult\<string\> |  |
+| **NotifyContentProcessingStatus(Guid webId, Guid listId, Guid uniqueId, IDictionary\<string, string\> properties)** | void |  |
 | **ReportContentProcessingStatus(Guid webId, Guid listId, Guid uniqueId, string azureContainerTokenUri, byte[] encryptionKey, int priority, long errorCode, string errorDescription)** | void |  |
 # TenantCrawlVersionsInfoProvider Class
 
