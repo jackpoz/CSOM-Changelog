@@ -594,6 +594,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **TranspileContents** | string |  |
 | **WebTranspileContent** | string |  |
 ## Methods
 
@@ -770,6 +771,7 @@ Base class: [RepostPageFieldsData](#repostpagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **TranspileContents** | string |  |
 | **WebTranspileContent** | string |  |
 ## Methods
 
@@ -1009,6 +1011,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **TranspileContents** | string |  |
 | **WebTranspileContent** | string |  |
 ## Methods
 
@@ -1178,6 +1181,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **TranspileContents** | string |  |
 | **WebTranspileContent** | string |  |
 ## Methods
 
@@ -1326,6 +1330,7 @@ Base class: ClientValueObject
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **TranspileContents** | string |  |
 | **WebTranspileContent** | string |  |
 | **TypeId** | string |  |
 ## Methods
@@ -1751,6 +1756,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
 | **TopicHeader** | string |  |
+| **TranspileContents** | string |  |
 | **WebTranspileContent** | string |  |
 ## Methods
 
