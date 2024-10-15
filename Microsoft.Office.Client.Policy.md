@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-09-10
+[mddox](https://github.com/loxsmoke/mddox) on 2024-10-15
 
 # All types
 

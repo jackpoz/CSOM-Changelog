@@ -1,12 +1,13 @@
 # Microsoft.SharePoint.Client.DocumentManagement.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-09-10
+[mddox](https://github.com/loxsmoke/mddox) on 2024-10-15
 
 # All types
 
 |   |   |   |
 |---|---|---|
+| [DocumentId Class](#documentid-class) | [DocumentSetObjectPropertyNames Class](#documentsetobjectpropertynames-class) | [DocumentSetVersionPropertyNames Class](#documentsetversionpropertynames-class) |
 | [MetadataDefaults Class](#metadatadefaults-class) | [DocumentSetTemplate Class](#documentsettemplate-class) | [SharedFieldCollection Class](#sharedfieldcollection-class) |
 | [ScriptTypeFactory Class](#scripttypefactory-class) | [DocumentSetTemplateObjectPropertyNames Class](#documentsettemplateobjectpropertynames-class) | [WelcomePageFieldCollection Class](#welcomepagefieldcollection-class) |
 | [AllowedContentTypeCollection Class](#allowedcontenttypecollection-class) | [DocumentSetVersion Class](#documentsetversion-class) | [ConfiguredMetadataNavigationItem Class](#configuredmetadatanavigationitem-class) |
@@ -14,7 +15,37 @@ Created by
 | [DefaultDocumentCollection Class](#defaultdocumentcollection-class) | [DocumentSetVersionField Class](#documentsetversionfield-class) | [MetadataNavigationSettings Class](#metadatanavigationsettings-class) |
 | [DefaultDocumentPropertyNames Class](#defaultdocumentpropertynames-class) | [DocumentSetVersionItem Class](#documentsetversionitem-class) | [EmbedCodeConfiguration Class](#embedcodeconfiguration-class) |
 | [DocumentSet Class](#documentset-class) | [DocumentSetVersionObjectPropertyNames Class](#documentsetversionobjectpropertynames-class) | [VideoSet Class](#videoset-class) |
-| [DocumentSetObjectPropertyNames Class](#documentsetobjectpropertynames-class) | [DocumentSetVersionPropertyNames Class](#documentsetversionpropertynames-class) |   |
+# DocumentId Class
+
+Namespace: Microsoft.SharePoint.Client.DocumentManagement
+
+Base class: ClientObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **Context** | ClientRuntimeContext |  |
+| **Tag** | Object |  |
+| **Path** | ObjectPath |  |
+| **ObjectVersion** | string |  |
+| **ObjectData** | ClientObjectData |  |
+| **Query** | ClientQueryInternal |  |
+| **ParentCollection** | ClientObjectCollection |  |
+| **ServerObjectIsNull** | bool? |  |
+| **TypedObject** | ClientObject |  |
+## Constructors
+
+| Name | Summary |
+|---|---|
+| **DocumentId(ClientRuntimeContext context)** |  |
+| **DocumentId(ClientRuntimeContext context, ObjectPath objectPath)** |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **SetDocIdSitePrefix(string prefix, bool scheduleAssignment, bool overwriteExistingIds)** | void |  |
 # MetadataDefaults Class
 
 Namespace: Microsoft.SharePoint.Client.DocumentManagement
