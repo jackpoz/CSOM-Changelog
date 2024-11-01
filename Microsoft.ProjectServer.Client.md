@@ -1,7 +1,7 @@
 # Microsoft.ProjectServer.Client.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-10-15
+[mddox](https://github.com/loxsmoke/mddox) on 2024-11-01
 
 # All types
 
@@ -1620,6 +1620,7 @@ Base class: [Task](#task-class)
 | **Finish** | DateTime |  |
 | **FinishText** | string |  |
 | **FixedCost** | double |  |
+| **FixedCostAccrual** | [FixedCostAccrual](#fixedcostaccrual-enum) |  |
 | **IsActive** | bool |  |
 | **IsEffortDriven** | bool |  |
 | **IsLockedByManager** | bool |  |
@@ -1680,7 +1681,6 @@ Base class: [Task](#task-class)
 | **FinishSlackTimeSpan** | TimeSpan |  |
 | **FinishVariance** | string |  |
 | **FinishVarianceTimeSpan** | TimeSpan |  |
-| **FixedCostAccrual** | [FixedCostAccrual](#fixedcostaccrual-enum) |  |
 | **FreeSlack** | string |  |
 | **FreeSlackTimeSpan** | TimeSpan |  |
 | **Id** | Guid |  |
@@ -1939,6 +1939,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **Finish** | string |  |
 | **FinishText** | string |  |
 | **FixedCost** | string |  |
+| **FixedCostAccrual** | string |  |
 | **IsActive** | string |  |
 | **IsEffortDriven** | string |  |
 | **IsLockedByManager** | string |  |
@@ -5083,6 +5084,7 @@ Base class: [Task](#task-class)
 | **DurationTimeSpan** | TimeSpan |  |
 | **Finish** | DateTime |  |
 | **FinishText** | string |  |
+| **FixedCostAccrual** | [FixedCostAccrual](#fixedcostaccrual-enum) |  |
 | **Name** | string |  |
 | **PercentComplete** | int |  |
 | **Priority** | int |  |
@@ -5125,7 +5127,6 @@ Base class: [Task](#task-class)
 | **FinishSlackTimeSpan** | TimeSpan |  |
 | **FinishVariance** | string |  |
 | **FinishVarianceTimeSpan** | TimeSpan |  |
-| **FixedCostAccrual** | [FixedCostAccrual](#fixedcostaccrual-enum) |  |
 | **FreeSlack** | string |  |
 | **FreeSlackTimeSpan** | TimeSpan |  |
 | **Id** | Guid |  |
@@ -5220,6 +5221,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **DurationTimeSpan** | string |  |
 | **Finish** | string |  |
 | **FinishText** | string |  |
+| **FixedCostAccrual** | string |  |
 | **Name** | string |  |
 | **PercentComplete** | string |  |
 | **Priority** | string |  |
@@ -5852,6 +5854,7 @@ Base class: [Task](#task-class)
 | **Finish** | DateTime |  |
 | **FinishText** | string |  |
 | **FixedCost** | double |  |
+| **FixedCostAccrual** | [FixedCostAccrual](#fixedcostaccrual-enum) |  |
 | **IsActive** | bool |  |
 | **IsEffortDriven** | bool |  |
 | **IsLockedByManager** | bool |  |
@@ -5912,7 +5915,6 @@ Base class: [Task](#task-class)
 | **FinishSlackTimeSpan** | TimeSpan |  |
 | **FinishVariance** | string |  |
 | **FinishVarianceTimeSpan** | TimeSpan |  |
-| **FixedCostAccrual** | [FixedCostAccrual](#fixedcostaccrual-enum) |  |
 | **FreeSlack** | string |  |
 | **FreeSlackTimeSpan** | TimeSpan |  |
 | **Id** | Guid |  |
@@ -6167,6 +6169,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **Finish** | string |  |
 | **FinishText** | string |  |
 | **FixedCost** | string |  |
+| **FixedCostAccrual** | string |  |
 | **IsActive** | string |  |
 | **IsEffortDriven** | string |  |
 | **IsLockedByManager** | string |  |
@@ -7753,7 +7756,6 @@ Base class: ClientObject
 | **FinishSlackTimeSpan** | TimeSpan |  |
 | **FinishVariance** | string |  |
 | **FinishVarianceTimeSpan** | TimeSpan |  |
-| **FixedCostAccrual** | [FixedCostAccrual](#fixedcostaccrual-enum) |  |
 | **FreeSlack** | string |  |
 | **FreeSlackTimeSpan** | TimeSpan |  |
 | **Id** | Guid |  |
@@ -7963,7 +7965,6 @@ Namespace: Microsoft.ProjectServer.Client
 | **FinishSlackTimeSpan** | string |  |
 | **FinishVariance** | string |  |
 | **FinishVarianceTimeSpan** | string |  |
-| **FixedCostAccrual** | string |  |
 | **FreeSlack** | string |  |
 | **FreeSlackTimeSpan** | string |  |
 | **Id** | string |  |

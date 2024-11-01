@@ -1,7 +1,7 @@
 # Microsoft.Online.SharePoint.Client.Tenant.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-10-15
+[mddox](https://github.com/loxsmoke/mddox) on 2024-11-01
 
 # All types
 
@@ -1415,6 +1415,7 @@ Base class: ClientObject
 | **GroupId** | Guid |  |
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | bool |  |
+| **HidePeoplePreviewingFiles** | bool |  |
 | **HubSiteId** | Guid |  |
 | **IBMode** | string |  |
 | **IBSegments** | Guid[] |  |
@@ -1561,6 +1562,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **GroupId** | string |  |
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | string |  |
+| **HidePeoplePreviewingFiles** | string |  |
 | **HubSiteId** | string |  |
 | **IBMode** | string |  |
 | **IBSegments** | string |  |
@@ -2017,6 +2019,8 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **CountOfSitesInReport** | int |  |
+| **CountOfSitesInTenant** | int |  |
 | **CreatedDateTime** | string |  |
 | **EEEUType** | string |  |
 | **LabelId** | Guid |  |
@@ -2085,6 +2089,7 @@ Base class: [SPDataGovernanceRestApiClientBase](#spdatagovernancerestapiclientba
 | **ExportSPODataAccessGovernanceInsight(Guid reportId)** | ClientResult\<string\> |  |
 | **GetSPODataAccessGovernanceInsight(ReportEntityEnum reportEntity, WorkloadEnum workLoad)** | IList\<[SPDataGovernanceInsightResponse](#spdatagovernanceinsightresponse-class)\> |  |
 | **GetSPODataAccessGovernanceInsightById(Guid reportId)** | ClientResult\<[SPDataGovernanceInsightResponse](#spdatagovernanceinsightresponse-class)\> |  |
+| **GetSPODataAccessGovernanceInsightV2(ReportEntityEnum reportEntity)** | IList\<[SPDataGovernanceInsightResponse](#spdatagovernanceinsightresponse-class)\> |  |
 | **RemoveDataAccessGovernanceReport(Guid reportId)** | void |  |
 # SPDataGovernanceRestApiClientBase Class
 
@@ -2292,6 +2297,7 @@ Base class: ClientObjectCollection<[SPOContentSecurityPolicyEntry](#spocontentse
 
 | Name | Summary |
 |---|---|
+| **SPOContentSecurityPolicyConfiguration(ClientRuntimeContext context)** |  |
 | **SPOContentSecurityPolicyConfiguration(ClientRuntimeContext context, ObjectPath objectPath)** |  |
 ## Methods
 
@@ -2299,6 +2305,7 @@ Base class: ClientObjectCollection<[SPOContentSecurityPolicyEntry](#spocontentse
 |---|---|---|
 | **Add(string source)** | void |  |
 | **Remove(string source)** | void |  |
+| **UpdateScriptSources(IList\<string\> added, IList\<string\> removed)** | void |  |
 # SPOContentSecurityPolicyEntry Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -3557,6 +3564,7 @@ Base class: ClientObject
 | **AllowSelectSGsInODBListInTenant** | IList\<string\> |  |
 | **AllowSensitivityLabelOnRecords** | bool |  |
 | **AllowSharingOutsideRestrictedAccessControlGroups** | bool |  |
+| **AllowWebPropertyBagUpdateWhenDenyAddAndCustomizePagesIsEnabled** | bool |  |
 | **AmplifyAdminSettings** | string |  |
 | **AnyoneLinkTrackUsers** | bool |  |
 | **AppBypassInformationBarriers** | bool |  |
@@ -3611,6 +3619,8 @@ Base class: ClientObject
 | **DefaultODBMode** | string |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
 | **DelayDenyAddAndCustomizePagesEnforcement** | bool |  |
+| **DelegateRestrictedAccessControlConfigurationToSiteOwner** | bool |  |
+| **DelegateRestrictedContentDiscoveryConfigurationToSiteOwner** | bool |  |
 | **DenySelectSecurityGroupsInSPSitesList** | IList\<string\> |  |
 | **DenySelectSGsInODBListInTenant** | IList\<string\> |  |
 | **DisableAddToOneDrive** | bool |  |
@@ -3824,6 +3834,7 @@ Base class: ClientObject
 | **TranslationSiteList** | IEnumerable\<Guid\> |  |
 | **TranslationSiteListFileName** | string |  |
 | **UniversalAnnotationDisabled** | bool |  |
+| **UnlicensedOdbSyntexBillingEnabled** | bool |  |
 | **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
 | **ViewersCanCommentOnMediaDisabled** | bool |  |
@@ -4477,6 +4488,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **AllowSelectSGsInODBListInTenant** | string |  |
 | **AllowSensitivityLabelOnRecords** | string |  |
 | **AllowSharingOutsideRestrictedAccessControlGroups** | string |  |
+| **AllowWebPropertyBagUpdateWhenDenyAddAndCustomizePagesIsEnabled** | string |  |
 | **AmplifyAdminSettings** | string |  |
 | **AnyoneLinkTrackUsers** | string |  |
 | **AppBypassInformationBarriers** | string |  |
@@ -4531,6 +4543,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DefaultODBMode** | string |  |
 | **DefaultSharingLinkType** | string |  |
 | **DelayDenyAddAndCustomizePagesEnforcement** | string |  |
+| **DelegateRestrictedAccessControlConfigurationToSiteOwner** | string |  |
+| **DelegateRestrictedContentDiscoveryConfigurationToSiteOwner** | string |  |
 | **DenySelectSecurityGroupsInSPSitesList** | string |  |
 | **DenySelectSGsInODBListInTenant** | string |  |
 | **DisableAddToOneDrive** | string |  |
@@ -4744,6 +4758,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **TranslationSiteList** | string |  |
 | **TranslationSiteListFileName** | string |  |
 | **UniversalAnnotationDisabled** | string |  |
+| **UnlicensedOdbSyntexBillingEnabled** | string |  |
 | **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |
 | **ViewersCanCommentOnMediaDisabled** | string |  |
@@ -6092,6 +6107,7 @@ Base class: ClientObject
 | **AllowSelectSecurityGroupsInSPSitesList** | IList\<string\> |  |
 | **AllowSelectSGsInODBList** | IList\<string\> |  |
 | **AllowSharingOutsideRestrictedAccessControlGroups** | bool |  |
+| **AllowWebPropertyBagUpdateWhenDenyAddAndCustomizePagesIsEnabled** | bool |  |
 | **AnyoneLinkTrackUsers** | bool |  |
 | **AppBypassInformationBarriers** | bool |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | bool |  |
@@ -6358,6 +6374,7 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **AllowSelectSecurityGroupsInSPSitesList** | string |  |
 | **AllowSelectSGsInODBList** | string |  |
 | **AllowSharingOutsideRestrictedAccessControlGroups** | string |  |
+| **AllowWebPropertyBagUpdateWhenDenyAddAndCustomizePagesIsEnabled** | string |  |
 | **AnyoneLinkTrackUsers** | string |  |
 | **AppBypassInformationBarriers** | string |  |
 | **ApplyAppEnforcedRestrictionsToAdHocRecipients** | string |  |
