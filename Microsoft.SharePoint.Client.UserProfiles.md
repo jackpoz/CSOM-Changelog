@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.UserProfiles.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-11-01
+[mddox](https://github.com/loxsmoke/mddox) on 2024-12-09
 
 # All types
 
@@ -2549,6 +2549,7 @@ Base class: ClientObject
 |---|---|---|
 | **CacheName** | string |  |
 | **MySiteUrl** | string |  |
+| **RequireHtmlStorage** | bool |  |
 | **Context** | ClientRuntimeContext |  |
 | **Tag** | Object |  |
 | **Path** | ObjectPath |  |
@@ -2622,6 +2623,7 @@ Base class: ClientValueObject
 | **CacheName** | string |  |
 | **CacheValue** | string |  |
 | **CacheValueHash** | string |  |
+| **CacheValueHtml** | string |  |
 | **CacheVersion** | string |  |
 | **ContainerUrl** | string |  |
 | **ListItemId** | int |  |
@@ -2644,6 +2646,7 @@ Namespace: Microsoft.SharePoint.Client.UserProfiles
 |---|---|---|
 | **CacheName** | string |  |
 | **MySiteUrl** | string |  |
+| **RequireHtmlStorage** | string |  |
 # PersonalSiteCapabilities Enum
 
 Namespace: Microsoft.SharePoint.Client.UserProfiles

@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Taxonomy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2024-11-01
+[mddox](https://github.com/loxsmoke/mddox) on 2024-12-09
 
 # All types
 
@@ -1455,6 +1455,7 @@ Base class: ClientObject
 | **GetTermSetsByTermLabel(string[] requiredTermLabels, int lcid)** | [TermSetCollection](#termsetcollection-class) |  |
 | **GetTermSetsWithCustomProperty(CustomPropertyMatchInformation customPropertyMatchInformation)** | [TermSetCollection](#termsetcollection-class) |  |
 | **GetTermsWithCustomProperty(CustomPropertyMatchInformation customPropertyMatchInformation)** | [TermCollection](#termcollection-class) |  |
+| **ResyncHiddenList(Site site)** | void |  |
 | **RollbackAll()** | void |  |
 | **UpdateCache()** | void |  |
 | **UpdateUsedTermsOnSite(Site site)** | void |  |
