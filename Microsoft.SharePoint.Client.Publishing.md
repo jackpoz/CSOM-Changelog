@@ -322,6 +322,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **SiteId** | string |  |
 | **Status** | [SharePointPublishingStatus](#sharepointpublishingstatus-class) |  |
+| **WebId** | string |  |
 | **TypeId** | string |  |
 ## Methods
 

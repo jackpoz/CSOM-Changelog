@@ -3655,6 +3655,7 @@ Base class: ClientObject
 | **DisableAddToOneDrive** | bool |  |
 | **DisableBackToClassic** | bool |  |
 | **DisableCustomAppAuthentication** | bool |  |
+| **DisabledAdaptiveCardExtensionIds** | Guid[] |  |
 | **DisabledModernListTemplateIds** | Guid[] |  |
 | **DisableDocumentLibraryDefaultLabeling** | bool |  |
 | **DisabledWebPartIds** | Guid[] |  |
@@ -3690,7 +3691,6 @@ Base class: ClientObject
 | **EnableSensitivityLabelForPDF** | bool |  |
 | **EnableSiteArchive** | bool |  |
 | **EnableTenantRestrictionsInsights** | bool |  |
-| **EnableVersionExpirationSetting** | bool |  |
 | **ESignatureAppList** | IEnumerable\<string\> |  |
 | **ESignatureEnabled** | bool |  |
 | **ESignatureSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
@@ -4062,7 +4062,6 @@ Base class: ClientObject
 | **IsMnACmdletCorrectnessCheckEnabled()** | ClientResult\<bool\> |  |
 | **IsMnALicensingEnabledForTenant(MnALicenseType licenseType, string partnerMySiteHostUrl)** | ClientResult\<bool\> |  |
 | **IsMnALicensingEnabledForUser(string sourceUserUPN, string targetUserUPN, string partnerMySiteHostUrl)** | ClientResult\<MnAUserLicenseCheckResult\> |  |
-| **IsMnALicensingFlightEnabled()** | ClientResult\<bool\> |  |
 | **IsOfficeFontLibraryOrgAssetFlightEnabled(OrgAssetType orgAssetType)** | void |  |
 | **IsTenantReadyForIdentityChange()** | ClientResult\<bool\> |  |
 | **IsValidCommSite(string spSiteUrl)** | ClientResult\<bool\> |  |
@@ -4583,6 +4582,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **DisableAddToOneDrive** | string |  |
 | **DisableBackToClassic** | string |  |
 | **DisableCustomAppAuthentication** | string |  |
+| **DisabledAdaptiveCardExtensionIds** | string |  |
 | **DisabledModernListTemplateIds** | string |  |
 | **DisableDocumentLibraryDefaultLabeling** | string |  |
 | **DisabledWebPartIds** | string |  |
@@ -4618,7 +4618,6 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **EnableSensitivityLabelForPDF** | string |  |
 | **EnableSiteArchive** | string |  |
 | **EnableTenantRestrictionsInsights** | string |  |
-| **EnableVersionExpirationSetting** | string |  |
 | **ESignatureAppList** | string |  |
 | **ESignatureEnabled** | string |  |
 | **ESignatureSiteInfoList** | string |  |
@@ -6204,7 +6203,6 @@ Base class: ClientObject
 | **EnableGuestSignInAcceleration** | bool |  |
 | **EnablePromotedFileHandlers** | bool |  |
 | **EnableRestrictedAccessControl** | bool |  |
-| **EnableVersionExpirationSetting** | bool |  |
 | **ESignatureAppList** | IEnumerable\<string\> |  |
 | **ESignatureEnabled** | bool |  |
 | **ESignatureSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
@@ -6472,7 +6470,6 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **EnableGuestSignInAcceleration** | string |  |
 | **EnablePromotedFileHandlers** | string |  |
 | **EnableRestrictedAccessControl** | string |  |
-| **EnableVersionExpirationSetting** | string |  |
 | **ESignatureAppList** | string |  |
 | **ESignatureEnabled** | string |  |
 | **ESignatureSiteInfoList** | string |  |
