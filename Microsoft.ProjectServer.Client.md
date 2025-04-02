@@ -1,7 +1,7 @@
 # Microsoft.ProjectServer.Client.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-01-13
+[mddox](https://github.com/loxsmoke/mddox) on 2025-04-02
 
 # All types
 
@@ -166,6 +166,7 @@ Base class: ClientObject
 | **StartVariance** | string |  |
 | **StartVarianceTimeSpan** | TimeSpan |  |
 | **Stop** | DateTime |  |
+| **TimephasedAssignmentModCounter** | int |  |
 | **WorkContourType** | [WorkContourType](#workcontourtype-enum) |  |
 | **WorkVariance** | string |  |
 | **WorkVarianceTimeSpan** | TimeSpan |  |
@@ -261,6 +262,7 @@ Namespace: Microsoft.ProjectServer.Client
 | **StartVariance** | string |  |
 | **StartVarianceTimeSpan** | string |  |
 | **Stop** | string |  |
+| **TimephasedAssignmentModCounter** | string |  |
 | **WorkContourType** | string |  |
 | **WorkVariance** | string |  |
 | **WorkVarianceTimeSpan** | string |  |
@@ -1117,6 +1119,7 @@ Base class: [Assignment](#assignment-class)
 | **StartVariance** | string |  |
 | **StartVarianceTimeSpan** | TimeSpan |  |
 | **Stop** | DateTime |  |
+| **TimephasedAssignmentModCounter** | int |  |
 | **WorkContourType** | [WorkContourType](#workcontourtype-enum) |  |
 | **WorkVariance** | string |  |
 | **WorkVarianceTimeSpan** | TimeSpan |  |
@@ -5353,6 +5356,7 @@ Base class: [Assignment](#assignment-class)
 | **StartVariance** | string |  |
 | **StartVarianceTimeSpan** | TimeSpan |  |
 | **Stop** | DateTime |  |
+| **TimephasedAssignmentModCounter** | int |  |
 | **WorkContourType** | [WorkContourType](#workcontourtype-enum) |  |
 | **WorkVariance** | string |  |
 | **WorkVarianceTimeSpan** | TimeSpan |  |
