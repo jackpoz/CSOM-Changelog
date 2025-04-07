@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Publishing.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-04-02
+[mddox](https://github.com/loxsmoke/mddox) on 2025-04-07
 
 # All types
 
@@ -1696,6 +1696,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **AuthoringSchemaFeatureVersions** | IList\<[AuthoringSchemaFeatureVersion](#authoringschemafeatureversion-class)\> |  |
 | **ForceCheckin** | bool |  |
+| **ForceFlushOpStream** | bool |  |
 | **IsUserConsentProvidedForModerationStatus** | bool |  |
 | **TypeId** | string |  |
 ## Methods

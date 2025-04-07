@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-04-02
+[mddox](https://github.com/loxsmoke/mddox) on 2025-04-07
 
 # All types
 
@@ -355,14 +355,12 @@ Base class: ClientObject
 | Name | Summary |
 |---|---|
 | **PolicyStoreFactory(ClientRuntimeContext context, ObjectPath objectPath)** |  |
-| **PolicyStoreFactory(ClientRuntimeContext context, Web spWeb, PolicyFactoryCaller factoryCaller, bool initializeWithUrl)** |  |
 ## Methods
 
 | Name | Returns | Summary |
 |---|---|---|
 | **GetComplianceTags()** | IEnumerable\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetPolicyRule(Guid policyRuleId, bool throwIfNull)** | [SPPolicyRule](#sppolicyrule-class) |  |
-| **UpdatePolicyEvent(SPPolicyEvent policyEvent)** | void |  |
 # PolicyTipOverrideResult Enum
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
@@ -866,6 +864,7 @@ Base class: ClientObject
 |---|---|---|
 | **ActivateHoldFeatureOnSite(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **AddRetentionWorkItemOnSite(ClientRuntimeContext context, string siteId)** | ClientResult\<bool\> |  |
+| **AddRetentionWorkItemOnSiteV2(ClientRuntimeContext context, string siteId, string workItemPriority)** | ClientResult\<bool\> |  |
 | **ApplyDlpActions(ClientRuntimeContext context, string itemUrl, string actionsPayload)** | void |  |
 | **BulkUpdateDynamicScopeBindings(string[] scopesToAdd, string[] scopesToRemove, string siteId)** | void |  |
 | **ExtendReviewItemsRetention(int[] itemIds, DateTime extensionDate)** | ClientArrayResult\<int\> |  |
