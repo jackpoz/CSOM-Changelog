@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Runtime.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-04-07
+[mddox](https://github.com/loxsmoke/mddox) on 2025-05-12
 
 # All types
 

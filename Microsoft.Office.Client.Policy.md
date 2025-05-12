@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-04-07
+[mddox](https://github.com/loxsmoke/mddox) on 2025-05-12
 
 # All types
 
@@ -863,13 +863,16 @@ Base class: ClientObject
 | Name | Returns | Summary |
 |---|---|---|
 | **ActivateHoldFeatureOnSite(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
+| **ActivateHoldFeatureOnSiteV2(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **AddRetentionWorkItemOnSite(ClientRuntimeContext context, string siteId)** | ClientResult\<bool\> |  |
 | **AddRetentionWorkItemOnSiteV2(ClientRuntimeContext context, string siteId, string workItemPriority)** | ClientResult\<bool\> |  |
+| **AddRetentionWorkItemOnSiteV3(ClientRuntimeContext context, string siteId)** | ClientResult\<bool\> |  |
 | **ApplyDlpActions(ClientRuntimeContext context, string itemUrl, string actionsPayload)** | void |  |
 | **BulkUpdateDynamicScopeBindings(string[] scopesToAdd, string[] scopesToRemove, string siteId)** | void |  |
 | **ExtendReviewItemsRetention(int[] itemIds, DateTime extensionDate)** | ClientArrayResult\<int\> |  |
 | **FindAlternativeScope(ClientRuntimeContext context, Guid tenantId, string scope)** | ClientResult\<string\> |  |
 | **FindPolicyScopeById(ClientRuntimeContext context, Guid tenantId, Guid scopeId)** | ClientResult\<string\> |  |
+| **FindPolicyScopeByIdV2(ClientRuntimeContext context, Guid tenantId, Guid scopeId)** | ClientResult\<string\> |  |
 | **GetAdvancedRecordVersioningDisabled(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetAllowFilesWithKeepLabelToBeDeletedODB(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetAllowFilesWithKeepLabelToBeDeletedSPO(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
@@ -878,22 +881,31 @@ Base class: ClientObject
 | **GetDynamicScopeBindingBySiteId(string siteId)** | IList\<string\> |  |
 | **GetExpandFileVersionsInPHLEnabled(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetHoldGracePeriodInDays(ClientRuntimeContext context)** | ClientResult\<int\> |  |
+| **GetHoldGracePeriodInDaysV2(ClientRuntimeContext context)** | ClientResult\<int\> |  |
 | **GetListComplianceTag(ClientRuntimeContext context, string listUrl)** | ClientResult\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetMetadataEditBlockingEnabled(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetPendingReviewItemsStatistics()** | ClientResult\<IDictionary\<string, [PendingReviewItemsStatistics](#pendingreviewitemsstatistics-class)\>\> |  |
 | **GetPolicyEvaluationInfo(ClientRuntimeContext context, string itemUrl, PolicyScenario policyScenario, PolicyEvaluationInfoEnums infos)** | [PolicyEvaluationInfo](#policyevaluationinfo-class) |  |
 | **GetSiteAdaptivePolicies(string siteId)** | IEnumerable\<string\> |  |
+| **GetSiteAdaptivePoliciesV2(string siteId)** | IEnumerable\<string\> |  |
 | **GetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName)** | ClientResult\<string\> |  |
+| **GetSiteCompliancePolicyPropertyV2(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName)** | ClientResult\<string\> |  |
+| **GetSiteSubscriptionPropertyV2(ClientRuntimeContext context, Guid tenantId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSubstrateAzureConnection(ClientRuntimeContext context, string siteUrl, string siteId)** | ClientResult\<string\> |  |
 | **GetTenantAndSiteHoldsApplicableForSite(ClientRuntimeContext context, string siteId)** | ClientResult\<string\> |  |
+| **GetTenantAndSiteHoldsApplicableForSiteV2(ClientRuntimeContext context, string siteId)** | ClientResult\<string\> |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
 | **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
 | **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
 | **RegisterSiteHoldEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
+| **RegisterSiteHoldEventReceiverV2(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **RegisterSiteItemDeleteEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
+| **RegisterSiteItemDeleteEventReceiverV2(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **RegisterSiteSubscriptionEventReceiver(ClientRuntimeContext context, Guid tenantId)** | void |  |
+| **RegisterSiteSubscriptionEventReceiverV2(ClientRuntimeContext context, Guid tenantId)** | void |  |
 | **RegisterSiteSubscriptionItemDeleteEventReceiver(ClientRuntimeContext context, Guid tenantId)** | void |  |
+| **RegisterSiteSubscriptionItemDeleteEventReceiverV2(ClientRuntimeContext context, Guid tenantId)** | void |  |
 | **RemoveContainerRetentionPolicy(string siteId)** | void |  |
 | **RemoveContainerSettings(string[] externalId)** | void |  |
 | **RetagReviewItems(int[] itemIds, string newTag, bool newTagIsRecord, bool newTagBlockDelete, bool newTagIsEventBased)** | ClientArrayResult\<int\> |  |
@@ -909,11 +921,15 @@ Base class: ClientObject
 | **SetListComplianceTagWithMetaInfo(ClientRuntimeContext context, string listUrl, string complianceTagValue, bool blockDelete, bool blockEdit, DateTime complianceTagWrittenTime, string userEmailAddress, bool syncToItems)** | void |  |
 | **SetMetadataEditBlockingEnabled(ClientRuntimeContext context, bool enabled)** | void |  |
 | **SetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName, string propertyValue)** | void |  |
+| **SetSiteCompliancePolicyPropertyV2(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName, string propertyValue)** | void |  |
 | **SetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName, string propertyValue)** | void |  |
+| **SetSiteSubscriptionPropertyV2(ClientRuntimeContext context, Guid tenantId, string propertyName, string propertyValue)** | void |  |
 | **UnArchiveSite(ClientRuntimeContext context, string siteUrl)** | ClientResult\<bool\> |  |
 | **UnRegisterHoldEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
+| **UnRegisterHoldEventReceiverV2(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **UpdateContainerSetting(string siteId, string externalId, int settingType, string setting)** | void |  |
 | **UpdateSiteAdaptivePolicies(string[] policiesToAdd, string[] policiesToRemove, string siteId)** | void |  |
+| **UpdateSiteAdaptivePoliciesV2(string[] policiesToAdd, string[] policiesToRemove, string siteId)** | void |  |
 # SPPolicyStoreProxyPropertyNames Class
 
 Namespace: Microsoft.SharePoint.Client.CompliancePolicy
