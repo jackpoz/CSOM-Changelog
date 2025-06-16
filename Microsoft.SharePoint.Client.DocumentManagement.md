@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.DocumentManagement.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-05-12
+[mddox](https://github.com/loxsmoke/mddox) on 2025-06-16
 
 # All types
 

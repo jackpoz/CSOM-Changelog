@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Search.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-05-12
+[mddox](https://github.com/loxsmoke/mddox) on 2025-06-16
 
 # All types
 
@@ -1020,7 +1020,7 @@ Base class: ClientObject
 |---|---|---|
 | **DeleteAllCloudHybridSearchContent()** | ClientResult\<long\> |  |
 | **GetPushServiceInfo()** | [PushTenantServiceInfo](#pushtenantserviceinfo-class) |  |
-| **GetSPOTanantInfo()** | [PushTenantServiceInfo](#pushtenantserviceinfo-class) |  |
+| **GetSPOTenantInfo()** | [PushTenantServiceInfo](#pushtenantserviceinfo-class) |  |
 | **GetTenantInfo()** | [PushTenantServiceInfo](#pushtenantserviceinfo-class) |  |
 | **PreparePushTenant()** | void |  |
 # PushTenantServiceInfo Class
