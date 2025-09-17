@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Publishing.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-08-11
+[mddox](https://github.com/loxsmoke/mddox) on 2025-09-17
 
 # All types
 
@@ -89,6 +89,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **DestinationURL** | string |  |
 | **ErrorCode** | int |  |
+| **Errors** | IList\<[ClientAmplifyResult](#clientamplifyresult-class)\> |  |
 | **Status** | [PublishingStatus](#publishingstatus-enum) |  |
 | **TypeId** | string |  |
 ## Methods
@@ -325,8 +326,12 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **DestinationPageId** | string |  |
+| **DestinationPageUniqueId** | string |  |
 | **DestinationPageURL** | string |  |
+| **DestinationPageVersion** | string |  |
 | **ErrorCode** | int |  |
+| **Errors** | IList\<[ClientAmplifyResult](#clientamplifyresult-class)\> |  |
 | **Status** | [PublishingStatus](#publishingstatus-enum) |  |
 | **TypeId** | string |  |
 ## Methods
@@ -368,6 +373,7 @@ Base class: ClientValueObject
 | **AudienceId** | string |  |
 | **ErrorCode** | int |  |
 | **ErrorMessage** | string |  |
+| **Errors** | IList\<[ClientAmplifyResult](#clientamplifyresult-class)\> |  |
 | **HttpStatusCode** | int |  |
 | **Status** | [PublishingStatus](#publishingstatus-enum) |  |
 | **TypeId** | string |  |
@@ -439,6 +445,7 @@ Base class: ClientValueObject
 | **DestinationId** | string |  |
 | **ErrorCode** | int |  |
 | **ErrorMessage** | string |  |
+| **Errors** | IList\<[ClientAmplifyResult](#clientamplifyresult-class)\> |  |
 | **Status** | [PublishingStatus](#publishingstatus-enum) |  |
 | **TypeId** | string |  |
 ## Methods

@@ -1,7 +1,7 @@
 # Microsoft.Office.SharePoint.Tools.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-08-11
+[mddox](https://github.com/loxsmoke/mddox) on 2025-09-17
 
 # All types
 
