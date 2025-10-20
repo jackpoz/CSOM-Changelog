@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Publishing.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-09-17
+[mddox](https://github.com/loxsmoke/mddox) on 2025-10-20
 
 # All types
 
@@ -54,7 +54,7 @@ Created by
 | [PublishingPageInformation Class](#publishingpageinformation-class) | [VideoChannelPropertyNames Class](#videochannelpropertynames-class) | [PortalLaunchWave Class](#portallaunchwave-class) |
 | [PublishingSite Class](#publishingsite-class) | [VideoCollection Class](#videocollection-class) | [PortalLaunchWaveGroup Class](#portallaunchwavegroup-class) |
 | [PublishingWeb Class](#publishingweb-class) | [VideoItem Class](#videoitem-class) | [PortalLaunchWaveSetup Class](#portallaunchwavesetup-class) |
-| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) |   |
+| [PublishingWebObjectPropertyNames Class](#publishingwebobjectpropertynames-class) | [VideoItemObjectPropertyNames Class](#videoitemobjectpropertynames-class) | [SharePointIds Class](#sharepointids-class) |
 # AmplifiedChannels Class
 
 Namespace: Microsoft.SharePoint.Client
@@ -3283,6 +3283,27 @@ Base class: ClientValueObject
 | **Status** | [PortalLaunchStatus](#portallaunchstatus-enum) |  |
 | **WaveOverrideUsers** | string |  |
 | **Waves** | IList\<[PortalLaunchWave](#portallaunchwave-class)\> |  |
+| **TypeId** | string |  |
+## Methods
+
+| Name | Returns | Summary |
+|---|---|---|
+| **WriteToXml(XmlWriter writer, SerializationContext serializationContext)** | void |  |
+# SharePointIds Class
+
+Namespace: Microsoft.SharePoint.Publishing.Campaigns.Models
+
+Base class: ClientValueObject
+
+
+## Properties
+
+| Name | Type | Summary |
+|---|---|---|
+| **listId** | Guid |  |
+| **siteId** | Guid |  |
+| **uniqueId** | Guid |  |
+| **webId** | Guid |  |
 | **TypeId** | string |  |
 ## Methods
 
