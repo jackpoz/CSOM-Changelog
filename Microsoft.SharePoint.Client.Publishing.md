@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Publishing.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-10-20
+[mddox](https://github.com/loxsmoke/mddox) on 2025-11-20
 
 # All types
 
@@ -225,6 +225,7 @@ Base class: ClientValueObject
 | Name | Type | Summary |
 |---|---|---|
 | **EmailPublishingStatus** | [EmailPublishingStatus](#emailpublishingstatus-class) |  |
+| **Errors** | IList\<[ClientAmplifyResult](#clientamplifyresult-class)\> |  |
 | **LastTriedAt** | DateTime |  |
 | **PrePublishValidationErrorCode** | int |  |
 | **PublishingStatus** | [PublishingStatus](#publishingstatus-enum) |  |

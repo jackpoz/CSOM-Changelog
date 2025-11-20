@@ -1,7 +1,7 @@
 # Microsoft.Online.SharePoint.Client.Tenant.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-10-20
+[mddox](https://github.com/loxsmoke/mddox) on 2025-11-20
 
 # All types
 
@@ -938,6 +938,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **NoSites** |  |
 | **AllSites** |  |
 | **ExcludeSelectedSites** |  |
+| **IncludeSelectedSites** |  |
 # MonthlyUsage Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -1596,10 +1597,13 @@ Base class: ClientObject
 | **MajorVersionLimit** | int |  |
 | **MajorWithMinorVersionsLimit** | int |  |
 | **MediaTranscription** | [MediaTranscriptionPolicyType](#mediatranscriptionpolicytype-enum) |  |
+| **OrganizationLinkMaxExpirationInDays** | int |  |
+| **OrganizationLinkRecommendedExpirationInDays** | int |  |
 | **OverrideBlockUserInfoVisibility** | [SiteUserInfoVisibilityPolicyValue](#siteuserinfovisibilitypolicyvalue-enum) |  |
 | **OverrideSharingCapability** | bool |  |
 | **OverrideTenantAnonymousLinkExpirationPolicy** | bool |  |
 | **OverrideTenantExternalUserExpirationPolicy** | bool |  |
+| **OverrideTenantOrganizationLinkExpirationPolicy** | bool |  |
 | **Owner** | string |  |
 | **OwnerEmail** | string |  |
 | **OwnerLoginName** | string |  |
@@ -1756,10 +1760,13 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **MajorVersionLimit** | string |  |
 | **MajorWithMinorVersionsLimit** | string |  |
 | **MediaTranscription** | string |  |
+| **OrganizationLinkMaxExpirationInDays** | string |  |
+| **OrganizationLinkRecommendedExpirationInDays** | string |  |
 | **OverrideBlockUserInfoVisibility** | string |  |
 | **OverrideSharingCapability** | string |  |
 | **OverrideTenantAnonymousLinkExpirationPolicy** | string |  |
 | **OverrideTenantExternalUserExpirationPolicy** | string |  |
+| **OverrideTenantOrganizationLinkExpirationPolicy** | string |  |
 | **Owner** | string |  |
 | **OwnerEmail** | string |  |
 | **OwnerLoginName** | string |  |
@@ -2092,6 +2099,7 @@ Base class: ClientValueObject
 | **Readers** | IList\<string\> |  |
 | **ReadOnlyForBlockDownloadPolicy** | bool |  |
 | **ReadOnlyForUnmanagedDevices** | bool |  |
+| **RestrictContentOrgWideSearch** | bool |  |
 | **SensitivityLabel** | string |  |
 | **SharingAllowedDomainList** | string |  |
 | **SharingBlockedDomainList** | string |  |
@@ -2691,7 +2699,9 @@ Base class: ClientValueObject
 
 | Name | Type | Summary |
 |---|---|---|
+| **AgentCreatedDate** | string |  |
 | **CopilotName** | string |  |
+| **CreatedBy** | string |  |
 | **ExternalSharing** | string |  |
 | **RestrictSiteAccessEnabled** | string |  |
 | **RestrictSiteDiscoveryEnabled** | string |  |
@@ -3594,6 +3604,7 @@ Base class: ClientValueObject
 | **IncludeDetail** | bool |  |
 | **IncludePersonalSite** | [PersonalSiteFilter](#personalsitefilter-enum) |  |
 | **IncludeSystemUserSite** | bool |  |
+| **IsAuthoritative** | bool |  |
 | **StartIndex** | string |  |
 | **Template** | string |  |
 | **TypeId** | string |  |
@@ -4095,6 +4106,7 @@ Base class: ClientObject
 
 | Name | Returns | Summary |
 |---|---|---|
+| **CheckIfKnowledgeAgentManagementIsAllowed(ClientRuntimeContext context, Site adminSite)** | void |  |
 | **CheckIfSyntexManagementIsAllowed(ClientRuntimeContext context, Site adminSite)** | ClientResult\<[SyntexCheckManagementAllowedResponse](#syntexcheckmanagementallowedresponse-class)\> |  |
 | **ConvertKnowledgeAgentScopeToTenantSettings(ClientRuntimeContext context, KnowledgeAgentFeatureScopeValue input, string parameterName)** | ClientResult\<[SyntexFeatureScopeSettingsValues](#syntexfeaturescopesettingsvalues-class)\> |  |
 | **ConvertScopeToTenantSettings(ClientRuntimeContext context, SyntexFeatureScopeValue input, string parameterName)** | ClientResult\<[SyntexFeatureScopeSettingsValues](#syntexfeaturescopesettingsvalues-class)\> |  |
@@ -4210,6 +4222,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **Enabled** | bool |  |
 | **FileName** | string |  |
+| **SiteScopingMode** | int |  |
 | **TypeId** | string |  |
 ## Methods
 
@@ -4411,6 +4424,8 @@ Base class: ClientObject
 | **CoreLoopDefaultSharingLinkRole** | Role |  |
 | **CoreLoopDefaultSharingLinkScope** | SharingScope |  |
 | **CoreLoopSharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
+| **CoreOrganizationSharingLinkMaxExpirationInDays** | int |  |
+| **CoreOrganizationSharingLinkRecommendedExpirationInDays** | int |  |
 | **CoreRequestFilesLinkEnabled** | bool |  |
 | **CoreRequestFilesLinkExpirationInDays** | int |  |
 | **CoreSharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
@@ -4527,6 +4542,7 @@ Base class: ClientObject
 | **IsVivaHomeGAFlightEnabled** | bool |  |
 | **IsWBFluidEnabled** | bool |  |
 | **KnowledgeAgentEnabled** | bool |  |
+| **KnowledgeAgentScopeMode** | KnowledgeAgentScopeMode |  |
 | **KnowledgeAgentSiteInfoList** | IEnumerable\<[SiteInfoForSitePicker](#siteinfoforsitepicker-class)\> |  |
 | **KnowledgeAgentSiteList** | IEnumerable\<Guid\> |  |
 | **KnowledgeAgentSiteListFileName** | string |  |
@@ -4575,6 +4591,8 @@ Base class: ClientObject
 | **OneDriveLoopDefaultSharingLinkRole** | Role |  |
 | **OneDriveLoopDefaultSharingLinkScope** | SharingScope |  |
 | **OneDriveLoopSharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
+| **OneDriveOrganizationSharingLinkMaxExpirationInDays** | int |  |
+| **OneDriveOrganizationSharingLinkRecommendedExpirationInDays** | int |  |
 | **OneDriveRequestFilesLinkEnabled** | bool |  |
 | **OneDriveRequestFilesLinkExpirationInDays** | int |  |
 | **OneDriveStorageQuota** | long |  |
@@ -4599,13 +4617,14 @@ Base class: ClientObject
 | **ReduceTempTokenLifetimeValue** | int |  |
 | **RequireAcceptingAccountMatchInvitedAccount** | bool |  |
 | **RequireAnonymousLinksExpireInDays** | int |  |
-| **RequireOrganizationLinksExpireInDays** | int |  |
 | **ResourceQuota** | double |  |
 | **ResourceQuotaAllocated** | double |  |
 | **RestrictedAccessControlForOneDriveErrorHelpLink** | string |  |
 | **RestrictedAccessControlforSitesErrorHelpLink** | string |  |
 | **RestrictedOneDriveLicense** | bool |  |
 | **RestrictedSharePointLicense** | bool |  |
+| **RestrictExternalSharing** | Guid[] |  |
+| **RestrictExternalSharingForAgents** | bool |  |
 | **RestrictResourceAccountAccess** | bool |  |
 | **RootSiteUrl** | string |  |
 | **SearchResolveExactEmailOrUPN** | bool |  |
@@ -4687,6 +4706,7 @@ Base class: ClientObject
 | **ActivateApplicationBillingPolicy(string billingPolicyId)** | ClientResult\<[SPOAppBillingProperties](#spoappbillingproperties-class)\> |  |
 | **AddBlockedPageCreationContentType(TemplateFileType contentType)** | void |  |
 | **AddBrandTenantFontPackage(TenantFontPackageCreationParameters tenantFontPackageCreationParams)** | [TenantFontPackage](#tenantfontpackage-class) |  |
+| **AddCompanyHomeSite(string homeSiteUrl, int order, Guid[] audiences)** | ClientResult\<TargetedSiteDetails\> |  |
 | **AddContentEventsCustomEmails(ContentEventCategory category, IList\<string\> customEmails)** | void |  |
 | **AddHomeSite(string homeSiteUrl, int order, Guid[] audiences)** | ClientResult\<TargetedSiteDetails\> |  |
 | **AddOrUpdateTenantIdentityMap(string[] mapItems)** | IList\<string\> |  |
@@ -4703,6 +4723,7 @@ Base class: ClientObject
 | **AddTenantOdbFeature(IList\<string\> userPrincipleNames, FeatureScope scope, IList\<Guid\> featureIds)** | ClientObjectList\<[SPOTenantOdbFeature](#spotenantodbfeature-class)\> |  |
 | **AddTenantSingleUserOdbFeature(string userPrincipleName, FeatureScope scope, IList\<Guid\> featureIds)** | ClientObjectList\<[SPOTenantOdbFeature](#spotenantodbfeature-class)\> |  |
 | **AddTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
+| **AddTenantThemeAdvanced(string name, string themeJson, bool shouldParseColorPair)** | ClientResult\<bool\> |  |
 | **AddToOrgAssetsLibAndCdn(SPOTenantCdnType cdnType, string libUrl, string thumbnailUrl)** | void |  |
 | **AddToOrgAssetsLibAndCdnV2(SPOTenantCdnType cdnType, string libUrl, string thumbnailUrl, OrgAssetType orgAssetType, bool defaultOriginAdded)** | void |  |
 | **AddToOrgAssetsLibAndCdnWithType(SPOTenantCdnType cdnType, string libUrl, string thumbnailUrl, OrgAssetType orgAssetType)** | void |  |
@@ -4753,6 +4774,7 @@ Base class: ClientObject
 | **GetBlockedPageCreationContentTypes()** | IList\<TemplateFileType\> |  |
 | **GetBrandTenantFontPackageById(Guid fontPackageID)** | [TenantFontPackage](#tenantfontpackage-class) |  |
 | **GetBrandTenantFontPackages()** | ClientObjectList\<[TenantFontPackage](#tenantfontpackage-class)\> |  |
+| **GetContainerTypeExists(SPContainerTypeBillingClassification billingType)** | ClientResult\<bool\> |  |
 | **GetContentEventCategories()** | IList\<string\> |  |
 | **GetContentEventsCustomEmails(ContentEventCategory category)** | IList\<SPContentEventsCustomEmailProperty\> |  |
 | **GetContentSecurityPolicy()** | [SPOContentSecurityPolicyConfiguration](#spocontentsecuritypolicyconfiguration-class) |  |
@@ -4762,6 +4784,7 @@ Base class: ClientObject
 | **GetDeletedSiteProperties(int startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
 | **GetDeletedSitePropertiesByUrl(string siteUrl)** | [DeletedSiteProperties](#deletedsiteproperties-class) |  |
 | **GetDeletedSitePropertiesFromSharePoint(string startIndex)** | [SPODeletedSitePropertiesEnumerable](#spodeletedsitepropertiesenumerable-class) |  |
+| **GetFileRequestBrandingProfiles()** | ClientResult\<FileRequestBrandingAssetConfig\> |  |
 | **GetFileSensitivityLabelInfo(string fileUrl)** | [FileSensitivityLabelInfo](#filesensitivitylabelinfo-class) |  |
 | **GetFileVersionBatchDeleteJobProgress(string siteUrl)** | ClientResult\<string\> |  |
 | **GetFileVersionBatchDeleteJobProgressForLibrary(string siteUrl, SPOListParameters listParams)** | ClientResult\<[SPOFileVersionBatchDeleteJobProgress](#spofileversionbatchdeletejobprogress-class)\> |  |
@@ -4893,6 +4916,7 @@ Base class: ClientObject
 | **RemoveContentEventsCustomEmails(ContentEventCategory category, IList\<string\> customEmails)** | void |  |
 | **RemoveDeletedSite(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveDeletedSitePreferId(string siteUrl, Guid siteId)** | [SpoOperation](#spooperation-class) |  |
+| **RemoveFileRequestBrandingProfile(BrandingProfileType profileType)** | void |  |
 | **RemoveFileTypeVersionPolicy(string[] fileTypes)** | void |  |
 | **RemoveFileTypeVersionPolicyForLibrary(string siteUrl, SPOListParameters listParams, string[] fileTypes)** | [SpoOperation](#spooperation-class) |  |
 | **RemoveFileVersionBatchDeleteJob(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
@@ -4934,6 +4958,7 @@ Base class: ClientObject
 | **RevokeHubSiteRights(string hubSiteUrl, string[] principals)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **RevokeHubSiteRightsById(Guid hubSiteId, string[] principals)** | [HubSiteProperties](#hubsiteproperties-class) |  |
 | **RevokeSiteDesignRights(ClientRuntimeContext context, Guid id, string[] principalNames)** | void |  |
+| **SaveFileRequestBrandingAssetConfig(string assetLibraryUrl, string logoFileUrl, string backgroundFileUrl, BrandingProfileType profileType)** | void |  |
 | **SavePortalLaunchWaves(string portalLaunchWaveSetupString, bool isTesting, bool changeConfirmed)** | [SPOPortalLaunchValidationResult](#spoportallaunchvalidationresult-class) |  |
 | **SetBlockDownloadFileTypePolicyData(bool blockDownloadFileTypePolicy, SPBlockDownloadFileTypeId[] typeId, Guid[] excludedBlockDownloadGroupIds)** | void |  |
 | **SetBlockDownloadFileTypePolicyExclusionList(Guid[] excludedBlockDownloadGroupIds)** | void |  |
@@ -4980,6 +5005,7 @@ Base class: ClientObject
 | **SwapSite(string sourceUrl, string targetUrl, string archiveUrl)** | [SpoOperation](#spooperation-class) |  |
 | **SwapSiteWithSmartGestureOption(string sourceUrl, string targetUrl, string archiveUrl, bool includeSmartGestures)** | [SpoOperation](#spooperation-class) |  |
 | **SwapSiteWithSmartGestureOptionForce(string sourceUrl, string targetUrl, string archiveUrl, bool includeSmartGestures, bool force)** | [SpoOperation](#spooperation-class) |  |
+| **SwitchFileRequestBrandingProfiles()** | void |  |
 | **SyncAadB2BManagementPolicy()** | void |  |
 | **SyncVersionPolicyForLibrary(string siteUrl, SPOListParameters listParams, string[] fileTypes, bool excludeDefaultPolicy)** | [SpoOperation](#spooperation-class) |  |
 | **UnarchiveSiteById(Guid siteId)** | [SpoOperation](#spooperation-class) |  |
@@ -4994,6 +5020,7 @@ Base class: ClientObject
 | **UpdateSiteScriptPackage(TenantSiteScript updateInfo)** | [TenantSiteScript](#tenantsitescript-class) |  |
 | **UpdateTargetedSite(string siteUrl, HomeSiteConfigurationParam configurationParam)** | ClientResult\<TargetedSiteDetails\> |  |
 | **UpdateTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
+| **UpdateTenantThemeAdvanced(string name, string themeJson, bool shouldParseColorPair)** | ClientResult\<bool\> |  |
 | **UpdateUserTypeFromAzureAD(string siteUrl, string loginName)** | User |  |
 | **UpdateUserTypeFromAzureADForAllSites(string loginName)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **UpdateUserTypesFromAzureADForSite(string siteUrl)** | ClientObjectList\<User\> |  |
@@ -5395,6 +5422,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **CoreLoopDefaultSharingLinkRole** | string |  |
 | **CoreLoopDefaultSharingLinkScope** | string |  |
 | **CoreLoopSharingCapability** | string |  |
+| **CoreOrganizationSharingLinkMaxExpirationInDays** | string |  |
+| **CoreOrganizationSharingLinkRecommendedExpirationInDays** | string |  |
 | **CoreRequestFilesLinkEnabled** | string |  |
 | **CoreRequestFilesLinkExpirationInDays** | string |  |
 | **CoreSharingCapability** | string |  |
@@ -5511,6 +5540,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **IsVivaHomeGAFlightEnabled** | string |  |
 | **IsWBFluidEnabled** | string |  |
 | **KnowledgeAgentEnabled** | string |  |
+| **KnowledgeAgentScopeMode** | string |  |
 | **KnowledgeAgentSiteInfoList** | string |  |
 | **KnowledgeAgentSiteList** | string |  |
 | **KnowledgeAgentSiteListFileName** | string |  |
@@ -5559,6 +5589,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **OneDriveLoopDefaultSharingLinkRole** | string |  |
 | **OneDriveLoopDefaultSharingLinkScope** | string |  |
 | **OneDriveLoopSharingCapability** | string |  |
+| **OneDriveOrganizationSharingLinkMaxExpirationInDays** | string |  |
+| **OneDriveOrganizationSharingLinkRecommendedExpirationInDays** | string |  |
 | **OneDriveRequestFilesLinkEnabled** | string |  |
 | **OneDriveRequestFilesLinkExpirationInDays** | string |  |
 | **OneDriveStorageQuota** | string |  |
@@ -5583,13 +5615,14 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ReduceTempTokenLifetimeValue** | string |  |
 | **RequireAcceptingAccountMatchInvitedAccount** | string |  |
 | **RequireAnonymousLinksExpireInDays** | string |  |
-| **RequireOrganizationLinksExpireInDays** | string |  |
 | **ResourceQuota** | string |  |
 | **ResourceQuotaAllocated** | string |  |
 | **RestrictedAccessControlForOneDriveErrorHelpLink** | string |  |
 | **RestrictedAccessControlforSitesErrorHelpLink** | string |  |
 | **RestrictedOneDriveLicense** | string |  |
 | **RestrictedSharePointLicense** | string |  |
+| **RestrictExternalSharing** | string |  |
+| **RestrictExternalSharingForAgents** | string |  |
 | **RestrictResourceAccountAccess** | string |  |
 | **RootSiteUrl** | string |  |
 | **SearchResolveExactEmailOrUPN** | string |  |
@@ -7126,7 +7159,6 @@ Base class: ClientObject
 | **ReduceTempTokenLifetimeEnabled** | bool |  |
 | **ReduceTempTokenLifetimeValue** | int |  |
 | **RequireAnonymousLinksExpireInDays** | int |  |
-| **RequireOrganizationLinksExpireInDays** | int |  |
 | **RestrictedAccessControlForOneDriveErrorHelpLink** | string |  |
 | **RestrictedAccessControlforSitesErrorHelpLink** | string |  |
 | **SearchResolveExactEmailOrUPN** | bool |  |
@@ -7189,7 +7221,7 @@ Base class: ClientObject
 | **AddPublicCdnOrigin(string origin)** | void |  |
 | **AddSdnProvider(string identifier, string license)** | void |  |
 | **AddTenantCdnOrigin(SPOTenantCdnType cdnType, string originUrl)** | void |  |
-| **AddTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
+| **AddTenantTheme(string name, string themeJson, bool shouldParseColorPair)** | ClientResult\<bool\> |  |
 | **AddToOrgAssetsLibAndCdn(SPOTenantCdnType cdnType, ResourcePath libUrl, ResourcePath thumbnailUrl, OrgAssetType orgAssetType, bool defaultOriginAdded)** | void |  |
 | **AddToOrgAssetsWithConfig(SPOTenantCdnType cdnType, ResourcePath libUrl, ResourcePath thumbnailUrl, OrgAssetType orgAssetType, bool defaultOriginAdded, OrgAssetsLibraryConfigParam configParam)** | void |  |
 | **CreateGroupForSite(string siteUrl, string displayName, string alias, bool isPublic, GroupCreationParams optionalParams)** | void |  |
@@ -7234,7 +7266,7 @@ Base class: ClientObject
 | **SetTenantCdnEnabled(SPOTenantCdnType cdnType, bool isEnabled)** | void |  |
 | **SetTenantCdnPolicy(SPOTenantCdnType cdnType, SPOTenantCdnPolicyType policy, string policyValue)** | void |  |
 | **SyncAadB2BManagementPolicy()** | void |  |
-| **UpdateTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
+| **UpdateTenantTheme(string name, string themeJson, bool shouldParseColorPair)** | ClientResult\<bool\> |  |
 | **UploadCustomFontsAndCatalogLib(IList\<CustomFontsResource\> customFontFiles, ResourcePath libUrl)** | ClientResult\<bool\> |  |
 # Office365TenantPropertyNames Class
 
@@ -7396,7 +7428,6 @@ Namespace: Microsoft.Online.SharePoint.TenantManagement
 | **ReduceTempTokenLifetimeEnabled** | string |  |
 | **ReduceTempTokenLifetimeValue** | string |  |
 | **RequireAnonymousLinksExpireInDays** | string |  |
-| **RequireOrganizationLinksExpireInDays** | string |  |
 | **RestrictedAccessControlForOneDriveErrorHelpLink** | string |  |
 | **RestrictedAccessControlforSitesErrorHelpLink** | string |  |
 | **SearchResolveExactEmailOrUPN** | string |  |

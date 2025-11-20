@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Runtime.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-10-20
+[mddox](https://github.com/loxsmoke/mddox) on 2025-11-20
 
 # All types
 
@@ -1960,6 +1960,8 @@ Namespace: Microsoft.SharePoint.Client
 | **ETagNotMatch** | string |  |
 | **FileAlreadyExists** | string |  |
 | **FormsAuthenticationCannotLogin** | string |  |
+| **IdcrlGetAuthenticationCookieDeprecation** | string |  |
+| **InteractiveAuthFlowExceptionSPOC** | string |  |
 | **InvalidIdcrlHeader** | string |  |
 | **InvalidQueryExecution** | string |  |
 | **InvalidUsageOfConditionalScope** | string |  |
@@ -1998,6 +2000,7 @@ Namespace: Microsoft.SharePoint.Client
 | **NotSupportedQueryExpression** | string |  |
 | **NotSupportedQueryExpressionWithExpressionDetail** | string |  |
 | **NotSupportedQueryExpressionWithExpressionValue** | string |  |
+| **OAuthCouldNotRefresh** | string |  |
 | **ObjectNameIdentity** | string |  |
 | **ObjectNameMethod** | string |  |
 | **ObjectNameProperty** | string |  |
@@ -2011,9 +2014,11 @@ Namespace: Microsoft.SharePoint.Client
 | **RequestUnexpectedResponseWithContentTypeAndStatus** | string |  |
 | **RequestUnexpectedResponseWithStatus** | string |  |
 | **RequestUnknownResponse** | string |  |
+| **ResourceUriNullException** | string |  |
 | **ServerNotInFormsAuthenticationMode** | string |  |
 | **ServerObjectIsNull** | string |  |
 | **SharePointClientCredentialsNotSupported** | string |  |
+| **SilentTokenAcquisitionException** | string |  |
 | **UnknownError** | string |  |
 | **UnknownResponseData** | string |  |
 | **WriteBufferOverflow** | string |  |
