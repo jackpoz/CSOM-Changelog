@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Publishing.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-12-08
+[mddox](https://github.com/loxsmoke/mddox) on 2026-03-04
 
 # All types
 
@@ -669,7 +669,6 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **EndpointTeams** | string |  |
 | **EndpointVivaEngage** | string |  |
 | **EndpointYammer** | string |  |
-| **PublicationMetadata** | string |  |
 | **PublicationStatus** | [PublicationStatus](#publicationstatus-enum) |  |
 | **TypeId** | string |  |
 | **AuthorByline** | string[] |  |
@@ -688,6 +687,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
+| **PublicationMetadata** | string |  |
 | **PublishStartDate** | DateTime |  |
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
@@ -879,6 +879,7 @@ Base class: [RepostPageFieldsData](#repostpagefieldsdata-class)
 | **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
+| **PublicationMetadata** | string |  |
 | **PublishStartDate** | DateTime |  |
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
@@ -1118,6 +1119,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
+| **PublicationMetadata** | string |  |
 | **PublishStartDate** | DateTime |  |
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
@@ -1314,6 +1316,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
+| **PublicationMetadata** | string |  |
 | **PublishStartDate** | DateTime |  |
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
@@ -1467,6 +1470,7 @@ Base class: ClientValueObject
 | **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
+| **PublicationMetadata** | string |  |
 | **PublishStartDate** | DateTime |  |
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |
@@ -1930,6 +1934,7 @@ Base class: [SitePageFieldsData](#sitepagefieldsdata-class)
 | **HideListEditorMetadata** | string |  |
 | **LayoutWebpartsContent** | string |  |
 | **Modified** | DateTime |  |
+| **PublicationMetadata** | string |  |
 | **PublishStartDate** | DateTime |  |
 | **TeamsTranspileContent** | string |  |
 | **Title** | string |  |

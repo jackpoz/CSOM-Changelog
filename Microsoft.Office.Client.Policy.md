@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2025-12-08
+[mddox](https://github.com/loxsmoke/mddox) on 2026-03-04
 
 # All types
 
@@ -867,6 +867,7 @@ Base class: ClientObject
 | **AddRetentionWorkItemOnSite(ClientRuntimeContext context, string siteId)** | ClientResult\<bool\> |  |
 | **AddRetentionWorkItemOnSiteV2(ClientRuntimeContext context, string siteId, string workItemPriority)** | ClientResult\<bool\> |  |
 | **AddRetentionWorkItemOnSiteV3(ClientRuntimeContext context, string siteId)** | ClientResult\<bool\> |  |
+| **AddRetentionWorkItemOnSiteV4(ClientRuntimeContext context, string siteId, string restorePayload)** | ClientResult\<bool\> |  |
 | **ApplyDlpActions(ClientRuntimeContext context, string itemUrl, string actionsPayload)** | void |  |
 | **BulkUpdateDynamicScopeBindings(string[] scopesToAdd, string[] scopesToRemove, string siteId)** | void |  |
 | **ExtendReviewItemsRetention(int[] itemIds, DateTime extensionDate)** | ClientArrayResult\<int\> |  |
