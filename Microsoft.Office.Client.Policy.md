@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2026-03-04
+[mddox](https://github.com/loxsmoke/mddox) on 2026-03-16
 
 # All types
 
@@ -923,8 +923,10 @@ Base class: ClientObject
 | **SetMetadataEditBlockingEnabled(ClientRuntimeContext context, bool enabled)** | void |  |
 | **SetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName, string propertyValue)** | void |  |
 | **SetSiteCompliancePolicyPropertyV2(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName, string propertyValue)** | void |  |
+| **SetSiteCompliancePolicyPropertyV3(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName, string propertyValue)** | void |  |
 | **SetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName, string propertyValue)** | void |  |
 | **SetSiteSubscriptionPropertyV2(ClientRuntimeContext context, Guid tenantId, string propertyName, string propertyValue)** | void |  |
+| **SetSiteSubscriptionPropertyV3(ClientRuntimeContext context, string propertyName, string propertyValue)** | void |  |
 | **UnArchiveSite(ClientRuntimeContext context, string siteUrl)** | ClientResult\<bool\> |  |
 | **UnRegisterHoldEventReceiver(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
 | **UnRegisterHoldEventReceiverV2(ClientRuntimeContext context, string siteUrl, string siteId)** | void |  |
