@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Search.Applications.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2026-03-16
+[mddox](https://github.com/loxsmoke/mddox) on 2026-04-27
 
 # All types
 

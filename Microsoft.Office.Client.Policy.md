@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2026-03-16
+[mddox](https://github.com/loxsmoke/mddox) on 2026-04-27
 
 # All types
 
@@ -891,6 +891,7 @@ Base class: ClientObject
 | **GetSiteAdaptivePoliciesV2(string siteId)** | IEnumerable\<string\> |  |
 | **GetSiteCompliancePolicyProperty(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSiteCompliancePolicyPropertyV2(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName)** | ClientResult\<string\> |  |
+| **GetSiteCompliancePolicyPropertyV3(ClientRuntimeContext context, string siteUrl, string siteId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSiteSubscriptionProperty(ClientRuntimeContext context, Guid tenantId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSiteSubscriptionPropertyV2(ClientRuntimeContext context, Guid tenantId, string propertyName)** | ClientResult\<string\> |  |
 | **GetSubstrateAzureConnection(ClientRuntimeContext context, string siteUrl, string siteId)** | ClientResult\<string\> |  |
