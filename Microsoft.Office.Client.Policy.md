@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2026-05-18
+[mddox](https://github.com/loxsmoke/mddox) on 2026-06-23
 
 # All types
 
@@ -880,6 +880,7 @@ Base class: ClientObject
 | **GetAvailableTagsForSite(ClientRuntimeContext context, string siteUrl)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetAvailableTagsForSiteLabel(ClientRuntimeContext context)** | IList\<[ComplianceTag](#compliancetag-class)\> |  |
 | **GetDynamicScopeBindingBySiteId(string siteId)** | IList\<string\> |  |
+| **GetEnableM365ArchiveProperty(ClientRuntimeContext context, Guid tenantId)** | ClientResult\<bool\> |  |
 | **GetExpandFileVersionsInPHLEnabled(ClientRuntimeContext context)** | ClientResult\<bool\> |  |
 | **GetHoldGracePeriodInDays(ClientRuntimeContext context)** | ClientResult\<int\> |  |
 | **GetHoldGracePeriodInDaysV2(ClientRuntimeContext context)** | ClientResult\<int\> |  |

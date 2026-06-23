@@ -1,7 +1,7 @@
 # Microsoft.SharePoint.Client.Publishing.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2026-05-18
+[mddox](https://github.com/loxsmoke/mddox) on 2026-06-23
 
 # All types
 
@@ -850,6 +850,7 @@ Base class: ClientValueObject
 |---|---|---|
 | **DestinationId** | string |  |
 | **DestinationType** | [VivaEngageDestinationType](#vivaengagedestinationtype-enum) |  |
+| **DistributedDate** | DateTime |  |
 | **RawThreadId** | string |  |
 | **ThreadId** | string |  |
 | **ThreadStarterId** | string |  |
