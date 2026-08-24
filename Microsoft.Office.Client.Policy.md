@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2026-08-07
+[mddox](https://github.com/loxsmoke/mddox) on 2026-08-24
 
 # All types
 
@@ -824,6 +824,7 @@ Base class: ClientObject
 | **GetSPScsTenantEndPointInfo(string eopCorrelationId)** | [SPScsTenantEndPointInfo](#spscstenantendpointinfo-class) |  |
 | **NotifyUnifiedFileSyncForSPTenant(int syncFileType, Guid notificationId)** | ClientResult\<bool\> |  |
 | **NotifyUnifiedPolicySyncForLogicalWorkload(string notificationId, string syncSvcUrl, string[] changeInfos, bool syncNow, bool fullSyncForTenant, int workload)** | [SPSyncNotificationEndpointInfo](#spsyncnotificationendpointinfo-class) |  |
+| **SetDoNotEnforceTagPolicyHoldForVersions(string complianceTagName, bool value)** | void |  |
 | **UpdatePolicyAssociation(SPPolicyAssociation policyAssociation)** | void |  |
 | **UpdatePolicyBinding(SPPolicyBinding policyBinding)** | void |  |
 | **UpdatePolicyDefinition(SPPolicyDefinition policyDefinition)** | void |  |
@@ -898,6 +899,7 @@ Base class: ClientObject
 | **GetSubstrateAzureConnection(ClientRuntimeContext context, string siteUrl, string siteId)** | ClientResult\<string\> |  |
 | **GetTenantAndSiteHoldsApplicableForSite(ClientRuntimeContext context, string siteId)** | ClientResult\<string\> |  |
 | **GetTenantAndSiteHoldsApplicableForSiteV2(ClientRuntimeContext context, string siteId)** | ClientResult\<string\> |  |
+| **GetTenantRootSiteUrls()** | IList\<string\> |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
 | **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
 | **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
