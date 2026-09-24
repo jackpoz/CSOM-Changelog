@@ -1,7 +1,7 @@
 # Microsoft.Online.SharePoint.Client.Tenant.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2026-08-24
+[mddox](https://github.com/loxsmoke/mddox) on 2026-09-24
 
 # All types
 
@@ -1631,6 +1631,7 @@ Base class: ClientObject
 | **AllowSelfServiceUpgrade** | bool |  |
 | **AllowWebPropertyBagUpdateWhenDenyAddAndCustomizePagesIsEnabled** | bool |  |
 | **AnonymousLinkExpirationInDays** | int |  |
+| **AnyoneLinkRecommendedExpirationInDays** | int |  |
 | **ApplyToExistingDocumentLibraries** | bool |  |
 | **ApplyToNewDocumentLibraries** | bool |  |
 | **ArchivedBy** | string |  |
@@ -1796,6 +1797,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **AllowSelfServiceUpgrade** | string |  |
 | **AllowWebPropertyBagUpdateWhenDenyAddAndCustomizePagesIsEnabled** | string |  |
 | **AnonymousLinkExpirationInDays** | string |  |
+| **AnyoneLinkRecommendedExpirationInDays** | string |  |
 | **ApplyToExistingDocumentLibraries** | string |  |
 | **ApplyToNewDocumentLibraries** | string |  |
 | **ArchivedBy** | string |  |
@@ -2225,6 +2227,7 @@ Base class: ClientValueObject
 | **SharingBlockedDomainList** | string |  |
 | **SharingDomainRestrictionMode** | [SharingDomainRestrictionModes](#sharingdomainrestrictionmodes-enum) |  |
 | **Status** | string |  |
+| **StorageMaximumLevel** | long |  |
 | **StorageUsed** | long |  |
 | **TransferFromPrincipalOwnerIdentifier** | string |  |
 | **Writers** | IList\<string\> |  |
@@ -3388,7 +3391,9 @@ Base class: ClientValueObject
 | **AgentName** | string |  |
 | **AgentType** | string |  |
 | **AgentVersion** | string |  |
+| **Department** | string |  |
 | **ExternalSharing** | string |  |
+| **IncludeE7Fields** | bool |  |
 | **RequestVolume** | long |  |
 | **RestrictSiteAccessEnabled** | string |  |
 | **RestrictSiteDiscoveryEnabled** | string |  |
@@ -4829,6 +4834,8 @@ Base class: ClientObject
 | **ContentSecurityPolicyConfigSynced** | bool |  |
 | **ContentSecurityPolicyEnforcement** | bool |  |
 | **ContentTypeSyncSiteTemplatesList** | IEnumerable\<string\> |  |
+| **CoreAnyoneSharingLinkMaxExpirationInDays** | int |  |
+| **CoreAnyoneSharingLinkRecommendedExpirationInDays** | int |  |
 | **CoreBlockGuestsAsSiteAdmin** | SharingState |  |
 | **CoreDefaultLinkToExistingAccess** | bool |  |
 | **CoreDefaultShareLinkRole** | Role |  |
@@ -4845,6 +4852,7 @@ Base class: ClientObject
 | **CustomScriptsRestrictMode** | bool |  |
 | **DataverseUsageConsentEnabled** | bool |  |
 | **DefaultContentCenterSite** | [SiteInfoForSitePicker](#siteinfoforsitepicker-class) |  |
+| **DefaultLanguageForSiteCreation** | string |  |
 | **DefaultLinkPermission** | [SharingPermissionType](#sharingpermissiontype-enum) |  |
 | **DefaultODBMode** | string |  |
 | **DefaultSharingLinkType** | [SharingLinkType](#sharinglinktype-enum) |  |
@@ -4981,6 +4989,7 @@ Base class: ClientObject
 | **MassDeleteNotificationDisabled** | bool |  |
 | **MassDeleteNotificationDisabledForODB** | bool |  |
 | **MassDeleteNotificationDisabledForSPO** | bool |  |
+| **MaxSiteStorageQuotaMB** | long |  |
 | **MediaTranscription** | [MediaTranscriptionPolicyType](#mediatranscriptionpolicytype-enum) |  |
 | **MediaTranscriptionAutomaticFeatures** | [MediaTranscriptionAutomaticFeaturesPolicyType](#mediatranscriptionautomaticfeaturespolicytype-enum) |  |
 | **MobileFriendlyUrlEnabledInTenant** | bool |  |
@@ -5010,6 +5019,8 @@ Base class: ClientObject
 | **ODBSharingCapability** | [SharingCapabilities](#sharingcapabilities-enum) |  |
 | **ODBTranslationEnabled** | bool |  |
 | **OfficeClientADALDisabled** | bool |  |
+| **OneDriveAnyoneSharingLinkMaxExpirationInDays** | int |  |
+| **OneDriveAnyoneSharingLinkRecommendedExpirationInDays** | int |  |
 | **OneDriveBlockGuestsAsSiteAdmin** | SharingState |  |
 | **OneDriveDefaultLinkToExistingAccess** | bool |  |
 | **OneDriveDefaultShareLinkRole** | Role |  |
@@ -5102,6 +5113,7 @@ Base class: ClientObject
 | **TranslationSiteList** | IEnumerable\<Guid\> |  |
 | **TranslationSiteListFileName** | string |  |
 | **UniversalAnnotationDisabled** | bool |  |
+| **UnlicensedOdbActiveStorageRetentionPeriod** | int |  |
 | **UnlicensedOdbSyntexBillingEnabled** | bool |  |
 | **UseFindPeopleInPeoplePicker** | bool |  |
 | **UsePersistentCookiesForExplorerView** | bool |  |
@@ -5469,6 +5481,7 @@ Base class: ClientObject
 | **SwitchFileRequestBrandingProfiles()** | void |  |
 | **SyncAadB2BManagementPolicy()** | void |  |
 | **SyncVersionPolicyForLibrary(string siteUrl, SPOListParameters listParams, string[] fileTypes, bool excludeDefaultPolicy)** | [SpoOperation](#spooperation-class) |  |
+| **UnarchiveOdbById(Guid siteId, DateTime keepUnarchivedUntil)** | void |  |
 | **UnarchiveSiteById(Guid siteId)** | [SpoOperation](#spooperation-class) |  |
 | **UnarchiveSiteByUrl(string siteUrl)** | [SpoOperation](#spooperation-class) |  |
 | **UnlockSensitivityLabelEncryptedFile(string fileUrl, string justificationText)** | void |  |
@@ -5482,6 +5495,7 @@ Base class: ClientObject
 | **UpdateTargetedSite(string siteUrl, HomeSiteConfigurationParam configurationParam)** | ClientResult\<TargetedSiteDetails\> |  |
 | **UpdateTenantTheme(string name, string themeJson)** | ClientResult\<bool\> |  |
 | **UpdateTenantThemeAdvanced(string name, string themeJson, bool shouldParseColorPair)** | ClientResult\<bool\> |  |
+| **UpdateUnlicensedOdbActiveStorageDateById(Guid siteId, DateTime keepUnarchivedUntil)** | void |  |
 | **UpdateUserTypeFromAzureAD(string siteUrl, string loginName)** | User |  |
 | **UpdateUserTypeFromAzureADForAllSites(string loginName)** | [SPOSitePropertiesEnumerable](#spositepropertiesenumerable-class) |  |
 | **UpdateUserTypesFromAzureADForSite(string siteUrl)** | ClientObjectList\<User\> |  |
@@ -5891,6 +5905,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ContentSecurityPolicyConfigSynced** | string |  |
 | **ContentSecurityPolicyEnforcement** | string |  |
 | **ContentTypeSyncSiteTemplatesList** | string |  |
+| **CoreAnyoneSharingLinkMaxExpirationInDays** | string |  |
+| **CoreAnyoneSharingLinkRecommendedExpirationInDays** | string |  |
 | **CoreBlockGuestsAsSiteAdmin** | string |  |
 | **CoreDefaultLinkToExistingAccess** | string |  |
 | **CoreDefaultShareLinkRole** | string |  |
@@ -5907,6 +5923,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **CustomScriptsRestrictMode** | string |  |
 | **DataverseUsageConsentEnabled** | string |  |
 | **DefaultContentCenterSite** | string |  |
+| **DefaultLanguageForSiteCreation** | string |  |
 | **DefaultLinkPermission** | string |  |
 | **DefaultODBMode** | string |  |
 | **DefaultSharingLinkType** | string |  |
@@ -6043,6 +6060,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **MassDeleteNotificationDisabled** | string |  |
 | **MassDeleteNotificationDisabledForODB** | string |  |
 | **MassDeleteNotificationDisabledForSPO** | string |  |
+| **MaxSiteStorageQuotaMB** | string |  |
 | **MediaTranscription** | string |  |
 | **MediaTranscriptionAutomaticFeatures** | string |  |
 | **MobileFriendlyUrlEnabledInTenant** | string |  |
@@ -6072,6 +6090,8 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ODBSharingCapability** | string |  |
 | **ODBTranslationEnabled** | string |  |
 | **OfficeClientADALDisabled** | string |  |
+| **OneDriveAnyoneSharingLinkMaxExpirationInDays** | string |  |
+| **OneDriveAnyoneSharingLinkRecommendedExpirationInDays** | string |  |
 | **OneDriveBlockGuestsAsSiteAdmin** | string |  |
 | **OneDriveDefaultLinkToExistingAccess** | string |  |
 | **OneDriveDefaultShareLinkRole** | string |  |
@@ -6163,6 +6183,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **TranslationSiteList** | string |  |
 | **TranslationSiteListFileName** | string |  |
 | **UniversalAnnotationDisabled** | string |  |
+| **UnlicensedOdbActiveStorageRetentionPeriod** | string |  |
 | **UnlicensedOdbSyntexBillingEnabled** | string |  |
 | **UseFindPeopleInPeoplePicker** | string |  |
 | **UsePersistentCookiesForExplorerView** | string |  |

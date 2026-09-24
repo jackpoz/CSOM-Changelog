@@ -1,7 +1,7 @@
 # Microsoft.Office.Client.Policy.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2026-08-24
+[mddox](https://github.com/loxsmoke/mddox) on 2026-09-24
 
 # All types
 
@@ -170,6 +170,7 @@ Base class: ClientValueObject
 | **ComplianceFlags** | int |  |
 | **ContainsSiteLabel** | bool |  |
 | **DisplayName** | string |  |
+| **DoNotEnforceTagPolicyHoldForVersions** | bool |  |
 | **EncryptionRMSTemplateId** | string |  |
 | **HasRetentionAction** | bool |  |
 | **IsEventTag** | bool |  |
@@ -899,7 +900,7 @@ Base class: ClientObject
 | **GetSubstrateAzureConnection(ClientRuntimeContext context, string siteUrl, string siteId)** | ClientResult\<string\> |  |
 | **GetTenantAndSiteHoldsApplicableForSite(ClientRuntimeContext context, string siteId)** | ClientResult\<string\> |  |
 | **GetTenantAndSiteHoldsApplicableForSiteV2(ClientRuntimeContext context, string siteId)** | ClientResult\<string\> |  |
-| **GetTenantRootSiteUrls()** | IList\<string\> |  |
+| **GetTenantRootSiteUrls(ClientRuntimeContext context)** | IList\<string\> |  |
 | **MarkReviewItemsForDeletion(int[] itemIds)** | ClientArrayResult\<int\> |  |
 | **OpenBinaryStreamForOriginalItem(int itemId)** | ClientResult\<Stream\> |  |
 | **OverridePolicyTip(ClientRuntimeContext context, string itemUrl, PolicyTipOverrideUserAction userAction, string justification, string[] rules, DlpClassificationResult[] classificationResults)** | ClientResult\<[PolicyTipOverrideResult](#policytipoverrideresult-enum)\> |  |
