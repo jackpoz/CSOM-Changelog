@@ -1,7 +1,7 @@
 # Microsoft.Online.SharePoint.Client.Tenant.dll v.16.1.0.0 API documentation
 
 Created by 
-[mddox](https://github.com/loxsmoke/mddox) on 2026-09-24
+[mddox](https://github.com/loxsmoke/mddox) on 2026-10-07
 
 # All types
 
@@ -1675,7 +1675,9 @@ Base class: ClientObject
 | **ExcludedBlockDownloadGroupIds** | Guid[] |  |
 | **ExpireVersionsAfterDays** | int |  |
 | **ExternalUserExpirationInDays** | int |  |
+| **FileAnonymousLinkType** | AnonymousLinkType |  |
 | **FileTypesForVersionExpiration** | string[] |  |
+| **FolderAnonymousLinkType** | AnonymousLinkType |  |
 | **GroupId** | Guid |  |
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | bool |  |
@@ -1841,7 +1843,9 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ExcludedBlockDownloadGroupIds** | string |  |
 | **ExpireVersionsAfterDays** | string |  |
 | **ExternalUserExpirationInDays** | string |  |
+| **FileAnonymousLinkType** | string |  |
 | **FileTypesForVersionExpiration** | string |  |
+| **FolderAnonymousLinkType** | string |  |
 | **GroupId** | string |  |
 | **GroupOwnerLoginName** | string |  |
 | **HasHolds** | string |  |
@@ -3137,6 +3141,7 @@ Base class: ClientValueObject
 | **CreatedBy** | string |  |
 | **CreatedOn** | DateTime |  |
 | **FileTypeCriteria** | string[] |  |
+| **FileTypeExclusionCriteria** | string[] |  |
 | **LastAccessDateCriteria** | int |  |
 | **LastModifiedBy** | string |  |
 | **LastRunDate** | DateTime |  |
@@ -3219,6 +3224,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 |---|---|
 | **AllSites** |  |
 | **SelectedSites** |  |
+| **AllODBSites** |  |
 # SPOFileVersionBatchDeleteJobProgress Class
 
 Namespace: Microsoft.Online.SharePoint.TenantAdministration
@@ -3394,6 +3400,7 @@ Base class: ClientValueObject
 | **Department** | string |  |
 | **ExternalSharing** | string |  |
 | **IncludeE7Fields** | bool |  |
+| **Operations** | string |  |
 | **RequestVolume** | long |  |
 | **RestrictSiteAccessEnabled** | string |  |
 | **RestrictSiteDiscoveryEnabled** | string |  |
@@ -4834,6 +4841,7 @@ Base class: ClientObject
 | **ContentSecurityPolicyConfigSynced** | bool |  |
 | **ContentSecurityPolicyEnforcement** | bool |  |
 | **ContentTypeSyncSiteTemplatesList** | IEnumerable\<string\> |  |
+| **CopilotSearchOptIn** | bool |  |
 | **CoreAnyoneSharingLinkMaxExpirationInDays** | int |  |
 | **CoreAnyoneSharingLinkRecommendedExpirationInDays** | int |  |
 | **CoreBlockGuestsAsSiteAdmin** | SharingState |  |
@@ -5157,7 +5165,7 @@ Base class: ClientObject
 | **AddPublicCdnOrigin(string origin)** | void |  |
 | **AddSdnProvider(string identifier, string license)** | void |  |
 | **AddSiteDesignTask(ClientRuntimeContext context, string webUrl, Guid siteDesignId)** | [TenantSiteDesignTask](#tenantsitedesigntask-class) |  |
-| **AddSiteToFileArchivePolicy(Guid policyId, string siteUrl)** | void |  |
+| **AddSiteToFileArchivePolicy(Guid policyId, string siteUrl, bool isExcluded)** | void |  |
 | **AddSPOContainerRole(string ContainerId, string loginName, string roleName)** | void |  |
 | **AddSPORestrictedSearchAllowedList(IList\<string\> siteUrls)** | void |  |
 | **AddSPOServicePrioritizationAppRegistration(Guid appId, Guid policyId, int quotaMultiplier)** | void |  |
@@ -5184,7 +5192,7 @@ Base class: ClientObject
 | **ConnectSiteToHubSiteById(string siteUrl, Guid hubSiteId)** | void |  |
 | **CopyPersonalSitePage(string sourceSiteUrl, string destinationSiteUrl, string pageName, bool deleteSourcePage)** | ClientResult\<[SPSitePageCopyJobProgress](#spsitepagecopyjobprogress-class)\> |  |
 | **CreateApplicationBillingPolicyValidation(string applicationId)** | ClientResult\<bool\> |  |
-| **CreateFileArchivePolicy(string policyName, string policyType, int monthsSinceLastAccessCriteria, string[] fileTypeCriteria, bool isWhatIfMode)** | ClientResult\<[SPOFileArchivePolicyInfo](#spofilearchivepolicyinfo-class)\> |  |
+| **CreateFileArchivePolicy(string policyName, string policyType, int monthsSinceLastAccessCriteria, string[] fileTypeCriteria, bool isWhatIfMode, string[] fileTypeExclusionCriteria)** | ClientResult\<[SPOFileArchivePolicyInfo](#spofilearchivepolicyinfo-class)\> |  |
 | **CreateGroupForSite(string siteUrl, string displayName, string alias, bool isPublic, GroupCreationParams optionalParams)** | void |  |
 | **CreateListDesign(TenantListDesignCreationInfo info)** | [TenantListDesign](#tenantlistdesign-class) |  |
 | **CreatePortalLaunchWaves(string portalLaunchWaveSetupString, bool isWhatIf, bool isTesting, bool changeConfirmed)** | [SPOPortalLaunchValidationResult](#spoportallaunchvalidationresult-class) |  |
@@ -5432,7 +5440,7 @@ Base class: ClientObject
 | **SetBlockDownloadFileTypePolicyExclusionList(Guid[] excludedBlockDownloadGroupIds)** | void |  |
 | **SetBuiltInDesignPackageVisibility(ClientRuntimeContext context, DesignPackageType designPackageType, bool isVisible)** | void |  |
 | **SetCopilotPromoOptInStatus(bool copilotPromoOptInEnabled)** | void |  |
-| **SetFileArchivePolicy(Guid policyId, string policyName, string policyType, bool shouldUpdateLastAccessCriteria, int monthsSinceLastAccessCriteria, string[] fileTypeCriteria, bool shouldUpdateWhatIfMode, bool isWhatIfMode, string state)** | ClientResult\<[SPOFileArchivePolicyInfo](#spofilearchivepolicyinfo-class)\> |  |
+| **SetFileArchivePolicy(Guid policyId, string policyName, string policyType, bool shouldUpdateLastAccessCriteria, int monthsSinceLastAccessCriteria, string[] fileTypeCriteria, bool shouldUpdateWhatIfMode, bool isWhatIfMode, string state, string[] fileTypeExclusionCriteria)** | ClientResult\<[SPOFileArchivePolicyInfo](#spofilearchivepolicyinfo-class)\> |  |
 | **SetFileTypeVersionPolicy(string[] fileTypes, bool isAutoTrimEnabled, int majorVersionLimit, int expireVersionsAfterDays)** | void |  |
 | **SetFileVersionPolicy(bool isAutoTrimEnabled, int majorVersionLimit, int expireVersionsAfterDays)** | void |  |
 | **SetFileVersionPolicyForLibrary(string siteUrl, SPOListParameters listParams, SPOFileVersionPolicySettings versionPolicyParams)** | [SpoOperation](#spooperation-class) |  |
@@ -5905,6 +5913,7 @@ Namespace: Microsoft.Online.SharePoint.TenantAdministration
 | **ContentSecurityPolicyConfigSynced** | string |  |
 | **ContentSecurityPolicyEnforcement** | string |  |
 | **ContentTypeSyncSiteTemplatesList** | string |  |
+| **CopilotSearchOptIn** | string |  |
 | **CoreAnyoneSharingLinkMaxExpirationInDays** | string |  |
 | **CoreAnyoneSharingLinkRecommendedExpirationInDays** | string |  |
 | **CoreBlockGuestsAsSiteAdmin** | string |  |
